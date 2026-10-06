@@ -1,0 +1,3 @@
+# 与当前工作的相关性（8.24）
+
+今日有三条进展与方案中的重点任务及底座能力建设高度契合。在生命健康与虚拟细胞方向，David Baker 联合创立团队推出的 [AIDO Cell 虚拟细胞模型](https://www.statnews.com/2026/08/18/david-baker-genbio-ai-new-virtual-model-unveiled-aido-cell) 实现了对全细胞分子行为的预测，与我们布局的“虚拟细胞与疾病演化”攻关任务形成直接对标，需密切跟踪其表征尺度与推演精度。在新药创制与生物结构领域，[结合 RFdiffusion 与 Chai-1 的微型结合蛋白设计工作流](https://www.nature.com/articles/s41467-026-76760-5) 成功打通了从生成设计到结构预测的优化链路，其多模型串联与生化验证闭环对我们新药创制场景的工具链整合具有直接借鉴价值。此外在科学智能体底座方面，DeepMind 校友团队发布的 [Inherent 科研复现智能体](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/) 在研究复现基准上超越了通用前沿模型，佐证了面向科学场景研发专用 Agent 的必要性，其评测思路可为我们科学智能体的阶段性能力检验提供参考。其余方向今日无显著相关进展。
