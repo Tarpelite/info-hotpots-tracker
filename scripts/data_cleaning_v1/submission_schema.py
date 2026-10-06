@@ -141,11 +141,6 @@ def extract_city(team: dict[str, Any]) -> str:
 
 
 def team_submission_row(team: dict[str, Any]) -> dict[str, Any]:
-    pending = team.get("pending_materials", [])
-    reason = team.get("mapping_reason", "")
-    if pending:
-        suffix = "待补：" + "；".join(pending)
-        reason = f"{reason}；{suffix}" if reason else suffix
     return {
         "team_id": team.get("team_id", ""),
         "team_name": team.get("team_name", ""),
@@ -161,7 +156,7 @@ def team_submission_row(team: dict[str, Any]) -> dict[str, Any]:
             team.get("project_verification_status")
         ),
         "attention": team_attention(team.get("attention_level")),
-        "attention_reason": reason,
+        "attention_reason": team.get("mapping_reason", ""),
         "reviewer": "",
         "reviewed_at": "",
     }
