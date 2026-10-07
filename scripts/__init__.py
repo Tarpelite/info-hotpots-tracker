@@ -1,1 +1,1 @@
-"""Submission pipeline entry points."""
+"""提交流程入口脚本集合。"""

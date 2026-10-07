@@ -125,7 +125,7 @@ def load_and_clean_teams(snapshot_path: Path) -> tuple[
                     "issue_type": "invalid_record",
                     "source_file": source_file,
                     "source_index": index,
-                    "message": "Team record is not an object.",
+                    "message": "团队记录不是对象。",
                 }
             )
             continue
@@ -174,23 +174,23 @@ def load_and_clean_teams(snapshot_path: Path) -> tuple[
         team_rows.append(row)
 
         if not team_id:
-            issues.append(_team_issue(row, "missing_team_id", "Missing team id."))
+            issues.append(_team_issue(row, "missing_team_id", "缺少团队 id。"))
         if not domain_id:
-            issues.append(_team_issue(row, "missing_domain_id", "Missing domain id."))
+            issues.append(_team_issue(row, "missing_domain_id", "缺少领域 id。"))
         elif domain_id not in domain_map:
             issues.append(
-                _team_issue(row, "unknown_domain_id", "Domain id is absent from the domain tree.")
+                _team_issue(row, "unknown_domain_id", "领域 id 不在领域树中。")
             )
         if not subdomain_id:
             issues.append(
-                _team_issue(row, "missing_subdomain_id", "Missing subdomain id.")
+                _team_issue(row, "missing_subdomain_id", "缺少子领域 id。")
             )
         elif subdomain_id not in subdomain_map:
             issues.append(
                 _team_issue(
                     row,
                     "unknown_subdomain_id",
-                    "Subdomain id is absent from the domain tree.",
+                    "子领域 id 不在领域树中。",
                 )
             )
 
@@ -203,7 +203,7 @@ def load_and_clean_teams(snapshot_path: Path) -> tuple[
                     "team_id": team_id,
                     "count": count,
                     "source_file": source_file,
-                    "message": "Team id occurs more than once; no record was removed.",
+                    "message": "团队 id 出现多次；未删除任何记录。",
                 }
             )
 

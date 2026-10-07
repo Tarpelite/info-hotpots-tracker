@@ -2,11 +2,13 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
+import unicodedata
 from collections import Counter, defaultdict
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
 
-from .io_utils import as_json_text, as_text
+from .io_utils import as_text
 from .taxonomy import (
     DOMAIN_NAMES,
     LEGACY_DOMAIN_TO_CURRENT_NAME,
@@ -15,104 +17,6 @@ from .taxonomy import (
     infer_subdomain_name,
     searchable_team_text,
 )
-
-
-TEAM_FIELDS = [
-    "team_id",
-    "source_domain_id",
-    "source_subdomain_id",
-    "domain_id",
-    "domain_name",
-    "subdomain_id",
-    "subdomain_name",
-    "mapping_status",
-    "mapping_method",
-    "mapping_confidence",
-    "mapping_reason",
-    "mapped_research_direction",
-    "team_name",
-    "organization",
-    "institution_name",
-    "leader_id",
-    "leader_name",
-    "leader_role",
-    "description",
-    "research_directions_json",
-    "location",
-    "source_is_domestic",
-    "source_verification_status",
-    "project_verification_status",
-    "candidate_status",
-    "attention_level",
-    "attention_reason",
-    "evidence_count",
-    "source_url_count",
-    "pending_materials",
-    "source_record_ref",
-]
-
-EVIDENCE_FIELDS = [
-    "evidence_id",
-    "evidence_type",
-    "source_record_key",
-    "duplicate_key",
-    "evidence_title",
-    "source_url",
-    "published_at",
-    "source_name",
-    "raw_text",
-    "summary",
-    "tags_json",
-    "score_source",
-    "fetched_at",
-    "source_file",
-    "source_date",
-    "source_entry_index",
-]
-
-RELATION_FIELDS = [
-    "team_id",
-    "evidence_id",
-    "relation_type",
-    "claim",
-    "source_role",
-    "relation_status",
-    "reviewer",
-    "reviewed_at",
-]
-
-COVERAGE_FIELDS = [
-    "domain_id",
-    "domain_name",
-    "candidate_count",
-    "source_taxonomy_count",
-    "legacy_or_inferred_count",
-    "mapping_review_count",
-    "verified_count",
-    "pending_count",
-    "rejected_count",
-    "subdomain_coverage_json",
-    "missing_subdomains_json",
-    "pending_materials_json",
-    "resource_requirement_ids",
-    "notes",
-]
-
-RESOURCE_FIELDS = [
-    "resource_id",
-    "resource_type",
-    "resource_name",
-    "status",
-    "priority",
-    "scope",
-    "needed_for",
-    "current_evidence",
-    "missing_items",
-    "fallback_plan",
-    "requested_from",
-    "request_status",
-    "notes",
-]
 
 
 def normalize_url(url: str) -> str:
@@ -139,6 +43,29 @@ def stable_id(prefix: str, value: str) -> str:
     return f"{prefix}_{digest}"
 
 
+def normalize_identity_value(value: Any) -> str:
+    text = unicodedata.normalize("NFKC", as_text(value)).lower()
+    text = re.sub(r"\s+", "", text)
+    return text
+
+
+def team_identity_key(team_row: dict[str, Any]) -> str:
+    institution = team_row.get("institution_name") or team_row.get("organization", "")
+    parts = [
+        normalize_identity_value(institution),
+        normalize_identity_value(team_row.get("team_name", "")),
+        normalize_identity_value(team_row.get("leader_name", "")),
+    ]
+    return "|".join(parts)
+
+
+def stable_team_id(team_row: dict[str, Any]) -> str:
+    key = team_identity_key(team_row)
+    if key == "||":
+        key = normalize_identity_value(team_row.get("team_id", ""))
+    return stable_id("team", f"institution_team_leader:{key}")
+
+
 def as_list(value: Any) -> list[Any]:
     if value is None:
         return []
@@ -157,6 +84,7 @@ def _subdomain_row_by_id(taxonomy: Taxonomy, subdomain_id: str) -> dict[str, Any
 
 def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
     raw = team_row.get("raw_record", {})
+    source_team_id = team_row.get("team_id", "")
     source_domain_id = team_row.get("domain_id", "")
     source_subdomain_id = team_row.get("subdomain_id", "")
     text = searchable_team_text(team_row)
@@ -173,7 +101,7 @@ def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
     if source_domain_id in taxonomy.domains_by_id:
         mapped_domain_id = source_domain_id
         mapped_domain_name = taxonomy.domains_by_id[source_domain_id]["name"]
-        reasons.append("source domain id exists in current six-domain tree")
+        reasons.append("源领域 id 存在于当前六领域树中")
         method = "source_taxonomy_id"
         confidence = "high"
         mapping_status = "source_mapped"
@@ -184,32 +112,32 @@ def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
         ):
             mapped_subdomain_id = source_subdomain_id
             mapped_subdomain_name = taxonomy.subdomains_by_id[source_subdomain_id]["name"]
-            reasons.append("source subdomain id exists under the source domain")
+            reasons.append("源子领域 id 隶属于该源领域")
         else:
             inferred_name, _, hits = infer_subdomain_name(mapped_domain_name, text)
             if inferred_name:
                 mapped_subdomain_name = inferred_name
                 mapped_subdomain_id = taxonomy.subdomain_id_for_name(inferred_name)
-                reasons.append("subdomain inferred from research directions")
+                reasons.append("依据研究方向推断子领域")
                 method = "source_domain_plus_direction_rule"
             else:
                 mapping_status = "subdomain_pending"
-                reasons.append("no valid source subdomain and no reliable keyword match")
+                reasons.append("源子领域 id 无效且无可靠关键词匹配")
     elif source_domain_id in LEGACY_DOMAIN_TO_CURRENT_NAME:
         mapped_domain_name = LEGACY_DOMAIN_TO_CURRENT_NAME[source_domain_id]
         mapped_domain_id = taxonomy.domain_id_for_name(mapped_domain_name)
         method = "legacy_domain_id_plus_direction_rule"
         confidence = "medium"
         mapping_status = "legacy_domain_mapped"
-        reasons.append("source domain id is a legacy id absent from current tree")
+        reasons.append("源领域 id 为旧版 ID，不在当前领域树中")
         inferred_name, _, hits = infer_subdomain_name(mapped_domain_name, text)
         if inferred_name:
             mapped_subdomain_name = inferred_name
             mapped_subdomain_id = taxonomy.subdomain_id_for_name(inferred_name)
-            reasons.append(f"subdomain keyword hits: {','.join(hits)}")
+            reasons.append(f"子领域关键词命中：{','.join(hits)}")
         else:
             mapping_status = "domain_mapped_subdomain_pending"
-            reasons.append("no reliable subdomain keyword match")
+            reasons.append("无可靠的子领域关键词匹配")
     else:
         inferred_domain, _, domain_hits = infer_domain_name(text)
         if inferred_domain:
@@ -218,19 +146,19 @@ def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
             method = "research_direction_rule"
             confidence = "low"
             mapping_status = "direction_inferred"
-            reasons.append(f"domain keyword hits: {','.join(domain_hits)}")
+            reasons.append(f"领域关键词命中：{','.join(domain_hits)}")
             inferred_name, _, subdomain_hits = infer_subdomain_name(inferred_domain, text)
             if inferred_name:
                 mapped_subdomain_name = inferred_name
                 mapped_subdomain_id = taxonomy.subdomain_id_for_name(inferred_name)
-                reasons.append(f"subdomain keyword hits: {','.join(subdomain_hits)}")
+                reasons.append(f"子领域关键词命中：{','.join(subdomain_hits)}")
             else:
                 mapping_status = "domain_inferred_subdomain_pending"
-                reasons.append("no reliable subdomain keyword match")
+                reasons.append("无可靠的子领域关键词匹配")
         else:
             mapping_status = "unmapped"
             method = "no_matching_rule"
-            reasons.append("source domain id and research direction do not map to current taxonomy")
+            reasons.append("源领域 id 与研究方向均无法映射到当前领域体系")
 
     directions = raw.get("researchDirections", raw.get("research_directions", []))
     directions = [as_text(value) for value in as_list(directions) if as_text(value)]
@@ -284,6 +212,19 @@ def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
 
     return {
         **team_row,
+        "team_id": stable_team_id(team_row),
+        "source_team_id": source_team_id,
+        "source_team_ids": [source_team_id] if source_team_id else [],
+        "source_domain_ids": [source_domain_id] if source_domain_id else [],
+        "source_subdomain_ids": [source_subdomain_id] if source_subdomain_id else [],
+        "team_identity_key": team_identity_key(team_row),
+        "team_identity": {
+            "institution": team_row.get("institution_name")
+            or team_row.get("organization", ""),
+            "team_name": team_row.get("team_name", ""),
+            "leader_name": team_row.get("leader_name", ""),
+        },
+        "raw_records": [raw] if raw else [],
         "mapped_domain_id": mapped_domain_id,
         "mapped_domain_name": mapped_domain_name,
         "mapped_subdomain_id": mapped_subdomain_id,
@@ -303,6 +244,123 @@ def map_team(team_row: dict[str, Any], taxonomy: Taxonomy) -> dict[str, Any]:
         "attention_level": "待人工判定",
         "attention_reason": "初始候选清单，不将原系统评分或 verified 状态作为项目结论",
     }
+
+
+def unique_texts(values: list[Any]) -> list[str]:
+    result: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        text = as_text(value)
+        if not text or text in seen:
+            continue
+        seen.add(text)
+        result.append(text)
+    return result
+
+
+def merge_mapped_team_group(records: list[dict[str, Any]]) -> dict[str, Any]:
+    if len(records) == 1:
+        record = records[0]
+        return {
+            **record,
+            "dedup_record_count": 1,
+            "dedup_source_team_ids": record.get("source_team_ids", []),
+        }
+
+    def quality(record: dict[str, Any]) -> tuple[int, int, int, int, str]:
+        return (
+            int(bool(record.get("mapped_subdomain_name"))),
+            int(bool(record.get("leader_name"))),
+            len(record.get("official_source_urls", [])),
+            len(record.get("research_directions", [])),
+            record.get("source_team_id", ""),
+        )
+
+    primary = sorted(records, key=quality, reverse=True)[0]
+    merged = dict(primary)
+    merged["source_team_ids"] = unique_texts(
+        [value for record in records for value in record.get("source_team_ids", [])]
+    )
+    merged["source_domain_ids"] = unique_texts(
+        [value for record in records for value in record.get("source_domain_ids", [])]
+    )
+    merged["source_subdomain_ids"] = unique_texts(
+        [value for record in records for value in record.get("source_subdomain_ids", [])]
+    )
+    merged["source_team_id"] = ";".join(merged["source_team_ids"])
+    merged["domain_id"] = ";".join(merged["source_domain_ids"])
+    merged["subdomain_id"] = ";".join(merged["source_subdomain_ids"])
+    merged["source_urls"] = unique_urls(
+        [value for record in records for value in record.get("source_urls", [])]
+    )
+    merged["official_source_urls"] = unique_urls(
+        [value for record in records for value in record.get("official_source_urls", [])]
+    )
+    merged["score_evidence_urls"] = unique_urls(
+        [value for record in records for value in record.get("score_evidence_urls", [])]
+    )
+    merged["research_directions"] = unique_texts(
+        [value for record in records for value in record.get("research_directions", [])]
+    )
+    merged["mapped_research_direction"] = "；".join(merged["research_directions"])
+    merged["pending_materials"] = unique_texts(
+        [value for record in records for value in record.get("pending_materials", [])]
+    )
+    if "重复团队合并结果人工确认" not in merged["pending_materials"]:
+        merged["pending_materials"].append("重复团队合并结果人工确认")
+    if len({record.get("mapped_domain_name", "") for record in records}) > 1:
+        if "六领域/子领域归属人工确认" not in merged["pending_materials"]:
+            merged["pending_materials"].append("六领域/子领域归属人工确认")
+    merged["raw_records"] = [
+        raw
+        for record in records
+        for raw in record.get("raw_records", [record.get("raw_record", {})])
+        if raw
+    ]
+    merged["raw_record"] = primary.get("raw_record", {})
+    merged["dedup_record_count"] = len(records)
+    merged["dedup_source_team_ids"] = merged["source_team_ids"]
+    merged["dedup_basis"] = "机构+团队名称+带头人"
+    merged["candidate_status"] = "待补材料"
+    return merged
+
+
+def deduplicate_mapped_teams(
+    mapped_teams: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for team in mapped_teams:
+        groups[team["team_id"]].append(team)
+
+    deduped = [merge_mapped_team_group(records) for records in groups.values()]
+    dedup_rows = []
+    for team_id, records in sorted(groups.items()):
+        if len(records) < 2:
+            continue
+        first = records[0]
+        dedup_rows.append(
+            {
+                "team_id": team_id,
+                "team_identity_key": first.get("team_identity_key", ""),
+                "record_count": len(records),
+                "source_team_ids": ";".join(
+                    unique_texts(
+                        [
+                            value
+                            for record in records
+                            for value in record.get("source_team_ids", [])
+                        ]
+                    )
+                ),
+                "institution": first.get("institution_name")
+                or first.get("organization", ""),
+                "team_name": first.get("team_name", ""),
+                "leader_name": first.get("leader_name", ""),
+                "decision": "已合并为稳定团队ID",
+                "reason": "按机构、团队名称和带头人生成稳定ID并合并重复原始记录。",
+            }
+        )
+    return deduped, dedup_rows
 
 
 def unique_urls(values: list[Any]) -> list[str]:
@@ -346,70 +404,84 @@ def build_team_source_evidence(
     evidence_by_url = build_evidence_index(evidence_rows)
     new_evidence: dict[str, dict[str, Any]] = {}
     relations: list[dict[str, Any]] = []
+    relation_seen: set[tuple[str, str, str]] = set()
 
     for team in teams:
         team_id = team["team_id"]
-        raw = team.get("raw_record", {})
+        raw_records = team.get("raw_records") or [team.get("raw_record", {})]
         source_roles = [
             ("sourceUrls", "team_source"),
             ("evidenceUrls", "evidence_source"),
             ("scoreEvidenceIds", "score_evidence_source"),
         ]
-        for field, relation_type in source_roles:
-            values = unique_urls(
-                as_list(raw.get(field, raw.get(_snake_case(field), [])))
-            )
-            for url in values:
-                normalized = normalize_url(url)
-                matched_ids = evidence_by_url.get(normalized, [])
-                if matched_ids:
-                    for evidence_id in matched_ids:
-                        relations.append(
-                            _relation(
-                                team_id,
-                                evidence_id,
-                                relation_type,
-                                url,
-                                "exact URL match to fetched evidence",
-                            )
-                        )
-                    continue
-
-                evidence_id = stable_id("evidence_team_source", normalized)
-                if evidence_id not in new_evidence:
-                    new_evidence[evidence_id] = {
-                        "evidence_id": evidence_id,
-                        "evidence_type": "team_source_url",
-                        "source_record_key": f"team_snapshot_url:{normalized}",
-                        "duplicate_key": stable_id("duplicate", normalized),
-                        "evidence_title": f"团队来源链接（待核实）：{team['team_name']}",
-                        "source_url": url,
-                        "published_at": "",
-                        "source_name": "team_snapshot_source_url",
-                        "raw_text": "",
-                        "summary": "来自团队快照的来源链接，尚未在本地采集正文。",
-                        "tags": ["team_snapshot_source"],
-                        "score_source": "",
-                        "fetched_at": "",
-                        "source_file": "team_snapshot_20261005.json",
-                        "source_date": "",
-                        "source_entry_index": "",
-                        "raw_record": {
-                            "source_url": url,
-                            "origin_team_id": team_id,
-                            "source_field": field,
-                        },
-                    }
-                    evidence_by_url[normalized] = [evidence_id]
-                relations.append(
-                    _relation(
-                        team_id,
-                        evidence_id,
-                        relation_type,
-                        url,
-                        "source URL listed in the team snapshot; manual verification pending",
-                    )
+        for raw in raw_records:
+            if not isinstance(raw, dict):
+                continue
+            source_team_id = as_text(raw.get("id"))
+            for field, relation_type in source_roles:
+                values = unique_urls(
+                    as_list(raw.get(field, raw.get(_snake_case(field), [])))
                 )
+                for url in values:
+                    normalized = normalize_url(url)
+                    matched_ids = evidence_by_url.get(normalized, [])
+                    if matched_ids:
+                        for evidence_id in matched_ids:
+                            key = (team_id, evidence_id, relation_type)
+                            if key in relation_seen:
+                                continue
+                            relation_seen.add(key)
+                            relations.append(
+                                _relation(
+                                    team_id,
+                                    evidence_id,
+                                    relation_type,
+                                    url,
+                                    "与已采集证据的 URL 精确匹配",
+                                )
+                            )
+                        continue
+
+                    evidence_id = stable_id("evidence_team_source", normalized)
+                    if evidence_id not in new_evidence:
+                        new_evidence[evidence_id] = {
+                            "evidence_id": evidence_id,
+                            "evidence_type": "team_source_url",
+                            "source_record_key": f"team_snapshot_url:{normalized}",
+                            "duplicate_key": stable_id("duplicate", normalized),
+                            "evidence_title": f"团队来源链接（待核实）：{team['team_name']}",
+                            "source_url": url,
+                            "published_at": "",
+                            "source_name": "team_snapshot_source_url",
+                            "raw_text": "",
+                            "summary": "来自团队快照的来源链接，尚未在本地采集正文。",
+                            "tags": ["team_snapshot_source"],
+                            "score_source": "",
+                            "fetched_at": "",
+                            "source_file": "team_snapshot_20261005.json",
+                            "source_date": "",
+                            "source_entry_index": "",
+                            "raw_record": {
+                                "source_url": url,
+                                "origin_team_id": team_id,
+                                "source_team_id": source_team_id,
+                                "source_field": field,
+                            },
+                        }
+                        evidence_by_url[normalized] = [evidence_id]
+                    key = (team_id, evidence_id, relation_type)
+                    if key in relation_seen:
+                        continue
+                    relation_seen.add(key)
+                    relations.append(
+                        _relation(
+                            team_id,
+                            evidence_id,
+                            relation_type,
+                            url,
+                            "来源 URL 来自团队快照登记，待人工核实",
+                        )
+                    )
     return list(new_evidence.values()), relations
 
 
@@ -450,68 +522,9 @@ def attach_relation_counts(
     counts = Counter(relation["team_id"] for relation in relations)
     return [{**team, "evidence_count": counts.get(team["team_id"], 0)} for team in teams]
 
-
-def team_csv_row(team: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "team_id": team["team_id"],
-        "source_domain_id": team["domain_id"],
-        "source_subdomain_id": team["subdomain_id"],
-        "domain_id": team["mapped_domain_id"],
-        "domain_name": team["mapped_domain_name"],
-        "subdomain_id": team["mapped_subdomain_id"],
-        "subdomain_name": team["mapped_subdomain_name"],
-        "mapping_status": team["mapping_status"],
-        "mapping_method": team["mapping_method"],
-        "mapping_confidence": team["mapping_confidence"],
-        "mapping_reason": team["mapping_reason"],
-        "mapped_research_direction": team["mapped_research_direction"],
-        "team_name": team["team_name"],
-        "organization": team["organization"],
-        "institution_name": team["institution_name"],
-        "leader_id": team["leader_id"],
-        "leader_name": team["leader_name"],
-        "leader_role": team["leader_role"],
-        "description": team["description"],
-        "research_directions_json": as_json_text(team["research_directions"]),
-        "location": team["location"],
-        "source_is_domestic": team["is_domestic_source"],
-        "source_verification_status": team["verification_status_source"],
-        "project_verification_status": team["project_verification_status"],
-        "candidate_status": team["candidate_status"],
-        "attention_level": team["attention_level"],
-        "attention_reason": team["attention_reason"],
-        "evidence_count": team.get("evidence_count", 0),
-        "source_url_count": len(team["source_urls"]),
-        "pending_materials": "；".join(team["pending_materials"]),
-        "source_record_ref": f"raw_preserved/teams_cleaned.jsonl?team_id={team['team_id']}",
-    }
-
-
-def evidence_csv_row(row: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "evidence_id": row["evidence_id"],
-        "evidence_type": row["evidence_type"],
-        "source_record_key": row["source_record_key"],
-        "duplicate_key": row["duplicate_key"],
-        "evidence_title": row["evidence_title"],
-        "source_url": row["source_url"],
-        "published_at": row["published_at"],
-        "source_name": row["source_name"],
-        "raw_text": row["raw_text"],
-        "summary": row["summary"],
-        "tags_json": json.dumps(row["tags"], ensure_ascii=False, separators=(",", ":")),
-        "score_source": row["score_source"],
-        "fetched_at": row["fetched_at"],
-        "source_file": row["source_file"],
-        "source_date": row["source_date"],
-        "source_entry_index": row["source_entry_index"],
-    }
-
-
 def build_coverage(
     teams: list[dict[str, Any]],
     taxonomy: Taxonomy,
-    resource_ids_by_domain: dict[str, list[str]],
 ) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     for domain_name in DOMAIN_NAMES:
@@ -587,147 +600,10 @@ def build_coverage(
                     ensure_ascii=False,
                     separators=(",", ":"),
                 ),
-                "resource_requirement_ids": ";".join(resource_ids_by_domain.get(domain_name, [])),
                 "notes": "候选清单阶段；项目核实状态尚未由人工复核确认。",
             }
         )
     return rows
-
-
-def build_resources(
-    teams: list[dict[str, Any]],
-    taxonomy: Taxonomy,
-) -> list[dict[str, Any]]:
-    missing_source_url_count = sum(not team["official_source_urls"] for team in teams)
-    missing_direction_count = sum(not team["research_directions"] for team in teams)
-    missing_leader_count = sum(not team["leader_id"] for team in teams)
-    non_source_mapped_count = sum(
-        team["mapping_status"] != "source_mapped" for team in teams
-    )
-
-    resources = [
-        {
-            "resource_id": "RES-001",
-            "resource_type": "snapshot",
-            "resource_name": "10月1日临时团队快照原件",
-            "status": "not_received",
-            "priority": "高",
-            "scope": "团队、机构、领域和来源的历史基线",
-            "needed_for": "核对10月5日重导快照与10月1日版本的差异",
-            "current_evidence": "当前仅有2026-10-05重新导出的已保存资料",
-            "missing_items": "10月1日临时保存的原始快照文件",
-            "fallback_plan": "暂以team_snapshot_20261005.json作为候选输入，不表述为10月5日新增结果",
-            "requested_from": "项目数据提供方",
-            "request_status": "待索取",
-            "notes": "来自README先读我.txt的明确说明",
-        },
-        {
-            "resource_id": "RES-002",
-            "resource_type": "interface",
-            "resource_name": "团队与领域快照接口",
-            "status": "partial",
-            "priority": "高",
-            "scope": "团队、领域树、来源和更新状态",
-            "needed_for": "后续增量采集与重复运行",
-            "current_evidence": "已收到一次完整保存快照，但未收到接口地址、请求样例和鉴权方式",
-            "missing_items": "接口地址、请求参数、返回样例、鉴权方式、刷新规则",
-            "fallback_plan": "使用本地快照继续完成10月7日候选图谱",
-            "requested_from": "数据接口提供方",
-            "request_status": "待补充",
-            "notes": "",
-        },
-        {
-            "resource_id": "RES-003",
-            "resource_type": "interface",
-            "resource_name": "模型服务",
-            "status": "not_received",
-            "priority": "高",
-            "scope": "结构化抽取、摘要、引用问答",
-            "needed_for": "后续自动抽取和问答功能",
-            "current_evidence": "当前启动包未包含模型地址、模型名或API密钥",
-            "missing_items": "兼容调用地址、模型名、密钥、请求/返回样例、使用限制",
-            "fallback_plan": "10月7日前采用人工字段和已有摘要，不阻塞图谱候选清单",
-            "requested_from": "模型服务提供方",
-            "request_status": "待索取",
-            "notes": "不得把原系统insufficient_quota状态当作核实结果",
-        },
-        {
-            "resource_id": "RES-004",
-            "resource_type": "interface",
-            "resource_name": "AMiner",
-            "status": "not_received",
-            "priority": "中",
-            "scope": "学者、机构、成果与外部ID",
-            "needed_for": "补充负责人、机构和代表成果信息",
-            "current_evidence": "当前没有接口地址、字段说明、返回样例和调用权限",
-            "missing_items": "调用地址、字段字典、API密钥、限流规则和示例响应",
-            "fallback_plan": "先使用团队官网、论文和已有来源链接",
-            "requested_from": "外部数据服务提供方",
-            "request_status": "待索取",
-            "notes": "",
-        },
-        {
-            "resource_id": "RES-005",
-            "resource_type": "interface",
-            "resource_name": "OpenAlex / arXiv",
-            "status": "not_received",
-            "priority": "中",
-            "scope": "论文元数据、来源标识、作者机构和增量访问",
-            "needed_for": "补充代表论文和预印本证据",
-            "current_evidence": "当前仅有news-data和团队快照中的部分外链",
-            "missing_items": "调用配置、字段映射、增量策略、限流与失败重试规则",
-            "fallback_plan": "先导入现有论文和预印本材料，后续接入适配器",
-            "requested_from": "开放学术数据服务",
-            "request_status": "待索取",
-            "notes": "",
-        },
-        {
-            "resource_id": "RES-006",
-            "resource_type": "interface",
-            "resource_name": "搜索与网页正文提取服务",
-            "status": "partial",
-            "priority": "高",
-            "scope": "官网、代表成果和原文正文",
-            "needed_for": "完成机构归属、团队和代表成果核验",
-            "current_evidence": f"已有团队来源链接；其中{missing_source_url_count}个团队没有来源链接",
-            "missing_items": "检索接口、网页正文提取服务、失败重试和本地缓存规范",
-            "fallback_plan": "按现有URL人工补充，保留待核实状态",
-            "requested_from": "数据采集负责人",
-            "request_status": "待补充",
-            "notes": "",
-        },
-        {
-            "resource_id": "RES-007",
-            "resource_type": "material",
-            "resource_name": "团队官网与代表成果材料",
-            "status": "partial",
-            "priority": "高",
-            "scope": "全部候选团队",
-            "needed_for": "确认机构归属、具体团队、研究方向和代表成果",
-            "current_evidence": f"已有部分团队来源链接；缺少来源链接{missing_source_url_count}个、研究方向{missing_direction_count}个、负责人证明{missing_leader_count}个",
-            "missing_items": "官网团队页、负责人页、代表论文/项目/代码、原文摘录和发布时间",
-            "fallback_plan": "先生成候选清单，缺项写入coverage和本资源表",
-            "requested_from": "各领域核实人员",
-            "request_status": "持续补充",
-            "notes": f"当前有{non_source_mapped_count}个团队需要旧领域ID或研究方向规则复核",
-        },
-        {
-            "resource_id": "RES-008",
-            "resource_type": "runtime",
-            "resource_name": "开发仓库、数据库和运行配置",
-            "status": "not_received",
-            "priority": "中",
-            "scope": "数据导入、接口联调和可复现运行",
-            "needed_for": "后续系统开发和首月系统验收",
-            "current_evidence": "启动数据包未包含源码配置或API密钥文件",
-            "missing_items": "前端/后端仓库、数据库连接、intel schema迁移、.env.example和启动命令",
-            "fallback_plan": "使用本地CSV、JSONL和静态预览推进10月7日交付",
-            "requested_from": "项目开发负责人",
-            "request_status": "待索取",
-            "notes": "",
-        },
-    ]
-    return resources
 
 
 def build_deliverables(
@@ -737,6 +613,7 @@ def build_deliverables(
 ) -> dict[str, Any]:
     taxonomy = Taxonomy.from_domain_rows(domain_rows)
     mapped_teams = [map_team(row, taxonomy) for row in team_rows]
+    mapped_teams, team_deduplication = deduplicate_mapped_teams(mapped_teams)
     domain_order = {name: index for index, name in enumerate(DOMAIN_NAMES)}
     mapped_teams.sort(
         key=lambda team: (
@@ -753,53 +630,12 @@ def build_deliverables(
     )
     all_evidence = existing_evidence + source_evidence
     mapped_teams = attach_relation_counts(mapped_teams, relations)
-    resources = build_resources(mapped_teams, taxonomy)
-    resource_ids_by_domain = {
-        domain_name: ["RES-002", "RES-006", "RES-007"]
-        for domain_name in DOMAIN_NAMES
-    }
-    coverage = build_coverage(mapped_teams, taxonomy, resource_ids_by_domain)
+    coverage = build_coverage(mapped_teams, taxonomy)
     return {
         "teams": mapped_teams,
         "evidence": all_evidence,
         "relations": relations,
         "coverage": coverage,
-        "resources": resources,
+        "team_deduplication": team_deduplication,
         "taxonomy": taxonomy,
-        "mapping_summary": build_mapping_summary(mapped_teams, all_evidence, relations),
-    }
-
-
-def build_mapping_summary(
-    teams: list[dict[str, Any]],
-    evidence: list[dict[str, Any]],
-    relations: list[dict[str, Any]],
-) -> dict[str, Any]:
-    return {
-        "team_count": len(teams),
-        "evidence_count": len(evidence),
-        "relation_count": len(relations),
-        "domain_counts": dict(
-            sorted(Counter(team["mapped_domain_name"] for team in teams).items())
-        ),
-        "mapping_status_counts": dict(
-            sorted(Counter(team["mapping_status"] for team in teams).items())
-        ),
-        "mapping_confidence_counts": dict(
-            sorted(Counter(team["mapping_confidence"] for team in teams).items())
-        ),
-        "candidate_status_counts": dict(
-            sorted(Counter(team["candidate_status"] for team in teams).items())
-        ),
-        "project_verification_status_counts": dict(
-            sorted(
-                Counter(team["project_verification_status"] for team in teams).items()
-            )
-        ),
-        "relation_type_counts": dict(
-            sorted(Counter(relation["relation_type"] for relation in relations).items())
-        ),
-        "evidence_type_counts": dict(
-            sorted(Counter(row["evidence_type"] for row in evidence).items())
-        ),
     }

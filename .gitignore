@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+node_modules/
 # C extensions
 *.so
 
@@ -204,6 +204,10 @@ cython_debug/
 # .vscode/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
+
+# Local API credentials
+Aminer/config/aminer_credentials.json
+Aminer/config/*.local.json
 
 # Ruff stuff:
 .ruff_cache/

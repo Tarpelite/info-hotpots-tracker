@@ -14,12 +14,17 @@ if __package__ in (None, ""):
 
 from data_cleaning_v1.evidence_cleaner import load_and_clean_evidence
 from data_cleaning_v1.io_utils import write_csv, write_json
+from data_cleaning_v1.location_query import (
+    DEFAULT_LOCATION_API_URL,
+    DEFAULT_LOCATION_API_USER_AGENT,
+    LocationLookupConfig,
+    enrich_missing_team_locations,
+)
 from data_cleaning_v1.organization import build_deliverables
 from data_cleaning_v1.submission_schema import (
     COVERAGE_COLUMNS,
     EVIDENCE_COLUMNS,
     RELATIONS_COLUMNS,
-    RESOURCE_COLUMNS,
     TEAMS_COLUMNS,
     coverage_submission_rows,
     deduplication_rows,
@@ -56,6 +61,31 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         required=True,
         help="Output directory for data.json and generated tables.",
+    )
+    parser.add_argument(
+        "--location-query",
+        choices=("on", "off"),
+        default="on",
+        help=(
+            "Use institution names to query a location API for missing country/city. "
+            "Enabled by default; network errors are recorded and do not fail the import."
+        ),
+    )
+    parser.add_argument(
+        "--location-api-url",
+        default=DEFAULT_LOCATION_API_URL,
+        help="Nominatim-compatible search endpoint for institution geocoding.",
+    )
+    parser.add_argument(
+        "--location-api-user-agent",
+        default=DEFAULT_LOCATION_API_USER_AGENT,
+        help="User-Agent sent to the location API.",
+    )
+    parser.add_argument(
+        "--location-api-timeout",
+        type=float,
+        default=10.0,
+        help="Location API timeout in seconds.",
     )
     return parser.parse_args()
 
@@ -114,6 +144,15 @@ def main() -> int:
     mapped_teams = deliverables["teams"]
     all_evidence = deliverables["evidence"]
     all_relations = deliverables["relations"]
+    location_query = enrich_missing_team_locations(
+        mapped_teams,
+        LocationLookupConfig(
+            mode=args.location_query,
+            endpoint=args.location_api_url,
+            user_agent=args.location_api_user_agent,
+            timeout_seconds=args.location_api_timeout,
+        ),
+    )
     table_teams = compact_rows(
         [team_submission_row(team) for team in mapped_teams],
         TEAMS_COLUMNS,
@@ -135,6 +174,7 @@ def main() -> int:
     )
 
     dedup_rows = deduplication_rows(all_evidence)
+    team_dedup_rows = deliverables.get("team_deduplication", [])
     missing_rows = missing_item_rows(
         mapped_teams,
         all_evidence,
@@ -160,6 +200,21 @@ def main() -> int:
         ],
     )
     write_csv_with_columns(
+        output / "team_deduplication.csv",
+        team_dedup_rows,
+        [
+            "team_id",
+            "team_identity_key",
+            "record_count",
+            "source_team_ids",
+            "institution",
+            "team_name",
+            "leader_name",
+            "decision",
+            "reason",
+        ],
+    )
+    write_csv_with_columns(
         output / "missing_items.csv",
         missing_rows,
         [
@@ -171,11 +226,6 @@ def main() -> int:
             "source_file",
             "source_record_key",
         ],
-    )
-    write_csv_with_columns(
-        output / "resource_requirements.csv",
-        deliverables["resources"],
-        RESOURCE_COLUMNS,
     )
 
     taxonomy_rows = []
@@ -200,11 +250,13 @@ def main() -> int:
             "import_batch": batch,
             "raw_data_modified": False,
             "source_notes": [
-                "source_name is the RSS/feed source name and is not used as institution.",
-                "score and tags remain in evidence.raw_record and evidence metadata.",
-                "Team verification_status is initialized to candidate and attention to pending; evidence verification_status is initialized to 待核实.",
-                "raw_path preserves the source file and original entry identifier.",
+                "source_name 为 RSS/信息源名称，不作为机构名称使用。",
+                "score 与 tags 保留在 evidence.raw_record 及证据元数据中。",
+                "团队 verification_status 初始化为 candidate，attention 初始化为 pending；证据 verification_status 初始化为 待核实。",
+                "raw_path 保留来源文件与原始条目标识。",
+                "country/city 默认按 institution 查询位置 API 补全；查询失败或断网时仅记录诊断信息，不阻断导入。",
             ],
+            "location_query": location_query,
         },
         "taxonomy": taxonomy_rows,
         "teams": mapped_teams,
@@ -218,8 +270,8 @@ def main() -> int:
             "coverage": table_coverage,
         },
         "deduplication": dedup_rows,
+        "team_deduplication": team_dedup_rows,
         "missing_items": missing_rows,
-        "resources": deliverables["resources"],
     }
     write_json(output / "data.json", data)
     write_json(
@@ -232,25 +284,33 @@ def main() -> int:
                 "relations": len(table_relations),
                 "coverage": len(table_coverage),
                 "duplicate_groups": len(dedup_rows),
+                "team_duplicate_groups": len(team_dedup_rows),
                 "missing_items": len(missing_rows),
-                "resources": len(deliverables["resources"]),
             },
             "source_diagnostics": {
                 "team_issues": len(team_issues),
                 "evidence_issues": len(evidence_issues),
                 "team_metadata": team_metadata,
                 "evidence_metadata": evidence_metadata,
+                "location_query": location_query,
             },
         },
     )
 
-    print(f"Output: {output}")
-    print(f"data.json teams: {len(table_teams)}")
-    print(f"data.json evidence: {len(table_evidence)}")
-    print(f"data.json relations: {len(table_relations)}")
-    print(f"duplicate groups: {len(dedup_rows)}")
-    print(f"missing items: {len(missing_rows)}")
-    print("raw input modified: no")
+    print(f"输出目录：{output}")
+    print(f"data.json 团队数：{len(table_teams)}")
+    print(f"data.json 证据数：{len(table_evidence)}")
+    print(f"data.json 关系数：{len(table_relations)}")
+    print(f"重复证据组数：{len(dedup_rows)}")
+    print(f"缺项条目数：{len(missing_rows)}")
+    if args.location_query != "off":
+        print(
+            "位置查询："
+            f"mode={location_query['mode']} "
+            f"queried={location_query['queried']} "
+            f"updated={location_query['updated']}"
+        )
+    print("原始数据修改：无")
     return 0
 
 

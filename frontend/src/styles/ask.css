@@ -1,0 +1,122 @@
+.ask-console {
+  position: absolute;
+  bottom: 82px;
+  left: 50%;
+  z-index: 5;
+  width: min(690px, calc(100% - 34px));
+  transform: translateX(-50%);
+}
+
+.ask-form {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 58px;
+  padding: 7px 8px 7px 16px;
+  border: 1px solid rgba(123, 138, 151, 0.34);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.ask-form svg {
+  color: var(--accent);
+}
+
+.ask-form input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.ask-form input::placeholder {
+  color: #7a8797;
+}
+
+.ask-form button,
+.text-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 42px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.ask-form button {
+  min-width: 78px;
+  padding: 0 14px;
+}
+
+.ask-form button:disabled {
+  opacity: 0.54;
+  cursor: default;
+}
+
+.spin {
+  animation: spin 900ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prompt-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.prompt-chip {
+  padding: 8px 13px;
+  border: 1px solid rgba(130, 144, 158, 0.36);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 8px 20px rgba(24, 35, 46, 0.07);
+  color: #314052;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.answer-panel {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(24, 35, 46, 0.09);
+  color: #233140;
+  line-height: 1.7;
+}
+
+.answer-panel p {
+  margin: 0;
+}
+
+.answer-panel.muted {
+  color: var(--muted);
+}
+
+.citation-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.citation-row a {
+  color: var(--accent);
+  font-size: 13px;
+}

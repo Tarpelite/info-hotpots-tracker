@@ -73,7 +73,7 @@ def load_and_clean_evidence(news_data_dir: Path) -> tuple[
                     "record_type": "evidence_file",
                     "issue_type": "missing_entries",
                     "source_file": fetch_path.name,
-                    "message": "Top-level entries is not a list.",
+                    "message": "顶层 entries 不是列表。",
                 }
             )
             continue

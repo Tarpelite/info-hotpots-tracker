@@ -1,0 +1,50 @@
+:root {
+  --ink: #17202a;
+  --muted: #647083;
+  --faint: #8d98a8;
+  --paper: #fbfaf7;
+  --panel: #ffffff;
+  --wash: #f1f4f6;
+  --line: #dfe5ea;
+  --accent: #234f73;
+  --accent-strong: #173b5b;
+  --green: #2c8a72;
+  --shadow: 0 16px 36px rgba(22, 32, 42, 0.11);
+  color: var(--ink);
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "Microsoft YaHei", serif;
+  background: var(--paper);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--paper);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-shell {
+  min-height: 100vh;
+}

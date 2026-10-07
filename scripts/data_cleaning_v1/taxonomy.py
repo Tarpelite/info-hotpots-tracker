@@ -5,9 +5,8 @@ from typing import Any
 
 
 LEGACY_DOMAIN_TO_CURRENT_NAME = {
-    # These IDs occur in the saved snapshot but are absent from the current
-    # six-domain tree. The mapping is a provisional best-fit for candidate
-    # organization, not a final scientific judgment.
+    # 这些 ID 存在于快照文件中，但不在当前六领域树内。该映射仅作为候选机构
+    # 归属的临时最优适配，不构成最终的科学判断。
     "domain_2d548948ff53477dba153c7dc6e6ee53": "生命科学与医学",
     "domain_1f41e1921c1c490697a747962d6c37fe": "化学与材料",
     "domain_9b9636ad749440149509588133273d63": "地球科学",

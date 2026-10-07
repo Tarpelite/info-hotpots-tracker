@@ -54,22 +54,6 @@ COVERAGE_COLUMNS = [
     "missing_items",
 ]
 
-RESOURCE_COLUMNS = [
-    "resource_id",
-    "resource_type",
-    "resource_name",
-    "status",
-    "priority",
-    "scope",
-    "needed_for",
-    "current_evidence",
-    "missing_items",
-    "fallback_plan",
-    "requested_from",
-    "request_status",
-    "notes",
-]
-
 
 # teams.csv 中 verification_status / attention 的允许取值。
 TEAM_VERIFICATION_STATUSES = ("candidate", "verified", "rejected")
@@ -130,13 +114,19 @@ def team_attention(value: Any) -> str:
 
 def extract_country(team: dict[str, Any]) -> str:
     raw = team.get("raw_record", {})
-    # institutionCountry is inconsistent in the source snapshot: it may contain
-    # a city or a street address. Keep country blank unless explicitly supplied.
+    enriched = _text(team.get("location_country"))
+    if enriched:
+        return enriched
+    # 源快照中的 institutionCountry 口径不一致：可能填的是城市或街道地址。
+    # 除非原始数据明确提供国家，否则 country 保持为空。
     return _first_nonempty(raw, "country")
 
 
 def extract_city(team: dict[str, Any]) -> str:
     raw = team.get("raw_record", {})
+    enriched = _text(team.get("location_city"))
+    if enriched:
+        return enriched
     return _first_nonempty(raw, "city")
 
 

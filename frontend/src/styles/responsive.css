@@ -1,0 +1,128 @@
+@media (max-width: 1080px) {
+  .topbar {
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+
+  .nav-tabs {
+    grid-column: 1 / -1;
+    order: 3;
+    height: 44px;
+    margin: 0 -32px;
+    padding: 0 28px;
+  }
+
+  .nav-tabs a {
+    padding: 0 12px;
+  }
+
+  .domain-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .team-searchbox {
+    grid-column: 1 / -1;
+  }
+
+  .map-note {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    padding: 12px 18px 0;
+  }
+
+  .brand {
+    font-size: 17px;
+  }
+
+  .top-actions {
+    justify-content: flex-end;
+  }
+
+  .domain-select,
+  .snapshot-date {
+    display: none;
+  }
+
+  .hero-map {
+    min-height: 640px;
+  }
+
+  .hero-copy {
+    width: auto;
+    padding: 28px 20px 0;
+  }
+
+  .ask-console {
+    bottom: 130px;
+  }
+
+  .ask-form {
+    grid-template-columns: auto 1fr;
+  }
+
+  .ask-form button {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .map-legend {
+    right: 18px;
+    bottom: 18px;
+    left: 18px;
+  }
+
+  .section-band {
+    padding: 42px 18px 48px;
+  }
+
+  .section-head {
+    display: grid;
+    align-items: start;
+  }
+
+  .domain-grid,
+  .team-grid,
+  .evidence-list,
+  .people-list,
+  .source-list,
+  .location-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .team-controls,
+  .pagination,
+  .detail-evidence-item {
+    grid-template-columns: 1fr;
+  }
+
+  .page-controls {
+    justify-content: center;
+  }
+
+  .evidence-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .route-page {
+    min-height: calc(100vh - 112px);
+    padding: 38px 18px 52px;
+  }
+
+  .team-detail {
+    padding: 20px;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}

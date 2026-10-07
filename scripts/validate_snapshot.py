@@ -17,9 +17,9 @@ from data_cleaning_v1.submission_schema import (
     COVERAGE_COLUMNS,
     EVIDENCE_COLUMNS,
     RELATIONS_COLUMNS,
-    RESOURCE_COLUMNS,
     TEAMS_COLUMNS,
 )
+from data_cleaning_v1.organization import stable_id
 
 
 def parse_args() -> argparse.Namespace:
@@ -92,7 +92,7 @@ def main() -> int:
         "evidence",
         "relations",
         "coverage",
-        "resources",
+        "team_deduplication",
         "tables",
     }
     missing_sections = sorted(required_sections - set(data))
@@ -125,7 +125,6 @@ def main() -> int:
     evidence = data.get("evidence", [])
     relations = data.get("relations", [])
     coverage = data.get("coverage", [])
-    resources = data.get("resources", [])
     missing_items = data.get("missing_items", [])
     taxonomy = data.get("taxonomy", [])
 
@@ -137,6 +136,27 @@ def main() -> int:
         unique(team_ids) and all(team_ids),
         "团队ID非空且不重复。",
         f"count={len(team_ids)}",
+    )
+    identity_keys = [row.get("team_identity_key", "") for row in teams]
+    stable_id_errors = [
+        row.get("team_id", "")
+        for row in teams
+        if not row.get("team_identity_key")
+        or row.get("team_id")
+        != stable_id(
+            "team",
+            f"institution_team_leader:{row.get('team_identity_key', '')}",
+        )
+        or not row.get("source_team_ids")
+    ]
+    check(
+        checks,
+        "ids.team_stable_identity",
+        unique(identity_keys)
+        and not stable_id_errors
+        and all(identity_keys),
+        "团队已按机构、团队名称和带头人去重，并分配可复算稳定ID；原始team_id列表已保留。",
+        f"team_count={len(team_ids)}; identity_count={len(set(identity_keys))}; error_sample={stable_id_errors[:10]}",
     )
     check(
         checks,
@@ -298,18 +318,6 @@ def main() -> int:
         f"taxonomy_domains={len(allowed_domains)}; coverage_rows={len(coverage)}",
     )
 
-    resource_fields_ok = all(
-        all(row.get(field) not in (None, "") for field in RESOURCE_COLUMNS[:5])
-        for row in resources
-    )
-    check(
-        checks,
-        "resources.required",
-        bool(resources) and resource_fields_ok,
-        "资源需求表包含资源ID、类型、名称、状态和优先级。",
-        f"resource_count={len(resources)}",
-    )
-
     missing_keys = {
         (row.get("record_type", ""), row.get("record_id", ""), row.get("field", ""))
         for row in missing_items
@@ -381,9 +389,9 @@ def main() -> int:
         json.dump(report, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
 
-    print(f"Validation: {report['status']}")
-    print(f"Passed: {len(passed)}")
-    print(f"Failed: {len(failed)}")
+    print(f"校验结果：{report['status']}")
+    print(f"通过：{len(passed)}")
+    print(f"未通过：{len(failed)}")
     for row in failed:
         print(f"[未通过] {row['check_id']}: {row['message']} {row['details']}")
     return 0 if not failed else 1
