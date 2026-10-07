@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import Header from "./components/Header.jsx";
 import Map from "./components/Map.jsx";
+import TechnologyGraph from "./components/TechnologyGraph.jsx";
 import DomainOverview from "./components/DomainOverview.jsx";
 import EvidenceRail from "./components/EvidenceRail.jsx";
 import TeamExplorer from "./components/TeamExplorer.jsx";
@@ -24,7 +25,20 @@ function HomePage({ snapshot, stats, loading, error, activeDomain, onDomainChang
   );
 }
 
-function StrategicMapPage({ snapshot, stats, loading, error, activeDomain, onDomainChange }) {
+function StrategicMapPage({ snapshot, stats, loading, error, activeDomain, onDomainChange, view }) {
+  if (view === "tech") {
+    return (
+      <TechnologyGraph
+        snapshot={snapshot}
+        stats={stats}
+        loading={loading}
+        error={error}
+        activeDomain={activeDomain}
+        onDomainChange={onDomainChange}
+      />
+    );
+  }
+
   return (
     <Map
       snapshot={snapshot}
@@ -250,6 +264,7 @@ export default function App() {
   const domains = snapshot?.coverage?.map((item) => item.domain).filter(Boolean) ?? [];
   const teams = snapshot?.teams ?? [];
   const routePath = route.path;
+  const mapView = route.query?.view === "tech" || route.query?.view === "graph" ? "tech" : "geo";
   const teamId = routePath.startsWith("/teams/") ? decodeURIComponent(routePath.replace("/teams/", "")) : "";
   const selectedTeam = teamId ? teams.find((team) => team.team_id === teamId) : null;
 
@@ -276,6 +291,7 @@ export default function App() {
           error={error}
           activeDomain={activeDomain}
           onDomainChange={setActiveDomain}
+          view={mapView}
         />
       );
     }
@@ -347,6 +363,7 @@ export default function App() {
         routePath={routePath}
         stats={stats}
         source={source}
+        mapView={mapView}
         domains={domains}
         activeDomain={activeDomain}
         onDomainChange={setActiveDomain}

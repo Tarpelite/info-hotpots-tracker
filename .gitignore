@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 node_modules/
+result/
 # C extensions
 *.so
 
@@ -206,6 +207,8 @@ cython_debug/
 tempCodeRunnerFile.py
 
 # Local API credentials
+AMiner/config/aminer_credentials.json
+AMiner/config/*.local.json
 Aminer/config/aminer_credentials.json
 Aminer/config/*.local.json
 

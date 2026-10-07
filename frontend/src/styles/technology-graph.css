@@ -1,0 +1,365 @@
+.technology-graph {
+  min-height: calc(100vh - 68px);
+  padding: 34px 34px 28px;
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(242, 246, 248, 0.84)),
+    var(--wash);
+}
+
+.graph-head,
+.technology-shell,
+.graph-footer {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.graph-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.graph-head h1 {
+  margin: 4px 0 0;
+  color: var(--ink);
+  font-size: clamp(26px, 3vw, 42px);
+  line-height: 1.2;
+}
+
+.graph-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.graph-stats span,
+.graph-type-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid rgba(130, 144, 158, 0.3);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.graph-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 1180px;
+  min-height: 40px;
+  margin: 0 auto 12px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.graph-banner.error {
+  color: #a94343;
+}
+
+.technology-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 302px;
+  gap: 14px;
+  align-items: stretch;
+}
+
+.technology-stage {
+  min-height: 590px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.74)),
+    radial-gradient(circle at 50% 48%, rgba(35, 79, 115, 0.08), transparent 42%);
+  overflow: hidden;
+}
+
+.technology-graph-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 590px;
+}
+
+.tg-edge {
+  stroke: var(--edge-color);
+  stroke-width: 1.05;
+  stroke-linecap: round;
+  opacity: 0.42;
+  vector-effect: non-scaling-stroke;
+}
+
+.tg-edge-group {
+  color: #536474;
+}
+
+.tg-edge-institution,
+.tg-edge-leader,
+.tg-edge-topic {
+  stroke-width: 1.7;
+  opacity: 0.68;
+}
+
+.tg-edge-label {
+  color: #536474;
+  opacity: 0.76;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+}
+
+.tg-edge-label rect {
+  fill: rgba(255, 255, 255, 0.9);
+  stroke: rgba(123, 139, 153, 0.34);
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.tg-edge-label text {
+  fill: currentColor;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.tg-edge-group.related .tg-edge,
+.tg-edge-group:hover .tg-edge {
+  opacity: 0.95;
+  stroke-width: 2.2;
+}
+
+.tg-edge-group.related .tg-edge-label,
+.tg-edge-group:hover .tg-edge-label {
+  color: #24323f;
+  opacity: 1;
+}
+
+.tg-node {
+  cursor: grab;
+  outline: none;
+  touch-action: none;
+  user-select: none;
+}
+
+.tg-node.dragging {
+  cursor: grabbing;
+}
+
+.tg-node circle {
+  fill: color-mix(in srgb, var(--node-color) 18%, #fff);
+  stroke: var(--node-color);
+  stroke-width: 1.7;
+  filter: url("#tg-node-shadow");
+  transition: stroke-width 160ms ease, transform 160ms ease;
+}
+
+.tg-node text {
+  fill: #21303e;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  paint-order: stroke;
+  pointer-events: none;
+  stroke: rgba(255, 255, 255, 0.92);
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.tg-node:hover circle,
+.tg-node:focus-visible circle,
+.tg-node.selected circle {
+  stroke-width: 3;
+}
+
+.tg-node.selected circle {
+  fill: color-mix(in srgb, var(--node-color) 32%, #fff);
+}
+
+.tech-inspector {
+  display: flex;
+  flex-direction: column;
+  min-height: 590px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--node-color);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 34px rgba(24, 35, 46, 0.08);
+}
+
+.tech-inspector > span {
+  color: var(--node-color);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tech-inspector h2 {
+  margin: 8px 0 16px;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.tech-inspector dl {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.tech-inspector dl div {
+  padding: 11px 12px;
+  border: 1px solid #e7ecef;
+  border-radius: 8px;
+  background: #fafbfb;
+}
+
+.tech-inspector dt {
+  margin-bottom: 6px;
+  color: var(--faint);
+  font-size: 12px;
+}
+
+.tech-inspector dd {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #24323f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.48;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.tech-related {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.tech-related h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.tech-related a,
+.tech-related p {
+  display: grid;
+  gap: 5px;
+  margin: 0 0 8px;
+  padding: 10px 12px;
+  border: 1px solid #e7ecef;
+  border-radius: 8px;
+  background: #fafbfb;
+}
+
+.tech-related strong {
+  color: #24323f;
+  font-size: 14px;
+}
+
+.tech-related span,
+.tech-related p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.graph-detail-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin-top: auto;
+  border: 1px solid color-mix(in srgb, var(--node-color) 38%, var(--line));
+  border-radius: 8px;
+  color: var(--node-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.graph-footer {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  margin-top: 14px;
+}
+
+.graph-type-legend,
+.graph-domain-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.graph-type-legend {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.graph-domain-filter {
+  justify-content: flex-end;
+}
+
+@media (max-width: 980px) {
+  .graph-head,
+  .technology-shell,
+  .graph-footer {
+    max-width: 760px;
+  }
+
+  .graph-head,
+  .graph-footer {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .graph-stats,
+  .graph-domain-filter {
+    justify-content: flex-start;
+  }
+
+  .technology-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .technology-stage,
+  .technology-graph-svg,
+  .tech-inspector {
+    min-height: auto;
+  }
+
+  .technology-graph-svg {
+    height: 520px;
+  }
+}
+
+@media (max-width: 680px) {
+  .technology-graph {
+    padding: 28px 18px 24px;
+  }
+
+  .graph-head h1 {
+    font-size: 28px;
+  }
+
+  .technology-graph-svg {
+    height: 430px;
+  }
+
+  .tech-inspector {
+    padding: 16px;
+  }
+}

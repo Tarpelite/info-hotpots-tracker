@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI4S 前沿情报站，面向科学智能战略团队、证据与领域态势的公开入口。"
+    />
+    <title>AI4S 前沿情报站</title>
+    <script>
+      window.AI4S_PUBLIC_CONFIG = {
+        snapshotEndpoint: "/api/public/snapshot",
+        snapshotFallback: "/result/data.json",
+        askEndpoint: "/api/ask"
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/frontend/src/main.jsx"></script>
+  </body>
+</html>

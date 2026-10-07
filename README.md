@@ -6,6 +6,7 @@
 
 - `20261005科技战略情报启动数据_v1/` —— 启动数据包（只读原始数据，勿修改），含团队快照（344 条候选团队、6 领域 27 子领域）、`news-data/`（49 份采集 JSON 共 30,842 条记录，2026-08-12 至 09-29）、按日索引与 SHA256 校验清单；详细说明见其中的 `README_先读我.txt`
 - `scripts/` —— 数据处理脚本（仅用 Python 标准库），三个提交流程入口依次为 `import_snapshot.py`（导入建表）→ `validate_snapshot.py`（校验）→ `build_map.py`（图谱与团队卡片），另有清洗工具包 `data_cleaning_v1/`；详细说明见 `scripts/README.md`
+- `AMiner/` —— AMiner API 请求学习模板，包含 key/token 配置占位、GET/POST 示例与可复用 Python client；详细说明见 `AMiner/README.md`
 - `result/` —— 脚本产物目录：根下为 `data.json`、四张提交表（teams/evidence/relations/coverage）、去重与缺项清单、`import_summary.json`；`validation/` 为校验报告；`map/` 为总图、六领域分图 SVG、团队卡片与提交表副本，重建说明见 `result/map/README.md`
 - `frontend/` —— 公开站点的 React/Vite 前端源码（首页、地图、领域覆盖、团队与证据视图），优先请求 `/api/public/snapshot`，后端不可用时回退读取 `result/data.json`；安装与启动命令见 `frontend/README.md`
 - `index.html` —— 前端工程入口，经 Vite 启动后访问；不直接用浏览器打开
