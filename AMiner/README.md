@@ -458,3 +458,26 @@ curl -X POST ".../api/patent/search" \
 - 官方文档：https://open.aminer.cn/open/docs
 - 控制台：https://open.aminer.cn/open/board?tab=control
 - 官方 Skill 仓库（含全部 28 个接口的完整参数目录 `references/api-catalog.md`）：https://github.com/AMinerOrg/aminer-open-skill
+
+## 六、导入 Worker 本地 D1
+
+`main.py` 现在支持把抓取结果通过 Worker 的 D1 binding 写入本地数据库。先在
+`Worker/intelligence-system` 目录启动本地 Worker（不依赖前端构建产物）：
+
+```bash
+npx wrangler dev --local --no-bundle --assets ./public --port 8787
+```
+
+再在项目根目录执行抓取和导入（AMiner token 仍从配置文件或环境变量读取）：
+
+```bash
+python AMiner/main.py \
+  --size 10 \
+  --max-pages 1 \
+  --import-url http://127.0.0.1:8787/api/papers/import \
+  --output result/aminer-papers.json
+```
+
+脚本会按论文 ID 去重，并分批调用 `POST /api/papers/import`。Worker 使用
+`INSERT ... ON CONFLICT(id) DO UPDATE`，重复运行不会产生重复论文。导入后可通过
+`GET http://127.0.0.1:8787/api/papers` 查看结果。
