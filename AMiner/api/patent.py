@@ -10,7 +10,7 @@ def search_patents(
     size: int | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """专利搜索：POST /api/patent/search。"""
+    """专利搜索：POST /patent/search。"""
     payload = compact_dict(
         {
             "query": require_text(query, "query"),
@@ -18,14 +18,14 @@ def search_patents(
             "size": optional_int(size, "size", min_value=1),
         }
     )
-    return client_or_default(client).post("/api/patent/search", payload=payload)
+    return client_or_default(client).post("/patent/search", payload=payload)
 
 
 def get_patent_info(*args: Any, **kwargs: Any) -> Any:
-    """专利信息：GET /api/patent/info。"""
+    """专利信息：GET /patent/info。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")
 
 
 def get_patent_detail(*args: Any, **kwargs: Any) -> Any:
-    """专利详情：GET /api/patent/detail。"""
+    """专利详情：GET /patent/detail。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")

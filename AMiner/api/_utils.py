@@ -25,7 +25,9 @@ def optional_text(value: Any, name: str) -> str | None:
     return require_text(value, name)
 
 
-def require_text_list(values: Any, name: str, max_items: int | None = None) -> list[str]:
+def require_text_list(
+    values: Any, name: str, max_items: int | None = None
+) -> list[str]:
     if isinstance(values, str) or not isinstance(values, Sequence) or not values:
         raise ValueError(f"缺少必填参数 {name}：请传入非空字符串数组")
 
@@ -78,12 +80,16 @@ def json_array_string(value: Any, name: str) -> str | None:
     return json.dumps(value, ensure_ascii=False)
 
 
-def require_one_present(values: dict[str, Any], names: Sequence[str], message: str) -> None:
+def require_one_present(
+    values: dict[str, Any], names: Sequence[str], message: str
+) -> None:
     if not any(values.get(name) is not None for name in names):
         raise ValueError(message)
 
 
-def require_exactly_one_present(values: dict[str, Any], names: Sequence[str], message: str) -> None:
+def require_exactly_one_present(
+    values: dict[str, Any], names: Sequence[str], message: str
+) -> None:
     present_count = sum(values.get(name) is not None for name in names)
     if present_count != 1:
         raise ValueError(message)

@@ -22,15 +22,15 @@ def search_papers(
     size: int | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """论文搜索：GET /api/paper/search。"""
+    """论文搜索：GET /paper/search。"""
     params = compact_dict(
         {
             "title": require_text(title, "title"),
-            "page": optional_int(page, "page", min_value=0),
-            "size": optional_int(size, "size", min_value=1),
+            "page": optional_int(page, "page", min_value=0,max_value=10),
+            "size": optional_int(size, "size", min_value=1, max_value=20),
         }
     )
-    return client_or_default(client).get("/api/paper/search", params=params)
+    return client_or_default(client).get("/paper/search", params=params)
 
 
 def search_papers_pro(
@@ -45,7 +45,7 @@ def search_papers_pro(
     order: str | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """论文搜索 Pro：GET /api/paper/search/pro。"""
+    """论文搜索 Pro：GET /paper/search/pro。"""
     if order is not None and order not in {"year", "n_citation"}:
         raise ValueError("参数 order 只能为 year 或 n_citation")
 
@@ -62,7 +62,7 @@ def search_papers_pro(
             "order": order,
         }
     )
-    return client_or_default(client).get("/api/paper/search/pro", params=params)
+    return client_or_default(client).get("/paper/search/pro", params=params)
 
 
 def qa_search_papers(
@@ -78,7 +78,7 @@ def qa_search_papers(
     citation_sort: bool | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """论文问答搜索：POST /api/paper/qa/search。"""
+    """论文问答搜索：POST /paper/qa/search。"""
     raw_payload = {
         "query": query,
         "topic_high": topic_high,
@@ -104,25 +104,25 @@ def qa_search_papers(
             "citation_sort": optional_bool(citation_sort, "citation_sort"),
         }
     )
-    return client_or_default(client).post("/api/paper/qa/search", payload=payload)
+    return client_or_default(client).post("/paper/qa/search", payload=payload)
 
 
 def get_paper_info(ids: list[str], client: AMinerClient | None = None) -> Any:
-    """论文信息（批量）：POST /api/paper/info。"""
+    """论文信息（批量）：POST /paper/info。"""
     payload = {"ids": require_text_list(ids, "ids", max_items=100)}
-    return client_or_default(client).post("/api/paper/info", payload=payload)
+    return client_or_default(client).post("/paper/info", payload=payload)
 
 
 def get_paper_detail(paper_id: str, client: AMinerClient | None = None) -> Any:
-    """论文详情：GET /api/paper/detail。"""
+    """论文详情：GET /paper/detail。"""
     params = {"id": require_text(paper_id, "id")}
-    return client_or_default(client).get("/api/paper/detail", params=params)
+    return client_or_default(client).get("/paper/detail", params=params)
 
 
 def get_paper_relation(paper_id: str, client: AMinerClient | None = None) -> Any:
-    """论文引用：GET /api/paper/relation。"""
+    """论文引用：GET /paper/relation。"""
     params = {"id": require_text(paper_id, "id")}
-    return client_or_default(client).get("/api/paper/relation", params=params)
+    return client_or_default(client).get("/paper/relation", params=params)
 
 
 def search_papers_by_venue(
@@ -134,7 +134,7 @@ def search_papers_by_venue(
     order: str | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """按期刊组合搜索论文：GET /api/paper/list/by/search/venue。"""
+    """按期刊组合搜索论文：GET /paper/list/by/search/venue。"""
     raw_params = {"keyword": keyword, "venue": venue, "author": author}
     require_exactly_one_present(
         raw_params,
@@ -154,34 +154,24 @@ def search_papers_by_venue(
             "order": order,
         }
     )
-    return client_or_default(client).get("/api/paper/list/by/search/venue", params=params)
+    return client_or_default(client).get("/paper/list/by/search/venue", params=params)
 
 
-def list_papers_by_keywords(
+def get_papers_by_keywords(
     keywords: list[str],
     page: int,
     size: int,
     client: AMinerClient | None = None,
 ) -> Any:
-    """按关键词批量查询论文：GET /api/paper/list/citation/by/keywords。"""
+    """按关键词批量查询论文：GET /paper/list/citation/by/keywords。"""
     params = {
         "keywords": require_text_list(keywords, "keywords"),
         "page": require_int(page, "page", min_value=0),
         "size": require_int(size, "size", min_value=1),
     }
-    return client_or_default(client).get("/api/paper/list/citation/by/keywords", params=params)
-
-
-def get_paper_list(
-    keywords: list[str],
-    page: int,
-    size: int,
-    client: AMinerClient | None = None,
-) -> Any:
-    """兼容旧函数名：按关键词批量查询论文。"""
-    return list_papers_by_keywords(keywords=keywords, page=page, size=size, client=client)
+    return client_or_default(client).get("/paper/list/citation/by/keywords", params=params)
 
 
 def get_paper_detail_by_year_org_venue(*args: Any, **kwargs: Any) -> Any:
-    """按年份/期刊查询论文详情：GET /api/paper/platform/allpubs/more/detail/by/ts/org/venue。"""
+    """按年份/期刊查询论文详情：GET /paper/platform/allpubs/more/detail/by/ts/org/venue。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")

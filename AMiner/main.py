@@ -1,178 +1,174 @@
 import argparse
 import json
-from collections.abc import Iterator, Mapping
+import re
+from collections.abc import Callable, Mapping, Sequence
 from pathlib import Path
 from typing import Any
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 
-try:
-    from .api import paper
-except ImportError:  # 支持直接执行 `python AMiner/main.py`
-    from api import paper
+if __package__:
+    from .batch.api_integrated import paper as paper_api
+else:  # 支持直接执行 `python AMiner/main.py`
+    import batch.api_integrated.paper as paper_api
 
+DATA_DIR = Path(__file__).resolve().parent / "data"
 
-PAPER_KEYWORDS = [
-    "生命科学",
-    "材料化学",
-    "高能物理",
-    "量子科技",
-    "集成电路",
-    "新型电力系统",
-    "航空航天",
-]
-
-DEFAULT_PAGE = 0
-DEFAULT_SIZE = 10
-DEFAULT_MAX_PAGES = 1
+# 只暴露已实现的接口，避免通过输入参数调用任意对象。
+FUNCTIONS: dict[str, Callable[..., Any]] = {
+    "query_paper_lists": paper_api.query_paper_lists,
+    "query_paper_detail": paper_api.query_paper_detail,
+}
 
 
-def query_paper_lists(
-    size: int = DEFAULT_SIZE,
-    max_pages: int = DEFAULT_MAX_PAGES,
-) -> dict[str, list[object]]:
-    """按单个关键词分别查询论文列表，每个关键词从第 0 页开始。"""
-    results = {}
+def _build_output_path(function_name: str, filename: str | Path) -> Path:
+    """生成 ``AMiner/data/<调用函数名>/<文件名>.json`` 路径。"""
+    function_dir = Path(function_name)
+    if function_dir.name != function_name or function_name in {"", ".", ".."}:
+        raise ValueError("function_name 必须是合法的单层目录名")
 
-    for keyword in PAPER_KEYWORDS:
-        page = DEFAULT_PAGE
-        keyword_results = []
+    relative_path = Path(filename)
+    if relative_path.is_absolute() or ".." in relative_path.parts:
+        raise ValueError("filename 必须是函数数据目录下的相对路径")
+    if relative_path.name in {"", "."}:
+        raise ValueError("filename 不能为空")
+    if relative_path.suffix.lower() != ".json":
+        relative_path = relative_path.with_suffix(".json")
 
-        for _ in range(max_pages):
-            keyword_results.append(
-                api.paper.get_paper_list(
-                    keywords=[keyword],
-                    page=page,
-                    size=size,
-                )
-            )
-            page += 1
-
-        results[keyword] = keyword_results
-
-    return results
+    return DATA_DIR / function_dir / relative_path
 
 
-def main():
-    """主函数。"""
-    return query_paper_lists()
+def save_data_to_json(
+    data: Any,
+    function_name: str,
+    filename: str | Path = "aminer_data.json",
+) -> Path:
+    """JSON 序列化抓取结果，并保存到调用函数对应的数据目录。"""
+    output_path = _build_output_path(function_name, filename)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
+    return output_path
 
 
-def _iter_papers(value: Any) -> Iterator[dict[str, Any]]:
-    """从 AMiner 的分页响应中提取论文对象。
+def main(
+    function_name: str | None = None,
+    parameters: Mapping[str, Any] | None = None,
+    output_filename: str | Path | None = None,
+    **kwargs: Any,
+) -> Any:
+    """根据函数名调用对应抓取函数，并把返回结果保存为 JSON。
 
-    不同版本的接口会把数组放在 ``data``、``items``、``records`` 或
-    ``results`` 下；保留这个适配层可以避免把 API 的分页包装写死在导入器中。
+    ``parameters`` 适合传入字典；``kwargs`` 便于 Python 代码直接以关键字
+    参数调用。两者同时提供时，``kwargs`` 优先。
     """
-    if isinstance(value, list):
-        for item in value:
-            yield from _iter_papers(item)
-        return
+    if function_name is None:
+        raise ValueError("--function 必须指定")
+    function = FUNCTIONS.get(function_name)
+    if function is None:
+        available = ", ".join(sorted(FUNCTIONS))
+        raise ValueError(f"不支持的函数 {function_name!r}，可选函数：{available}")
 
-    if not isinstance(value, Mapping):
-        return
+    call_parameters = dict(parameters or {})
+    call_parameters.update(kwargs)
+    result = function(**call_parameters)
+    if output_filename is None:
+        output_filename = f"{_build_default_filename(function_name, call_parameters)}.json"
 
-    if any(value.get(key) for key in ("id", "_id", "paper_id")):
-        yield dict(value)
-        return
-
-    for key in ("data", "items", "records", "results", "papers", "list", "content", "rows", "hits", "docs"):
-        nested = value.get(key)
-        if nested is not None and nested is not value:
-            yield from _iter_papers(nested)
-
-
-def flatten_paper_results(results: Mapping[str, list[Any]]) -> list[dict[str, Any]]:
-    """将按关键词、按页的结果去重为论文数组。"""
-    papers: list[dict[str, Any]] = []
-    seen_ids: set[str] = set()
-    for pages in results.values():
-        for page_result in pages:
-            for paper_record in _iter_papers(page_result):
-                paper_id = paper_record.get("id") or paper_record.get("_id") or paper_record.get("paper_id")
-                if paper_id is None:
-                    continue
-                paper_id = str(paper_id)
-                if paper_id in seen_ids:
-                    continue
-                seen_ids.add(paper_id)
-                papers.append(paper_record)
-    return papers
+    save_data_to_json(result, function_name, output_filename)
+    return result
 
 
-def import_papers_to_worker(
-    papers: list[dict[str, Any]],
-    import_url: str,
-    chunk_size: int = 100,
-    timeout: float = 30,
-) -> int:
-    """通过 Worker 的 D1 binding 批量写入论文，返回写入记录数。"""
-    if not import_url.strip():
-        raise ValueError("import_url 不能为空")
-    if chunk_size < 1:
-        raise ValueError("chunk_size 必须大于 0")
-
-    upserted = 0
-    for start in range(0, len(papers), chunk_size):
-        chunk = papers[start : start + chunk_size]
-        request = Request(
-            import_url,
-            data=json.dumps({"papers": chunk}, ensure_ascii=False).encode("utf-8"),
-            headers={
-                "Accept": "application/json",
-                "Content-Type": "application/json; charset=utf-8",
-            },
-            method="POST",
-        )
-        try:
-            with urlopen(request, timeout=timeout) as response:
-                response_body = response.read().decode("utf-8")
-        except HTTPError as exc:
-            error_body = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"Worker 导入失败（HTTP {exc.code}）: {error_body}") from exc
-        except URLError as exc:
-            raise RuntimeError(f"无法连接 Worker 导入接口: {exc.reason}") from exc
-
-        try:
-            result = json.loads(response_body) if response_body else {}
-        except json.JSONDecodeError as exc:
-            raise RuntimeError(f"Worker 返回了非法 JSON: {response_body[:200]}") from exc
-        if result.get("ok") is not True:
-            raise RuntimeError(f"Worker 导入失败: {result}")
-        upserted += int(result.get("upserted", len(chunk)))
-    return upserted
+def _json_object(value: str) -> dict[str, Any]:
+    try:
+        parsed = json.loads(value)
+    except json.JSONDecodeError as exc:
+        raise argparse.ArgumentTypeError(
+            f"--params 不是合法的 JSON: {exc.msg}"
+        ) from exc
+    if not isinstance(parsed, dict):
+        raise argparse.ArgumentTypeError("--params 必须是 JSON 对象")
+    return parsed
 
 
-def _parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="抓取 AMiner 论文并导入 Worker 本地 D1")
-    parser.add_argument("--size", type=int, default=DEFAULT_SIZE, help="每个关键词每页抓取数量")
-    parser.add_argument("--max-pages", type=int, default=DEFAULT_MAX_PAGES, help="每个关键词抓取页数")
-    parser.add_argument("--import-url", help="Worker 导入接口，例如 http://127.0.0.1:8787/api/papers/import")
-    parser.add_argument("--output", type=Path, help="可选：将原始结果和去重后的论文保存为 JSON")
-    parser.add_argument("--chunk-size", type=int, default=100, help="每次 POST 给 Worker 的论文数量")
-    return parser.parse_args()
+def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="调用 AMiner 数据接口，并将抓取结果保存到 AMiner/data",
+    )
+    parser.add_argument(
+        "function",
+        nargs="?",
+        choices=sorted(FUNCTIONS),
+        help="要调用的函数（也可使用 --function 指定）",
+    )
+    parser.add_argument(
+        "--function",
+        dest="function_option",
+        choices=sorted(FUNCTIONS),
+        help=f"要调用的函数",
+    )
+    parser.add_argument(
+        "--params",
+        type=_json_object,
+        default={},
+        metavar="JSON",
+        help='函数参数，例如 \"{\"keywords\": [\"生命科学\"]}\"',
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="函数数据目录下的输出文件名（默认为 <函数名>_<参数>.json）",
+    )
+    parser.add_argument(
+        "--list-functions",
+        action="store_true",
+        help="列出所有可调用函数后退出",
+    )
+    return parser.parse_args(argv)
 
 
-def cli() -> int:
-    args = _parse_args()
-    if args.size < 1 or args.max_pages < 1:
-        raise SystemExit("--size 和 --max-pages 必须大于 0")
+def _build_default_filename(function_name: str, params: dict) -> str:
+    """根据函数名和参数拼接生成默认文件名（不含扩展名）。"""
+    if not params:
+        return function_name
 
-    results = query_paper_lists(size=args.size, max_pages=args.max_pages)
-    papers = flatten_paper_results(results)
-    if args.output:
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(
-            json.dumps({"results": results, "papers": papers}, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
+    # 将参数按键名排序后序列化，保证结果稳定可复现
+    param_str = json.dumps(
+        params, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+    )
 
-    upserted = 0
-    if args.import_url:
-        upserted = import_papers_to_worker(papers, args.import_url, chunk_size=args.chunk_size)
+    # 替换掉文件名中不允许出现的字符（Windows/Linux 通用）
+    param_str = re.sub(r'[\\/:*?"<>|\s]+', "_", param_str)
 
-    print(json.dumps({"keywords": len(results), "papers": len(papers), "upserted": upserted}, ensure_ascii=False))
-    return 0
+    # 控制文件名长度，避免超过系统限制
+    max_len = 150
+    if len(function_name) + 1 + len(param_str) > max_len:
+        param_str = param_str[: max_len - len(function_name) - 1]
+
+    return f"{function_name}_{param_str}"
+
+
+def cli(argv: Sequence[str] | None = None) -> int:
+    args = _parse_args(argv)
+    if args.list_functions:
+        print("\n".join(sorted(FUNCTIONS)))
+        return 0
+
+    function_name = args.function_option or args.function
+    if args.function and args.function_option and args.function != args.function_option:
+        raise SystemExit("位置参数 function 与 --function 指定的函数不一致")
+
+    try:
+        main(function_name, args.params, args.output)
+    except (TypeError, ValueError) as exc:
+        raise SystemExit(f"参数错误: {exc}") from exc
+
+    output_filename = args.output
+    if output_filename is None:
+        default_name = _build_default_filename(function_name, args.params)
+        output_filename = f"{default_name}.json"
+    output_path = _build_output_path(function_name, output_filename)
+    print(f"抓取完成，结果已保存到: {output_path}")
 
 
 if __name__ == "__main__":

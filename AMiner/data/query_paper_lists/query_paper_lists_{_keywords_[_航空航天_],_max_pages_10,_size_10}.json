@@ -1,0 +1,1917 @@
+[
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "To meet the stringent requirements for high-performance structural materials in the aerospace sector，high-entropy alloys (HEAs) have emerged as critical candidate materials owing to their unique design philosophy and distinctive performance characteristics. This work focuses on three typical HEA systems，namely refractory HEAs，lightweight HEAs，and eutectic HEAs. It systematically analyzes the representative compositions，microstructural features，and performance advantages of the three alloy systems，as well as the major technical bottlenecks and corresponding breakthrough approaches in core aerospace application scenarios such as ultra-high temperature service and lightweight design. By analyzing the research and development progress in major countries and regions worldwide，this work identifies the developmental trend of HEAs shifting from theoretical exploration to demand-driven research. It also sorts out the common scientific and technical challenges concerning composition design，fabrication，and performance evaluation that urgently need to be addressed for the engineering application of HEAs in aerospace，which are summarized as follows：(1) design and screening of HEAs component systems that break through the performance limits of conventional materials；(2) integrated computation and high-throughput rapid optimization technologies for the vast compositional space of HEAs；(3) high-quality and high-efficiency fabrication and forming technologies for complex HEAs components；(4) determination of cost-effective composition ranges that realize the coordinated optimization of mechanical performance and production cost for HEAs；(5) comprehensive performance assessment and database construction targeting extreme service environments. Furthermore，this work puts forward a forward-looking prospect on the future technological development directions of aerospace HEAs，aiming to provide theoretical support and technical references for accelerating the transformation of HEAs from fundamental research to vital engineering applications.",
+        "abstract_zh": "为满足航空航天领域对高性能结构材料严苛的要求,高熵合金因其独特设计理念和性能特点成为重要的候选材料.本文聚焦难熔高熵合金、轻质高熵合金及共晶高熵合金 3类典型体系,系统分析这 3类高熵合金的代表性成分、组织特征与性能优势,以及在超高温、轻量化等航空航天关键应用场景中存在的主要技术瓶颈及突破路径.通过剖析世界主要国家和地区的研发态势,明确高熵合金由理论探索向需求牵引转化的发展趋势,梳理高熵合金在航空航天领域工程化应用亟须解决的设计、制备、性能评价等共性科学与技术挑战,主要包括:(1)突破传统材料性能极限的高熵合金组元体系设计与遴选;(2)高熵合金巨大成分空间的集成计算与高通量快速优化技术;(3)高熵合金复杂构件的高质量、高效率制备与成形技术;(4)寻求高熵合金性能与成本协同优化的\"高性价比\"成分区间;(5)面向极端服役场景的全方位性能评估与数据库建设.同时,对航空航天用高熵合金未来技术发展方向进行前瞻性展望,旨在为加速高熵合金从基础研究向关键工程化应用提供理论支撑与技术参考.",
+        "doi": "10.11868/j.issn.1005-5053.2026.000074",
+        "id": "6a91053b0a96f8c83c61c499",
+        "keywords": [
+          "aerospace",
+          "refractory high-entropy alloy",
+          "lightweight high-entropy alloy",
+          "eutectic high-entropy alloy",
+          "microstructure",
+          "mechanical property"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "难熔高熵合金",
+          "轻质高熵合金",
+          "共晶高熵合金",
+          "微观组织",
+          "力学性能"
+        ],
+        "title": "Research Progress，global Trend，and Engineering Challenge of High-Performance High-Entropy Alloys",
+        "title_zh": "高性能高熵合金的研究进展、全球态势及工程化挑战",
+        "year": 2026
+      },
+      {
+        "abstract": "Aeronautical and astronautical engineering exemplifies national strategic emerging industries. Its system development builds upon industrial foundations to propel the comprehensive upgrade of the technological and manufacturing ecosystem. This study reviews the representative achievements in China's aeronautical and astronautical engineering over the past decade, evaluates the industrial landscape and technological evolution, and proposes strategic measures for high-quality development. Progress is highlighted in two main sectors. In the aeronautical sector, highlights include the generational upgrade and systematic exploration of military aircraft, the independent development and commercial operation of civil aircraft, the core technology breakthroughs and support capability construction of propulsion, and the development and intelligent evolution of unmanned aerial vehicle (UAV) systems. In the astronautical sector, achievements include the world-renowned feats of major engineering projects, launch vehicle capabilities leaping to the global forefront, satellite and application systems reaching international advanced levels, and the development of commercial spaceflight. Future development directions include: efficiency enhancement and configuration diversification of aircraft; high-efficiency, low-carbon, and multi-mode fusion of propulsion; intelligent connectivity, electrification, and integration of airborne systems; material innovation, intelligent manufacturing, and software ecosystem development in industrial technologies; all-domain perception, ubiquitous interconnection, and artificial intelligence (AI) empowerment in advanced enabling technologies; along with airline-like space access, cloud‒network-based space utilization, and all-domain space exploration. Finally, strategic actions are suggested in the following areas: constructing digital-empowered forward design capabilities; establishing a flexible, high-efficiency, and intelligent manufacturing system; developing resilient industrial clusters; improving regulatory frameworks adapted to new business formats and participating in international standards formulation; and strengthening engineering-oriented research.",
+        "abstract_zh": "航空航天产业是国家战略性新兴产业的典型代表,相关装备发展既依托科技积淀与工业根基,也引领带动整体科技与制造体系的升级.本文梳理了过去10年我国航空航天领域装备的代表性进展,研判了我国航空航天领域装备的整体格局与发展方向并进一步提出发展举措建议.我国航空航天领域装备研制进展表现在:军用航空的装备跨代升级与体系化探索、民用航空的自主研制与规模化商业运营、航空动力的核心技术攻关与保障能力建设、无人机系统的体系化发展与智能化演进,航天重大工程取得举世瞩目成就、运载火箭能力跃居世界前列、卫星及应用体系达到国际先进水平、商业航天蓬勃发展.我国航空航天领域装备发展方向为:先进飞行器的效能提升与构型多元化,先进动力的高效、低碳与多模式融合,先进机载系统的智联化、电气化与集成化,先进工业技术方面的材料革新、数智制造与软件生态构建,先进使能技术方面的全域感知、泛在互联与人工智能赋能;进出空间航班化、利用空间云网化、探索空间全域化.后续,可在构建数字赋能的正向设计能力、建立柔性高效的现代化智能制造体系、发展韧性强劲的航空航天产业链群、完善适应新业态的监管体系并参与国际标准制定、筑牢工程导向的基础研究等方面采取行动,推动我国航空航天领域装备高质量发展.",
+        "doi": "10.15302/j-sscae-2026.01.012",
+        "id": "69ccd0049be8eb7c4b86389b",
+        "keywords": [
+          "aeronautical and astronautical engineering",
+          "digital transformation",
+          "forward design",
+          "low-altitude economy",
+          "commercial spaceflight"
+        ],
+        "keywords_zh": [
+          "航空航天装备",
+          "数字化转型",
+          "正向设计",
+          "低空经济",
+          "商业航天"
+        ],
+        "title": "Aeronautical and Astronautical Engineering in China: Development Status and Perspectives",
+        "title_zh": "我国航空航天领域装备研制进展与展望",
+        "year": 2026
+      },
+      {
+        "abstract": "MXene,as a typical two-dimensional transition metal carbide/nitride,exhibits broad application prospects in intelligent electromagnetic fields owing to its exceptional electrical conductivity,tunable interlayer spacing and rich surface functionalization.This review systematically summarizes recent advances in the synthesis,performance modulation strategies and research progress of MXene-based composites within the domain of electromagnetic functional materials.Firstly,it introduces the fundamental structural and electronic characteristics of two-dimensional MXene and critically examine prevailing synthesis routes alongside the resulting microstructural features of MXene-based composites.Secondly,it deeply explores the performance control strategies for these composites,elucidating the underlying mechanisms of multidimensional interfacial optimization—including tailored structural design,targeted surface functionalization and synergistic hybridization.Finally,in response to the key challenges currently faced by MXene-based composite,such as inadequate environmental stability,underdeveloped scalable manufacturing protocols and difficulties in achieving balanced multifunctional integration—it proposes promising future research directions to facilitate their translation into high-end applications,particularly in aerospace and related advanced technological fields.",
+        "abstract_zh": "MXene 作为新型二维过渡金属碳/氮化物的典型代表,凭借优异的导电性、可调控的层间距及丰富的表面官能团,在智能电磁领域展现出广阔应用前景.本文围绕 MXene 基复合材料的制备方法、性能调控策略及其在电磁功能材料前沿领域的研究进展展开系统论述.首先,介绍二维 MXene 材料的核心特性,重点分析 MXene 基复合材料的主要制备路径与微观结构特点;随后,深入探讨复合材料的性能调控策略,详细剖析结构设计、表面改性、复合杂化等多维界面协同优化的作用机制;最后,针对当前 MXene 基复合材料面临的环境稳定性欠佳、规模化制备技术受限、多功能协同平衡难度大等核心挑战,提出未来智能电磁材料设计的研究方向,为该类材料在航空航天等高端领域的实际应用提供参考.",
+        "doi": "10.11868/j.issn.1005-5053.2026.000021",
+        "id": "69f437d10a96f8c83c30fb6f",
+        "keywords": [
+          "MXene",
+          "composite",
+          "intelligent functional material",
+          "electromagnetic shielding",
+          "aerospace and aviation"
+        ],
+        "keywords_zh": [
+          "MXene",
+          "复合材料",
+          "智能材料",
+          "电磁屏蔽",
+          "航空航天"
+        ],
+        "title": "Functional Design of MXene-based Composite and Research Progress in the Field of Intelligent Electromagnetics",
+        "title_zh": "MXene基复合材料的功能设计及在智能电磁领域的研究进展",
+        "year": 2026
+      },
+      {
+        "abstract": "The hydraulic spool valve is a critical control component in aerospace hydraulic systems.However,complex working environments can cause the valve core to become stuck,thus severely restricting the performance of such valves.This in turn can hinder the precise control of hydraulic oil,reduce the stability of the hydraulic system,and lead to serious accidents in aerospace systems.The unbalanced radial force and solid particle intrusion into the fit clearance are the main factors behind this sticking.To better understand these issues,in this study,we simulated the fluid dynamics and particle behavior within the clearance of the valve core and analyzed the effects of inclination angle,clearance size,particle diameter,and pressure equalization groove(PEG)properties.The mechanism behind valve core sticking was revealed,and it was found that the PEG has an inhibitory effect on the unbalanced radial force and particle intrusion.Furthermore,we proposed an optimized structure for a triangular pressure equalization groove with an arc-shaped bottom(Tri-PEG).The structural parameters were determined through multi-objective optimization,with the objectives of minimizing the leakage at the clearance and maximizing the particle volume fraction at the bottom of the Tri-PEG.The optimal parameters were an arc-shaped radius of 0.200 mm,a groove depth of 0.392 mm,and a half groove width of 0.215 mm.Comparing Tri-PEG with a rectangular PEG,the leakage was reduced by 12%,and the particle concentration was increased by 6%.Overall,these findings serve as an important reference for alleviating spool valve sticking.",
+        "doi": "10.1631/jzus.a2500604",
+        "id": "6a0a78890a96f8c83c9b547f",
+        "keywords": [
+          "Spool valve",
+          "Flow characteristics",
+          "Multi-objective optimization",
+          "Solid-liquid two-phase flow",
+          "Aerospace hydraulic systems",
+          "Valve sticking"
+        ],
+        "keywords_zh": [
+          "Spool valve",
+          "Flow characteristics",
+          "Multi-objective optimization",
+          "Solid-liquid two-phase flow",
+          "Aerospace hydraulic systems",
+          "Valve sticking",
+          "滑阀",
+          "流量特性",
+          "多目标优化",
+          "固液两相流",
+          "航空航天液压系统",
+          "阀门卡滞"
+        ],
+        "title": "Flow Analysis of Asymmetric Clearance and Optimization of Pressure Equalization Grooves to Mitigate Hydraulic Spool Valve Sticking",
+        "title_zh": "液压滑阀阀芯均压槽非对称间隙流动分析及防卡滞结构优化",
+        "year": 2026
+      },
+      {
+        "abstract": "NiTi alloy is a shape memory material with significant industrial value, boasting excellent shape memory properties, wear resistance, superelasticity, and biocompatibility. It holds extremely broad application prospects in many fields. However, due to its inherent high processing difficulty, in order to meet the lightweight requirements of NiTi shape memory alloy’s structural parts, NiTi shape memory alloy often needs to be welded with another easily processable material. The welding of heterogeneous materials can not only give full play to the performance advantages of the material itself but also greatly reduce the problem of system integration caused by the material. Fusion welding and solid-state welding methods for joining NiTi shape memory alloys with dissimilar metals were primarily introduced, and the main challenges faced during the welding process and their corresponding solutions were analyzed. Finally, based on the welding of NiTi shape memory alloys with dissimilar metals, their applications in the field of aerospace and aviation were introduced. This article aims to provide readers with an understanding of the research progress in welding NiTi shape memory alloys with dissimilar metals, while offering insights for optimizing the quality of dissimilar metal welded joints.",
+        "abstract_zh": "NiTi合金是一种具有重要工业价值的形状记忆材料,具有良好的形状记忆效应、耐磨性、超弹性和生物相容性,在许多领域都有极其广泛的应用前景.受限于其加工难度较大,为满足NiTi形状记忆合金结构件的轻量化要求,通常需要将NiTi形状记忆合金与其他易于加工的材料进行焊接.异质材料的焊接既能充分发挥材料本身的性能优势,又能大大减少由材料带来的系统集成的问题.文中主要介绍了NiTi形状记忆合金与异种金属的熔化焊与固相焊方法,分析了焊接过程中面临的主要难题及其解决措施.最后文中在NiTi形状记忆合金与异种金属焊接的基础上,介绍了其在航天航空制造领域的应用.文中总结了NiTi形状记忆与异种金属焊接的研究进展,同时为优化异质金属焊接接头质量提供思路.",
+        "doi": "10.12073/j.hjxb.20241017001",
+        "id": "6979fa9f9be8eb7c4be5c65e",
+        "keywords": [
+          "NiTi shape memory alloy",
+          "welding technology",
+          "dissimilar materials welding",
+          "aerospace and aviation field"
+        ],
+        "keywords_zh": [
+          "NiTi形状记忆合金",
+          "焊接技术",
+          "异种金属焊接",
+          "航空航天领域"
+        ],
+        "title": "Welding of NiTi Alloy with Dissimilar Metals and Its Application in Aerospace and Aviation Field",
+        "title_zh": "NiTi合金与异种金属焊接及其在航天航空装备制造领域的应用",
+        "year": 2026
+      },
+      {
+        "abstract": "The rapid development of the aerospace field imposes stringent requirements on elastic materials， which need to simultaneously exhibit light weight， high strength， large recoverable strain， excellent energy dissipation， and fatigue resistance over a wide temperature range. NiTi shape memory alloys are promising candidates due to their superelasticity derived from thermoelastic martensitic transformation. However， limited by their low yield strength and high temperature dependence of superelastic stress， they exhibit a narrow superelastic temperature range， which limits their engineering applications in extreme environments such as aerospace. This paper focuses on NiTi-based alloys with wide-temperature-range superelasticity， systematically reviews the governing mechanisms of the superelastic temperature window， and summarizes the research progress of optimization strategies for expanding the superelastic temperature window， including grain refinement， elemental doping， heat treatment regulation， and composite structure construction. The temperature window expansion efficiency and engineering applicability of each strategy are analyzed. Furthermore， it summarizes the latest frontier applications in the aerospace field and discusses prospective technical pathways for improving material properties as well as potential directions for application expansion. This work aims to provide theoretical reference and technical insights for the high-performance design and engineering application of such materials.",
+        "abstract_zh": "航空航天领域的快速发展对弹性材料提出了严苛要求,要求其在宽温域范围内兼具轻质高强、大的可回复应变、优异的能量耗散及抗疲劳性能.NiTi形状记忆合金因热弹性马氏体相变赋予的超弹性而展现出巨大应用潜力.然而,受限于低屈服强度与超弹应力的高温度依赖性,导致超弹性服役温域狭窄,制约了其在航空航天等极端温变环境中的工程应用.本文聚焦于宽温域超弹性NiTi基形状记忆合金,综述了超弹性温域的调控原理,总结了晶粒细化、元素掺杂、热处理调控及构建复合结构等拓展超弹性温域的研究进展,分析了各策略在温域拓展效果及工程适用性方面的优劣,概述了其在航天领域的最新应用,并对超弹性合金性能提升的技术路径与应用场景的拓展方向进行了展望,以期为该类材料的高性能设计与工程化应用提供理论参考和技术思路.",
+        "doi": "10.11868/j.issn.1001-4381.2026.000068",
+        "id": "6a62e1320a96f8c83ca5e1be",
+        "keywords": [
+          "NiTi shape memory alloy",
+          "superelasticity",
+          "wide temperature range",
+          "aerospace"
+        ],
+        "keywords_zh": [
+          "NiTi形状记忆合金",
+          "超弹性",
+          "宽温域",
+          "航空航天"
+        ],
+        "title": "Research Progress in Wide-Temperature-range Superelastic NiTi-based Shape Memory Alloys and Their Applications in Aerospace",
+        "title_zh": "宽温域超弹性NiTi基形状记忆合金研究进展及其在航空航天领域的应用",
+        "year": 2026
+      },
+      {
+        "abstract": "Magnetically controlled welding technology,as an efficient and high-quality metal welding method,possesses broad application prospects in the field of aerospace material processing.This paper pro-vides a comprehensive review on the basic principles,technical classifications,applications in aerospace mate-rials,as well as the current research status and development trends of magnetically controlled welding.By analyzing the impact of magnetically controlled welding on arc morphology,droplet transfer,molten pool flow,and solidification processes,the advantages of this technology in improving weld bead formation quality and enhancing mechanical properties are explored.Furthermore,with specific case studies and data analysis,the future development of magnetically controlled welding technology in the aerospace industry is identified.",
+        "abstract_zh": "磁控焊接技术作为一种高效、高质量的金属焊接方法，在航空航天材料加工领域具有广泛的应用前景。本文综述了磁控焊接的基本原理、技术分类、航空航天材料的应用以及研究现状与发展趋势。通过分析磁控焊接对电弧形态、熔滴过渡、熔池流动及凝固过程的影响，探讨了其在提高焊缝成形质量、增强力学性能方面的优势。同时，结合具体案例和数据分析，展望了磁控焊接技术在航空航天工业中的未来发展。",
+        "doi": "10.16356/j.1005-2615.2025.01.002",
+        "id": "67d4b379163c01c850ea00a1",
+        "keywords": [
+          "magnetically controlled welding",
+          "aerospace material",
+          "arc shape",
+          "weld formation",
+          "mechanical property"
+        ],
+        "keywords_zh": [
+          "磁控焊接",
+          "航空航天材料",
+          "电弧形态",
+          "焊缝成形",
+          "力学性能"
+        ],
+        "title": "Review on Magnetically Controlled Welding Technology for Aerospace Materials",
+        "title_zh": "航空航天材料磁控焊接技术综述",
+        "year": 2025
+      },
+      {
+        "abstract": "Diffusion models have demonstrated great potential in generating realistic image details. However, existing diffusion models are primarily trained on natural images, making their application to remote sensing image super-resolution highly challenging. Moreover, these models typically require dozens or even hundreds of iterative sampling steps during inference, resulting in high computational costs and limited practicality. To address these issues, this paper proposes a degradation-aware adaptive estimation-based single-step remote sensing image super-resolution diffusion model (RS-AdaDiff), which balances reconstruction performance and inference efficiency. Specifically, we propose a degradation-aware timestep estimation module that adaptively estimates the diffusion timestep for the diffusion model by assessing the degradation level of the input image. This approach reconstructs the iterative denoising process into a single-step reconstruction from low-resolution to high-resolution images, thereby significantly accelerating inference. Meanwhile, we integrate trainable lightweight LoRA layers into a pre-trained diffusion model and fine-tune it on a remote sensing image dataset to mitigate the domain gap caused by data distribution differences. Additionally, to fully leverage the image priors of the pre-trained model, we introduce distribution contrastive matching distillation. By regularizing the KL divergence, the reconstructed super-resolved images are brought closer to high-resolution images and farther from low-resolution images in the feature space, thereby improving generation quality. Finally, we propose a feature-edge joint perceptual similarity loss to enhance the perception of structural information and mitigate issues such as edge blur and texture distortion. Extensive experimental results demonstrate that the proposed RS-AdaDiff outperforms existing state-of-the-art methods on multiple public remote sensing datasets, achieving significant improvements in both quantitative metrics and visual quality, and producing super-resolved remote sensing images with clearer structures and richer details.",
+        "abstract_zh": "扩散模型在生成逼真图像细节方面展现出巨大潜力.然而,现有的扩散模型主要基于自然图像进行训练,将这些模型应用于遥感图像超分辨率任务仍然面临巨大挑战.此外,这些模型在推理时需要数十或上百次的迭代采样,导致计算成本高昂,并限制了它们在实际应用中的适用性.为此,提出一种基于降质感知自适应估计的单步遥感图像超分辨率扩散模型(RS-AdaDiff),兼顾重建性能与推理效率.具体而言,提出了一个基于降质感知的时间步估计模块,可通过估计输入图像退化程度的扩散模型自适应估计扩散时间步,从而将迭代去噪过程重构为从低分辨率到高分辨率图像的单步重建过程,大幅加快推理速度.同时,将可训练的轻量LoRA网络层集成到预先训练的扩散模型中,并利用遥感图像数据集对其进行微调,以消除数据分布差异造成的领域差距问题.此外,为了充分利用预训练模型的图像先验,引入了分布对比匹配蒸馏.通过KL散度正则化,使重建的超分图像在特征空间中更接近高分辨率图像并远离低分辨率图像,从而提升生成质量.最后,还提出特征-边缘联合感知相似度损失,以增强结构信息的感知能力,改善边缘模糊和纹理失真问题.大量实验结果表明:提出的RS-AdaDiff在多个公开遥感数据集上均优于现有先进方法,在定量指标和视觉质量方面均取得显著提升,能够生成结构清晰、细节丰富的超分辨率遥感图像.",
+        "doi": "10.7527/s1000-6893.2025.32763",
+        "id": "6954456094d1bc07b44ccc71",
+        "keywords": [
+          "remote sensing image super-resolution",
+          "diffusion model",
+          "adaptive estimation",
+          "computer vision",
+          "aerospace"
+        ],
+        "keywords_zh": [
+          "遥感图像超分辨率",
+          "扩散模型",
+          "自适应估计",
+          "计算机视觉",
+          "航空航天"
+        ],
+        "title": "RS-AdaDiff: One-step Remote Sensing Image Super-Resolution Diffusion Model with Degradation-Aware Adaptive Estimation",
+        "title_zh": "RS-AdaDiff:基于降质感知自适应估计的单步遥感图像超分辨率扩散模型",
+        "year": 2025
+      },
+      {
+        "abstract": "Infrared thermal wave imaging detection technology has the advantages such as high efficiency，large detection area，and non-contact operation，making it widely used in the field of damage detection and evaluation of new materials in aviation and aerospace. This study introduces the principle，implementation approach and applicable conditions of typical infrared thermal wave imaging detection technology，covering various typical infrared thermal wave detection techniques such as pulse infrared thermal imaging，phase-locked infrared thermal imaging，frequency modulation thermal wave imaging，ultrasound assisted infrared thermal wave imaging，eddy current excitation infrared thermal wave imaging，and infrared thermal wave tomography imaging. In addition，the article also explores the current development status of infrared thermal wave non-destructive testing technology in the aerospace field，and lists practical application cases. Finally，this paper analyzes the main challenges faced by infrared thermal wave nondestructive testing technology and outlines its future development trends. The technology is evolving toward diversified excitation sources，intelligent detection，and deeper information integration：excitation sources will develop from single photothermal excitation to multi-physics collaborative excitation incorporating ultrasound，laser and electromagnetic methods; the detection process will integrate novel imaging technologies with artificial intelligence algorithms to achieve precise identification of subtle defects; information processing will leverage multi-source heterogeneous data fusion to overcome the limitations of single-technique approaches and enhance capabilities for quantitative defect detection and three-dimensional reconstruction.",
+        "abstract_zh": "红外热波成像检测具备高效、检测区域大、非接触式等优点,被广泛应用在航空、航天新材料的损伤检测与评估领域.本文介绍了典型的红外热波成像检测技术的原理、实现途径以及适用条件,涵盖脉冲式红外热成像、锁相红外热成像、调频热波成像、超声辅助红外热波成像、涡流激励红外热波成像以及红外热波层析成像等多种红外热波检测技术.此外,探讨了红外热波无损检测技术在航空航天领域的当前发展状况,并列举了实际应用案例.最后,本文剖析了红外热波无损检测技术面临的主要挑战,并展望其未来发展趋势:其正朝着激励源多元化、检测智能化和信息融合深度化方向演进,激励源将从单一光热向超声、激光、电磁等多物理场协同激励发展;检测过程将融合新型成像技术与人工智能算法,实现微弱缺陷的精准识别;信息处理将通过多源异构数据融合,突破单一技术局限,提升缺陷定量检测与三维重构能力.",
+        "doi": "10.11868/j.issn.1005-5053.2024.000197",
+        "id": "693ff8ad94d1bc07b41b07d0",
+        "keywords": [
+          "non-destructive testing",
+          "infrared thermal-wave imaging",
+          "detection principle",
+          "aerospace material"
+        ],
+        "keywords_zh": [
+          "无损检测",
+          "红外热波成像",
+          "检测原理",
+          "航空航天材料"
+        ],
+        "title": "Research Progress of Infrared Thermal-Wave Imaging Technique and Its Application in Aerospace Field",
+        "title_zh": "红外热波成像检测技术研究进展及在航空航天领域的应用",
+        "year": 2025
+      },
+      {
+        "abstract": "Lightweight is the eternal theme in the aerospace field. TiAl alloy has a density of 3.9-4.2 g/cm3， which is 1/2 of nickel based superalloy. It has excellent properties of light mass and heat resistance and has important application value in the manufacture of hot-end components of aerospace equipment. However， TiAl alloy has inherent brittleness， low plasticity at room temperature and poor thermal deformation ability， which makes it difficult to process and form， high cost， and limits its large-scale application. Based on the review of the development and application status of TiAl alloy， the research progress of hot forming technology such as casting， powder metallurgy， thermoplastic forming， and additive manufacturing is reviewed. The thermoplastic forming technology， including canned-extrusion， isothermal forging， near-isothermal forging， and canned-rolling， is emphasized. The main problems of the existing plastic forming technology are poor plasticity， high forming difficulty， low forming efficiency， and insufficient performance. In the future， the development direction of plastic forming of TiAl alloy should be high efficiency and low cost near net forming， while improving the utilization rate and mechanical properties of the material.",
+        "abstract_zh": "轻量化是航空航天领域永恒的主题.TiAl合金的密度为3.9～4.2 g/cm3,是镍基高温合金的1/2,其兼具轻质与耐热的优异性能,在航空航天装备热端构件制造方面具有重要的应用价值.然而,TiAl合金具有本征脆性,存在室温塑性低和热变形能力差等问题,造成加工与成形难度大、成本高,限制了其大规模应用.本文在回顾总结TiAl合金发展历程及应用现状的基础上,综述了 TiAl合金的铸造、粉末冶金、热塑性成形、增材制造等热成形技术的研究进展,其中重点讨论了热塑性成形技术,包括包套挤压、等温锻造、近等温锻造和包套轧制等.现有塑性成形技术存在的问题主要是TiAl合金塑性差、成形难度高、成形效率低以及性能不足,今后TiAl合金塑性成形的发展方向应是高效率、低成本近净成形,同时提高材料的利用率和力学性能.",
+        "doi": "10.11868/j.issn.1001-4381.2023.000787",
+        "id": "6810beb2163c01c8500620cd",
+        "keywords": [
+          "aerospace",
+          "TiAl alloy",
+          "thermoplastic forming",
+          "netshape forming"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "TiAl合金",
+          "热塑性成形",
+          "近净成形"
+        ],
+        "title": "Research Status and Prospect in Hot Forming Techniques of TiAl Alloys",
+        "title_zh": "TiAl合金热成形技术研究现状与展望",
+        "year": 2025
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObmydo0dsZtl5iPbM4pruOCJ5"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "This paper presents a new type of ultra-material microwave pressure sensor designed for extreme environments,and conducts a systematic study on its structural design,manufacturing process,working mechanism,and experimental performance.The sensor is based on the cross-slot ultra-material resonant structure.Platinum-based conductive patterns are precisely fabricated on a high-purity alumina ceramic substrate through screen printing,and a strong bond between metal and ceramic is achieved through high-temperature sintering.Thanks to the high-temperature stability of the ceramic material and the high precision of the process,this sensor maintains excellent structural integrity and performance consistency in harsh environments.The working mechanism of the sensor is based on the microstructural deformation induced by pressure.When external pressure is applied to the ceramic cavity,the deformation of the cavity will change the equivalent electromagnetic boundary conditions inside,thereby causing perturbations in the resonant modes of the metamaterial,resulting in a continuous measurable shift in the resonant frequency.Based on this mechanism,the change in pressure can be precisely mapped to the frequency change,enabling wireless and passive pressure measurement.By utilizing the intrinsic resonant radiation of the metamaterial to achieve coupled readings,the complexity of sensor integration is significantly reduced and its working reliability in high-pressure,high-temperature,and strong electromagnetic interference environments is improved.During the design stage,the influence laws of the geometric parameters of the metamaterial and other factors on the resonant performance and pressure sensitivity were analyzed through finite element coupling simulation.Experimental verification shows that the sensor exhibits excellent linear pressure response within the range of 0-500 kPa,and maintains good repeatability and frequency stability in the high-pressure zone.The maximum sensitivity reaches 135 kHz/kPa,and the frequency drift is minimal during multiple loading-unloading cycles,fully demonstrating that the structural strength and reliability of the design meet the engineering requirements.The sensor proposed in this study could achieve long-term stable operation in aerospace engine compartments,high-temperature metallurgical furnaces,deep mine pressure monitoring,petrochemical high-corrosion pipelines,and extreme environment equipment.This research not only demonstrated the potential of integrating metamaterials with advanced ceramic processes to construct wireless passive sensors,but also provided new design ideas and process routes for the engineering application of microwave sensing technology in harsh environments.",
+        "abstract_zh": "本文介绍了一种专为极端环境设计的新型超材料微波压力传感器,并对其结构设计、制造工艺、工作原理及实验性能进行了系统研究.该传感器基于交叉槽超材料谐振结构.通过丝网印刷技术,在高纯度氧化铝陶瓷基板上精确制造出铂基导电图案,并通过高温烧结实现金属与陶瓷之间的牢固结合.由于陶瓷材料的高温稳定性以及工艺的高精度,该传感器在恶劣环境中仍能保持出色的结构完整性和性能一致性.该传感器的工作原理是基于压力引起的微观结构变形.当外部压力作用于陶瓷腔体时,腔体的变形会改变内部的等效电磁边界条件,从而导致超材料谐振模式的扰动,进而引起谐振频率的连续可测量变化.基于这一机制,压力的变化能够精确地映射到频率的变化上,从而实现无线且无源的压力测量.通过利用超材料固有的共振辐射来实现耦合读数,传感器集成的复杂性得到了显著降低,其在高压、高温和强电磁干扰环境中的工作可靠性也得到了提高.在设计阶段,通过有限元耦合模拟分析了超材料几何参数及其他因素对共振性能和压力灵敏度的影响规律.实验验证表明,该传感器在0-500 kPa范围内表现出出色的线性压力响应,并在高压区域保持良好的重复性和频率稳定性.最大灵敏度达到135 kHz/kPa,且在多次加载-卸载循环中频率漂移极小,充分证明了该设计的结构强度和可靠性满足工程要求.本研究中提出的传感器能够在航空航天发动机舱、高温冶金炉、深井压力监测、石油化工高腐蚀管道以及极端环境设备中实现长期稳定运行.这项研究不仅展示了将超材料与先进陶瓷工艺相结合以构建无线被动传感器的潜力,而且还为在恶劣环境中微波传感技术的工程应用提供了新的设计思路和工艺路线.",
+        "doi": "10.62756/jmsi.1674-8042.2025058",
+        "id": "694c5ea094d1bc07b40a6222",
+        "keywords": [
+          "pressure sensor",
+          "wireless passive",
+          "high-temperature co-fired ceramic",
+          "ceramic process",
+          "microwave",
+          "aerospace and aviatio"
+        ],
+        "keywords_zh": [
+          "压力传感器",
+          "无线无源",
+          "高温共烧陶瓷",
+          "陶瓷工艺",
+          "微波",
+          "航空航天领域"
+        ],
+        "title": "Metamaterial Pressure Sensor Based on Ceramic for Harsh Environments",
+        "title_zh": "基于陶瓷的适用于恶劣环境的超材料压力传感器",
+        "year": 2025
+      },
+      {
+        "abstract": "Smart fibers have functions such as sensing, communication, signal processing, etc., and can respond to external stimuli. When integrated into traditional high-performance fiber fabrics, they attract widespread attention in the aerospace field. Through real-time monitoring and active control, they greatly enhance the safety and reliability of aircraft. This review mainly introduces four main smart fibers according to their sensing mechanisms: Piezoelectric fibers, piezoresistive fibers, shape memory fibers, optical fiber materials. Then manufacturing methods of these smart fibers and products are summarized from 1D fiber to 2D and 3D textile structures. We review the latest research progress of smart fibers and fabrics in the aerospace field, including their applications in structural health monitoring, energy harvesting, vibration and noise control, etc. In terms of structural health monitoring, smart fibers are directly integrated into composite materials, such as those used for aircraft skins, eliminating the problem of multiple sensors and large volume occupation in traditional structural health monitoring. They can identify multiple failure modes, achieve real-time monitoring of many parameters such as stress, strain, and temperature simultaneously, and collect data to timely warn of potential damage, which is able to reduce maintenance costs. For energy harvesting, fiber materials with piezoelectric, thermoelectric, and triboelectric effects can be embedded in locations such as wings and fuselages, effectively converting vibration and thermal energy generated during flight into electrical energy to provide power for sensors and other on-board electronics, reducing the vehicle's dependence on large-mass energy storage devices and thus improving flexibility. Moreover, these fibrous materials can usually be used in conjunction with flexible and lightweight energy storage devices to maximize energy savings and efficiency. In terms of vibration and noise control, currently, smart materials based on the inverse piezoelectric effect of piezoelectric fibers are designed to combine active and passive control to suppress the unwanted vibration of structures, thereby enhancing the stability and comfort. This review also points out that smart fibers in the aerospace field will develop towards high integration and intelligence, involving: (1) Development of new smart fiber materials, such as the introduction of functionalized coatings to enhance the functional integration of fiber materials, and the development of self-repairing fiber materials to refine the service life of smart fiber electronic devices. (2) Optimization of the manufacturing processes to achieve mass production of fiber materials in a simple and efficient way. (3) Improvement of the reliability and durability of smart fibers in practical applications. Structural modification and other methods should be taken to ensure reliable performance of the fiber material in use. (4) Development of multi-functional integrated smart fibers. Through continuous research and innovation, smart fibers and textiles can achieve more extensive and in-depth applications in the aerospace field, thereby providing strong support for improving the performance and safety of aerospace vehicles.",
+        "abstract_zh": "近年来,智能纤维与制品在航空航天领域的应用受到了广泛关注.这些智能材料通过将传感、能量收集、自修复等功能集成到传统纺织结构中,不仅提高了航空器的性能,还大大增强了其安全性和可靠性.本文综述了智能纤维与制品在航空航天领域的最新研究进展,包括其在结构健康监测、能量回收、振动和噪声控制等方面的应用.通过详细分析不同类型智能纤维的材料特性和功能机制,探讨了其在实际应用中的潜力与挑战.此外,本文还展望了未来智能纤维与织物在航空航天领域的发展方向,提出了可能的研究热点和技术突破点,以期为相关领域的研究和应用提供参考.",
+        "doi": "10.1360/tb-2024-0584",
+        "id": "66bec39a01d2a3fbfcf8e2ae",
+        "keywords": [
+          "smart fiber",
+          "aerospace",
+          "structural health monitoring",
+          "energy harvest",
+          "vibration control"
+        ],
+        "keywords_zh": [
+          "智能纤维",
+          "航空航天",
+          "结构健康监测",
+          "能量采集",
+          "振动控制"
+        ],
+        "title": "Smart Fibers and Products for Aerospace Applications",
+        "title_zh": "航空航天用智能纤维与制品",
+        "year": 2025
+      },
+      {
+        "abstract": "Additive manufacturing technology has the capability of breaking through traditional manufacturing con-straints,thus enabling the integrated design and manufacturing of complex geometric structures.Simultaneously,this technology contributes to enhancing the reliability of product components with extensive potential applications in the aerospace industry.To address the common issues related to the process and performance,this study,focusing on the Selective Laser Melting(SLM)technique within additive manufacturing for aircraft engines,initially revisits the regulation of material structure and properties through a perspective of technical optimization,including large-area multi-beam technology and field-assisted techniques.Subsequently,by delving into cutting-edge techniques such as quality online monitoring and intelligent machine learning control,the optimization role of monitoring and predicting in the early and middle stages of the forming process is discussed.Then,aiming at providing better guidance for material selection and performance control,the key aerospace engine materials for SLM formation is systematically summa-rized.Lastly,a review of current SLM technology solutions and types of aerospace engine materials is concluded,along with an outlook on future development prospects so as to provide valuable insights for the field of aerospace en-gine manufacturing.",
+        "abstract_zh": "增材制造技术能够突破传统制造瓶颈,实现复杂几何结构的一体化设计制造,同时有助于提高产品零部件的可靠性,在空天制造领域有着广泛的应用前景.聚焦于航空发动机增材制造中的激光选区熔化技术(SLM),针对工艺端/性能端的共性问题,首先从技术优化(大幅面多光束技术、能场辅助技术)的角度回顾了各类实验参数对材料组织性能的调控;然后通过前沿技术手段(质量在线监测技术、智能化机器学习调控)的研究综述,探讨了监测/预测在成形过程前中端的优化作用;随后对SLM成形关键航空发动机材料进行了系统性总结,以更好地指导选材及性能调控;最后对现有SLM的技术方案和航空发动机材料种类进行了问题总结,并展望了未来的发展前景,旨在为航空发动机制造领域提供有价值的意见.",
+        "doi": "10.7527/s1000-6893.2023.29508",
+        "id": "66d09e3801d2a3fbfcba634c",
+        "keywords": [
+          "aero-engine",
+          "selective laser melting",
+          "energy field assistance",
+          "machine learning",
+          "online monitoring",
+          "aerospace materials"
+        ],
+        "keywords_zh": [
+          "航空发动机",
+          "激光选区熔化",
+          "能场辅助",
+          "机器学习",
+          "在线监测",
+          "航空航天材料"
+        ],
+        "title": "Research Progress on Laser Selective Melting Technology for High-Performance Manufacturing of Aero-Engines",
+        "title_zh": "面向航空发动机高性能制造的激光选区熔化技术研究进展",
+        "year": 2024
+      },
+      {
+        "abstract_zh": "为提升学生科学素养,弘扬航天精神,本方案以\"仰望星空,逐梦航天\"为主题,围绕载人航天\"火箭发射\"\"空间站运行\"\"返回舱降落\"三个阶段,设计了\"飞得更高——水火箭设计与发射\"\"太空中的家——空间站相关创意设计\"\"稳稳地降落——降落伞设计与制作\"三个科技实践项目,让学生以自主学习、实验探究、工程设计与物化的方式去构思、设计、探究、制作、迭代,体验工程设计师的工作流程,让学生了解航天知识,培养学生科学思维,提高学生科学探究能力、技术与工程能力,发展创新能力,感受不畏险阻、勇攀高峰的航天精神.",
+        "id": "658e3ab9939a5f4082d3eab1",
+        "keywords": null,
+        "keywords_zh": [
+          "小学科学",
+          "科学素养",
+          "航空航天",
+          "科技实践"
+        ],
+        "title_zh": "指向科学核心素养的航空航天科技实践活动设计",
+        "year": 2024
+      },
+      {
+        "abstract": "This paper investigates the integration of undergraduate and graduate education in polymer chemistry within the context of aerospace features. It outlines the development and practical application of a structured,modular polymer chemistry tailored to aerospace. The practical results demonstrate that this educational reform balances general polymer knowledge with industry-specific expertise,effectively nurturing graduates equipped with specialized skills in aerospace chemistry. This approach has notably enhanced student employability and competition achievements,marking significant success in the field.",
+        "abstract_zh": "本文对如何在航空航天特色背景下进行高分子化学课程的本研一体化教学,进行了教学探索和教学实践,建立了具有航空航天特色的层次化、模块化的高分子化学课程体系.结果表明以上教学改革在人才培养中兼顾高分子通用知识和行业专业知识,促进了具有航空航天化学专业特色的毕业生培养,在学生就业、竞赛成绩等方面成效显著.",
+        "doi": "10.3866/pku.dxhx202312059",
+        "id": "6664820501d2a3fbfc28e027",
+        "keywords": [
+          "Polymer chemistry course",
+          "Aeronautic and astronautic technology",
+          "Integrated undergraduate-graduate education",
+          "Coordination of theoretic and experimental courses"
+        ],
+        "keywords_zh": [
+          "高分子化学课程",
+          "航空航天特色",
+          "本研一体化",
+          "理论与实验协同"
+        ],
+        "title": "Exploration of Undergraduate and Graduate Integrated Teaching in Polymer Chemistry with Aerospace Characteristics",
+        "title_zh": "具有航空航天特色的高分子化学本研一体化教学探索",
+        "year": 2024
+      },
+      {
+        "abstract": "SignificanceWith the development of aerospace devices with a larger size, higher load bearing capacity, and longer life,lightweight structures with high stiffness have become basic requirements in the design and manufacture of aircraft, rockets,satellites, and other aerospace products. Carbon-fiber-reinforced composites combine the advantages of a carbon-fiber-reinforced phase and polymer-matrix phase, including a light weight, high specific strength, corrosion resistance, strong designability, and other outstanding advantages, which give them a wide range of application prospects in the aerospace field, showing great potential for development. However, in the processing and manufacture of aerospace equipment, a molding process is used to form carbon-fiber- reinforced polymer (CFRP) parts as a single piece, which makes it difficult to meet the part assembly needs. Thus, a large number of cutting, drilling, trimming, and other processes are required before the actual final assembly. At present, the most commonly used processing methods for carbon-fiber-reinforced composite materials include traditional machining, ultrasonic-vibration-assisted machining, water-jet machining, electric-discharge machining, and laser processing. However, the characteristics of CFRP, such as its heterogeneity, anisotropy, and lamination structure, make it prone to processing defects such as delamination, burrs, tearing, and heat-affected zones (HAZs) during processing, which greatly affect the load-bearing performances of CFRP parts and typically make CFRP a difficult material to process.Laser processing is a flexible and controllable manufacturing method that eliminates the problems of tool wear and mechanical stress. It is expected to become an effective means of processing CFRP with little damage and high efficiency. However, CFRP components have different thermodynamic properties, and it is easy to produce a large HAZ during laser processing. It is necessary to comprehensively consider the change in the energy absorption of the material with temperature. Otherwise, the high-quality and high-precision processing of CFRP is difficult. Progress At present, research on the laser processing of CFRP at home and abroad focuses on the thermal damage problem represented by HAZs and the processing quality problem represented by the slit depth and width. The common processing methods can be divided into traditional laser processing, ultrafast laser processing, and water-guided laser processing. A traditional laser relies on the thermal effect to complete the ablation, melting, and removal of materials, which usually produces a 100-mu m wide HAZ (Fig.5). An ultrafast laser has the characteristics of an ultra-short pulse width, an ultra-high instantaneous power density, and nonlinear processing, which can effectively control the HAZ and improve the processing accuracy (Fig.6). A water-guided laser uses a water jet to homogenize the laser light field and remove the debris, which can improve the processing quality and efficiency of CFRP processing. The increase in the processing requirements in the field of aerospace strategic planning has revealed the many advantages of laser processing, including its use in drilling/cutting, surface treatment, and welding. However, the interaction mechanism between the laser and CFRP material is complex. Researchers mainly analyze the relationship between the energy transfer and temperature rise response of different components of the material during the interaction between a continuous or traditional pulsed laser and the CFRP at the macro level, or qualitatively analyze the phase of the interaction between the laser and material based on experimental phenomena (Fig.11). The application status of carbon-fiber-reinforced composites in the aerospace field is reviewed,with a focus on CFRP laser-processing technology. Conclusions and Prospects This study reviews the research progress of various CFRP processing methods, compares and analyzes their advantages and disadvantages; introduces the current research status of CFRP laser processing from the perspectives of methods, processes, and mechanisms; summarizes the application of CFRP in the aerospace field; analyzes and discusses the remaining challenges facing CFRP laser processing; and provides the corresponding prospects. Compared with other processing methods, laser processing, especially ultrafine laser processing, can achieve non-contactcold processing, reduce heataccumulation, improve the processing accuracy, and is expected to become an effective means to improve the quality of CFRP processing. However, the mechanism of the thermal damage produced by CFRP laser processing is still unclear, and the nonlinear,unbalanced, and heterogeneous energy transmission process during CFRP laser processing is not well understood. In order to further improve the processing quality and efficiency of CFRP laser processing, more in-depth exploration and research are required for ultrafast laser processing technology and water-guided laser processing technology. In view of the higher micro-machining requirements of aerospace CFRP components, further research is needed on the micro-mechanism of the interaction between the laser and heterogeneous CFRP materials, and new methods and new processes need to be further developed. These efforts are expected to further improve the processing quality, accuracy, and efficiency of CFRP laser processing",
+        "abstract_zh": "碳纤维增强复合材料（CFRP）以其轻质高强、可设计性强等优势已成为航空航天领域不可或缺的关键材料之一。为满足制造装备的要求，需对一体成型的CFRP构件进行二次加工，然而CFRP非均质、各向异性、层合结构等特征使其在加工过程中易出现分层、毛刺、热影响区较大等缺陷。概述了CFRP各种加工方法的研究进展，对比分析了CFRP不同加工方法的优缺点，从方法、工艺及机理层面介绍了激光加工CFRP的研究现状，总结了CFRP在航空航天领域中的应用，分析讨论了CFRP激光加工当前面临的挑战和今后的研究重点。",
+        "doi": "10.3788/cjl231358",
+        "id": "65efba3213fb2c6cf63a6a8a",
+        "keywords": [
+          "laser technique",
+          "carbon fiber reinforced polymer composites",
+          "processing technology",
+          "ultrafast laser",
+          "aerospace"
+        ],
+        "keywords_zh": [
+          "激光技术",
+          "碳纤维增强复合材料",
+          "加工工艺",
+          "超快激光",
+          "航空航天"
+        ],
+        "title": "Laser Processing of Carbon Fiber Reinforced Polymer Composites and Their Application in Aerospace Field (Invited)",
+        "title_zh": "激光加工碳纤维增强复合材料及其在航空航天领域应用（特邀）",
+        "year": 2024
+      },
+      {
+        "abstract": "The development of aerospace,including the integration of space and universe,hypersonic flight,etc.,has presented mechanics with new challenges and fundamental scientific problems.To enhance object-oriented fun-damental research in mechanics to meet major national requirements,National Natural Science Foundation of China(NSFC)has introduced a new primary application code of\"Aerospace Mechanics\"within the mechanics discipline of the Department of Mathematical and Physical Sciences,based on recommendations from the 14th Five Year Plan De-velopment Strategy Research Committee of the Mechanics Discipline.This article provides an overview of the back-ground and process of introducing the application code\"Aerospace Mechanics\".It also explains the connotation and funding scope,as well as key research areas.The goal is to assist researchers in understanding the establishment of aerospace mechanics code,as well as the research areas and directions they should focus on.It is expected to guide researchers to update their personal research fields and submit proposals in the natural science foundation information system,based on the sub-codes and research directions in aerospace mechanics.",
+        "abstract_zh": "随着航空航天的发展，空天融合、高超声速飞行对力学提出了新的挑战和基础科学问题，为加强力学面向国家重大需求开展目标导向的基础研究，在国家自然科学基金力学学科“十四五”发展规划战略研究专家组的建议下，国家自然科学基金委员会在数学物理科学部力学学科新增了“航空航天力学”一级申请代码。本文简要介绍了“航空航天力学”申请代码设置的背景和过程，着重对资助内涵与范畴以及重要的研究领域进行阐述，希望帮助相关领域科研人员了解航空航天力学代码设置情况以及需要关注的研究领域和方向，以便根据航空航天力学下设二级代码和研究方向，及时更新自然科学基金信息系统中个人研究领域并进行项目申请。",
+        "doi": "10.7527/s1000-6893.2023.29947",
+        "id": "65bc6742939a5f4082ca4aea",
+        "keywords": [
+          "National Natural Science Foundation of China",
+          "Aerospace Mechanics",
+          "application code",
+          "major national requirements",
+          "sub-codes"
+        ],
+        "keywords_zh": [
+          "国家自然科学基金",
+          "航空航天力学",
+          "申请代码",
+          "国家重大需求",
+          "二级代码"
+        ],
+        "title": "Connotation and Key Research Areas of New Application Code\"aerospace Mechanics\"of the National Natural Science Foundation of China",
+        "title_zh": "国家自然科学基金新增代码“航空航天力学”内涵及重要研究领域",
+        "year": 2024
+      },
+      {
+        "abstract": "Carbon/carbon (C/C) three-dimensional textile composites are widely used in aerospace, rail transit, photovoltaic thermal field and other high temperature components due to their strong designability, excellent mechanical properties and high temperature resistance. However, the internal yarn structure of C/C three-dimensional textile composites is complex and has high porosity, showing a high degree of anisotropy and heterogeneity. These factors will bring great difficulties in revealing the mechanical properties and damage mechanism. Therefore, starting from practical applications, the research status of C/C three-dimensional textile composites is reviewed in recent years from three aspects: micro reconstruction, mechanical performance characterization, and numerical simulation. The aim is to provide important support for the integrated preparation of C/C three-dimensional textile composites structure and function, the exploration of deep learning models, and the construction of progressive damage testing platforms in high-temperature experimental environments.",
+        "abstract_zh": "C/C三维纺织复合材料因其可设计性强、力学性能优异和耐高温等特点而被广泛地应用于航空航天、轨道交通和光伏热场等高温端部件。然而，C/C三维纺织复合材料内部纱线结构复杂且孔隙率高，呈现出高度各向异性和非均匀性，这些因素都会给力学性能及损伤机制揭示带来巨大困难。因此，本工作从实际应用出发，围绕C/C三维纺织复合材料，从细观重构、力学性能表征和数值模拟三个方面阐述近几年的国内外研究现状，并在此基础上重点对C/C三维纺织复合材料结构功能一体化制备、深度学习模型的发掘和高温实验环境下渐进损伤实验平台的搭建做出了展望。",
+        "doi": "10.11868/j.issn.1001-4381.2022.000983",
+        "id": "661e67c113fb2c6cf68a5c19",
+        "keywords": [
+          "C/C three-dimensional textile composites",
+          "aerospace",
+          "mechanical properties",
+          "meso reconstruction",
+          "numerical simulation"
+        ],
+        "keywords_zh": [
+          "C/C三维纺织复合材料",
+          "航空航天",
+          "力学性能",
+          "细观重构",
+          "数值模拟"
+        ],
+        "title": "Research Progress in Mesostructure and Mechanical Properties of C/C Three Dimensional Textile Composites",
+        "title_zh": "C/C三维纺织复合材料细观结构及力学性能研究进展",
+        "year": 2024
+      },
+      {
+        "abstract": "AIM To explore the application effect of ECG technology in the teaching of monitoring and evaluation of flight physiological parameters by analyzing the heart rate of students in the course of landing route flight on two different simulated flight platforms.METHODS Students Grade 2020 majoring in aviation and aerospace medicine served as research subjects and their heart rates in the pre-flight,takeoff,cruise and landing phases of the takeoff and landing route flight on the CJ-6 Simulation Flight Platform and the Microsoft Simulation Flight Platform were analyzed and the application effect of ECG technology in teaching monitoring and evaluation of flight biology parameters was evaluated.RESULTS The students'heart rate during the takeoff and landing route flight on the CJ-6 Simulation Flight Platform and the Microsoft Simulation Flight Platform was significantly higher than that before flight(P<0.01)and the heart rate on the CJ-6 Simulation Flight Platform was significantly higher than that on the Microsoft Simulation Flight Platform(P<0.05),indicating that the two simulation flight platforms brought certain flight load to the students and the flight load on the CJ-6 Simulation Flight Platform was higher than that on the Microsoft Simulation Flight Platform.Compared with that before flight,some difference was found in the students'heart rate in the takeoff,cruise and landing phases of flight on the two simulated flight platforms,but no significant difference was found in the heart rate in the cruise phase on the Microsoft Simulation Flight Platform.The heart rate in the landing phase was higher than that before flight and in the takeoff and the cruise phases,indicating that the landing phase brought the greatest flight load to the students.The students'heart rate in the take-off and the landing phases on the CJ-6 Simulation Flight Platform was significantly higher than that on the Microsoft Simulation Flight Platform(P<0.05),while no difference was observed in the cruise phase,indicating that the flight load on the CJ-6 Simulation Flight Platform was higher than that on the Microsoft Simulation Flight Platform in the take-off and the landing phases,and the flight difficulty on the two platforms in the cruise phase was equal.CONCLUSION The application effect of ECG technology in the practical teaching course of monitoring and evaluation of flight physiological parameters is good,which can not only improve students'scientific research ability and comprehensive quality,but also cultivate students'aviation medical thinking,which is conducive to the cultivation of military medical talents with practical and innovative ability in the new era under the background of\"double first-class\"construction.",
+        "abstract_zh": "目的 通过对学生在两种不同模拟飞行平台上执行起落航线飞行过程中的心率进行分析,探讨心电技术在飞行生理参数监测与评估教学中的应用效果.方法 以 2020级航空航天医学专业学生作为研究对象,对比分析学生在初教六模拟飞行平台和微软模拟飞行平台分别执行起落航线飞行前、起飞、巡航以及降落阶段的心率,评估心电技术在飞行生理参数监测与评估教学中的应用效果.结果 学生在初教六和微软模拟飞行平台执行起落航线飞行过程中的心率明显高于飞行前(P<0.01),同时初教六平台明显高于微软平台(P<0.05);学生在两种模拟飞行平台执行起落航线飞行的起飞、巡航和降落阶段心率均与飞行前存在显著差异(P<0.05),但对于微软平台在巡航阶段心率与飞行前无显著差异,且降落高于起飞、巡航和飞行前;学生在初教六平台起飞和降落阶段心率明显高于微软平台(P<0.05),而巡航阶段无显著差异.结论 将心电技术引入飞行生理参数监测与评估实践教学科目中应用效果良好,不仅可以提升学生的科研能力和综合素质,同时培养学生航空医学思维,有利于在\"双一流\"建设背景下培养具有实践创新能力的新时代军事医学人才.",
+        "doi": "10.12125/j.chj.202302068",
+        "id": "6594c738939a5f4082fe54fd",
+        "keywords": [
+          "ECG",
+          "practical teaching",
+          "aerospace medicine",
+          "simulated flight"
+        ],
+        "keywords_zh": [
+          "心电技术",
+          "实践教学",
+          "航空航天医学",
+          "模拟飞行"
+        ],
+        "title": "Application of ECG technology in teaching monitoring and evaluation of flight physiological parameters",
+        "title_zh": "心电技术在飞行生理参数监测与评估教学中的应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "航空航天制造领域刀具磨损是一个非常严重的问题,刀具状况直接影响加工质量和效率,为了避免使用严重磨损的刀具进行加工并充分释放刀具剩余使用寿命,必须建立一个可靠的刀具剩余使用寿命评估方法.飞行器零件加工过程中工况多变,导致刀具磨损速率多变,刀具寿命变化较大,因此需在连续变工况条件下准确预测刀具剩余使用寿命.针对上述问题,基于加工过程监测数据,通过Stacking集成算法融合高斯过程回归和支持向量回归,在连续变工况条件下准确预测刀具剩余使用寿命.",
+        "doi": "10.3969/j.issn.1009-0134.2023.06.042",
+        "id": "64b50bc93fda6d7f06df1a66",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "刀具磨损",
+          "加工质量",
+          "剩余使用寿命"
+        ],
+        "title": "Adaptive prediction method of tool remaining useful life based on stacking integrated algorithm",
+        "title_zh": "基于Stacking集成算法的刀具剩余使用寿命自适应预测方法",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObmxyWmyGGi82d8IqkKmIwMPR"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "为实现知识传递和思想引领协同融合的教学目标,针对\"航空航天概论\"课程特点,就通识教育与课程思政协同融合教学体系进行分析.基于航空航天科学技术体系和授课对象专业特性分析了该课程教学设计存在的问题.在详细研究课程隐性和显性思政元素基础上,提出构建通识教育、专业教育和思政教育\"二位一体\"的课程教学目标,并因地制宜地提出通识教育和课程思政协同融合的课程教学设计方案.",
+        "doi": "10.3969/j.issn.1008-0686.2023.04.029",
+        "id": "6564bee6939a5f40826817f6",
+        "keywords": [
+          "aerospace introduction",
+          "liberal education",
+          "curriculum ideology and politics"
+        ],
+        "keywords_zh": [
+          "航空航天概论",
+          "通识教育",
+          "课程思政"
+        ],
+        "title": "Integrating Liberal Education into Ideology and Political Education for Aerospace Introduction",
+        "title_zh": "\"航空航天概论\"通识教育和课程思政协同",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "面对航空航天技术发展和产业界对创新型高素质人才培养的迫切需求,该文以\"共研一架飞机\"为牵引,充分发挥\"北京一号\"第一代航空领军人才精神,重点针对航空航天发展新阶段创新型人才培养所面临的三大问题,依托飞行器综合化数字实验平台,采用课程群联合教学、团队毕设等实践形式,打通\"课程—专业—学院—学校\"四个壁垒,深化科教融合、产教结合,构建跨课程/跨学院/跨学科/跨专业的联合人才培养体系,推动形成航空航天发展新阶段的创新人才培养模式,为国家培养具备\"六位一体\"的新一代空天创新型人才.",
+        "doi": "10.19980/j.CN23-1593/G4.2023.20.004",
+        "id": "64cd26c53fda6d7f060e9a65",
+        "keywords": [
+          "aerospace",
+          "innovative talents",
+          "co-developing an aircraft",
+          "aircraft overall design",
+          "digital platform"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "创新人才",
+          "共研一架飞机",
+          "飞机总体设计",
+          "数字化平台"
+        ],
+        "title_zh": "航空航天发展新阶段创新型人才培养模式改革与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "\"直流配电系统分析与控制\"是南京航空航天大学电气工程系新开设的研究生课程,旨在让学生了解电气工程领域直流配电的发展现状,掌握直流配电的技术内涵.通过分析该课程的定位与教学目标,并以陆上系统为主体和航空航天应用为特色,规划和实践了课程教学内容,从而服务于一流学科建设和直流配电专业人才培养.",
+        "doi": "10.3969/j.issn.1008-0686.2023.05.013",
+        "id": "6564beea939a5f4082681a06",
+        "keywords": [
+          "direct current distribution system",
+          "postgraduate course",
+          "aeronautics and astronautics"
+        ],
+        "keywords_zh": [
+          "直流配电系统",
+          "研究生课程",
+          "航空航天"
+        ],
+        "title": "Course Construction of DC Distribution System Analysis and Control",
+        "title_zh": "\"直流配电系统分析与控制\"课程建设",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "金属超声增材制造是一种低温、固态的加工技术,其原理是在近室温环境中通过超声波振动在金属带材之间建立冶金结合,制造过程中金属不会熔化.利用超声增材与机械加工相结合的技术能够制备出精细的内外部结构.然而,超声增材层间结合机理仍在不断研究中,层间界面微结构和结合质量与工艺参数间的关系不清晰,使得界面处容易发生失效,加之目前应用的材料体系范围有限,导致超声增材的应用受到极大限制.因此,国内外的工作主要集中在以下四个方面:(1)层间结合机理研究;(2)超声固结工艺参数优化及建模;(3)异种材料结合特性研究;(4)支撑材料研究.现有研究表明,塑性成形是层间结合的主要驱动力,而加工过程中界面处的晶粒破碎以及动态疲劳破坏会导致层间结合变弱;利用试验和数值模拟研究,明确了振动振幅、焊接速度、下压力和固结宽/高比是影响结合强度的重要工艺参数,通过建立不同材料的工艺窗口,可指导实际加工过程;钛、铝、铜、不锈钢等面心立方体金属之间具有好的结合强度,而对非面心立方体材料而言AI1100和AI3003是理想的结合材料,在铝合金基材中嵌入SiC纤维和NiTi形状记忆合金时,其结合强度主要受振动振幅、速度、下压力、基体预热温度以及嵌入纤维方向等过程变量的影响;对于支撑材料,选择坚硬且熔点高于焊接温度的支撑材料更容易获得高质量的结构件,如无铅焊料等.与此同时,金属超声增材在航空航天领域的应用探索也在同步开展,已实现的典型应用包括高效换热器、电子元器件植入和表面修复等.本文介绍了超声增材制造技术的基本过程及原理,综述了国内外关于该技术的研究现状,总结了该技术在航空航天领域的应用情况,分析了未来的发展趋势,旨在进一步拓展金属超声增材制造技术在航空航天领域的应用范围.",
+        "doi": "10.11896/cldb.21040295",
+        "id": "640322aa90e50fcafd572872",
+        "keywords": null,
+        "keywords_zh": [
+          "超声增材制造技术",
+          "复合材料",
+          "低温加工",
+          "航空航天"
+        ],
+        "title": "Advances in the Research of Ultrasonic Additive Manufacturing in Aerospace Field",
+        "title_zh": "超声增材制造在航空航天领域的应用进展",
+        "year": 2023
+      },
+      {
+        "abstract": "Aiming at the significant demand for advanced composite materials in high-end national aerospace equipment,focusing on the basic research of high-performance composite component 3D preform forming technology and equipment.The application of advanced composite 3D preform forming technology and equipment in the aerospace field is exemplified and the basic principles of typical 3D preform forming technology are analyzed.The progress of advanced composite material research institutions at home and abroad in the development of three-dimensional preform forming equipment is introduced.The key problems of 3D preform forming technology and equipment are summarized,then suggestions and prospects are put forward for the development of advanced composite material 3D preform forming technology and equipment.The goal is to summarize past experiences and provide new ideas for the further development of advanced composite material preform forming technology,so as to better assist the research and development of high-end equipment in the motherland aerospace industry.",
+        "abstract_zh": "面向国家航空航天高端装备对先进复合材料的重大需求,着眼于高性能复合材料构件三维预制体成形技术与装备基础研究,例举先进复合材料三维预制体成形技术及装备在航空航天领域的应用情况,分析典型三维预制体成形技术的基本原理,介绍国内外先进复合材料研究机构在三维预制体成形装备研制方面的进展,提炼现阶段三维预制体成形技术及装备面临的重难点问题,并对先进复合材料三维预制体成形技术及装备的发展提出建议和展望。为先进复合材料三维预制体成形技术的进一步发展总结旧经验,提供新思路,使之更好地助力祖国航空航天高端装备研发。",
+        "doi": "10.3901/jme.2023.20.064",
+        "id": "665510b001d2a3fbfc3a4dec",
+        "keywords": [
+          "aerospace",
+          "advanced composite materials",
+          "3D preform",
+          "forming technology and equipment"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "先进复材",
+          "三维预制体",
+          "成形技术与装备"
+        ],
+        "title": "Research of 3D Advanced Aerospace Composite Preforms Forming Technology and Equipment",
+        "title_zh": "航空航天先进复合材料三维预制体成形技术与装备研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "以降落伞和着陆缓冲气囊等为代表的部分航空航天装备具有柔性和大变形的特征,工作过程中可能在短时间内形状变化剧烈且不完全规则,这些装备能否正常运行决定着整个任务的成败,因此对其服役状态下应变、曲率、气动外形等参数进行实时监测至关重要.文章面向具有柔性和大变形特征的航天着陆装备,研究大变形柔性曲率传感器(简称曲率传感器)的设计和性能,该曲率传感器量程达到了 0.17mm-1并在测量过程中保持了优异的线性度(拟合优度>0.999).文章还进一步探索了传感器在航天着陆系统上的集成方案与示范应用,通过对缓冲着陆气囊不同特征点的曲率进行监测,有效地对其整体轮廓进行表征,准确记录装备的充气、漏气和冲击变形状态信息,对航空航天装备的结构设计优化与实时控制具有重要意义.",
+        "doi": "10.3969/j.issn.1009-8518.2023.01.006",
+        "id": "64286a4d90e50fcafddc63cf",
+        "keywords": null,
+        "keywords_zh": [
+          "柔性",
+          "大变形",
+          "曲率",
+          "传感器",
+          "航空航天"
+        ],
+        "title": "Research and Application of Sensors with Great Flexibility and Deformability for Aerospace Recycling Equipment(1)——Curvature Sensor",
+        "title_zh": "面向航天回收装备的大变形柔性传感器研究与应用(一)——曲率传感器",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "简述了钛合金及钛合金型材的制备方法,包括放电等离子烧结法、热机械粉末冶金法、真空烧结和氢致相变烧结工艺、粉末注射成型等.综述了国内外钛合金在航空航天、医疗、海洋工程、核电、武器装备和能源等领域的应用.",
+        "doi": "10.3969/j.issn.1008-1690.2023.05.002",
+        "id": "6553a409939a5f408254eee9",
+        "keywords": [
+          "titanium alloy",
+          "fabrication process",
+          "aerospace",
+          "medical material",
+          "weaponry"
+        ],
+        "keywords_zh": [
+          "钛合金",
+          "制备工艺",
+          "航空航天",
+          "医用材料",
+          "武器装备"
+        ],
+        "title": "Fabrication and Applications of Titanium Alloy",
+        "title_zh": "钛合金的制备和应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "针对影像匹配中因影像间尺度差异过大导致同名特征点数目不足甚至误匹配的问题,提出一种利用词袋模型估计尺度差异的异源影像SIFT匹配方法(BS-SIFT).该方法通过提前感知待匹配影像间存在的尺度差异,将异源影像匹配转化为在同一尺度上开始,提高匹配的内点率,进而增加大尺度差异影像的匹配点数量.首先,通过将连续变化的不同尺度影像特征点在特征空间聚类,并将各尺度影像特征重分配到特征中心,得到各尺度下的特征分布关系;然后,结合影像特征中心的空间信息熵定权,得到待匹配影像间尺度描述符;最后,分析尺度描述符距离分布可得到最佳影像尺度差.实验结果表明,本文提出的BS-SIFT算法在超过10倍尺度差的影像匹配上仍能取得较好结果,相较于经典的SIFT算法,本文算法在取得较高效率的同时可得到更多的同名特征点,匹配正确率至少提升9个百分点,最大可达37个百分点.",
+        "doi": "10.3969/j.issn.1006-2475.2023.04.009",
+        "id": "646b4622d68f896efa225b3b",
+        "keywords": null,
+        "keywords_zh": [
+          "影像匹配",
+          "尺度不变换特征",
+          "词袋模型",
+          "大尺度差异",
+          "特征描述",
+          "航空航天影像"
+        ],
+        "title": "A Heterologous Image Matching Method Using Bag-of-Words Model to Estimate Scale Differences",
+        "title_zh": "利用词袋模型估计尺度差异的异源影像匹配方法",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "自主创新离不开自主学科话语体系的构建.我国航空航天产业经历了\"从无到仿\"\"从仿到创\"的发展阶段,学科话语体系存在明显的\"舶来\"现象,对国际话语权、国际技术标准参与、自主创新体系构建造成了不利影响,学术领域也呈现顶尖期刊稀缺、话语软科学研究匮乏、学术评价体系缺失等现状.随着\"天宫\"空间站建设完成、C919 交付、ARJ21 出海,我国即将迈入\"从创到强\"的新发展阶段,自生术语比例逐年攀升.在此背景下,亟需建设高质量学术刊群,发挥科技期刊学术共同体作用,引入知识图谱、科技情报分析等技术,引领航空航天领域技术研发,提高技术和产品的海外市场占有率,催生更多的自生术语,逐步建立自主学术话语体系和评价体系,提升人才吸引力和国际话语权.",
+        "doi": "10.3969/j.issn.1006-8945.2023.09.028",
+        "id": "653b6e2c939a5f40826c3aab",
+        "keywords": [
+          "aeronautics and astronautics",
+          "discourse system",
+          "journal cluster",
+          "academic evaluation",
+          "discourse power"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "话语体系",
+          "期刊集群",
+          "学术评价",
+          "话语权"
+        ],
+        "title": "Building a National Aerospace Academic Discourse System with Journal Cluster as Carrier:Significance and Countermeasures",
+        "title_zh": "以刊群为载体构建国家航空航天学术话语体系:意义与对策",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "航空航天零件具有品种多、批量小、形状复杂和精度高的特点,针对上述加工场景,数控加工技术逐渐发展并有效推动了制造过程的高效化和自动化,为飞行器的更新换代提供强有力的支持.飞行器性能的不断提升对零件加工质量提出了更为严苛的要求,传统数控加工技术面临严峻挑战.近年来,人工智能技术的发展为进一步提高加工质量提供了有效途径,本文对人工智能领域的持续学习方法进行分析,进而结合持续学习研究进展,提出一种面向数控加工系统的在线优化研究方案.",
+        "doi": "10.3969/j.issn.1000-7008.2023.08.003",
+        "id": "6564c079939a5f4082690c8f",
+        "keywords": [
+          "aerospace",
+          "numerical control",
+          "artificial intelligence",
+          "online learning"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "数控加工技术",
+          "人工智能",
+          "持续学习"
+        ],
+        "title": "Overview of Online Optimization Methods for NC Machining Systems",
+        "title_zh": "数控加工系统在线优化持续学习方法综述",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObn2Uq4su3Vhy2XBgvJNIhHvO"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "The lightweight design methods of aerospace structures in recent years are reviewed and summarized, and the lightweight design of the thin-walled structure and connecting structure is discussed. For thin-walled structures, the development trends of lightweight design for post-buckling behavior, robust design considering imperfections, and innovative thin-walled configuration are analyzed. For connecting structures, two design methods are introduced from the load path and regional stress regulation. In addition, the common key problems such as high-precision experiment methods of lightweight structure and digital twin model are reviewed, and the development prospect of lightweight design methods for aerospace structure in the future are prospected, which could provide reference for future research work and equipment development.",
+        "abstract_zh": "综述了近年来航空航天结构轻量化设计方法,聚焦薄壁结构与连接结构两类主要承载结构轻量化设计进行总结;针对薄壁结构,分析了面向后屈曲行为的轻量化设计、虑及缺陷的鲁棒性设计以及创新轻质薄壁领域的发展动向;针对连接结构,总结了传力路径与区域应力调控两大类设计方法.此外,就轻量化结构的高精度实验方法与数字孪生模型等共性关键问题进行梳理,并展望了未来航空航天结构轻量化设计方法发展前景,为未来研究工作和装备研发提供参考.",
+        "doi": "10.3873/j.issn.1000-1328.2023.04.013",
+        "id": "64873c8fd68f896efaf53c3b",
+        "keywords": [
+          "Aerospace structure",
+          "Lightweight design",
+          "Thin-walled structure",
+          "Connecting structure",
+          "Optimization method"
+        ],
+        "keywords_zh": [
+          "航空航天结构",
+          "轻量化设计",
+          "薄壁结构",
+          "连接结构",
+          "优化方法"
+        ],
+        "title": "Advances in Lightweight Design and Experimental Methods for Aerospace Structures",
+        "title_zh": "航空航天结构轻量化设计与实验方法研究进展",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "时间敏感网络在时间同步基础上通过整形调度、可靠冗余等机制解决了以太网数据传输的确定性、可靠性等问题,以开放标准、确定延迟、业务保障等优势成为极具竞争力的新一代确定性网络解决方案.在介绍时间敏感网络技术及其标准化进展基础上,以典型场景应用案例分析为主线,系统性梳理国外航空航天及军事领域的时间敏感网络应用进展,并对国内装备相关领域的研究进展进行介绍,最后对国内外应用进展进行总结分析,从部署应用角度提出发展建议,为推动时间敏感网络在国内相关领域落地应用提供借鉴和参考.",
+        "doi": "10.3969/j.issn.1001-182x.2023.08.005",
+        "id": "65091a983fda6d7f06ef34c7",
+        "keywords": [
+          "time-sensitive network",
+          "aerospace",
+          "military field",
+          "warship equipment"
+        ],
+        "keywords_zh": [
+          "时间敏感网络",
+          "航空航天",
+          "军事领域",
+          "舰艇装备"
+        ],
+        "title": "Research on Application of Time-sensitive Network in Aerospace and Military Fields",
+        "title_zh": "时间敏感网络在航空航天及军事领域的应用研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "针对在航空航天、雷达领域常用的1394协议进行了介绍.介绍了该协议的发展历史,包括该协议的提出时间、发展历程、各个阶段的特性;对协议中的物理层、传输层、逻辑层及上层协议进行了详细地介绍,并介绍了协议中常用的4种拓扑结构,即星型结构、树型结构、环型结构及混合结构;介绍了该协议未来的可能发展方向与应用场景.",
+        "doi": "10.3969/j.issn.1006-4052.2023.10.005",
+        "id": "6580e69e939a5f4082a557fe",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "1394总线协议",
+          "协议组成",
+          "拓扑结构"
+        ],
+        "title_zh": "1394总线协议技术发展综述",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "纤维素具有储量丰富、来源广、可再生、可降解、易于化学改性等显著优势.纤维素基气凝胶具有优异的力学性能和热学性能,在建筑、航空航天、石油化工等领域受到了广泛关注,有望成为替代传统气凝胶的理想选择.随着科技的快速发展,纤维素基气凝胶作为保温隔热材料的性能不断被优化,应用不断被拓展.本文简要介绍了纤维素基气凝胶的制备方法,综述了纤维素基气凝胶作为保温隔热材料在航空航天、石油化工和建筑等领域的最新研究及应用进展,提出了制备和改性纤维素基气凝胶亟待解决的问题.",
+        "doi": "10.11980/j.issn.0254-508x.2023.02.011",
+        "id": "6570a0d1939a5f4082e2ccd0",
+        "keywords": [
+          "cellulose",
+          "aerogel",
+          "thermal insulation",
+          "thermal conductivity",
+          "construction",
+          "aerospace"
+        ],
+        "keywords_zh": [
+          "纤维素",
+          "气凝胶",
+          "保温隔热",
+          "热导率",
+          "建筑",
+          "航空航天"
+        ],
+        "title": "Research Progress of Cellulose-based Aerogel in Heat Preservation and Insulation",
+        "title_zh": "纤维素基气凝胶在保温隔热领域中的研究进展",
+        "year": 2023
+      },
+      {
+        "abstract": "As an important methodology to describe plastic deformation behavior of anisotropic heterogeneous materials at the mesoscale, the crystal plasticity（CP） model can predict the macroscopic mechanical properties of crystal materials based on their microstructures, and play a part in the development of new alloys for aerospace applications. The development history of various CP models is summarized. In particular, the similarities and differences between the phenomenological CP model and the physically based CP model are compared and analyzed in terms of flow rules, hardening model, and internal state variable evolution. Then, the practical application of CP finite element method（CPFEM） for the prediction of metal fatigue life is introduced. This method relies on the fatigue indicator parameters and life evaluation criteria. Typical efforts for predicting the fatigue crack initiation life of aerospace metals by CPFEM are overviewed to demonstrate the predictive ability and appropriateness of various models. Finally, an outlook on the future development tendency of CP model and its applications, as well as the related research directions which need to be strengthened, is provided.",
+        "abstract_zh": "作为细观尺度上描述各向异性非均质材料塑性变形行为的重要方法,晶体塑性模型能够基于晶体材料的微观组织结构预测其宏观力学性能,在航空航天金属的力学性能设计及评估中展现出应用前景.本文总结了晶体塑性模型的发展历程和不同变种,从流动准则、硬化模型和内部状态变量演化3个角度对比分析了唯象晶体塑性模型与基于物理机制的晶体塑性模型的特点与差异;然后介绍了基于疲劳指示参数和寿命评估准则的晶体塑性有限元在金属疲劳寿命预测领域的应用尝试,以航空航天常用金属疲劳裂纹萌生寿命预测为例,给出了部分应用实例表明不同模型的预测能力和适用性;最后展望了晶体塑性模型和应用的未来发展趋势和有待加强的研究方向.",
+        "doi": "10.16356/j.1005-2615.2023.01.002",
+        "id": "641b114090e50fcafd005640",
+        "keywords": [
+          "crystal plasticity model",
+          "fatigue life",
+          "aerospace",
+          "constitutive model",
+          "crack initiation"
+        ],
+        "keywords_zh": [
+          "晶体塑性模型",
+          "疲劳寿命",
+          "航空航天",
+          "本构模型",
+          "裂纹萌生"
+        ],
+        "title": "Crystal Plasticity Model and Its Application for Fatigue Life Prediction of Metals",
+        "title_zh": "晶体塑性模型及其在金属疲劳寿命预测中的应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "航空航天工程的水平体现一个国家的科学技术水平,也是国家综合国力的体现.为促进航空航天事业发展,航空航天的人才培养显得尤为重要.北京航空航天大学、美国麻省理工大学和英国帝国理工大学高质量的航空航天学科本科教育得益于构建一套系统的航空航天人才培养体系,包含培养目标、专业教育能力要求、课程体系和教学模式等.通过中、美、英三国航空航天学科的人才培养模式对比分析,为我国航空航天人才培养模式的完善和创新提供一定的启示.",
+        "doi": "10.19980/j.CN23-1593/G4.2023.04.001",
+        "id": "64046cf290e50fcafd87231c",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "人才培养体系",
+          "工程人才",
+          "培养目标",
+          "对比分析"
+        ],
+        "title_zh": "中、美、英航空航天人才本科培养体系比较与思考\r——以北京航空航天大学、麻省理工大学及帝国理工大学为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "对切削加工状态进行精准监测,是实现航空航天薄壁件加工变形控制的重要保障.围绕航空航天薄壁件铣削加工状态监测的最新研究进展进行了评述,详细介绍了建立加工状态监测模型的关键技术与方法,包括加工信息采集处理、特征提取和特征融合.归纳了学者们在薄壁件加工过程中对刀具磨破损、铣削颤振、铣削变形等具体状态监测的研究进展.基于数字孪生技术,构建了面向薄壁件铣削加工状态监测的优化系统.最后,根据现阶段本领域发展状况对薄壁件铣削加工状态监测进行了展望.",
+        "doi": "10.16080/j.issn1671-833x.2023.03.030",
+        "id": "6444377596e231b873f1b163",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天薄壁件",
+          "特征提取",
+          "刀具磨破损",
+          "铣削颤振",
+          "铣削变形",
+          "数字孪生"
+        ],
+        "title": "Research Progress on Machining Condition Monitoring During Milling of Aerospace Thin-Walled Parts",
+        "title_zh": "航空航天薄壁件铣削过程加工状态监测研究进展",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "首先利用智慧芽专利大数据检索平台,梳理并分析了先进锻压各细分领域的热点技术及其全球分布情况与发展态势;继而采用可视化方法,对比分析了锻压领域各细分方向的全球主要研发实体及其重点技术布局、创新情况.结果表明:中国在先进锻压领域的专利总量全球排名第一,但日本、美国、德国的部分先进锻压技术仍处于全球领先水平;锻压前沿热点技术主要集中在高速精密锻造、锻压模具、锻件质量检测、连续锻造、锻压操作机、锻压数字化等方向;应用主要集中在航空航天大型模锻件、发动机环形锻件、钛合金锻件,汽车覆盖件、铝合金轮毂、燃料电池板,高速列车制动器轮毂、盘体,复杂薄壳体、风电发动机主轴等领域.",
+        "doi": "10.13330/j.issn.1000-3940.2023.07.002",
+        "id": "64d9ff8b3fda6d7f066c09b6",
+        "keywords": [
+          "forging",
+          "patent analysis method",
+          "precision forming",
+          "aerospace",
+          "automobile"
+        ],
+        "keywords_zh": [
+          "锻压",
+          "专利分析方法",
+          "精密成形",
+          "航空航天",
+          "汽车"
+        ],
+        "title": "Hotspot technology mining in forging field based on patent big data analysis method",
+        "title_zh": "基于专利大数据分析方法的锻压领域热点技术挖掘",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "自动化立体仓库是智能生产线中的重要单元,可以实现实时库存信息的准确查询,其使用效率直接关系到智能生产线的生产效率.针对智能生产线中的自动化立体仓库货位随意分配,以及分配智能化水平低导致航空航天产品生产效率低下的问题,提出一种基于数字孪生的自动化立体仓库货位分配(Storage location assignment,SLA)优化方法.首先,采用数据驱动的数字孪生体多维度融合建模方法构建自动化立体仓库数字孪生多维模型;其次,对自动化立体仓库数字孪生系统通信机制及信息交互原理进行研究与分析,以出库效率(结合工艺)、货品相关度、货架稳定性为目标建立货位分配数学模型,提出一种改进的启发式蚁群(Improved ant colony optimization,IACO)算法对模型进行优化,将得到的货位信息集成到自动化立体仓库数字孪生系统并映射到物理实体;最后,通过试验证明该方法能够满足立体仓库基于工艺的物料出入库智能选择货位需求.该方法在智能生产线上的应用对航空航天产品实现智能制造、提质增效具有重要意义.",
+        "doi": "10.16080/j.issn1671-833x.2023.06.066",
+        "id": "64493608582c1376bb829726",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "数字孪生",
+          "智能生产线",
+          "自动化立体仓库",
+          "货位分配",
+          "蚁群优化算法"
+        ],
+        "title": "Optimization Method for Storage Location Assignment in Automated Warehouse Based on Digital Twin",
+        "title_zh": "基于数字孪生的自动化立体仓库货位分配优化方法",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "复合材料薄壁加筋结构因具有轻质量、高强度、耐腐蚀、抗疲劳等优点,逐渐被用于航空航天、舰船邮轮、特种工程等高端装备制造.主要从薄壁加筋先进结构设计方法、复合材料增材制造工艺及复合材料薄壁加筋结构在航空航天领域的应用 3 个方面对当前研究进展和应用情况进行综述.针对加筋结构优化设计,概述了参数化方法、形状优化方法、拓扑优化方法及其他新型设计方法的基本原理;围绕复合材料增材制造技术,讨论了具体制造工艺的发展现状,以及其纤维铺放/打印路径规划方法;并梳理了航空航天高端装备领域中典型的复合材料薄壁加筋结构应用;最后总结了复合材料薄壁加筋结构-工艺协同设计的发展趋势及面临的关键挑战.",
+        "doi": "10.16080/j.issn1671-833x.2023.16.088",
+        "id": "655b830b939a5f40825f5c00",
+        "keywords": [
+          "Composite materials",
+          "Thin-walled stiffened structures",
+          "Additive manufacturing(AM)",
+          "Structure-process integrated design",
+          "Aerospace applications"
+        ],
+        "keywords_zh": [
+          "复合材料",
+          "薄壁加筋结构",
+          "增材制造(AM)",
+          "结构-工艺协同设计",
+          "航空航天"
+        ],
+        "title": "Review of Design Optimization and Additive Manufacturing of Thin-Walled Stiffened Composite Structures",
+        "title_zh": "复合材料薄壁加筋结构优化设计与增材制造综述",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnP3vAC4lofzeTchBEKVvWhK"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "近年来,光固化3D打印技术因高精度、定制化、整体免装配以及快速制造等成形优点,用于解决聚酰亚胺(polyimide,PI)的微型精密、异形复杂及其功能结构一体化制造技术难题,受到了研究者的广泛研究和关注.基于光固化3D打印成形原理与PI的物理化学特性,发展了一系列光固化3D打印PI材料及其成形技术.本文归纳总结了光固化3D打印PI材料设计制备准则,重点介绍了立体光刻技术(SLA)、数字光处理技术(DLP)和紫外辅助直书写技术(UV-DIW)等光固化3D打印PI研究进展,最后通过光固化3D打印PI的应用和产业化现状提出研究发展对策.",
+        "doi": "10.14028/j.cnki.1003-3726.2023.08.001",
+        "id": "64cd2d843fda6d7f0616cd9d",
+        "keywords": [
+          "Polyimide",
+          "Additive manufacturing",
+          "Vat photopolymerization 3D printing",
+          "Complex component",
+          "Aerospace"
+        ],
+        "keywords_zh": [
+          "聚酰亚胺",
+          "增材制造",
+          "光固化3D打印",
+          "复杂构件",
+          "航空航天"
+        ],
+        "title": "Research Progress of Vat Photopolymerization 3D Printing Polyimides",
+        "title_zh": "光固化3D打印聚酰亚胺研究进展",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "人类尝试正确认识宇宙以及地球在宇宙中的地位,历经数千年的漫长岁月,但直到1957年成功发射第一颗人造地球卫星后,人类才真正进入太空疆域.通过系统回顾人类探索宇宙的阶段性历史,梳理人类在观察、理解、开发、利用宇宙的过程中认知不断深化的历史动因,能够较为全面地展现宇宙探索活动的复杂性、必要性和紧迫性,进而更为深刻地理解航天事业的时代价值.",
+        "doi": "10.3969/j.issn.1004-3381.2023.05.002",
+        "id": "643e743b0746dc40e3f4c037",
+        "keywords": null,
+        "keywords_zh": [
+          "宇宙探索",
+          "科技强国",
+          "航空航天"
+        ],
+        "title_zh": "宇宙探索的历史演进与时代价值",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "航天产品要面对各种极端环境,涉及材料种类繁多且性能指标要求高,这促进了各类材料的研究、开发与改善.随着航空航天研究环境的变化和范围的扩大,其相关材料也在不断增加与发展,同时带动了各行各业民用材料的创新应用和进步.着重介绍了几种典型的航空航天材料的发展和应用情况,包括钢类材料、铜合金、钛合金等金属材料和碳纤维、玻璃、塑料、陶瓷等非金属材料,探讨了这几种材料在手表行业的创新与应用并提出建议,同时对未来航空航天材料在手表行业的民用化和推广化方向进行了展望,为行业内的应用拓宽思路.",
+        "doi": "10.3969/j.issn.1009-9492.2023.10.009",
+        "id": "655b8622939a5f4082627d4a",
+        "keywords": [
+          "material",
+          "aerospace",
+          "watch",
+          "application"
+        ],
+        "keywords_zh": [
+          "材料",
+          "航空航天",
+          "手表",
+          "应用"
+        ],
+        "title": "Development Status and Trend Outlook of Aerospace Materials in Watch Industry",
+        "title_zh": "航空航天材料在手表行业的发展现状与趋势展望",
+        "year": 2023
+      },
+      {
+        "abstract": "Under the background of construction of “Double First-Class” Subject, as a comprehensive course with strong practicality, non-destructive testing technology teaching should pay more attention to cultivate students’ practical ability to use this technology to solve material flaw detection problems. In this situation, the aspect to be improved in current teaching was studied, proposing that in order to cultivate new engineering talents with strong comprehensive literacy and practical ability, the course should be student-oriented, sufficient class hours should be allocated in the practice part, utilization of teaching methods should be abundant, Internet and multimedia tools should be assisted.",
+        "abstract_zh": "在建设\"双一流\"学科背景下,无损检测技术作为一门实践性较强的课程,更应注重培养学生用该技术解决材料探伤问题的实践能力.对此,文章分析了目前教学中有待改进之处,提出课程要以学生为主体,在实践环节分配足够的课时,利用丰富的教学手段和方法,辅以互联网、多媒体工具,营造真实、具体的教学背景,培养具有较强综合素养和实践能力的新工科人才.",
+        "doi": "10.3969/j.issn.1001-9677.2023.03.071",
+        "id": "6462ea1ad68f896efa8d1350",
+        "keywords": [
+          "aerospace materials",
+          "non-destructive testing",
+          "practical ability",
+          "teaching reform"
+        ],
+        "keywords_zh": [
+          "航空航天材料",
+          "无损检测",
+          "实践能力",
+          "教学改革"
+        ],
+        "title": "Exploration on Teaching Reform of Practical Ability of Nondestructive Testing of Aerospace Materials",
+        "title_zh": "航空航天材料无损检测实践能力的教改探索",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "作为国家创新体系的重要组成部分,高校在科技创新中有着独特的使命和角色.新冠肺炎疫情作为典型的\"黑天鹅\"事件,对高等院校的科研创新造成了许多困难,但同时也带了机遇与挑战.该文根据疫情背景下的高等院校科技创新发展现状,结合厦门大学应对新冠肺炎疫情的科技创新思路,论述了高校科技工作者应有的责任与担当.并以厦门大学航空航天学院的科研创新举措为例,提出我国高等院校科技创新的应对策略.",
+        "doi": "10.19980/j.CN23-1593/G4.2023.04.004",
+        "id": "64046cf690e50fcafd872f14",
+        "keywords": null,
+        "keywords_zh": [
+          "新冠肺炎疫情",
+          "科技创新",
+          "高等院校",
+          "责任与担当",
+          "厦门大学航空航天学院"
+        ],
+        "title_zh": "COVID-19疫情下高等院校科技创新变革与担当",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "为研发满足航空航天医学等研究要求的超重旋转复合运动模拟系统,基于离心机的转臂式结构,采用框架式的自转座椅替代传统的固定座椅,并引入链传动作为自转驱动;搭建PC+可编程逻辑控制器(PLC)+伺服电机+编码器的离心机控制系统,以及IPC+驱动器+步进电机的自转座椅控制系统;在控制系统软件设计方面注重离心机实时运行监测及便携式自转座椅的稳定性控制.对所研发的超重旋转复 合试验平台开展超重、旋转及超重旋转复合 3 种模拟工况的精度测试试验,结果表明,平台能够实现超重、旋转及超重旋转复合等环境模拟,离心机与自转座椅均具有较高的控制精度,运行过程安全平稳,达到了预期要求,可用于航空航天特因环境下生物体生理响应或设备测试等实验研究.",
+        "doi": "10.12126/see.2022129",
+        "id": "64b088b53fda6d7f06183591",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "模拟平台",
+          "离心机",
+          "结构设计",
+          "控制系统"
+        ],
+        "title": "Design of a hypergravity and rotation composite test platform based on centrifuge",
+        "title_zh": "基于离心机的超重旋转复合试验平台设计",
+        "year": 2023
+      },
+      {
+        "abstract": "This study presents a novel roller piston pump,in which a cam guide-roller type rolling support is adopted to replace the sliding pair support of the swash plate-slipper pair to achieve the oil suction and discharge of the piston cavity.In addition,the shaft distribution is used to replace the original valve plate distribution and the driving shaft is used as the distribution shaft to remove the valve plate structure,which greatly simplifies the design of the axial piston pump.Such a configuration largely reduces the number of sliding friction pairs of the pump,and avoids the influence of the sliding friction pair on it under high-speed and variable-speed conditions.Firstly,mathematical models of the mechanical and volumetric efficiencies of the roller pump are deduced respectively through force analysis and the compressibility equation.Based on the numerical simulation of MATLAB and AMESim,the effects of load pressure and rotational speed on mechanical and volumetric efficiencies are studied respectively,and it is verified that the roller pump has no structural flow pulsation.The prototype pump is then designed and built,along with a special test rig.The outlet pressure,outlet flow,and torque of the pump under different load pressures and rotational speeds are measured,and the mechanical and volumetric efficiencies of the prototype pump under various load pressures and rotational speeds are obtained.The experimental results are in good agreement with the simulated analysis.When the load pressure is 8 MPa and the speed is 5000 r/min,the mechanical and the volumetric efficiencies are 85.5%and 96.8%,respectively.When the speed is increased to 10000 r/min,the mechanical and the volumetric efficiencies are 66.7%and 95.6%,respectively.The experimental results show that the proposed roller piston pump has excellent efficiency under wide-speed and high-speed conditions and can be a potential solution as a fuel pump in aerospace fuel systems.",
+        "abstract_zh": "目的：由于其固有的三大滑动摩擦副，传统轴向柱塞泵在高转速及变转速工况下的机械和容积效率受到制约。如何降低摩擦副的摩擦损失和泄漏损失成为高性能燃油泵设计中首要关注的问题。本文提出一种新型滚子柱塞泵，探讨了其在不同负载压力与转速下的机械效率与容积效率。创新点：1.提出一种新型滚子柱塞泵，其采用凸轮导轨-滚子式的滚动支撑替代斜盘-滑靴副的滑动副支撑来实现柱塞腔的吸排油，采用轴配流代替原有的配流盘配流，传动轴兼作配流轴以免去配流盘结构，从而极大地简化了轴向柱塞泵的设计；2.建立机械效率与容积效率的数学模型与仿真模型，模拟了滚子柱塞泵在变工况下的运行状态。方法：1.对滚子泵进行受力分析与泄漏分析，建立滚子泵机械效率与容积效率的数学模型（第3节）；2.基于MATLAB与AMESim仿真研究负载压力与转速对机械效率和容积效率的影响（第4节）；3.设计与加工滚子泵的原理样机，并在专用的试验台上测得其扭矩与流量，得出其在不同负载压力与转速下的机械效率与容积效率，并将实验结果与仿真结果的比较分析，从而验证滚子泵的高效率（第5节）。结论：1.新型滚子柱塞泵采用凸轮导轨式滚动支承代替斜盘-滑靴副的滑动副支承，实现活塞腔的吸油和排油。研究结果表明该新结构可以成为航空航天燃油泵的一种潜在解决方案。另外，采用轴配流代替原来的配流盘，以传动轴兼作配流轴，大大简化了轴向柱塞泵的设计。通过结构的对称设计，实现了泵的惯性力平衡，实现了无结构流量脉动，满足了航空液压泵集成度高、压力脉动小的要求。2.理论与实验结果表明，通过结构创新去除配流盘可减少泄漏，大大提高容积效率。滚子泵最高转速可达10000r/min以上，满足航天燃油泵高速、变速的需要。",
+        "doi": "10.1631/jzus.a2200378",
+        "id": "65250fec939a5f4082f2c1c8",
+        "keywords": [
+          "Roller piston pump",
+          "Shaft distribution mechanism",
+          "Mechanical efficiency",
+          "Volumetric efficiency",
+          "Aerospace pump"
+        ],
+        "keywords_zh": [
+          "Roller piston pump",
+          "Shaft distribution mechanism",
+          "Mechanical efficiency",
+          "Volumetric efficiency",
+          "Aerospace pump",
+          "滚子柱塞泵",
+          "轴配流机构",
+          "机械效率",
+          "容积效率",
+          "航空航天泵"
+        ],
+        "title": "Theoretical and Experimental Investigation on the Efficiency of a Novel Roller Piston Pump",
+        "title_zh": "新型滚子柱塞泵效率特性的理论与实验研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "立德树人是高等教育的中心环节和根本任务,为落实好立德树人根本任务,思想政治教育必须要贯穿于专业课程的全过程.本文探讨了航空航天心血管生理训练课程思政教育的特点、实施路径和实践案例,提出了四个方面的思政切入点,并将本门课程中的部分思政元素进行了教学实践.本文为航空航天医学课程和军事训练相关课程的思政教育提供了参考.",
+        "doi": "10.12125/j.chj.202209070",
+        "id": "64b05fe03fda6d7f06b5b542",
+        "keywords": null,
+        "keywords_zh": [
+          "课程思政",
+          "航空航天心血管生理训练",
+          "立德树人"
+        ],
+        "title": "Exploration and practice of ideological and political elements in aerospace cardiovascular physiological training courses",
+        "title_zh": "航空航天心血管生理训练课程思政元素的挖掘与实践",
+        "year": 2023
+      },
+      {
+        "abstract": "Augmented reality（AR）is very suitable for the manufacturing mode with high complexity and strong variability in the aerospace field. This technology greatly shortens the cognitive distance between the digital world and the on-site real world,and is expected to be widely used in the industrial field. Firstly,this paper expounds the significance and necessity of developing AR technology and its application in aerospace field,and briefly introduces the principle,advantages and key technologies of AR technology. On this basis,it further investigates and analyzes the industrial development of AR at home and abroad,the latest research progress and its application in the field of aerospace. Finally,combined with the development status and needs of China’s aerospace field,aiming at the shortcomings and future development trend of AR technology,this paper analyzes the application scenarios of AR technology,and puts forward some suggestions to promote and develop the application of AR technology in aerospace field.",
+        "abstract_zh": "增强现实(Augmented Reality,AR)非常适合航空航天领域复杂度高、多变性强的生产制造模式,该技术大幅缩短了数字世界和现场实际世界之间的认知距离,有望在工业领域获得广泛应用.论文首先阐述了发展增强现实技术及其在航空航天领域应用的意义与必要性,简要介绍了当前增强现实技术的原理、优势及其应用的关键技术;在此基础上,进一步调研分析了国内外增强现实的产业发展情况、最新研究进展及其在航空航天领域的应用情况;最后结合我国航空航天领域的发展现状和需求,针对当前增强现实技术的不足以及未来发展趋势,分析了增强现实技术的应用场景并提出促进和发展增强现实技术在航空航天领域应用的几点建议.",
+        "doi": "10.3969/j.issn.1672-9722.2023.01.019",
+        "id": "646c734bd68f896efa436ccf",
+        "keywords": [
+          "intelligent manufacturing",
+          "AR",
+          "aerospace",
+          "application progress"
+        ],
+        "keywords_zh": [
+          "智能制造",
+          "增强现实",
+          "航空航天",
+          "应用进展"
+        ],
+        "title": "Research on the Latest Progress Augmented Reality Technology and its Application in Aerospace",
+        "title_zh": "增强现实技术最新研究进展及航空航天领域应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "以培养具有航空报国、创新超越意识的飞行器设计领域专业人才为目标,分析了高校研究生课程思政的建设现状,针对目前高校研究生教育的课程思政教改实践还未深入贯彻,特别是一些特色工科专业研究生课程的课程思政仍在起步阶段的问题,以航空航天类特色专业研究生课程\"起落架设计基础\"为抓手,通过课程思政建设总体设计、教学团队建设、思专融合的教学设计及协同育人路径等实践途径,开展研究生课程思政教学实践,打造了国家级课程思政示范课程,提出了\"理论、实践、工程、综合\"的研究生培养层次递进模型,研究了课程思政教学团队的建设原则与机制,提出三种不同的思专融合教学设计方法,并通过充分调动校内外资源实现协同育人.为新工科背景下研究生专业课的课程思政教学改革提供了具体思路与参考.",
+        "id": "643a69c0d6db87a146a90a97",
+        "keywords": null,
+        "keywords_zh": [
+          "课程思政",
+          "研究生培养",
+          "新工科",
+          "航空航天特色",
+          "思专融合"
+        ],
+        "title": "Exploration and Practice of Curriculum Ideology and Politics for Postgraduates under the Background of Emerging Engineering Education: A Case Study of a Postgraduate Course for Aerospace Majors",
+        "title_zh": "新工科背景下研究生课程思政教学探索与实践\r——以航空航天特色专业研究生课程教改为例",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnMHfZATrgk0cS9Aa3llrdCk"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "目的 探索翻转课堂在航空航天心血管教学中的应用方法和效果.方法 以\"失重对心血管功能的影响\"章节为例,选取2018级航空航天专业学员49名学员,采用传统教学模式进行授课(对照组),选取2019级航空航天医学专业44名学员,采用翻转课堂教学模式进行授课(实验组).通过考试成绩、调查问卷结果对翻转课堂教学方法进行评估与分析.结果 实验组学员失重相关章节试题考试成绩明显优于对照组(P＜0.05);问卷调查结果表明翻转课堂模式下教学效果明显优于传统教学模式.结论 采用翻转课堂的教学模式能够解决航空航天心血管医学课程教学中的痛点问题,打破传统教学模式的限制,提高相关课程教学质量.",
+        "doi": "10.12125/j.chj.202204130",
+        "id": "646b438dd68f896efa213ee9",
+        "keywords": null,
+        "keywords_zh": [
+          "翻转课堂",
+          "航空航天心血管医学",
+          "失重",
+          "心血管生理",
+          "教学应用"
+        ],
+        "title": "The application of flipped classroom in aerospace cardiovascular medicine—taking the effect of weightlessness on cardiovascular functions as an example",
+        "title_zh": "翻转课堂在航空航天心血管医学教学中的应用—以\"失重对心血管功能的影响\"为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "\"航空发动机结构分析与设计\"是飞行器动力工程专业学生重要的核心专业课之一,对学生的专业水平、职业认同、未来规划等方面均有较大影响.南京航空航天大学能源与动力学院\"航空发动机结构分析与设计\"课程组基于课程特色构建了线上线下协同、理论实践结合、课堂内外兼修的多层次混合式课程思政教学模式,通过强化过程性考核实现了课程思政育人效果的检验,为航空航天类课程的思政引领教学提供了可行思路.",
+        "doi": "10.3969/j.issn.2095-5065.2023.04.001",
+        "id": "6462ed72d68f896efa8ef9d2",
+        "keywords": null,
+        "keywords_zh": [
+          "混合式课程",
+          "航空航天",
+          "课程思政"
+        ],
+        "title_zh": "\"航空发动机结构分析与设计\"课程线上线下混合式教学及思政教学实践研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "工程热力学是北京航空航天大学航空宇航科学与技术和动力工程及工程热物理学科的重要专业基础课,对航空航天专业人才的培养具有重要意义.文章针对工程热力学传统教学中存在的学生学习积极性不高等问题,结合航空航天专业特点,引入研究型教学模式.该研究型教学方法旨在培养学生自主学习的能力和创新意识,激发学生的学习积极性,为培养服务国家需求和引领时代发展的未来领军人才打下基础.",
+        "doi": "10.16400/j.cnki.kjdk.2023.25.018",
+        "id": "6553a612939a5f40825a2b8f",
+        "keywords": [
+          "engineering thermodynamics",
+          "research based teaching",
+          "aerospace",
+          "thermal cycle"
+        ],
+        "keywords_zh": [
+          "工程热力学",
+          "研究型教学",
+          "航空航天",
+          "热力循环"
+        ],
+        "title": "Exploration of Research-oriented Teaching Practice in Engineering Thermodynamics Course",
+        "title_zh": "工程热力学课程研究型教学实践探索",
+        "year": 2023
+      },
+      {
+        "abstract": "Objective To explore the application and effectiveness of\"Aviator Participate in Class(APC)\"teaching mode in the practical teaching of aviators'ear function assessment in aerospace clinical medicine.Methods A comparative study was conducted on students majoring in Aerospace Clinical Medicine who were enrolled in the 2017 and 2018 undergraduate programs.The observation group adopted the APC teaching mode,while the control group used traditional methods for practical teaching.We compared the results of the case analysis test in final theoretical exam and practical operation assessment between two groups,and evaluated their comprehensive abilities from four aspects:communication,health education,team collaboration,and aviation clinical thinking.We also analyzed the attitude of the observation group to the APC teaching mode and traditional teaching methods.We performed t-tests using SPSS 22.0 software.Results The results showed that the scores of case analysis questions and practical assessment of eustachian tube ventilation function in the observation group were higher than those in the control group(P＜0.05).The observation group scored higher than the control group in three aspects of communication,health education,and aviation clinical thinking(P＜0.05);The observation group believes that compared to traditional teaching methods,the APC teaching mode can effectively enhance learning motivation and interest,enhance sense of professional honor,and improve problem-solving and thinking abilities.Conclusion The adoption of the APC teaching mode not only enhances students'understanding and mastery of knowledge and skill application,but also stimulates their enthusiasm for learning aviation clinical medicine,realizes the role of aviation clinical medicine thinking in solving practical problems,enhances the sense of honor of aviation military medicine profession,and gains recognition and appreciation from students.It is worth further promoting and applying.",
+        "abstract_zh": "目的 探索\"飞行员进课堂\"教学模式在航空航天临床医学飞行员耳功能评定实践课教学中的应用及效果.方法 对开设航空航天临床医学的2017级、2018级航空航天临床医学专业五年制本科学员开展对照研究.观察组采用\"飞行员进课堂\"教学模式,对照组采用传统方法进行实践教学.对比两组学员理论考试病例分析试题成绩、实践操作考核成绩,从沟通交流、卫生宣教、团队协作、航空临床思维等四个方面进行综合能力评价,分析观察组学员对\"飞行员进课堂\"教学模式和传统教学方法的满意度.用SPSS 22.0软件进行t检验.结果 观察组理论考试中的病例分析试题成绩、咽鼓管通气功能检查实践考核成绩均高于对照组(P＜0.05).教学后观察组在沟通交流、卫生宣教、航空临床思维三个方面的能力评分均高于对照组(P＜0.05);观察组学员认为相较于传统教学方法,飞行员进课堂教学模式能够有效提升学习动机兴趣、增强职业使命荣誉感、提高分析解决问题能力与思维能力.结论 采用\"飞行员进课堂\"教学模式不仅增强了学员对知识、技能应用的掌握,还激发了对航空临床医学的学习热情,体会到航空临床医学思维在解决实际问题中的作用,提升了航空军医职业荣誉感,获得了学员的认可和喜爱,值得进一步推广应用.",
+        "doi": "10.13555/j.cnki.c.m.e.2023.06.013",
+        "id": "658e332b939a5f4082cfc39f",
+        "keywords": [
+          "aviator participate in class",
+          "aerospace clinical medicine",
+          "practical teaching"
+        ],
+        "keywords_zh": [
+          "飞行员进课堂",
+          "航空航天临床医学",
+          "实践课教学"
+        ],
+        "title": "Application of the aviator participate in class teaching mode in practical teaching of aviators'ear function assessment",
+        "title_zh": "\"飞行员进课堂\"教学模式在飞行员耳功能评定实践教学中的应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "南京航空航天大学数字电路与系统设计是探测制导与控制、自动化、电气工程与自动化、测控技术与仪器等航空航天特色专业的技术基础课和必修主干课.航空航天专业特色对数字电路与系统设计教学提出了具体要求.该文深入分析了南京航空航天大学航空航天特色专业数字电路与系统设计课程教学存在的若干问题,从教学内容与教学资源推陈出新、教学/考核方式丰富创新、空天报国情怀与专业技能融合培养等多个方面,对航空航天特色专业数字电路与系统设计教学改革进行探索与思考,为提高数字电路系列课程教学水平、培养新形势下航空航天后备人才提供支撑.",
+        "doi": "10.16871/j.cnki.kjwh.2023.18.030",
+        "id": "653b704d939a5f4082710991",
+        "keywords": [
+          "teaching reform",
+          "Digital Circuit and System Design",
+          "specialties of aeronautics and astronautics",
+          "un-dergraduate teaching"
+        ],
+        "keywords_zh": [
+          "教学改革",
+          "数字电路与系统设计",
+          "航空航天特色",
+          "本科教学"
+        ],
+        "title": "Exploration on Teaching Reform of Digital Circuit and System Design in Specialties of Aeronautics and Astronautics",
+        "title_zh": "航空航天特色专业数字电路与系统设计教学改革探索",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "临床实习是医学专业本科学员获得岗位胜任力的关键环节.航空航天医学专业及相关医学岗位任职需求具有特殊性,对本科学员临床实习的教学管理工作提出了更高要求.该研究在介绍航空航天医学专业本科学员临床实习教学特殊性的基础上,通过分析空军军医大学在该专业本科学员临床实习教学管理中存在的问题,探讨改进措施,以提高临床实习教学水平及本科学员的岗位胜任力.",
+        "doi": "10.3969/j.issn.1002-2376.2023.19.012",
+        "id": "65539e9d939a5f408246b999",
+        "keywords": [
+          "Aerospace medicine",
+          "Clinical internship",
+          "Post competency",
+          "Teaching management"
+        ],
+        "keywords_zh": [
+          "航空航天医学",
+          "临床实习",
+          "岗位胜任力",
+          "教学管理"
+        ],
+        "title": "Reflections on the Management of Clinical Internship Teaching for Undergraduate Students Majoring in Aerospace Medicine",
+        "title_zh": "对航空航天医学专业本科学员临床实习教学管理工作的思考",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着中国高等教育的现代化进程不断深入,各地高校园区的建设日益活跃.通过探讨与高校学生宿舍相关的设计与实践,强调住宿环境及其空间使用效率对学生生活的重要性.通过分析当前国内高校宿舍建筑的设计及使用情况,揭示其存在的普遍问题.为解决这些问题,提出了\"共享\"的设计方案和解决思路,着重强调如何在宿舍内部创造共享的空间,利用共享的资源和设施来提高宿舍的使用效率和空间体验,以满足当代大学生的生理和心理需求.",
+        "doi": "10.16673/j.cnki.jcfzdx.2023.0263",
+        "id": "6553adec939a5f40826e56c8",
+        "keywords": null,
+        "keywords_zh": [
+          "南京航空航天大学",
+          "高校学生宿舍",
+          "共享空间",
+          "高效利用",
+          "建筑设计"
+        ],
+        "title_zh": "基于共享视角的高校宿舍设计优化",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "\"高等工程热力学\"是工程热物理及热能工程专业研究生的必修课之一.在航空航天类院校开展\"高等工程热力学\"课程教学,对高等工程热力学基础理论和专业知识进行系统讲授的同时,需要紧密结合航空航天技术发展前沿,培养学生的学习兴趣,增强其学习动力和主动性.通过对\"高等工程热力学\"课程教学现状进行分析,指出了目前存在的\"重知识,轻能力\"的问题.针对上述问题,从教学方法、教学实践方面给出了结合航空航天技术发展前沿的\"高等工程热力学\"课程教学改革实施方案,并对某教学实例进行细致分析,切实提升教学质量.",
+        "id": "64b652d43fda6d7f068180cd",
+        "keywords": null,
+        "keywords_zh": [
+          "高等工程热力学",
+          "航空航天",
+          "发展前沿",
+          "课程教学"
+        ],
+        "title": "Teaching Method Exploration of Advanced Engineering Thermodynamics Combined with Cutting-edge Technology Development in Aeronautics and Astronautics",
+        "title_zh": "结合空天技术前沿的\"高等工程热力学\"教学方法探索",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着国民经济的发展和人民生活水平的提高,航空文旅产业融合发展备受关注.首先分析了航空文旅产业融合发展的现状和特点,然后以寿昌航空小镇为实践案例,探讨航空文旅产业融合发展的路径和实践探索.提出构建航空文化创意产业生态圈策略和措施、打造特色空间规划的建设思路等.为其他地区推进航空文旅产业融合发展提供了有益的参考和借鉴.",
+        "doi": "10.3969/j.issn.1006-3013.2023.04.014",
+        "id": "6498ed89d68f896efacb637b",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "文旅产业",
+          "融合发展"
+        ],
+        "title_zh": "航空文旅产业融合发展路径的实践探索研究——以寿昌航空小镇为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着航空航天工业的快速发展,服役工况更加复杂而严苛,对材料的高温性能提出了更高的要求,高温合金紧固件因其优良的高温性能而得到广泛应用.从国内航空航天用高温合金紧固件典型产品选材、研发生产现状、主要研制生产单位、关键核心技术突破等方面分析国内航空航天用高温合金紧固件发展,指出在批次稳定性、基础制造能力和标准规范体系建设等方面存在的问题和不足,提出了今后努力的方向.",
+        "doi": "10.3969/j.issn.1003-4226.2023.03.001",
+        "id": "64b651e13fda6d7f067e8a4a",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "高温合金",
+          "紧固件",
+          "疲劳性能"
+        ],
+        "title": "Development status of superalloy fasteners for domestic aerospace",
+        "title_zh": "国内航空航天用高温合金紧固件发展现状",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnYeEKnjYn5CFSC07wfAIvLI"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "思政课的本质是讲道理,是落实立德树人根本任务的重要举措.该文通过航空航天背景下自动控制原理课程建设的具体实践,深入挖掘课程蕴含的思政元素,将其与专业知识内容有机融合,采用灵活的授课形式与教学方法,提高思政课教学的实效性.通过课堂教学实践,取得良好的效果.",
+        "doi": "10.19980/j.CN23-1593/G4.2023.11.002",
+        "id": "64b09d943fda6d7f064abc8b",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "自动控制原理",
+          "思政教育",
+          "教学设计",
+          "人才培养"
+        ],
+        "title_zh": "航空航天背景下自动控制原理课程思政教学设计与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "在极端环境条件下,受温度、压力、速度等因素影响,具有柔性和大变形特征的航空航天装备极易发生故障,因此研发相应的大变形柔性传感器以对其服役状态下的应变、曲率、气动外形等参数进行实时监测面临巨大的挑战.文章面向具有柔性和大变形特征的航天回收降落伞,设计了大变形柔性应变传感器(简称大应变传感器),研究结果表明该大应变传感器在高达35％的应变范围内保持了优异的线性度(拟合优度>0.999).文章还进一步探索传感器在降落伞的伞衣、伞绳、径向带等部位的集成方案并进行系统性测试,通过航天降落伞地面高塔投放试验和风洞试验的示范应用,有效地获得降落伞的变形状态信息,这对降落伞的结构设计优化与实时控制具有重要意义.",
+        "doi": "10.3969/j.issn.1009-8518.2023.01.007",
+        "id": "64286afd90e50fcafddfc4b7",
+        "keywords": null,
+        "keywords_zh": [
+          "柔性",
+          "大变形",
+          "应变",
+          "传感器",
+          "航空航天"
+        ],
+        "title": "Research and Application of Sensors with Great Flexibility and Deformability for Aerospace Recycling Equipment(2)——Stretchable Strain Sensor",
+        "title_zh": "面向航天回收装备的大变形柔性传感器研究与应用(二)——大应变传感器",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "在航空航天领域中,金属封装材料被广泛应用,对其加工制造工艺的研究具有重要的意义.近年来,金属基复合材料逐渐代替传统金属材料应用于新一代的航空航天电子封装领域中,对金属基复合材料的加工工艺进行优化,是满足新一代电子封装产品需求的关键.对传统封装金属和金属基复合封装材料加工制造的研究及应用现状进行阐述,分析金属基复合封装材料的加工难点,并对该领域未来的发展进行展望.",
+        "doi": "10.3969/j.issn.1674-1641.2023.07.003",
+        "id": "64c774c23fda6d7f06bf758f",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "金属基复合材料",
+          "电子封装",
+          "加工制造"
+        ],
+        "title_zh": "电子封装用金属基复合材料加工制造的研究进展",
+        "year": 2023
+      },
+      {
+        "abstract": "(APC)areimportantstructural materialsforrealizingthe lightweight of aerospace vehicles. However, unfavorable factors such as low manufacturing efficiency,high cost,and serious energy consumption hinder the further expansion of APC applications.Resistanceimplantwelding (RIW)technologyhastheadvantagesofsimpleequipment, high weldingefficiency,energysavingandenvironmentalprotection,andissuitablefortheconnection oflarge structuralparts with curved surface.Itcan replacethetraditional bonding process and promoteAPC structuralpartstorealizegreen manufacturing,re-manufacturingandrecycling.The researchprogress of APC resistanceimplant welding process andits application technology were presentedinthispaper.Thechallengesfaced by APC resistanceimplant weldingtechnology were introduced.Theresearchstatusofthermoplasticcomposite RIW,processparameteroptimizationfor weldingpressureand weldingtime,implanttypes,thermosettingcompositeRIW andtheapplication technology of RIW in the manufacturing of large APC structural parts were summarized systematically.Theexisting problemsof APC resistanceimplant welding werepointed out,which relateto materialdesign,processoptimizationandfixture manufacturing.Inthefuture,theresearch on RIW technologyof TPC structureisexpectedtofocus onthe developmentofhigherstrength weldingbinder,the design of HE with new structure and theimprovement ofinterface bonding strengthbetweenbinderand HEtoimprovethebearingcapacityofjoints.Theresearchonmechanical constitutivemodel,fatiguestrengthandservicelifeofRIW jointswillbestrengthened;theresearch on weldingequipmentandfixturesforspecific APCcomponents willbecarriedouttopromote RIW engineeringtofillthegapsinthisareainChina.",
+        "abstract_zh": "先进聚合物基复合材料(APC)是实现航空航天装备轻量化的重要结构材料,而制造效率低、成本高、耗能严重等因素阻碍了 APC的进一步扩大应用.电阻植入焊(RIW)技术具有设备简单、效率高、节能环保、适合大型曲面结构连接等优点,是能够替代传统的胶接工艺实现 APC 结构件的绿色制造、再制造、循环利用的革新性技术之一.本文综述了APC电阻植入焊工艺及应用技术的研究进展,介绍了 APC电阻植入焊技术面临的挑战,系统归纳总结了热塑性复合材料 RIW原理、电阻植入体类型、焊接工艺参数优化、热固性复合材料 RIW原理以及 RIW在大型 APC 结构件制造中的应用技术等,指出了 APC的 RIW目前存在涉及材料设计、工艺优化和夹具制造等方面的问题.在未来,热塑性复合材料(TPC)结构的 RIW技术相关的研究有望集中在发展更高强度的焊接黏结剂、设计新型结构的发热元件(HE)和改善黏结剂与 HE的界面结合强度等方面,以提高接头的承载能力;加强 RIW接头力学本构模型、疲劳强度以及服役寿命的研究;针对特定 APC部件开展焊接设备和夹具的研究,推动 RIW工程化,填补国内在该方面的空白.",
+        "doi": "10.11868/j.issn.1001-4381.2022.000862",
+        "id": "64d9d5d23fda6d7f0640cfd7",
+        "keywords": [
+          "advancedpolymer-matrixcomposites",
+          "aerospacevehicle",
+          "resistanceimplantwelding",
+          "welding parameter"
+        ],
+        "keywords_zh": [
+          "先进聚合物基复合材料",
+          "航空航天装备",
+          "电阻植入焊",
+          "焊接工艺参数"
+        ],
+        "title": "Research Progress in Resistance Implant Welding of Advanced Polymeric Composites",
+        "title_zh": "先进聚合物基复合材料电阻植入焊技术研究进展",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "\"薄膜材料与技术\"课程是为功能材料和新能源材料与器件专业本科生开设的一门专业选修课.该文结合学校航空航天特色,从真空技术基础、薄膜气相沉积方法、薄膜生长过程及薄膜结构、薄膜表征方法、薄膜材料应用五大章节入手,根据不同内容及特点融入不同的航空航天教学元素,达到既增强学生对课程知识的兴趣和理解力,又培养学生深爱祖国、航空报国的情怀的目的.",
+        "doi": "10.16871/j.cnki.kjwh.2023.19.024",
+        "id": "6549444d939a5f4082a049ed",
+        "keywords": [
+          "aeronautics and astronautics contents",
+          "Thin Film Materials and Technology",
+          "course teaching"
+        ],
+        "keywords_zh": [
+          "航空航天元素",
+          "薄膜材料与技术",
+          "课程教学"
+        ],
+        "title": "Teaching Exploration of Thin Film Materials and Technology by Adding Aeronautics and Astronautics Contents",
+        "title_zh": "融入航空航天元素的\"薄膜材料与技术\"课程教学探索",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "多尘环境下服役的航空航天装备其性能受到微尘的严重影响,如沙漠起降的军用直升机、运输机和火星多尘表面使用的火星车等.为加强航空航天装备的防尘设计,微尘的三维形貌十分关键且影响着微尘的气动和附着等特性,但由于微尘粒径分布宽、成分复杂、外形不规则,获得精确的微尘三维形貌十分困难.提出了一种基于截面SEM数据特征的微尘三维形貌建模方法,通过逐层剥离获得高精度的微尘断层二维图像,基于埋入的钢球在断层图像中的半径变化,解决断层图像间距的精确测定难题,实现了基于断层图像的微尘三维形貌重构.以粒径100 μm微尘样品,利用所提出方法进行了三维形貌重构和分析,获得了500个砂尘的近似三维模型.定量化表征了微尘的三维形貌,形成了微尘的外形特性分析方法,为研究微尘气动、反弹与吸附特性提供了微尘的形貌数据,进而推动航空发动机冲蚀防护、航空发动机气体动力学与航天探测器的研究,对航空航天装备的防尘设计有重要意义.",
+        "id": "6491ef0ed68f896efaeefb06",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天装备",
+          "微尘",
+          "几何特征",
+          "图像处理",
+          "三维形貌"
+        ],
+        "title": "A method for modeling three-dimensional morphology of dust particle based on cross-sectional SEM data characteristics",
+        "title_zh": "基于截面SEM数据特征的微尘三维形貌建模方法",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "以铝及其合金作为基体的铝基复合材料不仅继承了铝合金选择范围广、易于加工制备及可热处理等优点,同时利用了不同类型增强体的优势,具有良好的综合力学、物理及化学等性能.高性能的轻质高强铝基复合材料的出现,为满足航空航天领域的应用需求提供了新途径,逐渐替代传统铝合金及其他基体类型的复合材料,在航空航天领域具有广阔的应用前景.基于此,本文介绍了铝基复合材料的基本分类,综述了近年来国内外铝基复合材料制备方法的主要进展,总结分析了铝基复合材料的物理、化学、力学、摩擦等性能,概述了铝基复合材料在航空航天领域的应用情况,最后展望了铝基复合材料的发展及应用,以期对促进铝基复合材料的发展及在航空航天领域的应用有所帮助.",
+        "doi": "10.16410/j.issn1000-8365.2023.3202",
+        "id": "6532277a939a5f408259e332",
+        "keywords": [
+          "aluminum matrix composites",
+          "preparation method",
+          "mechanical property",
+          "physical and chemical properties",
+          "aerospace applications"
+        ],
+        "keywords_zh": [
+          "铝基复合材料",
+          "制备方法",
+          "力学性能",
+          "物理化学性能",
+          "航空航天应用"
+        ],
+        "title": "Research Progress and Aerospace Applications of Aluminum Matrix Composite",
+        "title_zh": "铝基复合材料研究进展及其航空航天应用",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "开展青少年航空航天科普教育是提升青少年科研能力的重要举措,对推进现代国家的国防教育具有重大意义,能够有效解决航空航天高水平技术需求与科研队伍低创新力之间矛盾,以及缓解高水平素质教育要求与基础教育经费投入不足之间矛盾.以辽宁省为例,立足辽宁现有的 81 家航空航天类单位,将航空航天企事业单位、科研院所、高校汇集起来,通过搭建 14 个科普教育平台形成一套完整的教育体系,以实现科普教育由单纯体验式的被动接受模式向主动参与转变.",
+        "doi": "10.3969/j.issn.1006-8945.2023.09.019",
+        "id": "653b6e2a939a5f40826c36f0",
+        "keywords": [
+          "teenagers",
+          "aerospace",
+          "science popularization education",
+          "new mode",
+          "science popularization platform"
+        ],
+        "keywords_zh": [
+          "中小学生",
+          "航空航天",
+          "科普教育",
+          "新模式",
+          "科普平台"
+        ],
+        "title": "An Effective Way for Teenagers to Carry Out Aerospace Science Popularization Education",
+        "title_zh": "开展中小学生航空航天类科普教育的一种有效方式",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "针对在航天领域广泛应用的ARINC818协议进行了介绍.首先,介绍了协议的发展历史和组成;然后介绍了协议中的视频帧、主要协议层次,并详细介绍了ARINC818的帧格式及容器;最后,设计了一个将818视频数据转换成DVI视频数据的系统.",
+        "doi": "10.16184/j.cnki.comprg.2023.11.010",
+        "id": "657c7874939a5f4082fcab98",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "ARINC818协议",
+          "协议层次",
+          "视频帧格式"
+        ],
+        "title_zh": "ARINC818协议综述及设计",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "本文结合现有高温、超高温等极端环境下先进材料力学性能测试技术,列举国内外相关测试标准,综合分析了航空航天飞行器热端部件用陶瓷材料、先进复合材料、金属及合金材料相关测试标准的现有情况,并对极端环境材料力学性能测试技术及相关标准体系建设提出展望.",
+        "doi": "10.3969/j.issn.2095-4085.2023.09.063",
+        "id": "6553a46e939a5f408255fbbc",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天发动机",
+          "极端环境",
+          "测试标准",
+          "先进复合材料",
+          "精细陶瓷",
+          "高温合金材料"
+        ],
+        "title_zh": "航空航天飞行器热端部件用高温材料极端环境力学性能测试标准分析及展望",
+        "year": 2023
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObna0uqTDeCG9nqdFrKwdTGn4"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "针对在航天领域广泛应用的ARINC818协议进行了介绍.首先,介绍了协议的发展历史和组成;然后介绍了协议中的视频帧、主要协议层次,并详细介绍了ARINC818的帧格式及容器;最后,设计了一个将818视频数据转换成DVI视频数据的系统.",
+        "doi": "10.16184/j.cnki.comprg.2023.11.010",
+        "id": "657c7874939a5f4082fcab98",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "ARINC818协议",
+          "协议层次",
+          "视频帧格式"
+        ],
+        "title_zh": "ARINC818协议综述及设计",
+        "year": 2023
+      },
+      {
+        "abstract": "Hard technology industry is not only a high-tech industry, but also a strategic industry for a country to develop and maintain its competitive advantage. The aerospace industry is one of the most typical hard technology industries in the world today. Based on the industrial innovation evolution system, the paper reviews and summarizes the evolution of the independent innovation model of China’s aerospace hard technology industry from the two dimensions of “horizontal” and “vertical”, and finds that: In the early, middle and late stages of independent innovation and development of China’s aerospace industry, especially the aerospace hard technology industry, under the nationwide system, each innovation subject appropriately adopted the original innovation mode and the integrated innovation mode on the basis of introducing, digesting and absorbing re-innovation mode, and ensured the dominance of these two modes, thus achieved considerable success, which has laid a good foundation for China to transform from a weak aerospace country to an aerospace power in a relatively short period of time, and then to become a strong aerospace country, and provided useful inspiration for China to build itself into an aerospace power and achieve high-level scientific and technological self-reliance.",
+        "abstract_zh": "硬科技产业不仅是高精尖产业,更是一个国家发展并保持竞争优势的战略产业.航空航天产业是当今世界最为典型的硬科技产业之一.基于产业创新演化系统,从\"横向\"和\"纵向\"两个维度,回顾总结中国航空航天硬科技产业自主创新模式的演进历程,可发现:中国在航空航天、尤其是航天硬科技产业自主创新发展的早期、中期和后期,在举国体制下,各创新主体能够较为恰当地在采取引进消化吸收再创新模式的基础上,采取原始创新模式以及集成创新模式,并确保后两种模式的主导地位,获得了相当大的成功.为中国在较短时期从航空航天弱国走向航天大国,进而实现航空航天强国奠定了良好基础;也为中国建设航空航天强国,实现高水平科技自立自强提供了有益启示.",
+        "doi": "10.13467/j.cnki.jbuss.2022.05.007",
+        "id": "63be12e390e50fcafd9a3c90",
+        "keywords": [
+          "hard technology",
+          "aerospace hard technology industry",
+          "original innovation mode",
+          "integrated innovation mode",
+          "introducing,digesting and absorbing re-innovation mode",
+          "inspiration"
+        ],
+        "keywords_zh": [
+          "硬科技",
+          "中国航空航天硬科技产业",
+          "原始创新模式",
+          "集成创新模式",
+          "引进消化吸收再创新模式",
+          "启示"
+        ],
+        "title": "The Evolution Process of Independent Innovation Model in Chinese Aerospace and the Chip Hard Technology Industry —Based on the Analysis Framework of Industrial Innovation Evolution System",
+        "title_zh": "中国航空航天硬科技产业自主创新模式演进历程及其启示\r——基于产业创新演化系统分析框架",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "2021年航空航天人体与环境工程学术交流会于2021年9月11—12日在北京举办。会议邀请了来自人机环领域的专家、学者和工程技术人员，就航空航天人机与环境工程专业发展和科技前沿等内容进行了报告交流。会议论文集共收录交流论文41篇，其中与航空航天医学密切相关的论文16篇（含英文摘要2篇）。笔者对航空航天医学领域的论文进行了综述，主要包括低压性缺氧的应对措施、温湿度的影响及热应激评价、人机工效与人工智能、座舱环境的影响、航空医学训练以及航天医学等方面。",
+        "doi": "10.3760/cmi.j.cn113854-20220908-00114",
+        "id": "64cbc2e03fda6d7f06a4795d",
+        "keywords": [
+          "Aerospace medicine",
+          "Anoxia",
+          "Integration of medicine and engineering",
+          "Man-machine systems",
+          "Conference"
+        ],
+        "keywords_zh": [
+          "航空航天医学",
+          "缺氧",
+          "医工结合",
+          "人机系统",
+          "会议"
+        ],
+        "title": "Advances on the integration of medicine and engineering in aerospace medicine—the papers of \n     2021 Aerospace Human and Environmental Engineering Conference",
+        "title_zh": "航空航天医学之医工结合新进展——2021年航空航天人体与环境工程学术交流会论文综述",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "文章针对西北工业大学的航空航天专业航天器非线性动力学研究生课程的分型维度这一重要专题,围绕其教学设计、教学过程、教学思路和教学效果分析等进行创新,探索性地对航空航天类专业课程教学进行改革,旨在将创新思维培养、创新能力塑造的理念融入工科专业课程中,达到\"如盐在肴,融于细微\"的效果.文章所提出的教学设计方法将对推进西北工业大学专业课程实践具有重要引导作用.",
+        "doi": "10.19980/j.CN23-1593/G4.2022.17.019",
+        "id": "62ba66e95aee126c0f950821",
+        "keywords": null,
+        "keywords_zh": [
+          "教学设计",
+          "航空航天",
+          "专业课程",
+          "分型维度"
+        ],
+        "title_zh": "航天器非线性动力学专业课程中分形维数的概念教学设计",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "课程思政是新时代对高校思想政治教育工作的新要求.航空航天类等理工科专业是高校课程思政教育的难点,也是航天类院校课程思政的重点.以\"航天飞行器控制系统设计\"课程为例,分析了航空航天类专业课程思政存在的现状和问题,探讨了航空航天类专业开展课程思政的路径,设计了融入爱国情怀、社会责任、科学素养等思政元素的教学内容,提出了适应课程思政内容的教学模式改进措施,为航空航天类专业课程思政有机融入专业教学提供参考.",
+        "id": "64b0a3e53fda6d7f06579ee8",
+        "keywords": null,
+        "keywords_zh": [
+          "课程思政",
+          "航空航天",
+          "思政育人",
+          "教学模式"
+        ],
+        "title": "Exploration and Practice of \"Curriculum Ideological and Political Education\" in Aerospace Majors",
+        "title_zh": "航空航天专业课程思政教育的探索与实践",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "作为一种新兴的清洗技术，激光清洗具有适用材料范围广、对基体损伤小、非接触加工、无工具损耗、环境污染小等显著优势，在船舶、航空航天、电力电网、汽车制造、轨道交通、精密电子等领域均有广阔的应用前景。本文针对电力及航空航天两个典型行业，概述激光清洗技术的应用进展，分析激光清洗与传统人工去除、化学清洗、机械加工等方式的对比优势，为这一技术的进一步推广应用提供参考。",
+        "doi": "10.3969/j.issn.1671-8909.2022.09.005",
+        "id": "6367f33990e50fcafd90aeb4",
+        "keywords": null,
+        "keywords_zh": [
+          "激光清洗",
+          "电力",
+          "航空航天"
+        ],
+        "title_zh": "激光清洗在电力及航空航天领域应用简介",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "近年来,镁稀土合金由于其高强度、低密度和高温性能良好等特点,在追求轻量化的航空航天产业当中受到越来越多的关注.总结当前主流的2系高强度Mg-RE合金(Mg-Gd和Mg-Y系合金)的性能特点、强化机制和研究进展,简要介绍其他Mg-RE合金的研究情况,最后回顾镁稀土合金在航空航天领域的应用.",
+        "doi": "10.19328/j.cnki.2096-8655.2022.06.010",
+        "id": "64917e3dd68f896efa53b2f2",
+        "keywords": null,
+        "keywords_zh": [
+          "镁合金(Mg)",
+          "稀土(RE)",
+          "高强度",
+          "航空航天"
+        ],
+        "title": "Recent Development of High Strength Mg-RE Alloys for Aerospace Application",
+        "title_zh": "航空航天用高强度Mg?RE系合金的研究进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "航空航天用Al-Li合金因具有突出的低密度、优异的综合性能和广阔的应用前景,已逐步成为与2×××、7×××系合金并列的新一代高性能铝合金.概述了近百年来国内外铝锂合金的研发历史和工业应用情况,分析了第一代至第三代铝锂合金的研发和性能改进思路,同时也总结了我国铝锂合金产业化大规模应用需要进一步克服的技术难点.最后针对未来我国铝锂合金产业的发展方向提出了见解.",
+        "doi": "10.3969/j.issn.1005-4898.2022.02.01",
+        "id": "62a862145aee126c0f371f61",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天用铝",
+          "铝锂合金",
+          "微合金化"
+        ],
+        "title": "Research progress and development trend of Al-Li alloys for aerospace applications",
+        "title_zh": "航空航天用铝锂合金研究进展及发展趋势",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "当今工业机器人加工技术越来越多地被应用于航空、航天、高铁、船舶等高端制造领域中的制孔、铆接、铣削、磨削等工艺.然而,由于工业机器人定位精度低限制了其自身发展及其在高精制造业中的进一步应用;因此,开展机器人精度补偿技术研究对提高机器人定位精度十分重要.对工业机器人精度补偿技术的研究现状进行综述,分析了机器人的定位误差来源,梳理了当前在提高机器人定位精度方面的研究方法和技术以及目前的应用进展,总结了未来工业机器人定位精度提升方法的趋势,可为工业机器人在制造业的应用发展提供指导.",
+        "id": "62c7db845aee126c0f0ba94c",
+        "keywords": null,
+        "keywords_zh": [
+          "工业机器人",
+          "精度补偿",
+          "机器人加工",
+          "误差分析",
+          "航空航天制造"
+        ],
+        "title": "Error compensation technology and its application progress of an industrial robot",
+        "title_zh": "机器人精度补偿技术与应用进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "工业机器人以其高柔性化及灵活性的优势在航空航天制造中已广泛应用,同时随着我国航空航天事业的快速发展,对工业机器人的精度要求也不断提高.目前工业机器人的精度限制了其在更多航空航天产品加工及装配向自动化、数字化、智能化发展过程中的应用,因此,对航空宇航制造工程专业人才培养过程中,应着重关注工业机器人精度补偿技术的教学,尤其是在实践教学环节,应加强学生对工业机器人精度补偿理论的理解及实践,从而构成完整的教学闭环.本文通过作者在相关科研项目积累中,针对航空航天制造过程中工业机器人精度补偿技术的需求场景,建设了相应的实验教学平台及内容,填补当前我国飞行器制造工程专业在工业机器人精度补偿及应用实践教学平台方面的空白.",
+        "doi": "10.19392/j.cnki.1671-7341.202235008",
+        "id": "63d6f95690e50fcafd431fc2",
+        "keywords": null,
+        "keywords_zh": [
+          "工业机器人",
+          "精度补偿",
+          "航空航天制造"
+        ],
+        "title_zh": "面向航空航天应用的工业机器人精度补偿实践教学建设研究",
+        "year": 2022
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnVbhqnPqziand9gV9I2u3RW"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "航空航天产品使用时存在多种分布式振源,近年来为了对此类振动源开展振动力控制,创新发明了多种振动试验技术,推动了对航空航天结构耐久性的振动试验.本文概述了航空航天结构耐久性相关的耐久性、结构耐久性内涵,结合某型航空航天发动机试验件,对其结构耐久性振动进行了具体讨论.",
+        "id": "63419c7790e50fcafd0cbfb6",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "结构耐久性",
+          "振动试验技术"
+        ],
+        "title_zh": "航空航天结构耐久性振动试验技术研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "黄玉珊先生是我国著名的力学家、航空航天科学家,新中国航空高等教育的奠基人.他不满14岁考入大学,不满23岁时师从国际著名力学大师铁摩辛柯获博士学位,随即义无反顾地回到战火连绵的祖国,受聘中央大学教授.新中国成立后,面对航空工业初建时期技术基础薄弱、人才储备不足、教育体系不完善的困境,他呕心沥血,鞠躬尽瘁,建立新学科,开创新局面,毕生致力于祖国航空航天教育和科技事业.他被认为是我国旧飞机疲劳定寿和延寿、损伤容限评定和新飞机损伤容限设计最早的创始人之一,也是我国飞机自激励振动研究和航天结构环境强度事业的开拓者.本文通过回顾黄玉珊先生在固体力学、航空航天结构强度领域的主要学术成果和卓越贡献,缅怀其坚定不移的报国情怀、严谨求实的治学态度、勇于开拓的创新精神、高瞻远瞩的学术视野以及求真务实的教育思想.",
+        "doi": "10.6052/1000-0992-22-038",
+        "id": "63d83f4890e50fcafd24ea0d",
+        "keywords": null,
+        "keywords_zh": [
+          "固体力学",
+          "结构强度",
+          "飞行器设计",
+          "航空航天"
+        ],
+        "title": "A Pioneer of Structural Strength in Aeronautics and Astronaut-Ics in China — Huang Yushan",
+        "title_zh": "我国航空航天结构强度事业的开拓者——黄玉珊",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "文章梳理了美国铝业公司旗下航空航天产品的发展路径,并针对其航空航天产品中富有特色的紧固件产品进行了详尽分析,旨在为铝加工企业相关产品的研发和推广应用提供具体指导及参考,从而使铝加工企业更好地适应和满足我国高端制造业特别是航空工业快速发展的需要.",
+        "doi": "10.3969/j.issn.1671-6795.2022.02.001",
+        "id": "62a8620b5aee126c0f36edd7",
+        "keywords": null,
+        "keywords_zh": [
+          "铝合金",
+          "美国铝业公司",
+          "航空航天",
+          "紧固件"
+        ],
+        "title": "Analysis on Development Path of Alcoa' s Aerospace Industry",
+        "title_zh": "美国铝业公司旗下航空航天产业发展路径分析",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "气凝胶材料是由聚合物分子链或纳米粒子组成的一种三维纳米骨架结构的多孔材料,它具有低密度、高孔体积、高孔隙率和大比表面积等结构特点,表现出优异的光、热、声、电和力学等特性.气凝胶这种轻质材料能够很好地代替金属材料,在隔热保温、电磁屏蔽、能量储存和基体骨架等航空航天领域具有广泛的应用前景.本文介绍了气凝胶最新研究进展及其在航空航天领域应用,并且展望了气凝胶在该领域的潜在应用和未来发展方向.",
+        "doi": "10.14028/j.cnki.1003-3726.2022.04.002",
+        "id": "6290750b5aee126c0f53775a",
+        "keywords": null,
+        "keywords_zh": [
+          "电磁屏蔽",
+          "气凝胶",
+          "隔热保护",
+          "轻质材料",
+          "航空航天"
+        ],
+        "title": "Progress of Aerogel Materials and Their Applications in Aerospace",
+        "title_zh": "气凝胶材料的研究进展及其在航空航天领域的应用",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "为改善聚醚醚酮(PEEK)生物表面活性、导热性能与耐磨性能,需对PEEK进行改性处理.文章主要从填充改性、共混改性、界面改性和协同改性等方面,综述PEEK复合材料的研究进展,对PEEK及其复合材料在航天航空、电子电器和生物医学等领域的应用进行介绍.研究表明:PEEK共混改性应注重性能间的平衡,填充改性应加强对PEEK界面性能的研究,并加大对PEEK界面改性和协同改性的探索,为制备单方面性能突出、综合性能优异的PEEK复合材料提供思路.",
+        "doi": "10.15925/j.cnki.issn1005-3360.2022.09.026",
+        "id": "63771a2190e50fcafd4bcca0",
+        "keywords": null,
+        "keywords_zh": [
+          "聚醚醚酮",
+          "填充改性",
+          "共混改性",
+          "航空航天",
+          "生物医学"
+        ],
+        "title": "Research Progress on Modification and Application of Polyetheretherketone",
+        "title_zh": "聚醚醚酮的改性及应用研究进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "工业CFD (computational fluid dynamics)软件属于计算机辅助工程(computer-aided engineering, CAE)软件的一种, 在航空航天等领域有着广泛的应用. 其开发过程强烈依赖于流体力学、数学、计算机以及其他领域学科知识模型, 涉及大量理论推导、模型构建、算法优化、验证与确认等专业性、基础性科学研究, 导致软件系统构成复杂, 研发难度巨大. 通过引入软件工程的方法和实践, 能够对软件开发进行更有效的组织与管理, 达到缩短开发周期、提升软件质量的目的. 分析了工业CFD软件的特点和发展趋势, 提出了适合于工业CFD软件的增量与迭代结合的开发模型. 自主研发了面向CFD仿真软件的自动化持续集成平台. 从软件交互、封装与效率、功能扩展性及高性能集群环境部署等方面给出了工业CFD软件的设计建议. 针对性建立了适用于科学计算软件的验证与确认方法. 最后给出了一款国产自主CFD软件示范性案例, 以期为相关研究者和实践者提供参考.",
+        "doi": "10.13328/j.cnki.jos.006547",
+        "id": "62a080e15aee126c0febd36a",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "软件工程",
+          "工业软件",
+          "CFD",
+          "验证与确认"
+        ],
+        "title": "R & D and Design of Industrial CFD Software for Aeronautics and Astronautics",
+        "title_zh": "面向航空航天领域的工业CFD软件研发设计",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "航空航天技术的发展对先进复合材料提出了更高要求,立体织物制备技术得到了全面发展.本文综述了复合材料用立体织物结构、成型工艺、制造设备和应用等国内外研究情况,并结合立体织物特点和近年发展现状,指出未来发展方向.",
+        "doi": "10.12044/j.issn.1007-2330.2022.02.004",
+        "id": "62a080dd5aee126c0febbcbe",
+        "keywords": null,
+        "keywords_zh": [
+          "立体织物",
+          "先进复合材料",
+          "层间连接",
+          "航空航天"
+        ],
+        "title": "Research Progress of Three-dimensional Fabrics for Advanced Composites",
+        "title_zh": "先进复合材料用立体织物研究进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "针对我国非建成区缺乏高精度、高辨识度三维场景的问题,本文提出利用中分辨率航空航天倾斜摄影三维重建地理场景的解决方案.利用0.5 m地面分辨率的航空航天倾斜摄影开展河北省实景三维试点建设项目,从倾斜摄影三维的关键技术、性价比等方面进行翔实的分析.结果表明,利用成本可控的、高精度的、高辨识度的中分辨率航空航天倾斜摄影三维产品能够用于\"实景三维中国\"中地形级地理场景的建设.",
+        "doi": "10.19580/j.cnki.1007-3000.2022.09.011",
+        "id": "6357dd1990e50fcafdceeb83",
+        "keywords": null,
+        "keywords_zh": [
+          "中分辨率航空航天倾斜摄影三维",
+          "实景三维中国",
+          "地形级地理场景",
+          "卫星影像",
+          "新型基础测绘"
+        ],
+        "title": "Application of medium-resolution aerospaceoblique photography in real scene 3D Hebei Province",
+        "title_zh": "中分辨率航空航天倾斜摄影在河北省实景三维试点建设的应用",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "石墨烯是一种二维(2D)纳米材料,具有蜂巢晶格的sp2杂化碳原子的原子薄层,强度高,导电率高.石墨烯的热传输也是一个非常活跃的研究领域,特别是在热管理应用方面.石墨烯基纳米材料的发展得益于其显著的热、机械、光学和电化学等特性.文章重点讨论了石墨烯在航空航天技术中的热门应用方向和广阔前景.",
+        "doi": "10.7673/j.issn.1006-2793.2022.01.007",
+        "id": "629f33de5aee126c0fcfd612",
+        "keywords": null,
+        "keywords_zh": [
+          "石墨烯",
+          "航空航天",
+          "纳米材料",
+          "空间推进"
+        ],
+        "title": "Applications of graphene in areospace propulsion and power",
+        "title_zh": "石墨烯在空天推进和动力领域的应用",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "世界范围内,众多国家都在对数字孪生技术进行研发与应用,在容错阈值极低的航空航天领域及其关键系统中,数字孪生技术的重要性进一步凸显.数字孪生技术具有关键参数包络详细、预测信息精准等突出优势,应用领域涉及飞机等航空航天各类型产品.针对数字孪生技术的应用特点,详细阐述了在不同领域的应用,并对技术发展趋势进行了预测和分析.",
+        "doi": "10.16525/j.cnki.14-1362/n.2022.09.053",
+        "id": "63bda21b90e50fcafdf4ed51",
+        "keywords": null,
+        "keywords_zh": [
+          "数字孪生",
+          "航空航天",
+          "大数据应用",
+          "智能制造"
+        ],
+        "title": "Analysis of Digital Twin Technology Applications in Aerospace",
+        "title_zh": "航空航天领域数字孪生技术应用浅析",
+        "year": 2022
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnVxYjPMDGJ7bIXZYrCZYWgW"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "近年来,中国、美国和其他各国航空航天事业快速发展.我国\"神州十三号\"、美国Space-X\"龙飞船\"和Blue Origin\"新谢泼德号\"载人飞船的成功发射,标志着人类探索太空的进程又跨出了一大步.航空航天领域载人飞船的成功离不开高科技材料产业的快速发展,\"一代材料,一代技术,一代装备\",对材料的认识、研制、开发和应用是人类社会进步最基础、最原始、最本质的驱动力,它对整个国防事业的发展起着推动作用.气凝胶作为一类轻质多孔材料,因其高效的隔热特性在航空航天领域受到越来越多的关注.本文旨在总结SiO2、Al2 O3、ZrO2等氧化物气凝胶和炭气凝胶、碳化物气凝胶、硼化物气凝胶等非氧化物气凝胶材料近年来在航空航天领域的研究进展,从分子结构设计、制备方法、热力学性能等方面进行了详细的讨论,以期为相关的科学研究提供参考和借鉴.",
+        "doi": "10.11896/cldb.22010024",
+        "id": "6398123190e50fcafd54ce2c",
+        "keywords": null,
+        "keywords_zh": [
+          "气凝胶",
+          "氧化物气凝胶",
+          "非氧化物气凝胶",
+          "隔热性能",
+          "航空航天"
+        ],
+        "title": "Research Process on Aerogel Materials Used for Aviation and Aerospace",
+        "title_zh": "航空航天用气凝胶材料的研究进展",
+        "year": 2022
+      },
+      {
+        "abstract": "The turbofan engine is an important piece of equipment in the aerospace industry, and its health directly affects the aircraft’s stability and reliability. The remaining useful life of the turbofan engine is an important factor for aircraft monitoring and maintenance. However, the existing monitoring method has a number of shortcomings, such as complex operating conditions, redundant and large-scale volume data, and a long time span, all of which contribute to a less accurate estimate of the remaining useful life. This paper proposes a fusion of Generative Adversarial Networks (GAN) and Gated Recurrent Units (GRU) based on the mechanism of feature attention, combining the generation capability of GAN with the predictive capability of GRU. To develop the time-series prediction model, feature attention mechanism and GRU modules are used to extract spatial and temporal correlations. The final prediction is made using a pre-trained GAN generator connected to the GRU’s output. Specifically, substituting the typical encoder-decoder network with a GAN resolves the complicated and redundant data problem, significantly boosting the model’s prediction precision and generalization performance. This article verifies the model effect using CMAPSS turbofan engine data and compares it to machine learning methods. The experimental results indicate that the method has good predictive accuracy for two evaluation indicators: the root mean square error and the score.",
+        "abstract_zh": "涡扇发动机作为航空航天领域的核心设备之一,其健康状况决定了航空器能否稳定可靠地运行.涡扇发动机的剩余寿命预测是航天器设备监测与维护的重要一环.然而涡扇发动机的监测过程具有工况复杂、监测数据多样、时间跨度长等特点,针对其数据类型多且体量大、数据冗余度较高、剩余寿命预测精度较低等问题,本文通过将生成对抗网络(Generative adversarial network,GAN)的生成能力与门控循环单元(Gate recurrent unit,GRU)的预测能力相结合,提出一种基于特征注意力机制的GAN和GRU融合模型.为了对时序关系进行建模,首先利用特征注意力机制和GRU分别提取空间和时间上的相关性,然后将经过预训练的生成器附加到GRU之后得到整体模型.具体来说,本文采用预训练的GAN网络生成模块替代传统自编码器,解决了由自编码器参数过多引起的GRU模块训练不充分的问题,提升了时空相关特性的提取能力、提高了模型的泛化性能、提升了预测精度.本文利用CMAPSS涡扇发动机数据来验证模型效果,通过与不同机器学习方法进行对比,实验结果显示,该方法在均方根误差和指数型评价指标这两个评价指标上都有较高的预测精度.",
+        "doi": "10.1360/sst-2021-0434",
+        "id": "627e2b645aee126c0f8c6740",
+        "keywords": [
+          "Gas Turbine Engines"
+        ],
+        "keywords_zh": [
+          "航空航天",
+          "剩余寿命预测",
+          "生成对抗网络",
+          "注意力机制",
+          "特征提取"
+        ],
+        "title": "Remaining Useful Life Prediction of the Aircraft Engine Based on the GRU-GAN Network with a Feature Attention Mechanism",
+        "title_zh": "基于特征注意力机制的GRU-GAN航空发动机剩余寿命预测",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "首先概述目前仿生鸟类扑翼飞行器发展缓慢的原因,针对其原因设计一种具有普适性的多鸟类统一运动机构,并对其主要结构进行简单的概述;其次通过inspire对运动部分进行运动分析实验,采集各项实验数据,并可视化处理;然后通过JJ124BC分析天平对模型运动机构整体质量进行抗压实验和质量数据采集,验证材料制造方面可行性;最终形成由提取蓝本参数、代入运算进行设计、虚拟样机仿真和扑翼飞行器制造的完整结构,践行设计制造一体化和微型扑翼飞行器实验研究的严谨性和实践性.",
+        "doi": "10.19981/j.CN23-1581/G3.2022.23.013",
+        "id": "632042cb90e50fcafdc4c520",
+        "keywords": null,
+        "keywords_zh": [
+          "仿生机械学",
+          "仿生扑翼飞行器",
+          "运动分析",
+          "航空航天",
+          "飞行器设计"
+        ],
+        "title_zh": "基于喜鹊的多鸟类统一运动机构设计与实验",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "通识课航空航天概论是武汉大学“武大通识3.0”首批入选建设课程，属于武汉大学通识教育课程四大模块之“科学精神与生命关怀”模块，旨在开阔视野，弘扬正能量，学习科学精神，培养爱国情怀，促进交叉学科知识融合。因此，根据近年来的教学经历和经验，从课程开设理念、教学内容设计、教学方法等方面进行探讨。",
+        "id": "6315ecb990e50fcafdb00199",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天概论",
+          "通识课",
+          "教学研究"
+        ],
+        "title_zh": "通识课“航空航天概论”教学研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "零构件装配是航空航天装备制造的最终阶段和关键环节,机器人是提高航空航天装备零构件装配自动化智能化水平的重要载体,也是当前装配和机器人研究领域的难点和前沿。为此,本文从航空航天领域装配需求出发,通过剖析复杂零件、可变形线性零件、大型构件这三类典型零构件的机器人装配过程可知,航空航天零构件机器人装配的核心在于解决机器人的顺应、灵巧和协同问题。然后,从状态感知、规划与决策、力位精准调控、多机/人机协同装配四个方面系统总结当前机器人装配理论与技术的研究与应用现状。最后,探讨了航空航天领域机器人装配的未来研究方向。",
+        "doi": "10.16453/j.cnki.issn2096-5036.2022.03.001",
+        "id": "62cd35b85aee126c0ffc7cc3",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天",
+          "机器人装配",
+          "状态感知",
+          "规划与决策",
+          "力位精准调控",
+          "多机/人机协同装配"
+        ],
+        "title_zh": "航空航天领域机器人化智能装配技术综述",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "健美课程作为北京航空航天大学开设的一门公共必修课,能够通过身体认知的方式增强大学生的爱国思想,实现\"享受乐趣、增强体质、健全人格、锤炼意志\"学校体育的\"四位一体\"目标.本文基于梅洛庞蒂的现象学理论,运用文献资料法、访谈法、社会学个案法、数理统计法等研究方法,以实践案例的形式展示健美课课程思政的育人实效.研究认为,北京航空航天大学的学生在体验健美课之前,大部分学生想通过体育改变身材,促进健康.体验过程中,学生感受到放弃与坚持思想的博弈,挥洒汗水的成就与肌肉酸痛的苦楚相伴.体验后,学生拥有了爱国、敬业、友善等社会主义核心价值观的优良品质.",
+        "doi": "10.3969/j.issn.2095-4581.2022.12.004",
+        "id": "6422b2d090e50fcafda9c714",
+        "keywords": null,
+        "keywords_zh": [
+          "北京航空航天大学",
+          "健美课",
+          "立德树人",
+          "现象学"
+        ],
+        "title_zh": "北京航空航天大学健美课课程思政育人实效\r——基于身体体验的现象学研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "为了在航空航天领域更好地利用形状记忆合金(shape memory alloys,SMA)的形状记忆效应和超弹性两方面的突出力学特性,综述了 SMA在材料与工艺、本构模型、形状记忆效应应用和超弹性应用方面的研究进展.主要探讨了 NiTiHf、NiTiAu等三元高温合金、SMA热处理工艺和3D打印工艺、形状记忆效应和超弹性本构模型、利用形状记忆效应设计的SMA丝、管、弹簧和带驱动器、利用超弹性设计的减振器、自适应结构等在航空航天领域的应用研究特点,并指出当前存在的不足.该研究结果表明:随着材料、工艺、控制、信息技术的融合发展,SMA的应用研究将向着更宽的工作温度范围、结构多样化以及智能化方向发展.",
+        "doi": "10.13224/j.cnki.jasp.20220493",
+        "id": "637325a090e50fcafd877746",
+        "keywords": null,
+        "keywords_zh": [
+          "形状记忆合金",
+          "形状记忆效应",
+          "超弹性",
+          "航空航天",
+          "本构模型",
+          "压紧释放机构"
+        ],
+        "title": "Review on Shape Memory Alloys'application in Field of Aerospace",
+        "title_zh": "形状记忆合金在航空航天领域的应用研究综述",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "纤维增强树脂基预浸料作为复合材料的中间材料,有利于复合材料实现高质量、高精度和可设计性等优势,能够更好地满足航空航天、交通运输、体育休闲等领域愈来愈高的需求.对预浸料的几种主要制备工艺进行了简要介绍,并总结了其在研究和应用领域的发展现状.",
+        "doi": "10.3969/j.issn1001-8948.2022-01-006",
+        "id": "62d82ab05aee126c0fc5b734",
+        "keywords": null,
+        "keywords_zh": [
+          "预浸料",
+          "复合材料",
+          "航空航天"
+        ],
+        "title": "Preparation technology and application progress of fiber reinforced resin based prepreg",
+        "title_zh": "纤维增强树脂基预浸料的制备技术及应用进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "随着机床加工性能和刀具切削性能的提升,航空结构件的高效高精加工成为可能.航空结构件薄壁加工特征多,在铣削过程中易发生变形,因此预测与控制航空结构件的加工变形是切削加工领域内亟待解决的难题.通过总结了航空结构件的特点及加工难点,对加工变形形成机理进行深入分析;对加工变形影响最为关键的铣削力模型进行归纳;阐述了航空结构件残余应力变形预测的研究进展,以及利用加工工艺优化、数控补偿技术和高速切削加工技术等实现航空结构件加工变形控制的主要策略,最后对其未来研究方向进行了展望.",
+        "doi": "10.16080/j.issn1671-833x.2022.03.108",
+        "id": "629075005aee126c0f5359fe",
+        "keywords": null,
+        "keywords_zh": [
+          "航空航天应用",
+          "加工变形",
+          "变形预测与控制",
+          "铣削力模型",
+          "航空结构件"
+        ],
+        "title": "Research Progress on Milling Deformation and Control of Aviation Structural Parts",
+        "title_zh": "航空结构件铣削变形及其控制研究进展",
+        "year": 2022
+      },
+      {
+        "abstract": "Universities are the important source of original innovation in aviation and astronautics,and play an important role in the development and progress of aerospace technology. In order to analyze the development of Chinese universities in the field of aerospace,the aerospace engineering journals included in JCR are taken as the data source,the papers published by Chinese universities from 2011 to 2020 are selected,and the CiteSpace software is used to visually analyze the paper publication,institution cooperation,keyword co-occurrence and keyword clustering in the field of aerospace. The research status,cooperation relationship and future research hotspots of Chinese universities in the field of aerospace are summarized. By combining the research situation in the field of aviation and astronautics in universities in China,the study in this paper provides the important reference value for the planning layout and innovation development of Chinese aviation and astronautics.",
+        "abstract_zh": "高等学校是航空航天原始创新的重要发源地,在航空航天技术发展和进步中发挥了重要作用.为了分析我国高等学校在航空航天领域的发展情况,以JCR收录的航空航天工程类期刊为数据源,选取2011—2020年我国高等学校发表论文,利用CiteSpace软件对航空航天领域的论文发表情况、机构合作关系、关键词共现、关键词聚类等进行可视化分析,总结我国高等学校在航空航天领域的研究现状、合作关系以及未来研究前沿.通过梳理我国高等学校关于航空航天领域的研究情况,本文研究为我国航空航天事业的规划布局、创新发展提供一定参考价值.",
+        "doi": "10.16615/j.cnki.1674-8190.2022.01.20",
+        "id": "629f33e45aee126c0fd03748",
+        "keywords": [
+          "universities",
+          "aerospace",
+          "visualized analysis",
+          "research status",
+          "future research topics"
+        ],
+        "keywords_zh": [
+          "研究现状",
+          "航空航天",
+          "高等学校",
+          "可视化分析",
+          "未来研究主题"
+        ],
+        "title": "Research Status and Frontier Analysis of Aerospace Field in Chinese Universities",
+        "title_zh": "我国高等学校在航空航天领域的研究现状及前沿分析",
+        "year": 2022
+      }
+    ],
+    "total": 1167,
+    "log_id": "3KObnXbRfUu2IIsyfgiuliG82YV"
+  }
+]

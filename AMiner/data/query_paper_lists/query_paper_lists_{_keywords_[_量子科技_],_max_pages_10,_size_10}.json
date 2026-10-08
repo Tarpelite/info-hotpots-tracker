@@ -1,0 +1,416 @@
+[
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "This article focuses on the field of quantum science and technology,and discusses its current development,educational challenges,and corresponding strategies.Quantum tech-nology is developing rapidly and will usher in an important node in 2025,but its education faces many problems,such as the non-intuitive nature of knowledge and the lack of teachers.By analyzing the quantum technology development and education initiatives in different re-gions,the necessity of comprehensive reform from basic education to higher education is em-phasized in order to cultivate talents who adapt to the quantum technology revolution and pro-mote the sustainable development of this field.",
+        "abstract_zh": "本文聚焦于量子科技领域，探讨其发展现状、面临的教育挑战以及相应的应对策略。量子科技发展迅速，2025年将迎来重要节点，然而其教育面临诸多难题，如知识的非直觉性、师资不足等。通过分析不同地区的量子科技发展与教育举措，本文强调从基础教育到高等教育全面变革的必要性，以培养适应量子科技革命的人才，推动该领域持续发展。",
+        "doi": "10.26599/phys.2025.9320301",
+        "id": "68c10588163c01c850853336",
+        "keywords": [
+          "quantum technology",
+          "quantum education"
+        ],
+        "keywords_zh": [
+          "量子科技",
+          "量子教育"
+        ],
+        "title": "QUANTUM TECHNOLOGY AND MODERN QUANTUM EDUCATION",
+        "title_zh": "量子科技与现代量子教育",
+        "year": 2025
+      },
+      {
+        "abstract_zh": "量子科技在军事领域应用场景广泛,对现代战争具有颠覆性、变革性的潜在影响,亟须在推进量子科技领域发展中强化军民协同创新.当前,我国推进量子科技领域军民协同创新还面临技术瓶颈限制、军地研究布局缺乏统筹、成果向军转化障碍等问题,应充分借鉴国外经验做法,在做好顶层设计和前瞻布局、整合军地科技资源、强化军民联合攻坚、促进产学研用协同等方面聚焦用力,加速量子科技领域技术突破,为抢占量子科技领域国际竞争制高点、构筑军事和经济发展新动能提供\"硬核引擎\".",
+        "doi": "10.3969/j.issn.1003-0670.2023.10.009",
+        "id": "656df61b939a5f40821b0b24",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "军民协同创新",
+          "量子通信",
+          "量子计算",
+          "量子测量"
+        ],
+        "title_zh": "推进量子科技领域军民协同创新研究",
+        "year": 2023
+      },
+      {
+        "abstract": "At the forefront of science and technology today,the development of quantum technology is bringing about subversive and revolutionary scientific discoveries and scientific and technological inventions,which will undoubtedly promote the leapfrog development of human society.The developed countries and regions in the world,represented by the United States and the European Union,are increasing their investment in quantum technology and accelerating the progress of research and development.In this process,Industry-University-Research Institute Alliance has become a strategic measure for many countries and regions to build a quantum innovation ecosystem.This paper investigates and analyzes the two internationally representative and influential industry-university research alliances and collaborative communities of the United States Quantum Economic Development Alliance（QED-C） and the EU Quantum Flagship Community.This paper systematically studies and analyzes their construction mode and cooperation characteristics from the perspective of member composition,organizational structure,operation mode,mission,goal,vision,and key initiatives.At the same time,based on the current situation and problems of the development of China’s Industry-University-Re search Institute Alliance,practical suggestions are put forward for the development of quantum science and technology from the four dimensions of the overall strategic development plan,the construction of an open innovation ecosystem,the cultivation of multi-subject alliances and communities,and the scientific education and scientific communication groups with a community mechanism.",
+        "abstract_zh": "作为当今世界科技的最前沿领域,量子科技的发展正在带来颠覆性和革命性的科学发现和科技发明,这无疑将推动人类社会实现跨越式发展.以美国、欧盟等为代表的世界发达国家和地区都在加大对量子科技的投入、加速研发进度,在这一进程中,产学研联盟成为很多国家和地区建设量子创新生态系统的战略性抓手.本文调研分析了美国量子经济发展联盟(Quantum Economic Development Consortium,QED-C)、欧盟量子旗舰社区两个在国际上具有代表性和重大影响力的产学研联盟和协同社区,从成员构成、组织结构、运行模式、使命、目标、愿景、关键举措等角度,系统研究和解析了其构建模式和协同特征.同时结合中国量子科技领域的联盟发展现状及问题,从整体性战略发展规划、开放式创新生态系统构建、主体泛化的联盟与社区培育、具备社群机制的科学教育与科学传播群体四个维度对量子科技的发展提出实效建议.",
+        "doi": "10.16507/j.issn.1006-6055.2022.10.007",
+        "id": "64b262a53fda6d7f062e3d41",
+        "keywords": [
+          ".Quantum Science and Technology",
+          "Industry-University-Research Institute Alliance",
+          "Community",
+          "Europe and America",
+          "Case Study"
+        ],
+        "keywords_zh": [
+          "量子科技",
+          "产学研联盟",
+          "社区",
+          "欧美",
+          "案例研究"
+        ],
+        "title": "Case Study of Typical Foreign Quantum Industry-university-research Institute Alliance and Its Enlightenment to China",
+        "title_zh": "国外典型量子产学研联盟案例研究及对中国的启示",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着量子信息技术的快速发展,当前世界各国加速了在量子信息技术领域的研究和竞争,抢占量子科技的制高点,凸显了推动量子科技发展的重要性和紧迫性.阐述了世界主要国家和地区量子信息技术创新与产业化的有关情况,分析了我国在量子信息技术领域取得的突破性成就,下一步我国在发展量子信息技术与产业方面仍需克服的挑战,并提出了有关工作建议,为推动我国量子信息产业发展提供借鉴.",
+        "doi": "10.3969/j.issn.1001-2362.2023.02.045",
+        "id": "64b108813fda6d7f060f96a1",
+        "keywords": null,
+        "keywords_zh": [
+          "量子信息",
+          "量子通信",
+          "量子计算",
+          "量子科技"
+        ],
+        "title_zh": "量子信息技术应用及产业发展研究综述",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着第二次量子革命的到来,量子科技正对科学认知和技术应用产生颠覆式冲击.美国在量子科技领域处于世界前列,一方面得益于其强大的科技基础和经济实力,另一方面与其高水平的科学传播能力、高公民科学素养密不可分.通过研究美国量子科技的社会化协同传播策略,解析了其政策设计初衷及演化路径、科研与教育系统的联动促进方式、产业与市场机构的高效孵化及推广模式、公私社会组织和科学传播个体的嵌入行为,提炼了美国量子科技业态社会化传播设计与执行的经验.提出了美国量子科技社会化协同传播对中国的3点启示,即依托建制优势加快构建科学传播和科学教育双轨驱动的量子科技社会化协同传播体系、建立基础教育—高等教育—职业教育层层进阶的量子科技教育内容供给体系、培育量子科技领域多层次的高水平科技中介组织.",
+        "id": "64b262423fda6d7f062db411",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "社会化协同",
+          "传播策略"
+        ],
+        "title": "The experience and enlightenment of the socialization and collaborative communication of quantum science and technology in America",
+        "title_zh": "美国量子科技社会化协同传播的经验及启示",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "从前沿科学可视化的传播价值入手展开论述,以量子科技这一前沿科学领域为例,对其可视化传播案例展开梳理与分析.通过借鉴国外在该领域的优秀案例,对我国的前沿科学可视化传播提出3条可借鉴的发展路径:充实作品的艺术设计,增强科学内容的公众可达性;建立跨界合作桥梁,协同开发可视化作品;同时要以公众需求为导向,因人制宜策划可视化的展现与传播形式.",
+        "doi": "10.16607/j.cnki.1674-6708.2023.02.025",
+        "id": "6570a046939a5f4082e1ccc7",
+        "keywords": null,
+        "keywords_zh": [
+          "前沿科学",
+          "可视化传播",
+          "科学传播",
+          "量子科技"
+        ],
+        "title_zh": "面向公众的前沿科学可视化传播策略研究——以量子科技领域为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "通过分析量子科技发展基本情况及福建省量子科技发展的现状,建议福建省从推进量子产业布局,实施\"错位发展战略\",加快基础研究,加强关键核心技术攻关,强化政策支持,加大资金投入,促进产学研协同创新,建设高水平人才队伍等方面建立多元创新服务体系,加快推进福建省量子科技及相关产业发展.",
+        "doi": "10.3969/j.issn.1003-0670.2023.02.010",
+        "id": "646b3d99d68f896efa1d5c89",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "量子科技产业",
+          "福建省"
+        ],
+        "title_zh": "加快推进福建省量子科技及产业发展的建议",
+        "year": 2023
+      },
+      {
+        "abstract": "Quantum technology empowers smart banks in the ABCDI era are still in the preliminary exploration stage. Quantum technology has a disruptive impact on achieving true interconnection and providing more powerful algorithms and cryptographic security for various industries. After the integration of quantum technology and ABCDI and other financial technologies, it can empower smart banks for cross-border payment, remote payment, real-time online banking transactions, customer information encryption, secure transmission of disaster recovery data, artificial intelligence applications, machine learning, network security transportation and delivery, financial venture capital, risk assessment, risk control, financial credit ecosystem, intelligent finance, intelligent supervision, etc., which has certain practical significance for realizing \"quantum technology + smart finance + shared finance\".",
+        "abstract_zh": "ABCDI时代的量子科技赋能智慧银行仍处于初步探索阶段.量子科技对实现真正的互联互通,以及为各行业提供更强大的算法、加密安全具有颠覆性影响.量子科技与ABCDI等金融技术融合后,可以赋能智慧银行跨境支付、异地支付、网银实时交易、客户信息加密、灾备数据的安全传输、人工智能应用、机器学习、网络安全运输交付、金融风险投资、风险评估、风险控制、金融信用生态圈、智能金融与智能监管等功能,对实现\"量子科技+智慧金融+共享金融\"具有一定实践意义.",
+        "doi": "10.3969/j.issn.1671-153X.2022.17.006",
+        "id": "643933eed6db87a146ae4c3b",
+        "keywords": [
+          "quantum technology",
+          "bank",
+          "quantum"
+        ],
+        "keywords_zh": [
+          "量子科技",
+          "银行",
+          "量子"
+        ],
+        "title": "Research on the Current Situation and Innovation Trend of Quantum Technology Bank in the Era of ABCDI",
+        "title_zh": "ABCDI时代下量子科技赋能智慧银行的现状及创新趋势研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "研究以VOSviewer为主要研究工具,对WOS数据库中近四年(2018—2021)发表的量子科技研究的文献进行计量分析和可视化呈现.分析结果表明:量子计算、量子电动力学以及量子发射是量子科技领域未来研究的主要方向,量子科技可以应用于我们生活的方方面面.此外,对量子科技的研究提出了相关的建议及对策,为我国量子科技领域发展的策略制定提供有力支持.",
+        "doi": "10.3969/j.issn.1004-8626.2022.01.006",
+        "id": "62a85f555aee126c0f2a2bfd",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技:科学术语",
+          "VOSviewer",
+          "可视化分析"
+        ],
+        "title_zh": "量子科技领域的前沿和热点研究(2018—2021)\r——基于WOS高被引论文的科技术语分析",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "量子科技作为一项颠覆性创新技术,在确保信息安全、提高运算能力、提升测量精度方面具备先发优势.量子科技包含量子通信技术、量子计算技术、量子精密测量与量子管理思维,其在引领全民健身发展、赋能竞技体育革新、驱动体育产业升级、促进体育文化传播的多元场景下都具有较大的应用潜力.利用技术—组织—环境(TOE)框架分析认为,影响量子科技介入体育应用的关键因素包括量子信息技术发展水平与兼容度、体育科技资源配置与组织创新接受度、体育消费环境与宏观政策支持精准度.鉴于此,认为应该推进量子科技研发转化,明确体育应用突破方向;加强量子信息体系建设,弥补数字体育治理短板;深化量子科技植入场景,促进体育生产要素升级,实现\"量子+体育\"的创新.",
+        "doi": "10.3969/j.issn.1008-3596.2022.04.002",
+        "id": "62d446565aee126c0f1f7e00",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "体育",
+          "场景",
+          "创新",
+          "组织",
+          "技术",
+          "环境",
+          "关键因素"
+        ],
+        "title": "Potential Scenarios and Innovative Strategies of Quantum Technology Intervention in Sports Applications",
+        "title_zh": "量子科技介入体育应用的潜在场景与创新策略",
+        "year": 2022
+      }
+    ],
+    "total": 22,
+    "log_id": "3KObkxSCA5tyixZn8KzEPYSWdMo"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "区块链是随着数字加密货币而逐渐兴起的一种全新的去中心化基础架构.以区块链为底层技术的应用范畴早已超越数字加密货币,延伸到了金融、经济、科技和政治等各个领域.与此同时,具有重大科学意义和战略价值的量子科技正在迅速发展,在即将到来的量子时代,区块链将面临量子科技带来的前所未有的机遇和挑战.主要体现为:一是强大的量子计算对区块链密码体系造成极大威胁,二是在区块链中应用量子科技能有效提高系统的安全性.分析了量子计算攻击区块链的不同方式,指出量子科技赋能区块链的发展现状和趋势.\"区块链+量子计算\"的交叉融合研究具有重大的现实意义,量子区块链必将成为未来高新技术产业的研究热点.",
+        "doi": "10.12178/1001-0548.2021374",
+        "id": "6279eb7a5aee126c0f3d9778",
+        "keywords": null,
+        "keywords_zh": [
+          "数字加密货币",
+          "量子科技",
+          "量子计算",
+          "区块链"
+        ],
+        "title": "Opportunities and Challenges of Blockchain in the Quantum Era",
+        "title_zh": "区块链在量子时代的机遇和挑战",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "为促进我国在科技自立自强发展阶段超前布局未来产业、推动经济高质量发展,在辨析\"未来产业\"的概念内涵、其与战略性新兴产业的区别与联系的基础上,以德国的量子计划为例,剖析其最新发展举措及其对我国未来产业布局的启示.分析发现:德国联邦政府主要针对\"政产学研\"和公众等不同主体,分别通过不断开拓量子技术研究领域、为新应用拓展研究网络、确立技术主权和确保技术安全、加强国际合作以及提高公众参与度等举措促进量子科技发展.针对我国在未来产业发展上缺乏国家层面综合性战略布局、专项资金和人才体系等现状,从战略规划、专项资金支持、合作平台构建以及鼓励公众参与等4个方面提出对策建议.",
+        "doi": "10.3969/j.issn.1000-7695.2022.18.002",
+        "id": "6376f75690e50fcafdb81570",
+        "keywords": null,
+        "keywords_zh": [
+          "未来产业",
+          "产业布局",
+          "量子科技",
+          "德国经验"
+        ],
+        "title": "Enlightenment of German Quantum Plan to China's Advanced Layout of Future Industry",
+        "title_zh": "德国量子计划对我国超前布局未来产业的启示",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "本文对美国等主要国家的量子人才政策进行了研究,发现这些国家的量子人才存在较大缺口.这些国家从增加基数和提高能力两方面入手,提出了人才可持续发展的主要措施,包括:早期教育和科普唤醒全社会的量子意识,良好量子教育生态打造人才蓄水池,研发基地或研发中心实现公私合作人才培养,人才引进与人才国际化推动思想流动.我国作为全球量子研究的重要力量,需要在早期教育、科普、教产融合等方面加强政策指导.",
+        "doi": "10.3772/j.issn.1009-8623.2022.09.001",
+        "id": "63d87bd490e50fcafd9f6f8d",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "科技人才",
+          "教育生态",
+          "公私合作模式"
+        ],
+        "title": "Research on Global Quantum S&T Talent Policies",
+        "title_zh": "全球量子人才政策研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "量子科技是事关国家安全和社会经济高质量发展的战略性领域,其应用涉及通信、测量、制药、材料、化学等多行业,已成为国家弯道超车的重要赛道.阐述了量子科技的本质概念和学科的演进脉络,分析了两次量子革命带来的深刻变革,围绕量子领域的专利布局和国家政策,分析了量子科技发展成熟度、各国竞争态势.",
+        "doi": "10.11973/dlyny202106002",
+        "id": "64cd4f753fda6d7f064a70bb",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "专利布局",
+          "发展成熟度",
+          "竞争态势"
+        ],
+        "title": "Development and Evolution of Quantum Technology and Analysis of Competitive Situation of Different Countries",
+        "title_zh": "量子科技发展演进脉络与各国竞争态势分析",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "量子计算作为物理和计算机深度融合的技术,正成长为一个具有广泛应用前景的新兴前沿领域.量子计算有望显著提升经典计算机的计算能力,实现一系列重要实际问题的高效求,对推动新一轮科技革命和产业变革、促进高质量发展、提高我国信息产业国际竞争力、保障国家安全具有重要意义.在实用化量子计算机的这场国际马拉松竞赛中,中国和欧美发达国家都处于起跑阶段.依靠和发挥我国长期积累的、在物理和材料等学科的研究基础优势,并把这些优势转化成推动力,外加合适的科技政策引导,我国有望赢得这场颠覆性的科技竞赛.",
+        "doi": "10.16619/j.cnki.rmltxsqy.2021.07.007",
+        "id": "61cacfb85244ab9dcb2093cc",
+        "keywords": null,
+        "keywords_zh": [
+          "量子计算",
+          "量子科技",
+          "量子信息处理"
+        ],
+        "title": "Embracing the Era of Quantum Technology:The Status Quo and Prospect of Quantum Computing",
+        "title_zh": "拥抱量子科技时代:量子计算的现状与前景",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "美国国家量子计划已实施2年.梳理了该计划相关法案、管理机制、重点领域、经费投入、实施进展等情况,分析了该计划战略部署、协调推进、多学科平台建设、人才培养和国际合作等方面的做法和特点.提出中国应加强和优化量子科技战咯规划和顶层设计、加强统筹协调、构建量子科技创新生态等发展建议.",
+        "id": "62abf1ec5aee126c0f4d7213",
+        "keywords": null,
+        "keywords_zh": [
+          "美国国家量子计划",
+          "科技创新生态",
+          "量子科技战略规划"
+        ],
+        "title": "Characteristics of the United State's National Quantum Initiative and the enlightenment",
+        "title_zh": "美国国家量子计划实施的特点及启示",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "量子科技是具有极强产业远景和关系国家战略发展的前沿领域,越来越多的国家和地区把量子科技的发展列入国家重点战略.了解量子科技发展强国的相关政策和科学家信息,可以管窥到其在政策制定上的一些特质,也可以为预测下一步的政策制定提供参考.本文梳理了欧盟和美国的量子政策发展轨迹,重点分析了其中最新的重大战略部署以及影响政策制定的相关科学家,通过与我国情况进行对比,为我国未来量子科技政策的制定提出了加快国家战略顶层设计、通过国家项目推动量子产业发展、建设量子科技人才梯队等几点建议.",
+        "doi": "10.16507/j.issn.1006-6055.2020.12.007",
+        "id": "61cacf3f5244ab9dcb16bb8f",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "量子科技政策",
+          "欧盟",
+          "量子技术旗舰计划",
+          "美国",
+          "量子信息科学国家战略概述"
+        ],
+        "title": "Analysis of European and US Quantum Science and Technology Policy and the Related Scientists Behind It",
+        "title_zh": "欧美量子科技政策及其背后相关科学家分析",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "量子保密通信与量子网络作为战略性前沿技术,与国家安全和前瞻性技术战略关系密切,具有广泛应用的潜力.简要综述量子保密通信与量子网络的研究进展以及产业基础,分析国际量子科技战略,提出遵循粤港澳大湾区发展创新驱动、改革引领的基本原则,集聚国际创新资源,攻关量子网络的基础科学和若干实用关键技术,规划部署粤港澳大湾区量子干线和制定QKD量子网络评估策略,有助于打造湾区国际量子创新高地及培育具有国际竞争力的量子保密通信与量子计算现代产业体系.",
+        "id": "604b3bf36f90b7f6cab333a0",
+        "keywords": null,
+        "keywords_zh": [
+          "粤港澳大湾区",
+          "量子密码与量子计算",
+          "量子网络",
+          "高性能QKD",
+          "量子科技战略"
+        ],
+        "title": "Development Strategy of Quantum Cryptography Communication and Quantum network in Guangdong-Hong Kong-Macao Greater Bay Area2.1",
+        "title_zh": "粤港澳大湾区量子保密通信与量子网络发展战略",
+        "year": 2020
+      },
+      {
+        "abstract_zh": "笔者近期有幸作为主创建筑师参与王建国院士团队精心打造的中科院量子信息与量子科技创新研究院项目建筑设计工作.借此项目工程进展顺利、即将落成之际,对在设计过程中从前期理念到建筑形体生成的两个层面上如何将中国传统的人文要素与现代前沿科学的系统结合在一起做一个初步的总结.",
+        "id": "604b35dc6f90b7f6ca79fd5e",
+        "keywords": null,
+        "keywords_zh": [
+          "自然",
+          "量子科技",
+          "中国元素",
+          "情怀"
+        ],
+        "title_zh": "如何在科研建筑设计中结合传统人文与现代科技元素",
+        "year": 2020
+      },
+      {
+        "abstract_zh": "科技新闻的通俗化表达,是建立在记者对科技领域透彻把握基础上的.只有成为某个领域的“半个专家”,能够与科学家直接对话甚至交朋友,对硬新闻的“软处理”才会通俗易懂且不出偏差.让广大用户全面了解最新科技,传统媒体要利用好直播、动画、音视频等新媒体技术手段.",
+        "id": "604b6db46f90b7f6ca558419",
+        "keywords": null,
+        "keywords_zh": [
+          "科技新闻",
+          "软处理",
+          "量子科技"
+        ],
+        "title_zh": "科技新闻的“软”处理",
+        "year": 2020
+      }
+    ],
+    "total": 22,
+    "log_id": "3KObkz1Ejerb3SGfuVpWqb60MJk"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "当前,世界正处于新一轮\"量子革命\"的发端阶段.自执政以来,特朗普政府通过公布战略文件、立法等措施,已逐步完善其量子科技战略.美国的量子科技战略注重强化政府部门与独立机构之间、公私部门之间的机制化合作;关注量子科技人力资源培养,并具有明显的安全目标导向.美国战略界对中国量子科技发展态势的关切是美国量子战略发展的重要推动因素.美国政府的量子科技战略将加剧中美在量子科技领域的竞争,制约两国在量子科技与产业领域的合作空间,并将阻滞中国与其他国家在这一领域的合作进程.",
+        "doi": "10.3969/j.issn.1009-8054.2019.09.007",
+        "id": "604b3bf36f90b7f6cab33313",
+        "keywords": null,
+        "keywords_zh": [
+          "中美科技关系",
+          "美国科技战略",
+          "量子科技战略"
+        ],
+        "title": "The US QIS Strategy and Its Impact on Sino-US Relations",
+        "title_zh": "美国量子战略对中美 在科技领域竞争与合作的影响",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "随着生活习惯和生活环境的改变,人体的皮肤到了一定的年龄后开始由巅峰走向下坡,护肤美容产业近年来逐步兴起.同时量子科技正逐步走人人们的生活,并改变着人们的生活.量子科技是今后的主流科技之一,对人体的帮助也很大,量子科技在医学中也得到了广泛的应用,并产生了新形态的美容产业.本文主要分析了量子科技的原理及应用,并重点分析了量子科技在新形态的美容产业中的应用.",
+        "id": "604b4f466f90b7f6ca543557",
+        "keywords": null,
+        "keywords_zh": [
+          "量子科技",
+          "美容产业",
+          "矿物质",
+          "化妆品"
+        ],
+        "title_zh": "量子科技与新形态的美容产业分析",
+        "year": 2018
+      }
+    ],
+    "total": 22,
+    "log_id": "3KObkzZqjBpxC4JJC4GKVnMSz05"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObl2wuBcQmkMLiavIgK7DpEz4"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObl3cTAlAHXPi5ObZ8Dkt9SiS"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObkwzqVWR7gecP16RD7wpxqPK"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObl13QQZqSsfBAixblbrW52XD"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObky4dxFai5DiqlB6l7VhStvp"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObkymQmN8yxdlNtANz838okhh"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "no data",
+    "data": null,
+    "total": 22,
+    "log_id": "3KObkwsLnrqoApbLQ5j37ifsqb8"
+  }
+]

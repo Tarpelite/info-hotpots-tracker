@@ -1,0 +1,1743 @@
+[
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "Yin-Yang theory is one of the core components of the foundational theory of traditional Chinese medicine (TCM), yet its classification as philosophical or scientific has long been controversial. To move beyond the longstanding either-philosophy-or-science debate surrounding Yin-Yang theory in TCM, this article, for the first time, proposes a three-level framework spanning macro, meso, and micro perspectives. At the macro level, Yin and Yang are a theoretical achievement of ancient Chinese natural philosophy, used to explain universal laws governing how the cosmos operates, which constitutes Yin-Yang theory in philosophy; at the meso level, Huangdi Neijing (《黄帝内经》, Inner Canon of Huangdi) translated Yin-Yang from a cosmological framework into medical discourse, making it a core methodological basis for clinical pattern differentiation and treatment, which constitutes Yin-Yang theory in medicine; at the micro level, Yin-Yang theory in TCM has increasingly converged with modern science, showing scientific features that are testable and reproducible, which constitutes Yin-Yang theory in science. The article further demonstrates that Yin-Yang theory in TCM differs markedly from Yin-Yang as a general philosophical doctrine in core application and practical orientation: in the course of its medical transformation, elements related to life phenomena were selectively incorporated, while, within a medical context, abstract propositions such as cosmological speculation were bracketed and rendered concrete, thereby achieving a practice-oriented transition from philosophy to medicine. Based on this, the present study conducts analyses from four aspects, namely philosophical roots, clinical application, modern scientific interpretation, and implications for life sciences; it substantiates the logical basis for Yin-Yang theory in TCM as the overarching framework for clinical pattern differentiation and treatment, reviews modern research progress from perspectives such as systems science and network regulation, and explores its potential value in advancing a new paradigm of state-based medicine. The study suggests that an accurate understanding of Yin-Yang theory in TCM requires moving beyond the either-philosophy-or-science binary and analyzing specific issues on a case-by-case basis. Across different perspectives, Yin-Yang theory in TCM has philosophical, medical, and scientific attributes. Only by grounding the theory in actual clinical efficacy and engaging with modern science can the innovative development of Yin-Yang theory in TCM be promoted, thereby providing valuable Eastern insights for building a life science system with original Chinese contributions.",
+        "doi": "10.1016/j.dcmed.2026.05.003",
+        "id": "6a2d0c850a96f8c83cf3b1e4",
+        "keywords": [
+          "Yin-Yang theory in traditional Chinese medicine",
+          "Hierarchical analysis",
+          "Life sciences",
+          "Systems science",
+          "Complexity science"
+        ],
+        "keywords_zh": [
+          "中医阴阳理论",
+          "层级分析",
+          "生命科学",
+          "系统科学",
+          "复杂科学"
+        ],
+        "title": "The Macro, Meso, and Micro Dimensions of Yin-Yang Theory in Traditional Chinese Medicine: a Three-Level Analysis of Yin and Yang",
+        "title_zh": "中医阴阳理论的宏观、中观与微观:一阴一阳,三层意蕴",
+        "year": 2026
+      },
+      {
+        "abstract": "Significance Femtosecond laser 3D printing has emerged as a revolutionary technology in micro-nano manufacturing,enabling the fabrication of complex 3D structures with sub-diffraction-limit resolution.Inorganic materials,known for their excellent mechanical properties,thermal stability,and chemical resistance,are widely used in optical devices,MEMS sensors,and biomedical applications.However,traditional manufacturing methods for inorganic micro-nano structures face limitations,such as complex processing,low precision,and high costs,which restrict their potential in high-performance device fabrication.The advent of femtosecond laser 3D printing provides a promising solution to overcome these challenges,offering exceptional spatial resolution and material versatility.This survey systematically reviews recent progress in the techniques and applications of femtosecond laser 3D printing for inorganic materials,focusing on organic-inorganic hybrid and pure inorganic systems.The study also explores the challenges and future directions,emphasizing the potential of this technology in advancing micro-nano fabrication. Progress Femtosecond laser 3D printing leverages nonlinear optical effects of two-photon absorption to achieve high-resolution fabrication of complex three-dimensional structures,making it a versatile tool for inorganic material processing.This technology has been employed in two primary approaches:organic-inorganic hybrid systems and pure inorganic material systems.Organic-inorganic hybrid systems combine the flexibility of polymer matrices with the superior properties of inorganic components by incorporating precursors or nanoparticles into light-sensitive resins.The process involves two-photon polymerization for precise structuring,followed by high-temperature sintering to enhance material performance,although challenges such as achieving uniformity and minimizing shrinkage remain.Pure inorganic material systems,on the other hand,bypass organic components entirely by using direct laser-induced reactions,such as photochemical reduction or decomposition,to fabricate high-purity structures with enhanced thermal and chemical stability.These techniques have facilitated advancements in various applications,including the production of optical microdevices like microlenses and photonic crystals,MEMS sensors with integrated 3D microstructures for force and environmental sensing,and life sciences applications such as biocompatible scaffolds and micro-robots for minimally invasive procedures.The ongoing development of femtosecond laser 3D printing is characterized by increasing standardization,compatibility with diverse materials and processes,scalability for industrial applications,and modularity in manufacturing,paving the way for significant technological breakthroughs. Conclusions and Prospects Femtosecond laser 3D printing represents a transformative advance in the fabrication of inorganic micro-nano structures.Despite its potential,several challenges remain,including low processing efficiency,material restrictions,and issues with thermal stability and shrinkage during post-processing.Future developments should focus on enhancing processing throughput through techniques such as parallel laser writing and digital light modulation.Additionally,innovations in material chemistry,including the development of low-shrinkage precursors and advanced hybrid systems,are essential for broader applicability.The integration of artificial intelligence and machine learning for process optimization holds promise for automated,intelligent manufacturing.These advancements are expected to unlock new applications in photonics,MEMS,and biomedical engineering,driving the evolution of femtosecond laser 3D printing into a cornerstone technology for next-generation micro-nano manufacturing.",
+        "abstract_zh": "无机材料因其卓越的机械性能、化学稳定性和耐高温特性,广泛应用于航空航天、电子设备、光学器件等领域.然而,传统无机材料制造方法因工艺复杂、精度不足等限制难以满足高性能器件需求,而飞秒激光三维(3D)打印技术凭借其适用多种材料的能力和出色的空间分辨率,为无机微纳结构制造开辟了新路径.近年来,基于无机材料的飞秒激光3D打印技术取得了重要进展,涵盖有机-无机复合材料和纯无机材料两大工艺.复合材料打印通过将无机成分掺入有机树脂光刻胶,结合双光子聚合技术(TPP)制备高性能结构;纯无机材料打印则直接利用无机前驱体或纳米颗粒,通过激光诱导反应构建无机结构.相比传统工艺,该技术在光学微器件、微机电系统(MEMS)及生命科学等领域展现出显著优势.然而,其在材料选择、加工效率和结构稳定性方面仍面临挑战.本报告系统总结了飞秒激光3D打印无机材料的工艺与应用进展,并深入探讨了其技术瓶颈及解决方案.未来,随着新型光敏材料、共混技术和激光打印方法的发展,该技术有望实现更高效、更精确的微纳制造,并在复杂光纤系统、微纳光子学及生命科学等领域展现更广阔的应用前景.",
+        "doi": "10.3788/irla20250050",
+        "id": "682f68ed163c01c850e56ea1",
+        "keywords": [
+          "femtosecond laser 3D printing",
+          "inorganic materials",
+          "optical devices",
+          "MEMS sensors",
+          "life sciences"
+        ],
+        "keywords_zh": [
+          "飞秒激光3D打印",
+          "无机材料",
+          "光学器件",
+          "MEMS传感",
+          "生命科学"
+        ],
+        "title": "Research on Technology and Application of Ultrafast Laser 3D Printing Inorganic Materials(invited)",
+        "title_zh": "超快激光3D打印无机材料技术及应用(特邀)",
+        "year": 2025
+      },
+      {
+        "abstract": "Microfluidic chip,also known as Lab-on-a-Chip(LOC),represent a cutting-edge technology that enables the precise manipulation of small volumes of liquid at the microscale.In recent years,this innovative technology has garnered significant attention for its potential to revolutionize life science re-search in vitro.Particularly in the fields of drug screening and in vitro diagnostics,microfluidic chips of-fer remarkable advantages,including high throughput and high sensitivity,allowing for the rapid and ac-curate analysis of large numbers of samples.Moreover,these chips can be engineered to simulate the complex microstructures,microenvironments,and physiological functions of specific human organs,pro-viding researchers with a powerful tool to study biological processes in a controlled and highly specific manner.Characterized by their compact size,minimal sample consumption,short analysis times,and low power requirements,microfluidic chips are especially well-suited for space science experiments,where resources are often limited and environmental conditions are highly complex.In space research,animal models may exhibit significant individual differences,and single-cell models often fail to accurately simu-late the complex in vivo environment.Microfluidic chips effectively address these limitations by offering a more controlled and representative experimental platform.They can simulate the physiological condi-tions of human organs with greater accuracy and reliability compared to traditional models,making them an invaluable tool for space life science research.This article provides an overview of the develop-ment history,fabrication technology,and fluid loading methods of microfluidic chips.It traces the evolu-tion from early concepts to today's complex devices,discusses various fabrication techniques with their respective advantages and application scenarios,and explores loading techniques that ensure precise flu-id control within the chip.Beyond these,the article also highlights the application of microfluidic chips in both terrestrial and space life sciences.From the aspects of drug screening,in vitro diagnostics,and organ-on-a-chip,it focused on how chips can advance life science research.In the context of space re-search,the article discusses how chips can be utilized to study the effects of microgravity on cell behavior,tissue development,and other biological phenomena.It provides a comprehensive reference for the broad-er application of microfluidic chips in space life science research.",
+        "abstract_zh": "微流控芯片(Microfluidic chip)又被称为芯片实验室(Lab-on-a-Chip,LOC),可在微米尺度对少量液体进行操控,是近年来新兴的一种可在体外开展生命科学研究的技术,在药物筛选和体外诊断中具有通量大、灵敏度高的优势,可用于模拟人体特定器官的复杂微结构、微环境和生理功能.由于微流控芯片具有体积小、样品用量少、分析时间短、功耗低等特点,十分适合应用于空间科学实验,可以有效弥补动物模型在复杂空间环境中的个体差异缺陷,以及单一细胞模型无法真实模拟体内复杂环境的问题.本文简介了微流控芯片的发展历程、制作技术及加载方式,综述了其在地面和空间生命科学方面的应用,为微流控芯片在空间生命科学研究中的广泛应用提供参考.",
+        "doi": "10.11728/cjss2025.02.2024-0155",
+        "id": "686cac67163c01c850406c58",
+        "keywords": [
+          "Microfluidic chips",
+          "Space life sciences",
+          "Drug screening",
+          "Organ-on-a-Chip",
+          "In vitro"
+        ],
+        "keywords_zh": [
+          "微流控芯片",
+          "空间生命科学",
+          "药物筛选",
+          "器官芯片",
+          "体外诊断",
+          "微重力"
+        ],
+        "title": "Applications of Microfluidic Chips in Space Life Sciences",
+        "title_zh": "微流控芯片在空间生命科学中的应用",
+        "year": 2025
+      },
+      {
+        "abstract": "Health and longevity have been the unremitting pursuit of humanity since ancient times.In today's society,the rising incidences of chronic diseases and rapid growth of sub-healthy population greatly threaten social development.Innovations and breakthroughs in modem life sciences offer new possibilities to address these global health challenges.Traditional Chinese wisdom calls for\"the superior doctor(who)treats before illness or treats without illness.\"This paper aims to explore a conceptual note to achieve this traditional wisdom of health management by employing developments in the frontiers of modem life sciences.The basic strategy is to manage the\"healthy state\"dynamically and persistently using the knowledge and awareness of modem life sciences,thus maintaining the\"disease-free state\"to remain healthy in the entire life.The health management system proposed will be a three-dimensional structure:(ⅰ)optimizing daily diets,(ⅱ)timely attention to health indicators,and(ⅲ)regulating personal genes.We propose that these measures should be carried out throughout one's life to achieve health and longevity,thus leading to people\"dying without disease.\"In recent years,we have launched a pilot project for the\"Treating without Illness Action\"at Huazhong Agricultural University.Our aim is to accumulate experience,gradually improve,and eventually expand these efforts to benefit the people and contribute to the prosperity of the nation and the strength of the country.",
+        "abstract_zh": "健康长寿是人类从古至今的不懈追求.当今社会慢性病高发,亚健康人群日益增长.现代生命科学的理论创新和技术突破为破解这一全球性健康难题提供了新的可能.中国传统智慧倡导\"上医治未病\",本文提出用现代生命科学治理健康,探索为\"治未病\"理念赋予新的时代内涵.其基本策略为:以现代生命科学的知识和认知,对\"未病状态\"持之以恒地动态治理,保持\"未病状态\",实现永久健康;从\"优化食谱结构、关注健康指标、调控自身基因\"三个维度构建健康治理体系,贯之终身,达到健康长寿、无疾而终的境界.近年,我们在华中农业大学启动了\"治未病行动计划\",试点先行,以积累经验,渐次完善,冀望逐步推广,惠及百姓,为民族昌盛和国家强盛作贡献.",
+        "doi": "10.1360/ssv-2024-0307",
+        "id": "6738702e01d2a3fbfce05191",
+        "keywords": [
+          "modern life sciences",
+          "concept of treating without illness",
+          "optimization of diet structure",
+          "attention to health indicators",
+          "regulation of personal genes"
+        ],
+        "keywords_zh": [
+          "现代生命科学",
+          "治未病理念",
+          "优化食谱结构",
+          "关注健康指标",
+          "调控自身基因"
+        ],
+        "title": "Health Management Using Modern Life Sciences—exploring the Concept of “treating Without Illness” in the Modern Context",
+        "title_zh": "用现代生命科学治理健康——“治未病”理念新内涵初探",
+        "year": 2025
+      },
+      {
+        "abstract": "Postdoctoral researchers in life sciences confront distinct challenges, including extended training duration resulting from the inherently lengthy research cycles associated with their specialized research subjects and experimental materials. Based on national postdoctoral policies and comparison of funding policies between China and the United States, we focus on postdoctoral researchers in life sciences at the School of Life Sciences, Shandong University. Our analysis reveals how current university funding policies constrain the training process of postdoctoral researchers in this field. To address these limitations, we propose a coordinated reform strategy, including reinforcing ideological and political guidance, extending funding durations, establishing cost-sharing mechanisms, and implementing incentives for major achievements. These reforms aim to improve the quality of postdoctoral training and provide policy insights for optimizing the research talent development system in \"Double First-Class\" universities.",
+        "abstract_zh": "生命科学领域博士后因其研究对象和实验对象的特殊性,面临着研究周期长而造成的在站时间较长等系列问题.本文以国家博士后政策为依据,结合国内的博士后资助政策和美国博士后资助政策,以山东大学生命科学学院生命科学领域博士后为对象,分析并揭示当前学校资助政策对生命科学领域博士后培养产生的制约作用,提出加强思政引领、延长资助周期、建立经费分担机制与实行重大成果奖励政策的协同改革方案,以期为提升博士后培养质量、完善\"双一流\"高校科研人才培养体系提供政策参考.",
+        "doi": "10.16288/j.yczz.25-178",
+        "id": "69002081163c01c850530a77",
+        "keywords": [
+          "postdoctoral researchers",
+          "life sciences",
+          "funding policies",
+          "training quality"
+        ],
+        "keywords_zh": [
+          "博士后",
+          "生命科学",
+          "资助政策",
+          "培养质量"
+        ],
+        "title": "Examining Funding Policies for Postdoctoral Researchers in Life Sciences: a Case Study of Shandong University.",
+        "title_zh": "生命科学领域博士后资助政策探讨——以山东大学为例",
+        "year": 2025
+      },
+      {
+        "abstract": "Data-driven paradigms have propelled a profound evolution in research methodologies within the life sciences. With advances in information technology and the emergence of high-throughput data, the field has exhibited a synergistic evolution from the traditional hypothesis-experiment approach toward data-centric research approach. Statistical methods and artificial intelligence have become essential tools for uncovering patterns in data. Meanwhile, information theory and computational theory provide foundational support for processing and interpreting complex biological data, fostering an ongoing reconfiguration of scientific cognition toward data- and information-centric orientations. Overall, data-driven approaches and the traditional hypothesis-experiment paradigm coexist in a complementary and coupled relationship across most areas of the life sciences, while technological progress, tool innovation, and interdisciplinary collaboration continue to render life science research increasingly systematic and efficient.",
+        "abstract_zh": "数据驱动范式推动了生命科学研究方法的深刻演进.随着信息技术进步和高通量数据的涌现,生命科学呈现出由传统\"假设-实验\"向\"以数据为中心\"的研究方式协同演进的格局.统计方法与人工智能成为揭示数据规律的关键工具.与此同时,信息理论和计算理论为处理与理解复杂生物数据提供基础支撑,促进了科学认知方式的数据与信息中心化的持续重塑.整体来看,数据驱动方法与传统的\"假设-实验\"范式在多数生命科学领域处于互补与耦合状态,技术进步、工具创新和跨学科合作不断推动生命科学研究趋于系统化和高效化.",
+        "doi": "10.12014/j.issn.1002-0772.2025.21.01",
+        "id": "6938f08794d1bc07b4c8872c",
+        "keywords": [
+          "data",
+          "paradigm",
+          "life science"
+        ],
+        "keywords_zh": [
+          "数据",
+          "范式",
+          "生命科学"
+        ],
+        "title": "Data-Driven Paradigm: A Study on the Evolution of Research Paradigms in Life Science",
+        "title_zh": "数据驱动:生命科学研究范式的演进研究",
+        "year": 2025
+      },
+      {
+        "abstract": "The rapid development of biotechnology and information technology has brought life sciences into a new era of data explosion.The traditional life science research paradigm struggles to reveal the fundamental rules of complex biological systems from rapidly growing biological big data.As artificial intelligence continues to achieve disruptive breakthroughs in life science,a new paradigm driven by AI is emerging.This study delves into typical examples of life science research driven by AI,proposes the concept and key elements of the new life science research paradigm,elaborates on the cutting-edge of life science research under this new paradigm,and discusses the challenges in China.",
+        "abstract_zh": "生物技术和信息技术的迅速发展,使生命科学进入了数据爆发的新时代,传统生命科学研究范式难以在日益增长的生物大数据中揭示生命复杂系统的本质规律.随着人工智能(AI)在生命科学研究领域持续取得颠覆性突破,AI驱动的生命科学研究新范式呼之欲出.文章通过深入剖析AI驱动的生命科学研究的典型范例,提出了生命科学研究新范式的内涵和关键要素,阐述并讨论了新范式下的生命科学研究前沿和我国面临的挑战.",
+        "doi": "10.16418/j.issn.1000-3045.20231211001",
+        "id": "65d7fe35939a5f40823d0e79",
+        "keywords": [
+          "scientific research",
+          "life science",
+          "artificial intelligence",
+          "big data",
+          "scientific paradigm"
+        ],
+        "keywords_zh": [
+          "科学研究",
+          "生命科学",
+          "人工智能",
+          "大数据",
+          "科学范式"
+        ],
+        "title": "A new paradigm of life science research driven by artificial intelligence",
+        "title_zh": "人工智能驱动的生命科学研究新范式",
+        "year": 2024
+      },
+      {
+        "abstract": "General education in natural sciences is a critical component in higher education.In this article,I introduced the exploration and practice of curriculum construction of\"Biological Clock and Health\"at Tsinghua University.The course has been open to students for 3 semesters so far.Students who selected the course come from 27 departments of the university.The students provided positive feedbacks after taking this class,including self-report of improved sleep quality and better understanding of the research logic and methods in life sciences.The logic and methods of the construction of\"Biological Clock and Health\"described in this article provide insights to the construction of other courses in natural sciences of general education.",
+        "abstract_zh": "科学类通识课程是高校通识教育中的重要组成部分。本文介绍了清华大学“生物钟与健康”科学类通识课程的建设情况，从课程建设的必要性出发，介绍课程的教学内容设计和评价标准，分析课程开课情况，并对未来课程规划进行讨论。课程已开设3个学期，选课学生已覆盖了全校27个院系，学生评教成绩优异。通过课程学习，学生自述生活习惯有明显改善，对生物学研究的思维方式和方法的理解有显著提升；课程在教学内容和教学方法上有关键创新点。本门课程建设的思路和方法，对高校科学类通识课程建设具有借鉴意义。",
+        "doi": "10.16476/j.pibb.2023.0049",
+        "id": "65dfef6013fb2c6cf62a5fb3",
+        "keywords": [
+          "life sciences",
+          "biological clock",
+          "general education",
+          "curriculum construction"
+        ],
+        "keywords_zh": [
+          "生命科学",
+          "生物钟",
+          "通识教育",
+          "课程建设"
+        ],
+        "title": "Exploration and Practice of Curriculum Construction of Biological Clock and Health",
+        "title_zh": "“生物钟与健康”通识课程建设与思考",
+        "year": 2024
+      },
+      {
+        "abstract": "The major science and technology infrastructure in the field of life science is an indispensable and important content in the large-science facility landscape.It encompasses cutting-edge,strategic,and fundamental aspects.This field differs from traditional facilities such as particle physics,astronomy and nuclear energy.Moreover,it represents a relatively underdeveloped area in China's facility landscape.Unique characteristics are observed in terms of capital investment,physical form,facility lifespan,digitization degree,organizational structure,project risk,and development effect when compared to traditional facilities.Despite its importance,challenges persist in project establishment,investment,management,and construction.Therefore,it is necessary to strengthen the condensing mechanism for addressing major scientific issues in the life science field,improve the strategic investment layout,facilitate the localization of technical equipment based on original scientific ideas,and strengthen the differentiated management capacity of life science facilities.",
+        "abstract_zh": "生命科学领域重大科技基础设施是国家重大科技基础设施板块中不可缺少的重要内容,其前沿性、战略性、基础性强,具有与粒子物理、天文、核能源等传统设施领域不同的特点,也是我国设施相对“短板”的领域。研究发现,生命领域设施在资金投入、物理形态、设施寿命、数字化程度、组织形式、项目风险和发展效应等方面,具有与传统设施领域不同的特点。生命领域设施在立项、投入、管理和建设方面还需要强化生命领域大科学问题凝练机制,提升战略性投入布局水平,推进基于原创科学思路的技术设备国产化,加强生命领域设施的差异化管理能力。",
+        "doi": "10.13345/j.cjb.230807",
+        "id": "66f46b2201d2a3fbfc227731",
+        "keywords": [
+          "life sciences",
+          "major scientific and technological infrastructure",
+          "development characteristics",
+          "problems",
+          "countermeasures"
+        ],
+        "keywords_zh": [
+          "生命科学",
+          "重大科技基础设施",
+          "发展特征",
+          "问题",
+          "对策"
+        ],
+        "title": "Development Characteristics,problems and Countermeasures of Major Scientific and Technological Infrastructures in the Field of Life Sciences",
+        "title_zh": "生命领域重大科技基础设施发展特征、问题与对策",
+        "year": 2024
+      },
+      {
+        "abstract_zh": "生命科学发展日新月异，伴随着大量实验技术的更新，生物大数据逐渐产生并在生命科学研究中扮演 着日益重要的角色。首先，生物大数据具有多样性和复杂性，包括基因组数据、表观基因组数据、蛋白质组 数据等多种类型。这些数据为研究人员提供了更全面的信息，有助于揭示生命现象背后的规律。其次，数据 驱动的生命科学新发展和应用涵盖了基因编辑、精准医疗、药物研发等诸多领域，为人类健康和生命质量提 供了前所未有的可能性。然而，生命科学研究大数据时代也面临着包括数据存储、数据共享、隐私保护等多 方面的问题，以及如何将海量数据转化为可靠的科学发现等挑战。文章简要概括了生物数据推动生命科学的 发展规律，梳理了生物大数据组成、特点及来源，阐述并讨论了数据驱动的生命科学研究新范式下的共性问 题和我国面临的挑战。",
+        "id": "667fb05e01d2a3fbfc70ca86",
+        "keywords": null,
+        "keywords_zh": [
+          "科学研究范式",
+          "大数据",
+          "生命科学"
+        ],
+        "title_zh": "数据驱动的生命科学研究进展 后印本",
+        "year": 2024
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjZQZCxlZWVKGOdcMlcJF8YL"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "现代医药产业始于化学合成药的大规模生产,随着生命科学等基础科学的激进式创新,生物医药成为现代医药产业发展的重心,前景广阔.第二次世界大战以来,美国政府、企业、科学界历经多年培育生物医药产业基础并夯实科学基础,营造创新环境,建立了有效的生命科学创新系统,逐渐成为世界生物医药创新高地.建设生物医药创新高地是中国成为世界科学中心的重要一环.中国可借鉴其经验,保持发展耐心和信心,增强生命科学创新系统效用,推进生物医药创新高地的建设.",
+        "doi": "10.16418/j.issn.1000-3045.20220902001",
+        "id": "643030e190e50fcafdbc475c",
+        "keywords": null,
+        "keywords_zh": [
+          "医药产业发展历史",
+          "生命科学创新系统",
+          "青霉素产业化",
+          "美国国立卫生研究院"
+        ],
+        "title": "Practice of Building Biomedical Innovation Highland in the United States and Its Enlightenment to China",
+        "title_zh": "美国建设生物医药创新高地的实践及对我国的启示",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "新版《义务教育科学课程标准》(下称《课程标准》)指出,科学教学要以促进学生核心素养发展为宗旨,倡导在探究和实践中引导学生形成正确的价值观、必备品格和关键能力.生命科学贯穿整个义务教育阶段各个年级学习的全过程,可见国家对学生进行生命教育的重视.\"动物的一生\"是教科版科学三年级下册第二单元的学习内容,以\"养蚕\"为例探究动物生命周期的主题.科学指导\"养蚕\"的探究实践,了解动物的生命周期,帮助学生深刻感悟生命科学教育的\"知\"\"情\"\"意\"\"行\",感悟生命的可贵,感悟父母养育我们的艰辛与不易,感悟生命的短暂与奉献的意义.",
+        "id": "649eb6b9d68f896efa294608",
+        "keywords": null,
+        "keywords_zh": [
+          "小学科学",
+          "生命科学",
+          "感悟生命"
+        ],
+        "title_zh": "亲历\"养蚕\"实践感悟生命科学教育",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "高校生命科学类实验室的危险化学品管理是实验室安全管理的重点.本文以榆林学院生命科学学院实验室为例,通过实地调研与问卷调查等研究方法,明确实验室特点以及危险化学品种类,发现在危险化学品管理方面存在管理分散、分类不明确以及处理基础设施不完善等问题.在危险化学品管理过程中,通过明确分类统一管理、完善流程管理明确安全责任人、加强基础设施建设、建设信息化管理系统等,最终落实\"五双\"制度,达到危险化学品安全管理的目的.该研究为高校生命科学类实验室危险化学品的安全管理提供参考.",
+        "doi": "10.16647/j.cnki.cn15-1369/X.2023.02.015",
+        "id": "64b31b053fda6d7f063345b6",
+        "keywords": null,
+        "keywords_zh": [
+          "危险化学品",
+          "实验室安全",
+          "信息化管理",
+          "\"五双\"制度",
+          "生命科学"
+        ],
+        "title": "Safety management practice of hazardous chemicals in university life science laboratory under\"five pairs\"system——Taking the Laboratory of College of Life Sciences of Yulin University as an example",
+        "title_zh": "\"五双\"制度下高校生命科学类实验室危险化学品安全管理实践——以榆林学院生命科学学院实验室为例",
+        "year": 2023
+      },
+      {
+        "abstract": "Conducting related experiments in space life sciences,including cell culture,and studying the complex effects of special space environments on human bodies and various animal and plant biological tissues at both the cellular and molecular levels has become one of the important objectives of space life sciences research.To meet the requirements of real-time dynamic monitoring of the entire process of cell growth status and movement throughout,a visible light microimaging system with space carrying conditions is also an essential tool for conducting space life sciences experiments.In view of above problems,this paper describes an automatic microimaging device based on FPGA which can be used in space station.It has the functions of automatic observation,automatic focus,image and video data transmission.It can complete the observation task of growth,development,evolution of situ biological cell samples,and conduct data recording and analysis.It has undertaken the task of microscopic observation of cells,proteins and other samples on the space station,and has been successfully applied in the core module of the space station.",
+        "abstract_zh": "开展空间生命科学包括细胞培养等相关试验,进而从细胞水平乃至于分子水平研究空间特殊环境给人体和各种动植物生物组织带来的复杂影响,已经成为空间生命科学研究的重要目的之一.为满足对细胞生长状态以及运动情况等的全过程实时动态监测的要求,具备空间搭载条件的可见光显微成像系统也是开展空间生命科学试验活动的必备工具.针对上述问题,文章叙述一种基于FPGA的可应用于空间站使用的自动化显微成像装置,具备自动观察、自动对焦、传输图像与视频数据功能,可完成原位生物细胞样品的生长、发育、演化等观察任务并进行数据记录与分析,承担了空间站上细胞、蛋白质等样品显微观察的任务,并已成功应用于空间站核心舱中.",
+        "doi": "10.19850/j.cnki.2096-4706.2023.24.033",
+        "id": "659cb780939a5f4082df84f2",
+        "keywords": [
+          "space station",
+          "FPGA",
+          "automatic microimaging",
+          "life sciences"
+        ],
+        "keywords_zh": [
+          "空间站",
+          "FPGA",
+          "自动化显微成像",
+          "生命科学"
+        ],
+        "title": "A Space Automatic Microimaging System Based on FPGA",
+        "title_zh": "一种基于FPGA的空间自动化显微成像系统",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "普及现代生命科学知识,培养新时代高素质、跨学科、创新型、复合型人才是高等教育的核心.针对北京理工大学非生物学专业开设\"生命科学基础\"通识课的现状,着重优化教学内容,突出学科交叉和实践应用.并基于本校获批的\"生命科学基础\"国家级一流本科课程,进行线上线下混合式教学模式探索.结合案例教学、翻转课堂、实践课堂,充分发挥学生的主动性,激发学习兴趣.课程采取多元化、贯穿整个教学过程的考核方式,初步取得较好的评教结果,以期打造理工类高校非生物专业\"生命科学基础\"通识\"金课\",助力\"双一流\"建设,培养具备较强生命科学素养、全面发展的新时代复合型人才.",
+        "doi": "10.3868/j.issn.2095-1574.2023.02.007",
+        "id": "64b27fb93fda6d7f0653fc94",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学通识课程",
+          "学科交叉",
+          "国家级一流本科课程",
+          "线上线下混合式教学"
+        ],
+        "title": "Exploration on the Construction of General Curriculum of \"Foundation of Life Science\" Based on Interdisciplinary",
+        "title_zh": "基于学科交叉的\"生命科学基础\"通识课程建设探索",
+        "year": 2023
+      },
+      {
+        "abstract": "Cell Biology is a discipline studying the life phenomena and laws of cells to reveal the cell activities related to various physiological functions of the human body. Benefiting from close connection with scientific research is one of the important attributes of Cell Biology discipline. In the teaching activities of Cell Biology, establishing and cultivating students’ scientific thinking should be emphasized. Taking the teaching of Cell Biology in the Medical College of Guangxi University as an example, this paper proposed four ways of optimizing the structure of teaching contents, re-study classic experiments, reading authoritative literatures and improving the examination model to cultivate students’ interest in scientific research and motivation of independent learning, which were practical for achieving satisfactory teaching results.",
+        "abstract_zh": "细胞生物学是以细胞的生命现象和规律为研究对象,揭示与人体各项生理功能相关的细胞活动的一门学科.细胞生物学与科学研究联系密切,是该学科的重要属性之一,在细胞生物学教学活动中要注重建立与培养学生的科研思维.文章以广西大学医学院细胞生物学教学为例,提出优化教学内容结构、重现经典实验、阅读权威文献与改进考核模式四种途径,培养学生对科学研究的兴趣与自主性学习内驱力,取得满意的教学效果.",
+        "doi": "10.19848/j.cnki.ISSN1005-2739.2022.12.0009",
+        "id": "6429494690e50fcafda741c5",
+        "keywords": [
+          "Cell Biology",
+          "life science",
+          "scientific thinking",
+          "teaching",
+          "reform"
+        ],
+        "keywords_zh": [
+          "细胞生物学",
+          "生命科学",
+          "科研思维",
+          "教学",
+          "改革"
+        ],
+        "title": "Research on Teaching Reform of Cell Biology Course Based on the Establishment and Cultivation of Scientific Thinking",
+        "title_zh": "基于科研思维建立与培养的细胞生物学教学改革探究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "2023 年 2 月,国家卫生健康委员会联合教育部、科技部、国家中医药管理局发布了《涉及人的生命科学和医学研究伦理审查办法》,其中强调对涉及儿童、智力障碍者、精神障碍者等弱势群体的研究参与者,应当予以特别保护.从相关法律法规对弱势群体的保护不到位、弱势群体的界定尚未清晰、相关部门监管不足、伦理委员会审查能力难以满足弱势群体的保护、难以公平纳入弱势群体、研究者及弱势群体伦理意识有待提升六个方面阐述了保护弱势群体的现状,并从以下三个方面分析《涉及人的生命科学和医学研究伦理审查办法》对保护弱势群体的新要求,扩大关注潜在的弱势研究参与者,更重视无民事行为能力或限制民事行为能力的研究参与者的同意,民事行为能力等级提高后的再次知情同意.最后从健全相关法规体系,明确弱势群体类别、监管部门加强落实、研究机构组建研究参与者保护体系、提高伦理委员会伦理审查能力、行业协会制定审查指南、加强各方教育培训六个方面提出了加强保护弱势群体的建议,以最大限度降低弱势群体参加临床研究的风险,助力中国临床研究的质量提高和速度提升.",
+        "doi": "10.12026/j.issn.1001-8565.2023.10.08",
+        "id": "655b8155939a5f40825dadca",
+        "keywords": [
+          "Life Science and Medical Research Involving Humans",
+          "Vulnerable Groups",
+          "Ethics Committee"
+        ],
+        "keywords_zh": [
+          "涉及人的生命科学和医学研究",
+          "弱势群体",
+          "伦理委员会"
+        ],
+        "title": "New Requirements and Improvement Suggestion for the Protection of Vulnerable Groups in Ethical Review Measures for Life Science and Medical Research Involving Humans",
+        "title_zh": "《涉及人的生命科学和医学研究伦理审查办法》对保护弱势群体的新要求及改进建议",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "本文论述了在\"生命科学导论\"课程教学中思政元素融入课程教学的方法,课程在挖掘中华优秀文化、科学研究和爱国主义等几方面的思政元素,发挥课程在弘扬社会主义核心价值观、弘扬求真务实的科学精神、弘扬伟大的爱国主义精神等几方面的思政作用,进行了课程思政探讨与实践,以期为我国高校公选课生命科学导论的课程思政的教学与改革提供参考.",
+        "doi": "10.19311/j.cnki.1672-3198.2023.02.078",
+        "id": "64b00bda3fda6d7f06efd8df",
+        "keywords": null,
+        "keywords_zh": [
+          "公选课",
+          "生命科学导论",
+          "课程思政",
+          "思政元素挖掘"
+        ],
+        "title_zh": "\"生命科学导论\"课程思政元素的挖掘与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "初中化学是必不可少的课程之一，化学课程内容主要包含各类化学变化规律，各类物质不断转换生成的过程。在初中教育阶段，在化学教学中渗透生命教育极为重要，能够让学生在课堂学习中逐渐领会生命科学的力量，增强生命保护意识和生态保护意识，学习生命保护技能，切身体会生命科学的魅力。文章将以初中化学课堂教学实际为依据，站在教师层面对生命科学视域下的初中化学课堂教学进行探究。",
+        "id": "6570a19f939a5f4082e49b0f",
+        "keywords": null,
+        "keywords_zh": [
+          "初中化学",
+          "生命科学教育",
+          "课堂教学"
+        ],
+        "title_zh": "生命科学视域下初中化学课堂教学探索",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "上海市新中考改革将生命科学、地理学等学科的跨学科案例分析作为综合测试考试内容,通过考试评价引导一线教师进行跨学科教学实践.本文以\"永不落地的北京雨燕\"为主题,探索了生命科学、地理学跨学科教学方式.",
+        "doi": "10.3969/j.issn.0006-3193.2023.05.014",
+        "id": "648ff9f6d68f896efa344e52",
+        "keywords": null,
+        "keywords_zh": [
+          "跨学科",
+          "生命科学",
+          "地理学",
+          "北京雨燕"
+        ],
+        "title_zh": "跨学科整合的教学设计与探索——以\"永不落地的北京雨燕\"为例",
+        "year": 2023
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjgjGIYUxWsx5byCxGKYnwVO"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "学科竞赛是高校培养学生创新能力的主要途径.本文将经验总结和理论研究相结合,以四川省大学生\"生命之星\"科技邀请赛历届组织经验为基础,探索竞赛组织发展与人才培养的关系,完善创新型人才竞赛管理模式.形成了由竞赛设计框架、组建组织机构、指定规章制度、制定竞赛方案等组成的高校学科竞赛组织管理体系建议范本.",
+        "doi": "10.3969/j.issn.1673-5641.2023.05.109",
+        "id": "649eb1f8d68f896efa25ba84",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "学科竞赛",
+          "组织管理"
+        ],
+        "title_zh": "高校生命科学类学科竞赛组织管理体系研究与实践——以四川省大学生\"生命之星\"科技邀请赛为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "失巢凋亡作为一种特殊的程序化细胞死亡形式,在机体发育、组织自身平衡、疾病发生和肿瘤转移中起重要作用.利用贴壁增殖表皮细胞系海拉(Hela)细胞作为模型,通过对比贴壁细胞悬浮后悬浮时间对细胞活性的影响,深入探讨了细胞失巢凋亡现象.研究考察了悬浮5 min、30 min、1 h,2 h,4 h和8h后的活细胞数量,以及重新贴壁培养后对细胞活性(即贴壁24h后活细胞增殖数量)的影响.结果表明:悬浮时间可导致海拉细胞数量减少及活性降低,在细胞实验过程中应当严格控制悬浮细胞接种时长.",
+        "doi": "10.3969/j.issn.1000-1158.2023.10.18",
+        "id": "65567930939a5f40829ea5bb",
+        "keywords": [
+          "metrology",
+          "life science metrology",
+          "cell number",
+          "cell activity",
+          "cell measurement",
+          "anoikis effect",
+          "Hela cell",
+          "floating time"
+        ],
+        "keywords_zh": [
+          "计量学",
+          "生命科学计量",
+          "细胞数量",
+          "细胞活性",
+          "细胞测量",
+          "失巢凋亡",
+          "Hela细胞",
+          "悬浮时间"
+        ],
+        "title": "Establishment of Measurement and Verification Method for Sequential Evaluation of Anoikis Effect on Hela Cell",
+        "title_zh": "基于Hela细胞的失巢凋亡现象时序评价模型的建立及测量验证方法研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "蛋白质组学在后基因组时代以其独特的角度和重要的作用已成为生命科学领域研究的热点内容.动物科学作为生命科学的一个重要分支,其相关研究对人类的生活有着重要意义.为了系统地了解和展望蛋白质组学技术在动物科学中的研究进展,综述了蛋白质组学的概念及其相关技术,归纳和评析了近年来蛋白质组学在动物繁殖、营养、遗传育种和疾病防治方面的研究现状.",
+        "doi": "10.16104/j.issn.1673-1891.2023.01.001",
+        "id": "64622f43d68f896efa3cce84",
+        "keywords": null,
+        "keywords_zh": [
+          "蛋白质组学",
+          "生命科学",
+          "动物科学",
+          "蛋白质鉴定",
+          "畜牧业应用"
+        ],
+        "title": "Advances in Proteomics Technology in Animal Science",
+        "title_zh": "蛋白质组学技术在动物科学中的研究进展",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "随着生命科学、医学进步和法律、法规、规章的完善,为适应客观需求,以进一步规范涉及人的生命科学和医学研究伦理审查工作,参照国际伦理准则以期与国际接轨.2023年2月18日国家卫生健康委员会联合教育部、科技部、国家中医药管理局发布《涉及人的生命科学和医学研究伦理审查办法》.《涉及人的生命科学和医学研究伦理审查办法》内容更加翔实,增加了诸多细节内容和具体要求.扩大管辖范围,囊括了高等学校、科研院所等机构;审查范畴包含了生命科学领域;要求多部门协同监管,带来伦理审查监管效率难题,需国家卫生健康委员会、教育部、科技部、国家中医药管理局通力合作,加强沟通,落实监管.强调了利益冲突管理,强化了隐私权保护和数据管理,明确简易审查的适用情形,增加了免除伦理审查,新增了递交初始审查资料、重点审查内容、批准标准和知情同意内容,提高了可操作性.对迫切需求和密切关注的问题提出解决对策或方向,允许委托审查,强化跟踪审查、登记备案,探索三级监管、伦理审查协作机制和区域伦理委员会建设.以期通过不断完善伦理审查和监管,保障研究参与者的安全和权益,促进国家生命科学和医学研究的质量,提升国家涉及人的生命科学和医学研究的国际竞争力.",
+        "doi": "10.12026/j.issn.1001-8565.2023.05.01",
+        "id": "648872f4d68f896efa9a0418",
+        "keywords": null,
+        "keywords_zh": [
+          "涉及人的生命科学和医学研究",
+          "伦理审查",
+          "研究参与者",
+          "伦理委员会"
+        ],
+        "title": "Interpretation and Reflection on Measures for Ethical Review of Life Science and Medical Research Involving Humans",
+        "title_zh": "《涉及人的生命科学和医学研究伦理审查办法》的解读和思考",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "文章论述了\"生命科学导论\"课程教学提升大学生生命科学素养的教学改革举措和效果,如:实施课程快乐教学法,提高学生参与课程教学兴趣;将思政教育与健康教育融为一体,提升教书与育人效果;理论教学与实际生活相结合,提升学生生命科学素养等.以期为我国高校该课程教学改革发展,以及课程教学促进大学生生命科学素养提升,提供参考.",
+        "doi": "10.19311/j.cnki.1672-3198.2023.06.087",
+        "id": "643135ea90e50fcafd3e0eaa",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学导论",
+          "生命科学素养",
+          "公选课",
+          "课程教学",
+          "教学改革"
+        ],
+        "title_zh": "\"生命科学导论\"课程教学提升生命科学素养的实践",
+        "year": 2023
+      },
+      {
+        "abstract": "Novel research and development (R&D) institutions in life sciences and medicine are the products of the latest round of technological revolution and industrial transformation. Under these new historical circumstances, accelerating the transformation of achievements from these novel R&D institutions is of strategic significance for cultivating national technological strength in the field of biomedicine, strengthening China’s biopharmaceutical industry, and achieving self-reliance in biomedical science and technology.This study presents the new dynamic of achievement transformation in novel R&D institutions in life sciences and medicine, conducts an in-depth analysis of related experience from both China and abroad through a literature review and field investigation, and summarizes four operational transformation modes of these institutions. Focusing on the “core-catalyst” system of achievement transformation in these novel R&D institutions, we research the achievement transformation mechanism system that adheres to the principles of innovation and market rules, and propose a micro-ecological model for achievement transformation mechanisms in these novel R&D institutions, including three core systems (i.e., technology R&D, technology implementation, and investment systems) and a government macro-support catalytic system. Policy recommendations are offered with an emphasis on top-level design, creating an innovative ecosystem, activating transformation dynamics, and strengthening system support, to provide theoretical and practical references for accelerating the transformation of achievements from Chinese novel R&D institutions in life sciences and medicine.",
+        "abstract_zh": "生命科学及医学新型研发机构是新一轮科技革命和产业变革的产物；在新的历史条件下，加速相关成果转化，对于培育生物医药领域国家战略科技力量、壮大我国生物医药产业、实现生物医药科技自立自强具有重大战略意义。本文立足生命科学及医学新型研发机构成果转化呈现的新态势，通过文献调研、实地调研考察，深入分析了国内外相关研发机构成果转化的经验，总结得出了4种生命科学及医学新型研发机构运行转化模式；聚焦生命科学及医学新型研发机构成果转化“核心-催化”系统，研究符合创新规律和市场规律的成果转化机制体系，构建了生命科学及医学新型研发机构成果转化机制“微生态”模型，包括技术研发、技术实施、投资系统3个核心系统以及政府宏观支撑催化系统。研究建议，聚焦顶层设计、营造创新生态、激活转化动力和强化制度支撑，以期为我国生命科学及医学新型研发机构加速推进成果转化提供理论与实践参考。",
+        "doi": "10.15302/j-sscae-2023.05.005",
+        "id": "65535fb7939a5f4082a904dd",
+        "keywords": [
+          "life sciences and medicine",
+          "novel research and development institutions",
+          "achievement transformation",
+          "micro-ecological model"
+        ],
+        "keywords_zh": [
+          "生命科学及医学",
+          "新型研发机构",
+          "成果转化",
+          "微生态模型"
+        ],
+        "title": "Achievement Transformation Mechanism of Novel Research and Development Institutions in Life Sciences and Medicine",
+        "title_zh": "生命科学及医学新型研发机构成果转化机制研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "依据 2023 年国家卫生健康委员会、教育部、科技部、国家中医药管理局联合发布的《涉及人的生命科学和医学研究伦理审查办法》,为优化伦理审查流程,为临床研究人员减负,提出了部分符合条件的情况下可以\"免除伦理审查\".这是国家在伦理审查管理办法中首次针对\"免除伦理审查\"的一个突破进展.回顾梳理了国内外关于免除审查的相关情况,重点针对免除审查的四种情况进行分析探讨,尤其是对免除审查中关于匿名化和个人敏感信息的理解进行讨论分析,并针对四种情况提出实践的建议,并结合伦理审查工作的实际情况,探讨建立关于免除审查的实践标准和流程,为相关医疗机构实施免除伦理审查提供参考.",
+        "doi": "10.12026/j.issn.1001-8565.2023.10.09",
+        "id": "655b8155939a5f40825dadb2",
+        "keywords": [
+          "Life Science and Medical Research Involving Humans",
+          "Ethic Review",
+          "Exemption from Ethic Review",
+          "Informed Consent",
+          "Anonymization",
+          "Sensitive Information",
+          "Clinical Research"
+        ],
+        "keywords_zh": [
+          "涉及人的生命科学和医学研究",
+          "伦理审查",
+          "免除伦理审查",
+          "知情同意",
+          "匿名化",
+          "敏感信息",
+          "临床研究"
+        ],
+        "title": "Reflection and Practice on Exemption from Ethical Review",
+        "title_zh": "免除伦理审查的思考与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "利用Web of Science的SCI-Expanded数据库进行检索,主要分析美国国防高级研究计划局(Defense Advanced Research Projects Agency,DARPA)资助生命科学相关科研项目发表论文情况.DARPA资助生命科学领域论文占比不断增加,麻省理工学院、斯坦福大学、哈佛大学等是主要受资助发文机构.分析DARPA资助论文发表情况可为中国相关管理及科研人员提供参考.",
+        "doi": "10.3772/j.issn.1009-8623.2023.04.007",
+        "id": "64d9ddc33fda6d7f0648a504",
+        "keywords": [
+          "Defense Advanced Research Projects Agency",
+          "life science",
+          "research program",
+          "bibliometric"
+        ],
+        "keywords_zh": [
+          "美国国防高级研究计划局",
+          "生命科学",
+          "科研项目",
+          "文献计量"
+        ],
+        "title": "Bibliometric Analysis of Paper Output of DARPA-Funded Life Science Related Research Projects",
+        "title_zh": "美国国防高级研究计划局生命科学相关科研项目论文产出文献计量分析",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "伦理审查是在开展涉及人的生命科学和医学研究时,对研究参与者的重要保护措施.2023 年 2月发布的《涉及人的生命科学和医学研究伦理审查办法》提出了\"免除伦理审查\".为了在法律法规许可的范围内推行免伦理审查,在利用研究参与者的数据信息和生物样本时,保护好研究参与者的隐私和权益,需要考虑多方面的因素:谁承担免除伦理审查的职责、免除伦理审查的条件,以及免伦理审查的具体流程.与所有审查程序一样,免除审查也需要制定相应的制度,落实责任,并依赖于受试者保护体系建设,希望通过讨论能为免除伦理审查的实施开展提供思考.",
+        "doi": "10.12026/j.issn.1001-8565.2023.10.11",
+        "id": "655b8158939a5f40825db134",
+        "keywords": [
+          "Exemption from Ethical Review",
+          "Subject Protected",
+          "Life Sciences and Medical Research Involving Humans"
+        ],
+        "keywords_zh": [
+          "免除伦理审查",
+          "受试者保护",
+          "涉及人的生命科学和医学研究"
+        ],
+        "title": "Operation and Reflection on Exemption from Ethical Review",
+        "title_zh": "免除伦理审查的操作与思考",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "开展课程思政既可以为课程教学补充新鲜素材和独特视角,也可以使授课教师增强为国家培养合格建设者的担当意识.根据通识类课程\"生命科学基础\"内容,本文梳理了各章节相应的切入点并给出了三种引入课程思政内容的实践方法,即直接介绍、课堂讨论与课下思考相结合、诱导式或联想式,并对专业课内容引入课程思政内容的自觉性、教学学术、操作专业性及效果评价方法进行了讨论.",
+        "doi": "10.3868/j.issn.2095-1574.2023.01.006",
+        "id": "646c6ed6d68f896efa30b1d0",
+        "keywords": null,
+        "keywords_zh": [
+          "课程思政",
+          "生命科学基础",
+          "教学设计"
+        ],
+        "title": "The Teaching Design and Practice of Ideological and Political Content of the College General Courses \"Base of Life Science\"",
+        "title_zh": "校通识课\"生命科学基础\"中思政内容的教学设计与实践",
+        "year": 2023
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjgW9xi8iYWVkEB2tkSX104D"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "\"基于理解的设计\"即以明确的学习目标为起点,以促进儿童有意义学习为宗旨,强调评价设计先于课程设计和教学活动开展的教学设计模式.本文基于儿童立场,理解为先、聚焦学科核心概念,逆向设计、转换教学设计理念,支架搭建、优化项目实践路径,探讨如何将基于理解的逆向设计应用于小学低段科学儿童生命科学领域的教学.",
+        "doi": "10.3969/j.issn.1009-1734.2023.06.003",
+        "id": "64d9ebd13fda6d7f065814d1",
+        "keywords": [
+          "children position",
+          "life science",
+          "reverse design",
+          "teaching support"
+        ],
+        "keywords_zh": [
+          "儿童立场",
+          "生命科学",
+          "逆向设计",
+          "教学支架"
+        ],
+        "title": "Project Design of Life Science from the Perspective of Children Position:A Case Study of\"Adopting a Snail\"",
+        "title_zh": "儿童立场的生命科学领域项目设计——以\"领养一只蜗牛\"为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "受试者的权利保护是人体试验活动中最核心的伦理和法律问题.国内外法律法规对受试者权利的保护作出了若干规定.基于最新颁布的《涉及人的生命科学和医学研究伦理审查办法》,从受试者的生命健康权、知情权与自主决定权、隐私权、获得补偿与赔偿权四个方面,梳理我国医学科学研究中受试者权利保护的政策和现状,发现存在法律体系不健全、制度落实有差距、行政监管不到位等问题.建议完善受试者权利保护的法律体系,加大行政监管力度,建立起受试者全方位保护的网络.",
+        "doi": "10.12014/j.issn.1002-0772.2023.09.01",
+        "id": "648fbf49d68f896efa0841a1",
+        "keywords": null,
+        "keywords_zh": [
+          "受试者",
+          "权利",
+          "《涉及人的生命科学和医学研究伦理审查办法》"
+        ],
+        "title": "On the Policy and Status Quo of Subject Rights Protection of the 2023 Edition of Ethical Review Measures",
+        "title_zh": "论2023版伦理审查办法中受试者权利保护政策与现状",
+        "year": 2023
+      },
+      {
+        "abstract": "Since the beginning of this century, there has been an acceleration in the scientific theory, study approaches and application technology research and development in the field of grain storage in China. This paper provides an overview of national grain storage science and technology development in the last century, and introduces new developments that have occurred this century. The progress of grain storage technology has been reviewed and prospected from three aspects, micro and macro dimension, as well as through dual-driven AI. In the micro dimension, there has been progress made in understanding grain bulk microorganism mechanism. The basic parameters of grain were researched, followed by the study of characteristics, metabolism, and quality laws for grain seeds, stored grain pests, and microorganisms, using biological science methods such as molecular biology, genetic engineering, proteomics, and metabolomics. Then, the basic parameters, characteristics, metabolism and quality laws for grain seeds, stored grain pests and microorgan-isms were studied, using biological science methods such as molecular biology, genetic engineering, proteomics and metabolomics. Additionally, methods for preventing and controlling mycotoxins in grain bulk were explored, leading to new achievements in these fields. In the macro dimension, interactions between environmental factors in grain storage and macro-level studies were conducted based on the theory of grain storage ecology. The achievements have been introduced based on grain bulk multi-fields between grain biological fields and its multi-physical fields. Furthermore, in the research area of the artificial intelligence (AI) in grain field, some new achievements have been reached through the theory of dual-driven AI for mechanism and data. In conclusion, the progress in grain technology was analyzed and prospects for the future were put forward. Finally, the development prospects are proposed by summarizing the progress of grain technology. At the level of development strategy, it is necessary to improve the management abilities of grain circulation system through science and technology, including the supervision technology of grain safety storage, the quality control and traceability of whole grain chains, and the sustainable development ability of grain industry. The major grain science and technology challenge and grain industry technology bottleneck will be continued to carry out. At the level of scientific theory and methods, theoretical innovation and technology iteration will be promoted through the advantages of ‘technology translation’ and interdisciplinary breakthrough benefits, with the ultimate goal of creating a highway of grain storage science and technology in China.",
+        "abstract_zh": "本世纪以来,中国在粮食储藏领域的科学理论、研究方法、应用技术研发都得到加速发展.在简要回顾上世纪中国粮食储藏科技发展过程的基础上,对本世纪以来粮食科技取得的新发展进行了归纳,从微观、宏观、信息化与人工智能三个维度对粮食科技发展新脉络进行梳理和展望.微观维度的发展是指粮堆生物体的微观机理研究的进展.从粮食基础参数研究起步,介绍了在分子生物学、基因工程学、蛋白组学、代谢组学等生命科学理论和方法支持下,对粮食籽粒、储粮害虫和微生物的微观参数、特征、代谢和品质变化规律、以及真菌毒素防控技术等研究取得的新成果.宏观维度的发展是指在储粮生态理论的基础上,从宏观层面研究粮食储藏中环境生态因子之间的互相影响.介绍了在粮堆生物场和物理场等多场耦合理论支持下取得的新成果.在信息化与人工智能维度的发展方面,介绍了我国粮食领域人工智能(AI)的发展过程,在机理驱动AI和数据驱动AI相结合的\"机理+数据\"双驱动AI的新理念指导下取得的新成果.通过对发展新脉络的梳理,提出展望:一是在发展战略层面,要通过科技提升粮食流通系统管理能力,包括粮食储备安全的监管技术、全产业链质量控制和追溯、提升粮食产业可持续发展能力等等,仍然要继续开展重大粮食科技难题和\"卡脖子\"问题的行业攻关.二是在科学理论和技术方法层面,运用好粮食领域\"技术平移\"优势和交叉学科突破优势,推进理论创新和技术迭代,加快步入中国粮食储藏科技发展的高速路.",
+        "doi": "10.16210/j.cnki.1007-7561.2023.05.002",
+        "id": "652cb466939a5f40826ac3c4",
+        "keywords": [
+          "grain storage",
+          "micro dimension",
+          "macro dimension",
+          "dimensions of informatization and artificial intelligence",
+          "biological science",
+          "grain bulk biological field",
+          "dual-driven AI for mechanism and data"
+        ],
+        "keywords_zh": [
+          "粮食储藏",
+          "微观维度",
+          "宏观维度",
+          "信息化与人工智能维度",
+          "生命科学",
+          "粮堆生物场",
+          "\"机理+数据\"双驱动AI"
+        ],
+        "title": "Review and Prospect of China's Grain Storage Science and Technology Development in the New Century",
+        "title_zh": "新世纪中国粮食储藏科技发展新脉络的梳理与展望",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "从医疗机构视角出发,对于《涉及人的生命科学和医学研究伦理审查办法》颁布的背景、重要变更部分等内容进行梳理,并对可能会影响医疗机构伦理审查工作的变更部分进行总结与概述,涉及术语变更与审查范围扩大、明确伦理委员会职责和独立性、细化伦理审查流程、重视个人信息保护与受试者权益,首次提出免伦理审查等方面.此外基于新版法规加强科技伦理治理的理念出发,分享了对医疗机构内伦理审查工作治理的思考,包含维护人格尊严与权益、明确伦理审查的角色与定位、免除伦理审查的执行,委托伦理审查的管理等.以期为广大医疗机构伦理从业人员和各方研究者提供一定参考.",
+        "doi": "10.12026/j.issn.1001-8565.2023.05.02",
+        "id": "648872f4d68f896efa9a0469",
+        "keywords": null,
+        "keywords_zh": [
+          "涉及人的生命科学和医学研究",
+          "伦理审查",
+          "伦理审查委员会",
+          "免除伦理审查"
+        ],
+        "title": "Thinking from the Perspective of Medical Institutions on Measures for Ethical Review of Life Science and Medical Research Involving Humans",
+        "title_zh": "从医疗机构视角思考《涉及人的生命科学和医学研究伦理审查办法》",
+        "year": 2023
+      },
+      {
+        "abstract": "Novel research and development (R&D) institutions are an important organizational form of scientific and technological innovation in China. Novel R&D institutions in life sciences and medicine are oriented toward people’s life and health and play an important role in promoting the development of life sciences and medicine, forming multiple innovation subjects, and building an innovation ecology with active elements. However, their construction is still in an exploration stage, and it is urgent to optimize the construction strategy and form a stable and sustainable development capability. This study used the methods of policy research, on-site research, case study, and expert consultation to summarize the progress of policy promotion and exploration practices of novel R&D institutions in China, analyzed the construction modes and operation mechanisms of similar R&D institutions abroad, and presented challenges in the development of novel R&D institutions in the field of life sciences and medicine in China. On this basis, we proposed the following strategies for optimizing the construction of novel R&D institutions in life sciences and medicine in China: (1) building up a diversified and stable funding mechanism, (2) establishing a differentiated development path, (3) improving the recruiting and cultivating mechanism of outstanding professionals, (4) continuously innovating the organizational form of scientific research, (5) exploiting the advantages of the flexible mechanism for scientific achievement transformation, and (6) enhancing the academic influence of these institutions, thereby promoting the high-quality development of these institutions and the self-reliance and strength of China in science and technology.",
+        "abstract_zh": "新型研发机构是我国科技创新的重要组织形式,生命科学及医学新型研发机构面向人民生命健康,在推动生命健康及医学发展、形成多元创新主体、构建要素活跃的创新生态方面发挥了重要作用,但其建设仍处于探索阶段,亟需优化建设策略,形成稳健的可持续发展能力.本文运用政策研究、实地调查、案例研究和专家咨询等方法,梳理我国新型研发机构的政策推动与探索实践进展,分析国外类似研发机构的建设模式和运行机制,总结我国生命科学及医学新型研发机构发展面临的挑战.在此基础上,提出了我国生命科学及医学新型研发机构优化建设的策略,涵盖构建多元稳定的筹资机制、建立差异化竞争发展路径、完善优秀人才吸纳培育机制、持续创新科研组织形式、充分用好成果转化机制优势、重视提升机构学术影响力等6个方面,以更好推动生命科学及医学新型研发机构高质量发展,助力国家科技自立自强.",
+        "doi": "10.15302/j-sscae-2023.05.006",
+        "id": "65535fb7939a5f4082a904dc",
+        "keywords": [
+          "life science",
+          "medicine",
+          "novel R&D institutions",
+          "construction strategy",
+          "scientific and technological innovation"
+        ],
+        "keywords_zh": [
+          "生命科学",
+          "医学",
+          "新型研发机构",
+          "建设策略",
+          "科技创新"
+        ],
+        "title": "Optimal Constructing Measures of Novel Research and Development Institutions in Life Sciences and Medicine in China",
+        "title_zh": "我国生命科学及医学新型研发机构优化建设策略研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "在初中生命科学线上教学中,基于\"问卷星\"等教学平台收集的学生学习数据,利用RtI模型建立学习者分层在线干预模型,对教师线上教学行为提供科学且数据化的指导.",
+        "doi": "10.3969/j.issn.1003-7586.2023.04.009",
+        "id": "649011c8d68f896efa4cb463",
+        "keywords": null,
+        "keywords_zh": [
+          "\"问卷星\"数字化平台",
+          "初中生命科学",
+          "线上教学",
+          "RtI模型"
+        ],
+        "title_zh": "基于RtI模型的初中生命科学线上教学干预的实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "高校专业课程思政建设要求落实立德树人任务,培养专业扎实、素质过硬的专业人才.分析化学是医学院校药学类、医学检验类、生命科学类等专业的必修基础课,该课程蕴含丰富的哲学思想和政治元素,在教学中开展课程思政具有充分的必要性.将思政教育贯穿于分析化学整个教学过程中,将分析化学知识点与思政元素有机结合,将教书和育人有机统一,提高学生的思政素养,是培养高素质医药人才的有效途径.文章以分析化学课程的重点内容\"误差分析\"为例,在教学中深入挖掘分析化学思政元素,并与理论知识进行有机结合达到育人的目的.这种思政案例式的教学设计有助于学生更好地了解分析化学学科特点,树立科学精神,最后对分析化学课程思政的教学效果和实践中存在的问题进行了总结、反思.分析化学课程思政的实践有助于提高学生对理论知识的学习兴趣,培养学生的职业素养和精益求精的工匠精神,同时也为开展以课程思政为理念的分析化学课堂教学改革提供思路.",
+        "doi": "10.3969/j.issn.1674-9308.2023.10.042",
+        "id": "649eaa4ed68f896efa1fbe63",
+        "keywords": null,
+        "keywords_zh": [
+          "医学",
+          "药学",
+          "生命科学",
+          "课程思政",
+          "分析化学",
+          "误差分析"
+        ],
+        "title": "Exploration and Practice of Integrating Course Ideology and Political Education Into Analytical Chemistry in Medical Colleges",
+        "title_zh": "医学院校分析化学融入思政案例的探索与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "囿于传统认识论与本体论的中医学哲学观以及滥觞于中华传统文化而形成的朴素的形而上哲学观未能充分凸显悠久中医学所具有的思想价值和历史贡献,亟须在融合现代科技发展成果,突破传统哲学困境背景下,以更广阔的视野、更高远的视界、更深刻的视角来挖掘中医药的独特价值,充分利用中医学独特的历史素材和发展脉络为未来生命科学、健康科学以及现代哲学提供思想源泉.从必要性、历史意义与可能性等方面审视并重建中医学哲学观,必将有利于充分发挥中医药所具有的五大资源优势,以促进经济、社会和科技发展;有利于在东西文明互鉴中凸显东方哲理的历史价值,以贡献人类卫生健康共同体建设的理论模型、认知途径和行动方案.",
+        "doi": "10.19945/j.cnki.issn.1006-3250.20230706.001",
+        "id": "65539828939a5f408236b078",
+        "keywords": null,
+        "keywords_zh": [
+          "哲学观",
+          "形而上学",
+          "健康科学",
+          "生命科学"
+        ],
+        "title_zh": "重建中医学哲学观的历史紧迫性",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "通过伦理审查,是涉及人的生命科学和医学研究开展的必要条件和前提条件.目前部分医疗卫生机构没有伦理审查能力或者审查能力不足.伦理审查能力的欠缺和不足,成为制约涉及人的生命科学和医学研究开展的瓶颈.《关于深化审评审批制度改革鼓励药品医疗器械创新的意见》《关于加强科技伦理治理的意见》等文件提出,机构可以书面委托有能力的机构伦理审查委员会或者区域伦理审查委员会开展伦理审查.委托审查为需要开展涉及人的生命科学和医学研究但是未设立伦理(审查)委员会或者伦理(审查)委员会无法胜任审查的机构,提供了可行的解决途径.开展委托审查需要委托人和受托人正式达成委托.《涉及人的生命科学和医学研究伦理审查办法》规定医疗卫生机构及其伦理审查委员会未接受正式委托为其他机构出具伦理审查意见的,将由县级以上地方卫生健康主管部门对有关机构和人员依法给予行政处罚和处分.签署委托审查合同,实施合法合规的委托审查,才能更有效地保护受托人和委托人的权益,保护研究参与者.",
+        "doi": "10.12026/j.issn.1001-8565.2023.05.04",
+        "id": "648872f5d68f896efa9a056b",
+        "keywords": null,
+        "keywords_zh": [
+          "涉及人的生命科学和医学研究",
+          "伦理审查",
+          "委托",
+          "指引"
+        ],
+        "title": "Guidelines for Ethical Review Entrustment Contract of Life Science and Medical Research Involving Humans",
+        "title_zh": "涉及人的生命科学和医学研究伦理审查委托合同指引",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "面向空间生命科学研究中对小体积、高精度微纳物体运动操控实验设备的需求,基于压电作动技术与声流理论,搭建微纳物体运动操控平台,并利用视觉反馈与人机交互技术实现便捷、精准的微纳物体运动控制.利用逆压电效应驱动光刻加工的人工微结构在液体环境中振动,构建局部增强的声流场,使人造微颗粒、细胞等微纳物体沿微结构定向运动.微粒运动过程利用视觉反馈,由计算机实时监控,运输目标和定位精度由用户利用人机交互系统设定.实验结果表明:该平台能够实现5～30μm聚苯乙烯微球或癌细胞的识别和运动控制,定位误差小于±2.5 μm,并可在多物体环境中切换控制目标.",
+        "doi": "10.19344/j.cnki.issn1671-5276.2023.05.005",
+        "id": "6546a582939a5f4082e49c93",
+        "keywords": [
+          "space life science",
+          "micro-nano manipulation",
+          "acoustic streaming",
+          "visual feedback",
+          "human-machine interaction"
+        ],
+        "keywords_zh": [
+          "空间生命科学",
+          "微纳操控",
+          "声流理论",
+          "视觉反馈",
+          "人机交互"
+        ],
+        "title": "Precise Acoustic Manipulation Platform for Micro/Nano Objects Based on Human-Machine Interaction",
+        "title_zh": "人机交互式高精度微纳物体声操控平台",
+        "year": 2023
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjgN4WFIKgOY6FooZNJDjGY0"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "专题课程体系既能夯实专业基础,又能聚焦专业前沿,对学生系统掌握专业知识、增强其科学创新能力具有重要意义.\"免疫与肿瘤\"课程内容繁多且更新较快,前沿程度高.根据我校生物专业研究生知识背景特点,教师预先总结该课程现存主要问题,尝试建立基于前沿专题的课程内容,并从教学方法等多层面进行改革实践,以期在有限课时内高效完成\"基础与前沿\"知识的传授,拓展学生知识宽度,提升学生科研综合能力.",
+        "doi": "10.3868/j.issn.2095-1574.2023.01.007",
+        "id": "646c6ed6d68f896efa30b1ad",
+        "keywords": null,
+        "keywords_zh": [
+          "免疫与肿瘤",
+          "专题课程体系",
+          "生命科学研究生"
+        ],
+        "title": "Exploration and Practice of the Special Course System of \"Immunity and Tumor\" for Biological Postgraduates",
+        "title_zh": "生命科学研究生\"免疫与肿瘤\"专题课程体系的探索与实践",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "人类的生存繁衍与医药学息息相关,中医药是具有中国特色的生命科学,传承发展中医药文化须先了解中医药历史.中医药相关标本是中医药传承发展的实证材料,也是考察中医药历史的永久性资料.新时代健康中国背景下,要充分发掘标本在助力本草考古、彰显家国情怀、增强民族自信、凸显企业文化、保护种质资源、践行\"两山理论\"、推广科普知识等方面的传承意义和应用价值.只有这样,才能把中医药这一祖先留给我们的宝贵财富继承好、发展好、利用好.",
+        "doi": "10.3969/j.issn.1672-2779.2023.13.055",
+        "id": "64c97ba53fda6d7f06856af5",
+        "keywords": [
+          "Chinese medicine specimen",
+          "traditional Chinese medicine culture",
+          "life sciences",
+          "inheritance",
+          "innovation"
+        ],
+        "keywords_zh": [
+          "中药标本",
+          "中医药文化",
+          "生命科学",
+          "传承",
+          "创新"
+        ],
+        "title": "The Value of Chinese Medicine Specimens in the Inheritance and Innovation of Traditional Chinese Medicine Culture under the Background of the New Era",
+        "title_zh": "新时代背景下中药标本在中医药文化传承与创新中的价值",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "科研建筑开发商的激烈竞争正在推动实验室空间和科研场所的需求升级,他们不断改进现有的科研办公空间,为租户创造与众不同的办公场所.同时,伴随可持续发展的热度提升,许多开发商开始寻找新材料来替代混凝土和钢结构这两种碳排放量极高的材料.随着绿色建筑领域知识的普及和建筑规范的调整,建筑行业及相关客户逐渐将重型木结构建筑视为未来的发展方向.针对这两种趋势,我们的研究团队找到了一个项目作为契机来探索如何优化实验室设计,为租户创造独特的体验,增强产品的差异性,提供一种以可持续、韧性和以去碳化为核心的设计方案.Gensler与结构设计单位KPFF、机电设计单位Buro Happold合作,开展了这项正在进行中的衡量实验室建筑影响的研究项目,旨在为下一代科研建筑制定一套概念框架,探索它们的性能、外观和人体感受.",
+        "doi": "10.3969/j.issn.1002-4832.2023.02.008",
+        "id": "641c24af90e50fcafdf65887",
+        "keywords": null,
+        "keywords_zh": [
+          "重型木结构",
+          "可持续设计",
+          "生命科学",
+          "科研建筑",
+          "实验室的未来"
+        ],
+        "title": "Probing for the Next Generation of Science Buildings Using Mass Timber",
+        "title_zh": "探索下一代重型木结构科研建筑",
+        "year": 2023
+      },
+      {
+        "abstract": "Objective:This paper tried to have a dialogue with ChatGPT about ethics review, to understand the degree of intelligence of this application in the field of ethical management, and to analyze its possible impact on the future ethics review work.Methods:The research team sorted out 43 questions, then the research team member at abroad accomplish the dialogue with ChatGPT in both Chinese and English. Feedback answers were summarized and analyzed to explore their advantages and problems.Results:Most of the ChatGPT′s answers of this test were reasonable, with obvious advantages in response speed, and the rigor and friendliness were relatively good. However, there were also problems in consistency, comprehensiveness and expertise, the accuracy and computing power also still have a lot of space for improvement.Conclusions:It is too early for AI to replace professionals, but we should fully develop and utilize the advantages of AI to help professionals get rid of inefficient labor and play a better role.",
+        "abstract_zh": "目的:本文旨在通过与ChatGPT进行一次关于伦理审查管理方面的对话，实际了解该应用在伦理管理领域的智能化程度，分析其当前和未来对伦理审查管理工作的影响。方法:研究团队设计了43个问题，用中英文分别向ChatGPT提问，根据回答内容归纳分析其优势和问题。结果:ChatGPT反应速度优势明显，回答内容有一定合理性，在表述严谨性和友好度方面表现较好，但是在一致性、全面性和专业性方面存在问题，在精确性上有缺陷，计算能力仍有瓶颈。结论:人工智能取代专业人士为时尚早，但可以充分开发利用人工智能的优势，助力专业人士解脱低效劳动，发挥更好的作用。",
+        "doi": "10.3760/cma.j.cn113565-20230328-00094",
+        "id": "64b0339f3fda6d7f0648b15c",
+        "keywords": [
+          "ChatGPT",
+          "Artificial Intelligence (AI)",
+          "Involving human life science and medical research",
+          "Ethical review management"
+        ],
+        "keywords_zh": [
+          "ChatGPT",
+          "人工智能",
+          "涉及人的生命科学与医学研究",
+          "伦理审查管理"
+        ],
+        "title": "Evaluation and impact analysis of ChatGPT′s competence in ethical review management",
+        "title_zh": "ChatGPT在伦理审查管理方面的能力实测与影响分析",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "微课已成为翻转课堂教学模式实施的重要载体.这种教学模式充分利用网络和信息技术,能够打破传统课堂教学时空的限制,有助于激发学生的学习兴趣、提高学生的自主学习能力,大大提升学生的学习效率.文章分析了全国高校生命科学类微课教学比赛中参赛作品的特征,以帮助生命科学类课程教师全面了解微课,掌握微课教学的要求和方法,应用微课实现翻转课堂教学的创新性改革.",
+        "doi": "10.3969/j.issn.1000-6168.2023.01.017",
+        "id": "6462ee63d68f896efa8f8637",
+        "keywords": null,
+        "keywords_zh": [
+          "微课",
+          "生命科学",
+          "学习兴趣"
+        ],
+        "title": "Analysis on the Application Status of Microlecture in the Teaching of Life Science Courses——Taking National Universities Micro-teaching Competition of Life Sciences as an Example",
+        "title_zh": "微课在生命科学类课程教学中的应用现状分析——以全国高校生命科学类微课教学比赛为例",
+        "year": 2023
+      },
+      {
+        "abstract": "The global outbreak of COVID-19 has brought the health care and life science industry into the spotlight, and people's attention to the early warning and treatment of diseases, the research and development of biological drugs, in vitro diagnosis, and Internet medicine has also been raised to a new high level. Metrology technology plays a very important supporting role in these fields. Studying metrology technology in the field of life science is an important part of serving the health of the whole people, and also a solid foundation to promote the development of health and life science industry. Based on the strategy reports of domestic and international metrology institutions on life science, this paper explores the development ideas of metrology science to support the life science through literature research, case study and on this basis, puts forward some suggestion on the development of biological metrology.",
+        "abstract_zh": "新冠疫情的爆发使健康医疗和生命科学领域成为各界关注焦点.人们对疾病预警和治疗、生物药物研发、体外诊断、互联网医疗等方面的重视也提升到新的高度.计量技术在上述领域内起到非常重要的支撑作用,研究生命科学领域的计量技术是服务全民健康的重要组成部分,也是促进健康与生命科学行业发展的坚实基础.基于国内外相关计量机构关于生命科学的发展规划报告,通过文献调研、案例研究等方法,探索计量支持生命科学研究的发展思路并在此基础上提出对我国生物计量行业发展的思考.",
+        "doi": "10.12338/j.issn.2096-9015.2023.0008",
+        "id": "648890bbd68f896efaae9d3b",
+        "keywords": [
+          "life science",
+          "metrology",
+          "planning",
+          "biological drugs"
+        ],
+        "keywords_zh": [
+          "生命科学",
+          "计量",
+          "规划",
+          "生物医药"
+        ],
+        "title": "Metrological Challenges and Prospects in the Field of Life Sciences",
+        "title_zh": "生命科学领域计量挑战与展望",
+        "year": 2023
+      },
+      {
+        "abstract": "Life science and biotechnology is related to health and welfare, the national economy and people’s livelihood. China has maintained high-intensity scientific research investment and steadily improved its scientific research capacity. However, some problems exposed in the process of scientific and technical innovation are still worth pondering. As one of the six major science and technology plans, the National Key R＆D Program provides continuous support and guidance for the development of life sciences and biotechnology. In order to further accelerate the development of the field of life sciences and biotechnology,accelerate the construction of a strong country, better reflect the supporting and leading role of science and technology program this paper summarizes the current situation and trends of National Key R＆D Program in the field of life sciences and biotechnology, digs out the main problems exposed in the implementation process and puts forward relevant suggestions.",
+        "abstract_zh": "生命科学与生物技术关乎人民健康福祉,关系国计民生.我国一直保持高强度的科研投入,科研能力稳步提升,但在科技创新的过程中暴露出来的一些问题仍值得深思.作为六大科技计划之一,国家重点研发计划对生命科学与生物技术领域发展提供持续性支撑和引领.在总结生命科学与生物技术领域国家重点研发计划现状及趋势的基础上,挖掘实施过程中暴露的主要问题,提出相关的建议,为进一步促进生命科学与生物技术领域发展、加快科技强国建设、发挥科技计划支撑引领的作用提供参考借鉴.",
+        "doi": "10.3772/j.issn.1674-1544.2023.02.003",
+        "id": "64828fd7d68f896efa355613",
+        "keywords": [
+          "life science",
+          "biotechnology",
+          "National Key R＆D Program of China",
+          "management of scientific research",
+          "data collection"
+        ],
+        "keywords_zh": [
+          "生命科学",
+          "生物技术",
+          "国家重点研发计划",
+          "科研管理",
+          "数据汇交"
+        ],
+        "title": "Thinking and Suggestions on the Management of National Key R&D Programs of China in Life Sciences and Biotechnology",
+        "title_zh": "我国生命科学与生物技术领域国家重点研发计划管理思考与建议",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "地理和生命科学跨学科案例分析在2021年中考中首次出现,跨学科案例教学成为当前初中地理教学改革的方向.文章以\"稻梦空间\"为例,实践了\"课时主题\"的教学形态,取得较好的效果,为一线教师提供教学参考.",
+        "id": "6430308290e50fcafdbaac16",
+        "keywords": null,
+        "keywords_zh": [
+          "课时主题",
+          "跨学科",
+          "地理",
+          "生命科学",
+          "稻梦空间"
+        ],
+        "title_zh": "基于\"课时主题\"的地理和生命科学跨学科教学实践",
+        "year": 2023
+      },
+      {
+        "abstract": "General education in biological courses such as \"Principal Biology\" is an essential avenue for gaining an understanding of life science and developing an interest in the field. The reform of biological education teaching mode based on interdisciplinary approaches aims to foster cross-disciplinary talents, which is crucial for the rapid development of China's bioeconomy. Teaching method that simply superimposes different subjects is difficult to discover the value of interdisciplinary education. To address this, a novel teaching system and an innovative teaching mode were proposed for \"Principal Biology\" course by integrating science and engineering subjects, based on the cross-disciplinary feature in Beijing Institute of Technology. The system involves the design of cross-disciplinary course content and the integration of multiple disciplines and knowledge points based on students' majors, taking into account the characteristics of students' physical and mental development. To improve students' scientific literacy and interdisciplinary thinking ability, differentiated and major-driven teaching modes were applied by incorporating the \"1+N\" mixed and immersive cross-thinking training. The effectiveness of tailored cross-disciplinary teaching was evaluated using \"in-teaching\" and \"post-teaching\" data feedback models, which promote the optimization of teaching process and enhance the quality of education in cross-disciplinary biological science.",
+        "abstract_zh": "“生命科学基础”等生物学通识课程是了解生命科学研究方向和培养生命科学研究兴趣的重要窗口，基于学科交叉实施生命科学基础类课程教学模式改革，培养具有生物学交叉应用能力的复合型人才，对于推动我国生物经济快速发展至关重要。简单的学科叠加式教学方法已经难以让学生发现学科交叉的乐趣，为此，立足于北京理工大学理工类学科特色，针对“生命科学基础”课程，设计理工交叉的教学内容体系，进行理工特色的教学模式创新。围绕基础知识内容，设计专业背景导向的交叉教学内容，通过多学科、多元知识点的衔接转化，构建符合学生身心发展特色的教学体系。设计差异化的交叉教学模式，通过“1+N”混合沉浸式交叉思维训练，提升基本科学素养和交叉思辨能力。基于“教学中”和“教学后”数据模型反馈，评估个性化和精准化交叉教学的培养效果，推动交叉教学过程的循证式优化，进而提升生物交叉学科的课程智教能力。",
+        "doi": "10.13345/j.cjb.230205",
+        "id": "65682378939a5f4082f3428c",
+        "keywords": [
+          "interdisciplinary",
+          "Principal Biology",
+          "general education",
+          "education reform",
+          "biological science"
+        ],
+        "keywords_zh": [
+          "学科交叉",
+          "生命科学基础",
+          "通识教育",
+          "教学改革",
+          "生物科学"
+        ],
+        "title": "[Interdisciplinary Teaching-Assisted Education Reform in \"principal Biology\"].",
+        "title_zh": "基于学科交叉实施生命科学基础类课程教学改革",
+        "year": 2023
+      },
+      {
+        "abstract": "The National Life Science Competition for College Students（CULSC）is one of the authoritative top-level national competitions with the most gold content and competition value among biology majors.On March 22nd,2021,it was included in the list of national college students’ competitions,and it was one of the 57 national college students’ academic competitions officially recognized by the Ministry of Education.The contest is dedicated to strengthening the inter-disciplinary contact and training the experimental ability,critical thinking ability and teamwork spirit of biology students.The Biotechnology major of Heilongjiang Bayi Agricultural University was established in 1994 and was rated as provincial key major in 1997,2002,2006 and 2011.In recent years,based on the vigorous development of CULSC,the teaching model of biotechnology specialty has been adjusted accordingly.Based on the actual development of biotechnology major in Heilongjiang Bayi Agricultural University,this paper investigates the willingness of students to participate in the competition.This paper discusses the promoting effect of life science competition on the teaching reform of biotechnology specialty from the aspects of curriculum system,resource allocation and discipline integration.In order to provide a new idea for the teaching reform of biotechnology specialty.",
+        "abstract_zh": "全国大学生生命科学竞赛(CULSC)是生物类专业中最具含金量、最具参赛价值的权威顶级国家级赛事之一.已于2021年3月22日纳入全国普通高校大学生竞赛排行榜,是得到教育部官方认可的57项全国大学生学科竞赛之一.大赛致力于加强学科间联系,锻炼生物学科学生的实验能力、思辨能力和团队合作精神.黑龙江八一农垦大学生物技术专业于1994年建立,分别于1997、2002、2006、2011年被评为省级重点专业.近年基于CULSC的蓬勃发展,生物技术专业教学模式也进行相应调整.该文从黑龙江八一农垦大学生物技术专业发展实际出发,对学生参与竞赛的意愿进行调查.从课程体系、资源配置、学科融合等方面对生命科学竞赛对生物技术专业教学改革的促进作用加以论述,以期为生物技术专业教学改革提供新的思路.",
+        "doi": "10.19369/j.cnki.2095-9737.2023.04.037",
+        "id": "646224ddd68f896efa363620",
+        "keywords": [
+          "life science competition",
+          "major in biotechnology",
+          "teaching reform"
+        ],
+        "keywords_zh": [
+          "生命科学竞赛",
+          "生物技术专业",
+          "教学改革"
+        ],
+        "title": "Relying on\"The National Life Science Competition for College Students\"to Promote the Teaching Reform of Biotechnology Specialty",
+        "title_zh": "依托\"生命科学竞赛\"促进生物技术专业教学改革",
+        "year": 2023
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjmG7VOLAXhMVbX1oXDSYY1W"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "随着社会经济的不断发展以及素质教育的逐渐深入,生命科学教育愈发受到重视,生命价值科学观念的培养成为各学科的重要研究内容.在化学学科教学中渗透生命科学教育理念,引领学生形成科学的价值观念具有重要的研究意义.",
+        "id": "65322a89939a5f4082638016",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "生命教育",
+          "初中化学"
+        ],
+        "title_zh": "生命科学视域下建构化学高效课堂的研究",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "教育强则国家强,人才兴则民族兴.高校作为人才培养的重要阵地,必须要落实立德树人的根本任务,抓好课程思政建设.近年来,随着生命科学的发展,国内多所高校均在校内开设生物类通识教育课程.生物学科多元丰富的教学内容是进行课程思政的良好载体,在推进课程思政建设方面具有天然优势.基于此,该文以哈尔滨工业大学面向本科生开设的创新型生物类通识教育课程生命科学基础与应用为例,分享其教学内容与思政元素的融合案例,梳理课堂开展课程思政的教学路径和方法,以期为高等学校开展生物类通识课程的思政教学改革提供有益参考.",
+        "doi": "10.19980/j.CN23-1593/G4.2023.17.007",
+        "id": "64b09d933fda6d7f064aba64",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "通识教育",
+          "课程思政",
+          "教学改革",
+          "思政元素"
+        ],
+        "title_zh": "高校生物类通识教育课程中立德树人的探索与实践——以生命科学基础与应用为例",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "采用理论研究和案例分析方法,以欧洲生命科学信息基础平台为例,从组织架构、运行机制、管理方式、筹资方式等方面阐述\"中心+节点\"分布式生命科学数据平台构建模式,分析经验与启示,为我国相关平台建设提供参考.",
+        "doi": "10.3969/j.issn.1673-6036.2023.05.005",
+        "id": "64b64f413fda6d7f0676e495",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "数据平台",
+          "构建模式",
+          "启示"
+        ],
+        "title": "Study on\"Hub+Nodes\"Distributed Mode of Life Science Data Platform Based on the Case of ELIXIR in Europe",
+        "title_zh": "\"中心+节点\"分布式生命科学数据平台构建模式研究——基于欧洲ELIXIR的案例分析",
+        "year": 2023
+      },
+      {
+        "abstract_zh": "在十四五规划中，北京要建设成为国际科技创新中心。而伦敦作为欧洲科技之都，在科技创新产业发展方面具有良好经验，其未来发展策略也格外注重科技创新。本文希望通过对伦敦科技创新代表部门——数字技术、生命科学产业以及智慧城市建设发展现状和策略的梳理，总结伦敦在科技创新产业的经验和特征，对北京国际科技创新中心建设提供一些参考和借鉴。",
+        "id": "62ab1f1c5aee126c0f4242b7",
+        "keywords": null,
+        "keywords_zh": [
+          "国际科技创新中心",
+          "数字技术",
+          "生命科学",
+          "智慧城市"
+        ],
+        "title_zh": "伦敦数字技术、生命科学产业及智慧城市对北京建设国际科技创新中心的借鉴意义",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "\"抛锚式\"课堂形态是基于建构主义理论,以学生为中心的教学形态.将之应用于地理与生命科学跨学科教学,可以提高学生综合运用跨学科知识和技能的能力.教师应在精准分析教材和学生学情的基础上,确定教学目标和重难点,然后围绕\"锚\",即完整、真实的问题,创设富有吸引力的学习情境,搭建相应的\"脚手架\",引导学生在自主交流、合作、探究中,经历问题从产生到解决的全过程,变模仿知识为迁移知识,形成个性化的思维和表达,提高运用跨学科知识和技能分析、解决不确定的现实生活情境的能力.",
+        "id": "62a85ef15aee126c0f2864fb",
+        "keywords": null,
+        "keywords_zh": [
+          "\"抛锚式\"课堂形态",
+          "初中地理",
+          "初中生命科学",
+          "跨学科教学"
+        ],
+        "title_zh": "\"抛锚式\"课堂形态在地理与生命科学跨学科教学中的实践应用——以\"会流汗的菩提叶\"的教学为例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "分析美国麦格劳-希尔公司出版的中学核心理科教材《生命科学》中章节回顾、学习指南、回顾、标准化测试等\"知识回顾\"相关栏目的组成,阐述这些栏目注重核心概念的巩固、标明考查的能力层次、强调与其他学科的融合、注重学生科学思维的考查等特点,为我国初中生物学教材中相关栏目的编写提供参考.",
+        "doi": "10.3969/j.issn.1005-2259.2022.18.003",
+        "id": "63416bae90e50fcafde30b8e",
+        "keywords": null,
+        "keywords_zh": [
+          "美国教材",
+          "初中生物学教材",
+          "生命科学",
+          "知识回顾"
+        ],
+        "title_zh": "美国初中生物学教材中\"知识回顾\"相关栏目分析",
+        "year": 2022
+      },
+      {
+        "abstract": "The National Life Science Competition for College Students has been held for five times, which has become the largest and most influential life science competition in China. The competition is designed to follow principles of \"interest-driven, scientific exploration, process evaluation and ability improvement\". The holding of the competition has effectively improved the training quality of life science talents in colleges and universities. This paper summarized the development, organization and management of the competition as well as the organizational characteristics of the competition. It may serve as a guidance for colleges and universities to organize students to participate in the competition, and improve the fostering of talents in the field of life sciences in colleges and universities nationwide.",
+        "abstract_zh": "全国大学生生命科学竞赛历经5届赛事，已成为国内最具规模和影响力的生命科学领域赛事。竞赛坚持“兴趣驱动、科学探究、过程评价、能力提升”的方针，竞赛的举办有效提升了高校生命科学类专业人才培养质量。本文介绍了竞赛的发展、组织和管理，总结了竞赛的组织特色，可为各高校竞赛组织和学生参赛提供指导，助力全国高校生命科学领域的人才培养。",
+        "doi": "10.13345/j.cjb.210884",
+        "id": "628f5a1a5aee126c0f52982f",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学竞赛",
+          "大学生",
+          "科学探究",
+          "组织",
+          "特色"
+        ],
+        "title": "[The National Life Science Competition for College Students Assists Fostering Life Science Talents in Colleges and Universities].",
+        "title_zh": "全国大学生生命科学竞赛助力高校生命科学人才培养",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "生物类实验课是生物科学、生物技术及生物工程等本专科生专业基础课与重要的核心实践课,为了响应当前促进生物类课程的实验课教学内容创新改革与教学方法的创新,结合全国大学生生命科学竞赛在高校生物学科中的关注度与生物类课程实验课程教学在大学的实践情况,分别从竞赛模式与现状、竞赛对学生自主学习生物类实验课的兴趣、竞赛与实验教学模式改革、竞赛对生物类实验课课程改革的促进和对师资队伍建设作用以及全国生命科学竞赛对生物类实验课中的教学效果评价方面加以论述,全面解析全国生命科学大赛对微生物实验课程教学的重要成效及关键促进作用.",
+        "id": "62bd4f5c5aee126c0f1712ef",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学竞赛",
+          "实践教学",
+          "实验技能",
+          "教学模式改革"
+        ],
+        "title": "Research on the Promotion of Life Science Competition on Experimental Teaching of Biology Courses",
+        "title_zh": "生命科学竞赛对生物类课程实验教学促进研究",
+        "year": 2022
+      },
+      {
+        "abstract": "The development of life science for over 150 years can be summarized into three stages:classical genetics, molecular genetics and molecular biology, life omics and systems biology. The contemporary life science is unprecedentedly prosperous, showing several new characteristics:original discoveries emerge in endlessly, promoting massive bottom-level innovations;the convergence of multiple disciplines promotes biological sciences from qualitative description to dynamic, precise and quantitative interpretation;scientific data sharing has become a common rule in the life science community;and the rise of synthetic biology and artificial intelligence (AI) provides a new paradigm for life science research. These characteristics enable the knowledge about life to be greatly enriched and biotechnology to be rapidly iteratively upgraded. At the same period, China's life sciences have made remarkable progress after decades of accumulation, gradually changing the global landscape of life sciences, which has been well demonstrated by the outstanding contribution of Chinese scientists in the fight against the COVID-19. With the profound changes in the political and economic landscape of the world in recent years, China's life sciences face more challenges. Rationalizing the functional positioning and resource allocation of various R&D sectors, and creating a healthy research culture and atmosphere will enable China's life sciences to further consolidate its foundation and become more exceptional, play a pillar role in construction of an innovation country, and give rich returns to human society and economy. © 2022, Science Press. All rights reserved.",
+        "abstract_zh": "生命科学近 150 多年的发展历程可概括为环环相扣的 3 个阶段：经典遗传学时代、分子遗传学与分子生物学时代和生命组学与系统生物学时代。当代生命科学空前繁荣，呈现若干新特征：原始发现层出不穷，致使底层创新井喷；系统论与还原论并重，层层揭秘复杂生命过程；学科汇聚融合，生命科学从定性描述开始实现动态、精准和定量解读；科学数据共享，成为生命科学界普遍遵循的规则；合成生物学与人工智能兴起，为生命科学研究提供了新的范式。这些特征使生命科学知识获得极大丰富、生物技术得以快速迭代升级。与此同时，中国生命科学厚积薄发，近 10 年进步显著，逐渐改写世界生命科学版图，并在科技抗击新冠肺炎疫情中贡献突出。随着世界政治经济格局发生深刻变化，中国生命科学面临更多挑战。理顺各科研模块的功能定位和资源配置，创建先进科研文化、营造良好科研氛围、坚持开放与国际合作，将进一步夯实中国生命科学的基础，使其更加卓越，贡献科技强国建设，丰厚回馈人类健康和社会经济。",
+        "doi": "10.16418/j.issn.1000-3045.20220426003",
+        "id": "62c7e1715aee126c0f14b3be",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "科技强国",
+          "全球格局"
+        ],
+        "title": "China in Global Landscape of Life Sciences",
+        "title_zh": "世界生命科学格局中的中国",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "SPF级实验动物是生命科学领域被广泛认可的实验动物,国内外高校和研究机构对于SPF级动物实验室的建设及管理都极为重视.SPF级动物实验室的屏障系统内环境要求苛刻,对室内环境的各项指标均有严格的质量标准.为保证屏障系统达到国家标准要求并正常运行,对其可能发生的紧急情况制定有效的应对措施显得尤为重要.以本校SPF级动物实验室为参考,针对停水及停电﹑ 极端天气﹑ 微生物污染和人员伤害等几方面的突发情况阐述了相应的应急管理措施,以期为我国高校及科研院所SPF级动物实验室的突发事件应急管理提供参考.",
+        "doi": "10.3969/j.issn.1673-4556.2022.11.004",
+        "id": "63bf79ac90e50fcafd853868",
+        "keywords": null,
+        "keywords_zh": [
+          "SPF级实验动物",
+          "实验安全",
+          "应急管理",
+          "生命科学"
+        ],
+        "title_zh": "探究SPF级动物实验室的应急管理措施",
+        "year": 2022
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjiSJ0svCK6WE3imE6ak7dpV"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "目的:培养具有国际竞争力的基础医学拔尖创新人才.方法:生命科学基础课程从增强学生综合能力和创新意识等方面进行了教学探索与实践.通过学生课后问卷调查及期末综合考评来评价教学效果.结果:问卷调查显示所有学生都认为学习效果提升明显,其中PPT制作及展示能力提升最为显著.求是科学班和强基班学生的期末考核成绩没有显著差别.结论:新的教学模式能够更好地提高教学效果、增强学生综合能力.",
+        "doi": "10.3969/j.issn.1002-1701.2022.02.002",
+        "id": "62a85f655aee126c0f2a778d",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学基础",
+          "拔尖创新人才",
+          "基础医学",
+          "本科教学"
+        ],
+        "title": "Teaching Exploration and Practice of Basic Life Science Courses Based on the Cultivation of Top-notch Innovative Talents",
+        "title_zh": "基于拔尖创新人才培养的生命科学基础课程教学探索与实践",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "加强生物学领域瞄准国家战略需求和科学前沿重大问题的研究,有利于发挥生物学研究对国家经济发展和国际竞争力提升中的战略支撑作用.文章梳理了生物学基本特征和发展趋势,总结了国际上生物学研究资助的实践经验,分析了我国生物学领域布局不完善、持续稳定支持不足、对顶尖人才和团队资助不足等突出问题;结合国际实践经验,提出完善生物学研究领域布局、加强生物学研究资助水平、建设生物学人才基地、加强对基础研究人才的资助、建立多元化的科研评价和考核机制等政策建议.",
+        "doi": "10.16418/j.issn.1000-3045.20220215003",
+        "id": "62abf1495aee126c0f47e336",
+        "keywords": null,
+        "keywords_zh": [
+          "生物学",
+          "生命科学",
+          "特征",
+          "资助"
+        ],
+        "title": "Research on Characteristics, Development Trend and Funding Countermeasures of Biology",
+        "title_zh": "生物学特征、趋势及资助对策研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "开发了基于核心概念和\"问题链\"的生命科学和地理跨学科教学流程,并以\"吐鲁番的葡萄熟了\"为例进行了教学实践,取得了较好的效果.",
+        "doi": "10.3969/j.issn.1003-7586.2022.02.033",
+        "id": "62a861b85aee126c0f355bbf",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "地理",
+          "跨学科教学",
+          "核心概念",
+          "问题链"
+        ],
+        "title_zh": "基于核心概念和\"问题链\"的初中生命科学和地理跨学科教学实践\r——以\"吐鲁番的葡萄熟了\"为例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "生命科学的内容趣味性强,贴近小学生生活,往往作为小学生入门科学世界的启蒙内容.但是,关于生命科学内容的课堂教学往往会受到教学时间、教学素材、活动形式等因素的束缚.文章基于小学科学教材,从\"资源开发\"\"平台建设\"\"目标验收\"等三方面探索关于儿童生命科学教育的拓展性课程实施策略,解决了当前科学课堂教学的诸多难题,使内容题材更开放,组织形式更自由,目标定位更灵活.",
+        "id": "62a862045aee126c0f36c6fd",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "拓展性课程",
+          "资源开发",
+          "平台建设",
+          "目标验收"
+        ],
+        "title_zh": "对小学生命科学拓展性课程的探索",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "自我国改革开放以来,多元价值观的交织与渗透已发生和正在发生,对当代大学生的价值观产生重要影响.过度依赖思想政治理论课的局限性也越来越明显,由此,建立多学科协同共振的大思政体系是新时代的必然要求.本文通过生命科学专业课程与思政教育中已有和新发现的交叉点,深化一则并新增一则重要教学案例,辅以多种教学途径,有效融入思政元素,用以增强大学生的文化自信与民族自豪感,提升大学生的文化传承责任感.",
+        "doi": "10.3969/j.issn.1672-0407.2022.04.047",
+        "id": "62cd46af5aee126c0f0d31d9",
+        "keywords": null,
+        "keywords_zh": [
+          "价值观",
+          "课程思程",
+          "生命科学专业课程",
+          "中华优秀文化",
+          "文化自信"
+        ],
+        "title_zh": "生命科学课程中增强文化自信的两则重要教学案例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "古德曼的新归纳难题探讨如何从多个可能的类律命题中确证科学定律,曾引发诸多争论及解法.其中古德曼的投射法有效地揭示出由客观证据到科学定律确证的路径,却忽略了主体信念的中介作用.鉴于此,可尝试采取一条证据、信念到科学定律确证的新路径,结合与信念相关的心理学理论,证明信念可能贯穿于从证据到科学确证的全过程:影响人们对新证据的认识及对科学命题的判别,揭示科学定律的确证不是一蹴而就的,而是伴随着主观变化的过程.最后,通过生命科学的案例探析信念对证据及科学发现的影响.",
+        "doi": "10.19484/j.cnki.1000-8934.2022.12.002",
+        "id": "646b3413d68f896efa18ef83",
+        "keywords": null,
+        "keywords_zh": [
+          "新归纳难题",
+          "古德曼",
+          "信念",
+          "生命科学",
+          "科学定律"
+        ],
+        "title": "From Evidence to Belief:Resolving Goodman's New Riddle of Induction",
+        "title_zh": "从证据到信念:重解古德曼的新归纳之谜",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "创新人才的培养是地方高校的教学宗旨.全国大学生生命科学竞赛作为已被选入\"2020年全国普通高校大学生竟赛排行榜\"的学科竞赛,在生命科学类专业竞赛中具有代表性,可成为培养创新人才的有效载体.针对目前生命科学类专业人才培养中存在的问题,主要从教育教学改革、\"导师制+项目化\"的科研训练和学科竞赛组织与保障三方面进行了教学改革的探索和尝试,初步形成了生命类专业实践与创新能力培养的人才培养模式.",
+        "doi": "10.14031/j.cnki.njwx.2022.05.045",
+        "id": "62b527555aee126c0f24aa4f",
+        "keywords": null,
+        "keywords_zh": [
+          "大学生生命科学竞赛",
+          "地方院校",
+          "生命科学",
+          "创新人才",
+          "培养模式"
+        ],
+        "title_zh": "地方院校生命类专业创新人才培养模式的探索",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "本文运用具体案例分析，以探究含羞草的机械感受器细胞为例，从深度学习目标的设定，到深度学 习过程的开展，再到对教师深度教学支架策略的总结，运用情境导入支架的方式唤醒经验策略，有效提问支架， 奠基深度学习策略、应答及激励支架，深化学习策略，使教师在生命科学探究活动中能有效地提供给幼儿深度学 习的教学支架。",
+        "id": "63d7d66490e50fcafd4085d9",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "幼儿深度学习",
+          "支架策略"
+        ],
+        "title_zh": "在生命科学探究活动中幼儿深度学习的支架策略",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "中美生命科学国际云科考项目是在新冠疫情背景下为促进国际交流、推动学科融合及培养国际化拔尖人才的新探索.本次科考注重学科的多样性和综合性,队员来自南京大学6个院系的15名优秀本科生和学校\"飞越计划\"选拔的5名优秀中学生,科考由波多黎各大学和南京大学的生命科学、地理学、社会学和历史学教师联合参与指导,教学方式采取线上授课与线下实践两种教学模式进行.科考训练的前4天为国际云科考教学,后4天为国内实地(盐城)科考.通过云科考教学,学生实现了与国际一流实践教育的有机结合,从结构到内容,科考采取虚实结合、内外贯通方式,效果良好.科考在培养具有国际化创新思维的同时,加深了学生的野外认知和思考,为国际化教学实习提供了新思路和新模式.",
+        "doi": "10.19927/j.cnki.syyt.2022.12.048",
+        "id": "6426ef1490e50fcafd46f96f",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "国际化实践教学",
+          "云科考",
+          "疫情"
+        ],
+        "title": "About International Training Course under the Covid-2019 Epidemics ——an Example of Sino-US International Scientific Virtual and Field Training for Life Science",
+        "title_zh": "新冠疫情下国际化实践教学模式的探索与思考\r——以南京大学中美生命科学国际云科考为例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "文章通过系统梳理命门学说现代研究进展,对命门实质、功能进行总结、分析与思考.目前研究重点有二:一是对命门实质的争论仍在持续,但也在不断发展,发现\"内分泌系统\"\"脑\"\"生殖系统\"等与命门关系密切;二是命门实质决定功能,重在调节生命机能,涵盖现代医学内分泌与生殖调节功能,以及多能干细胞功能等.总体而言,现代医学发展不仅促进了命门实质的揭示,也拓展了命门学说的临床应用范围、深化了对某些疾病的认识.命门作为独立和高于五行脏腑系统调节枢纽的认识,进一步完善和丰富了中医学有关人体生命机能调节的理论.命门学说是中医学传承、创新、发展的\"命门\".",
+        "id": "638968c290e50fcafde28b07",
+        "keywords": null,
+        "keywords_zh": [
+          "命门",
+          "中医",
+          "现代医学",
+          "生命",
+          "生命科学",
+          "实质",
+          "功能"
+        ],
+        "title": "Thoughts on the Essence and Function of Life Gate Theory of Traditional Chinese Medicine from the Perspective of Modern Medicine",
+        "title_zh": "现代医学视域下中医命门实质与功能思考",
+        "year": 2022
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObji8lDSEuqIPHwthXGMfjtyG"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "中华文明历来提倡包容和合,56个民族的文明各有差异而融洽和谐.在当今民族大团结德政的引领下,各民族和谐相处,互鉴互动,为共筑中华民族伟大复兴而共同奋斗,堪为当今世界\"文明互鉴\"的典范.",
+        "doi": "10.11656/j.issn.1672-1519.2022.01.01",
+        "id": "62a8614a5aee126c0f340916",
+        "keywords": null,
+        "keywords_zh": [
+          "中医药",
+          "中西医结合",
+          "哲学思维",
+          "生命科学"
+        ],
+        "title_zh": "文明互鉴,中西医并重,推进生命科学进步\r——太湖世界文化论坛六届年会的发言文稿",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "近几年来,教育教学中不断提及核心素养这个词汇,它不仅影响到该学科的最终教学效果,也决定了学生未来发展的最终方向.所以,培养学生的核心素养是理所当然的事情,教师注重培养学生的核心素养,越来越多的教师开始尝试以此为突破口,提高其教育质量.随着新课改的深入,教育界对基础教育阶段提出了新的要求,要求学生必须在学习基础知识的基础上,积极思考,发现问题,提出问题,最终通过自己的努力来解决.在此基础上,笔者对核心素养指导下初中生命科学教学中如何培养学生质疑能力进行了探索,提出了一些行之有效的教学策略,以便更好地培养学生的核心素养,提高初中生命科学教学质量.",
+        "id": "62ef9b0690e50fcafd0263da",
+        "keywords": null,
+        "keywords_zh": [
+          "初中生命科学",
+          "核心素养",
+          "质疑能力"
+        ],
+        "title_zh": "刍议核心素养下初中生命科学教学中学生质疑能力的培养",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "生命科学实践活动是课堂教学活动的补充与延伸,是提升学生综合素养的重要方式.笔者以动手实验、开展科技活动、组织社会实践考察等生命科学实践活动为载体,对如何提升学生的生命科学学科核心素养做了探索.",
+        "doi": "10.12319/j.issn.2096-1200.2022.22.52",
+        "id": "64b0e41b3fda6d7f06d12765",
+        "keywords": null,
+        "keywords_zh": [
+          "初中生命科学",
+          "实践活动",
+          "学科核心素养"
+        ],
+        "title_zh": "初中生命科学实践活动中提升学生学科核心素养的探索",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "课程思政是落实高校立德树人根本任务的重要途径.对于生命科学类专业来说,细胞生物学等专业课程是课程思政建设的基本载体.细胞生物学的发展与诺贝尔奖密切相关,蕴含了丰富的思政元素.文章聚焦细胞生物学领域的诺贝尔奖案例,探讨如何用不同的授课方式将诺贝尔奖相关的思政案例融入到教学实践中,旨在培养学生在学习专业知识的基础上提高团队合作能力,树立正确的科学观、伦理道德观和价值观,增强民族自信心和培植爱国主义精神,以期为生命科学类专业开展课程思政提供参考.",
+        "doi": "10.19848/j.cnki.ISSN1005-2739.2022.04.0009",
+        "id": "6357fedc90e50fcafd2fd0f5",
+        "keywords": null,
+        "keywords_zh": [
+          "细胞生物学",
+          "生命科学",
+          "课程思政",
+          "诺贝尔奖案例",
+          "教学方法"
+        ],
+        "title": "Exploration and practice of integrating ideological and political education into Cell Biology based on Nobel prize cases",
+        "title_zh": "基于诺贝尔奖案例的细胞生物学课程思政探索与实践",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "辣椒属植物如辣椒不仅具有独特的辣味,其组分如辣椒素类物质还具有诸多药理作用.为了更直观地把握辣味科学研究领域的现状和主要学术脉络,本文以Web of Science核心数据库中共13389篇文献作为数据源,从辣味科学研究文献数量、国家/期刊/学术机构/作者的影响力和研究热点等角度出发,借助文献计量学方法,运用VOSviewer软件、CiteSpace软件、MATLAB软件和Origin软件等统计分析工具,对2010—2020年期间全球辣味科学研究进行分析.结果表明,辣味科学研究不仅涉及食品科学和药理学等传统领域,还涉及植物科学、神经科学、毒理学和生物化学与分子生物学等众多领域,其中生物化学与分子生物学、药理学和神经科学是近10年的研究热点.美国在辣味科学研究领域的发文总量最多,中国和日本等国家紧随其后.中国年发文量增速较快,发文TOP20作者占比和论文整体的H指数均较大,而篇均引用次数低于美国和德国等国家.不同国家学术机构或作者间的合作已成为一种常态,主要涉及上述热点领域.本文通过关键词突跃分析,明确突跃强度最强、持续突跃时间最长和近年来的主要突跃关键词.分析结果对食品科学、化学、药理学和分子生物学等领域的学者整体把握辣味科学研究方向、发展趋势和热点具有重要的指导意义,也为辣味产业的决策提供理论依据.",
+        "doi": "10.16429/j.1009-7848.2022.01.045",
+        "id": "629f3d065aee126c0f075124",
+        "keywords": null,
+        "keywords_zh": [
+          "文献计量分析",
+          "辣味",
+          "科学引文索引",
+          "辣椒素",
+          "生命科学"
+        ],
+        "title": "Bibliometric Analysis of the Pungent Scientific Research from China and Foreign Countries",
+        "title_zh": "国内外辣味科学研究的文献计量分析",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "近20年来,生命科学和生物技术快速发展,基因编辑、合成生物学、脑科学、干细胞、生物信息存储、生物育种等前沿科学技术发展给人类生产生活带来诸多红利.一方面,生命科学的发展深刻地改变了人类对生命本质及其运行规律的认识;另一方面,生物技术的广泛应用引领了医学、农业、食品、能源、环境等领域的科技进步,前所未有地提升了人们的生活质量,为人类健康和经济社会发展作出了重要贡献.",
+        "doi": "10.3969/j.issn.1004-3381.2022.15.005",
+        "id": "632a9ff190e50fcafd59cf6c",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "生物科技",
+          "生物技术"
+        ],
+        "title_zh": "生物科技的应用场景和发展趋势",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "创新是科技强国的核心,为了建设校园科创文化,上海市松江一中与东华大学秉承\"鼓励创新,培育精英,合作共赢\"的原则,共同创建了\"生命科学科创实践教育平台\",这对于培养创新型人才意义深远.通过科学讲座、科创实践活动、科创项目和科创竞赛等形式,激发学生对生命科学知识的兴趣和科创热情,以实践促新知,充分发挥学生创造力.",
+        "doi": "10.3969/j.issn.1005-2259.2022.12.003",
+        "id": "62a85f8f5aee126c0f2afcbb",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "实践教育平台",
+          "校园科创文化",
+          "创新能力"
+        ],
+        "title_zh": "依托高校共建生命科学科创实践教育平台",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "分子印迹技术是指为了获得在空间结构和结合位点上与目标模板分子完全相匹配的聚合物的一种实验制备技术,所制备的印迹聚合物具有较好的选择性、稳定性和广泛适用性等特质.本文从分子印迹技术的发展及在生命科学研究领域的应用等角度,对分子印迹技术进行综述,指出目前分子印迹技术在这些领域存在的问题,并简要预测分子印迹技术在这些领域的发展趋势.",
+        "doi": "10.3969/j.issn.2096-0387.2022.03.041",
+        "id": "6315df2990e50fcafd9d96dd",
+        "keywords": null,
+        "keywords_zh": [
+          "分子印迹技术",
+          "分子印迹聚合物",
+          "生命科学"
+        ],
+        "title": "Research Progress of Molecular Imprinting Technology in The Life Science",
+        "title_zh": "分子印迹技术在生命科学研究中的进展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "教育的本质是人与人之间的相互影响,其中最核心的相互影响就是思维的改变.科学课堂上如何发展学生的科学思维一直是困扰教师的难点.借助实验探究引导学生进行科学知识的学习及科学技能的训练,是一个操作性较强的切入点.对生命科学领域经典实验——血型鉴定进行延展,逐步促进学生思维发展,巧妙地为一线教师开发教学实验提供了新视角.",
+        "doi": "10.13492/j.cnki.cmee.2022.04.006",
+        "id": "62a861fe5aee126c0f36ac29",
+        "keywords": null,
+        "keywords_zh": [
+          "科学思维",
+          "血型鉴定",
+          "生命科学领域",
+          "模拟实验",
+          "探究实验"
+        ],
+        "title_zh": "借助血型鉴定实验促进小学生科学思维的发展",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "美国博德研究所自2004年成立起,坚持科技创新与管理创新并重;不到10年,即迈入世界一流生命科学研究机构行列,成为生命科学前沿创新的\"领头羊\"\"风向标\",其独特的发展模式值得借鉴.研究表明,聚焦重大疾病诊治需求牵引科研攻关,打通从基础研究到转化应用的通路,构建跨学科、多层次整合研究模式,发挥战略科学家的领航领军作用,集聚小而精的杰出科学家团队,实施高度灵活的项目组织管理,以及打造背靠一流、辐射全美、拓展全球的创新网络,有效支撑了博德研究所高质量创新发展.我国可借鉴其经验,从将生命科学作为建设科技强国的突破口、面向人民生命健康加强顶层设计、夯实生命科学人力资源根基、深度融入生命科学全球创新网络4个方面,推进生命科学前沿创新.",
+        "doi": "10.16418/j.issn.1000-3045.20210802002",
+        "id": "62abf1495aee126c0f47e327",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "科研机构",
+          "博德研究所",
+          "前沿创新"
+        ],
+        "title": "Overview of Cutting-edge Innovation in Life Sciences: Learning from Perspective of Broad Institute",
+        "title_zh": "从美国博德研究所成功之道看生命科学前沿创新",
+        "year": 2022
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjkGFbKIe1uioxuBQpsk2In2"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "在立德树人的价值引领教育中,生命科学的知识体系是对学生进行生命价值观塑造的良好素材.理论体系中涉及的下列理念是应该贯彻的.人作为自然演化的最高等形式,在生命科学理论体系中应贯彻生命至上的理念;同时生物是自然演化的产物,应尊重生命的唯物主义的历史观,同时又需尊重人与自然的和谐共生、尊重现存生物个体的多样性,从而做到敬畏生命,敬畏自然.就生命本身而言,生命个体是复杂性和矛盾性的统一;科学思维的阶段性和螺旋式上升体现人类认识生命规律的创新性和批判性.生命科学理论体系所涉及的思政元素,为生命科学领域课程思政的实施提供了着力点和目标方向.新时代教师积极性、主动性、创造性的发挥和能力提升,是实现学生价值观引领的关键所在.",
+        "doi": "10.19980/j.CN23-1593/G4.2022.13.021",
+        "id": "62a85f555aee126c0f2a2ce0",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "知识体系",
+          "立德树人",
+          "思政元素",
+          "唯物史观"
+        ],
+        "title_zh": "生命科学理论体系的思政元素探究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "信息技术在教育领域的广泛应用,凸显了教育方式的多样化和教育途径的立体化.在小学科学生命科学领域教学中,为激发学生了解和认识自然界的兴趣,感受生命的奇妙,可运用信息技术手段辅助教学,让学生亲身经历种植、养殖过程,观察植物和动物完整的生命过程,并在教学中进一步促进生命科学领域教学与信息技术实现深度融合.",
+        "doi": "10.19935/j.cnki.1004-2326.2022.01.025",
+        "id": "62a861cc5aee126c0f35bd32",
+        "keywords": null,
+        "keywords_zh": [
+          "信息技术",
+          "小学科学",
+          "生命科学",
+          "深度融合"
+        ],
+        "title_zh": "信息技术在小学生命科学领域教学中的应用",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "[目的]对国内外生命科学领域17种代表性英文科技期刊进行大数据可视化比对分析,为中国科技期刊建设提供参考.[方法]采用文本聚类分析、文献检索与统计分析、内容调研分析、描述性统计分析及可视化分析等方法,多视角比较我国生命科学领域多个学科分类中英文科技期刊与国外对标期刊之间的差距,如前沿热点跟踪、热点作者追踪,以及其他文献计量学等方面的客观表现差异.[结果]国外期刊的总体优势大于国内对应期刊,但国内期刊正在逐步缩小与国外期刊的差距.ESI数据库前沿热点研究中美国占比最高,但呈逐年下降趋势;中国的占比正在不断上升,并在植物和动物学科领域中赶上美国.17种期刊中国外期刊的作者国际化程度并不都高于对应的国内期刊,有的国内期刊的作者国际化程度也比较高,尤其是Cellular&Molecular Immunology.国外各刊的核心作者国家来源都是美国居首,国内各刊的核心作者国家来源都是中国居首.[结论]我国生命科学领域的科研实力在某些细分领域追赶上美国,因此国内英文科技期刊需要逐步加大发文体量或是培育新刊以适应国内科研成果的发表需求,吸引正在外流的国内高水平稿件.国内期刊在发文策略上需要进一步明确,在紧跟科研热点与前沿的同时也要突出自己的宗旨和范畴,稳扎稳打、逐步发展.国内期刊要不断发展和培育核心作者,才能源源不断地获得高水平稿件.",
+        "doi": "10.11946/cjstp.202204070254",
+        "id": "62f9b11490e50fcafddeca99",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "英文科技期刊",
+          "ESI研究前沿",
+          "VOSviewer",
+          "聚类分析",
+          "核心作者"
+        ],
+        "title": "Research fronts and researchers of top journals in life sciences published in China and abroad:A comparative study based on visualization technique",
+        "title_zh": "国内外生命科学领域代表性期刊发文热点及学者构成分析",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "以自由交配的去隐状态这一特殊的遗传平衡表现形式为契机.对现有的利用哈代·温伯格公式进行的有关基因的计算进行了计算方法的改进,形成了推导式,并在此思路的基础上对由哈代·温伯格定律所表现出的遗传平衡做出更深层次的挖掘,让遗传平衡定律以最本质的形式展现出来,也就是——配子间的比例关系.这些理论可以更加直观的体现出基因之间的数学关系,也使得几乎所有的有关配子或者基因型的计算变得更加简单,值得进一步研究和推广.",
+        "id": "64b0060a3fda6d7f06e6a1c8",
+        "keywords": null,
+        "keywords_zh": [
+          "基因",
+          "哈代·温伯格定律",
+          "遗传平衡",
+          "生命科学",
+          "基因型频率与基因频率"
+        ],
+        "title_zh": "遗传平衡新说·推导式与思考",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "Plan(策划)、Do(实施)、Check(检查)和Act(处置)是PDCA循环的四个组成部分,可以在管理过程中有提高工作质量.高校危机预警学生是高校管理工作的重要对象,本文以F大S院学生为研究对象,结合问卷调查及数据分析,探讨和设计使用PDCA循环帮扶危机预警学生的实践路径和实施方案,旨在缓解危机预警学生的焦虑情绪,促进高校\"以人为本\"理念实施,推动\"三全育人\"机制落实.",
+        "doi": "10.3969/j.issn.1007-550X.2022.04.009",
+        "id": "62a861ff5aee126c0f36b10c",
+        "keywords": null,
+        "keywords_zh": [
+          "PDCA循环",
+          "危机预警学生",
+          "生命科学专业"
+        ],
+        "title_zh": "PDCA循环在生命科学专业危机预警学生帮扶工作中的实践路径研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "作为高等院校的基础课程,生命科学概论课程思政的体系建立是必不可少的.要完善生命科学概论课程思政的建设,在教学中不断挖掘思政教育元素尤为重要.茶文化作为中国优秀文化的代表,本身就具有一定的思政教育属性,因此,将二者进行融合有助于生命科学概论课程思政的教学开展.",
+        "doi": "10.3969/j.issn.1005-2291.2022.02.098",
+        "id": "62a8613b5aee126c0f33e366",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学概论",
+          "课程思政",
+          "茶文化"
+        ],
+        "title_zh": "生命科学概论课程思政教学中结合茶文化的创新策略",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "\"课程思政\"融入研究生课程体系具有重要意义,\"大思政\"格局下的课程改革不断推进.《生命科学前沿》是湖南师范大学生物学科的研究生必修课程,致力于普及学科发展前沿.其思政元素较为丰富,是开展课程思政的优秀载体.在分析了 目前课程思政教学现状和存在问题的基础上,通过树立思政理念,提升教师开展课程思政的能动性;开展课程思政教学设计,注重课程前沿性和思政元素的有机融合.采用嵌入式课程思政的教学路径,提高课程思政教学效果等具体举措进行改革实践,实现学科前沿知识普及和价值引领相结合.实践证明,将思政内容引入专业课,可以提高学生学习主动性,引导学生树立正确的价值观,实现专业课协同育人的效果.课程思政重在建设,课程内容设计是先决条件,教师是关键,课程管理是基本保障,对课程思政教学改革实践进行反思,以期为相关生物学专业课程思政教学提供参考.",
+        "doi": "10.13865/j.cnki.cjbmb.2022.05.1626",
+        "id": "6302e99690e50fcafd4846ff",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学前沿",
+          "课程思政",
+          "教学改革实践"
+        ],
+        "title": "Reform and Practice of Ideological and Political Teaching in Frontier of Life Science",
+        "title_zh": "《生命科学前沿》课程思政的教学改革与实践",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "有了基于生命的价值观,才会有健康积极的人生态度和学习动力,才能逐渐成长为一个有价值、有正能量的人.本文结合专门学校生命教育的教学实践案例,阐述用生命科学相关知识,渗透到教育教学中,引导学生爱自己、爱生活、爱生命,建立生命与自我、与自然、与社会的和谐关系.希望藉生命科学教学,让那些处于\"边缘\"的学生重拾青春,让生命之花绽放.",
+        "doi": "10.3969/j.issn.1004-7549.2022.06.039",
+        "id": "62c804815aee126c0f4730c2",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "生命教育",
+          "专门学校学生"
+        ],
+        "title_zh": "利用学科知识渗透,让生命之花绽放——为专门学校学生开展生命教育的探索",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "科技伦理治理属于实践伦理学范畴,其在不断解决科技活动产生的伦理问题和伦理冲突中发展.伦理治理具有共性要求和专业性标准,与健康相关的医学科技活动,包括生命科学和人工智能在医学领域的应用使医学科技伦理治理面临共性和独有的挑战.科技监管和伦理治理应考虑生命科学和医学研究的专业特殊性,并充分发挥现有伦理审查体系的作用.因新一代测序、基因编辑和人工智能等技术的应用使伦理治理的关注、侧重和标准有所改变,应采取措施加强医学科技伦理治理,进一步推动伦理先行.讨论了分类分级的监管审查策略和潜在的高效的区域伦理委员会的组织架构及审查机制,进而建议加强医学科技伦理治理的医学教育和继续教育.",
+        "doi": "10.12026/j.issn.1001-8565.2022.06.01",
+        "id": "62bd44ec5aee126c0f07871f",
+        "keywords": null,
+        "keywords_zh": [
+          "科技伦理",
+          "伦理治理",
+          "伦理审查",
+          "生命科学",
+          "医学研究",
+          "区域伦理委员会"
+        ],
+        "title": "Supervision Strategy and Implementation Key Points of Scientific and Technological Ethical Governance in Health and Medical Field",
+        "title_zh": "医学科技伦理治理监管策略和实施重点",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "科学理论的本质较量是解释力之简约美的较量,其使得科学革命成为可能.本文通过整理与剖析达尔文的《物种起源》的论述,展示了生命科学史上最伟大革命的内在理性,即,演化论相对于神创论的25重简约性优势,分别体现在解释:(1)驯化品种的产生、(2)驯化品种在内外性状层面的多样性的差异性、(3)(杂交的子代的)遗传性状的变化、(4)杂种与混血在健康度与生殖力方面的差异、(5)杂种与混血在性状变化上的差异、(6)生物形态分布的簇状格局、(7)生物形态分化在不同分类阶元内部的不均等性、(8)不同性状分化的不均等性、(9)物种间性状差别的渐变性、(10)伴随环境变化的形态变化、(11)相对环境变化的形态惯性、(12)生物间竞争强度分布的不均等性、(13)不同物种间的形态同似性、(14)个体间的形态差异随着个体发育而变大的现象、(15)生物的痕迹构造、(16)生物地理分布的系统差异性(贯穿诸生物分类阶元的稳定偏向的差异性)、(17)物种的\"等级性\"与其地理分布范围的关系、(18)生物地理分布的\"岛屿\"现象、(19)岛屿物种的总丰度低而土著物种丰度高的特征、(20)岛屿生物的类别构成特征、(21)岛屿生物与相邻大陆的生物间的相似度关系、(22)物种迁移与物种灭绝的地域差异性、(23)物种灭绝的渐变模式、(24)古生物与现存生物在形态上的关系、(25)胚胎形态与古生物形态间的相似关系.正是这25重简约美,铸造了《物种起源》作为最伟大的科学著作的底色,并奠定了现代生命科学研究的大方向与总方法——\"范式\".这一剖析亦有助于我们理解科学发展的真精神以及把握当代科学研究的进展.",
+        "doi": "10.17520/biods.2022243",
+        "id": "6357c7bd90e50fcafd645d43",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "科学革命",
+          "形态",
+          "生物地理学",
+          "岛屿",
+          "灭绝",
+          "古生物学",
+          "胚胎学"
+        ],
+        "title": "Why Do We Believe in Darwin’s Theory of Evolution—on the 25 Folds of Aesthetic Parsimony of on the Origin of Species",
+        "title_zh": "为何要信达尔文的演化论——论《物种起源》的二十五重简约美",
+        "year": 2022
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjmgkB6BTf2VKcoUvoUqQliu"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "小学科学课程中的\"生命科学\"领域内容贯穿整个小学阶段的学习周期,是科学课程中的重要组成部分,在生命教育方面具有重要意义,是落实科学课程标准的重要载体.在科学教学过程中,教师要高效完成\"生命科学\"领域的教学任务,促进学生科学能力的提高,就需要引导学生走进自然,从大自然中认识生命;动手实验,从实验中了解生命;观看视频,从视频中感受生命;搜集资料,从资料中理解生命.",
+        "doi": "10.3969/j.issn.1002-8196.2022.05.020",
+        "id": "62a85f115aee126c0f28f666",
+        "keywords": null,
+        "keywords_zh": [
+          "小学科学",
+          "\"生命科学\"领域",
+          "科学能力",
+          "素养"
+        ],
+        "title_zh": "小学科学\"生命科学\"领域有效教学策略研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "在通识教育中,实验课的价值一直被人们所忽视.浙江大学通过开展通识教育课程改革,将实验课的教学内容生活化、层次化.在教学方法上,运用体验法让课堂变得更加鲜活,运用启发法促进学生跨学科学习,运用\"抽丝剥茧\"法培养学生正确的社会认知并使学生形成良好的批判性思维,对当前的通识教育以及实验课堂的教学改革有重要的启示.",
+        "doi": "10.16871/j.cnki.kjwh.2022.07.018",
+        "id": "62a85eeb5aee126c0f2846ac",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "通识教育",
+          "生物实验",
+          "课堂"
+        ],
+        "title": "Teaching Reform of Life Science Experiment Classes under the Background of General Education:A Case of Zhejiang University",
+        "title_zh": "通识教育背景下生命科学实验课堂的教学改革\r——以浙江大学为例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "本文总结了2021年度国家自然科学基金委员会生命科学部项目申请、评审及资助情况,梳理了科学基金深化改革的实施情况,并提出下一年项目评审的工作思路.",
+        "doi": "10.16262/j.cnki.1000-8217.2022.01.004",
+        "id": "62ac14745aee126c0f3ab9bc",
+        "keywords": null,
+        "keywords_zh": [
+          "国家自然科学基金委员会",
+          "生命科学",
+          "项目评审",
+          "资助情况"
+        ],
+        "title": "Proposal Application,Peer Review and Funding of the Department of Life Sciences in 2021:An Overview",
+        "title_zh": "2021年度生命科学部基金项目评审工作综述",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "生命科学领域是小学阶段的重要学习领域,其进阶性、整体性、真实性特点,使其成了项目化学习的热点研究领域.教师根据学生的学习特点,设计了\"三单\",即\"以导学单了解学生的学习需求,以助学单进行指导和反馈,以成果展示单呈现实证结果\",以此促进学生科学思维的发展和学习能力的提升.",
+        "id": "62cd48f45aee126c0f0f02a9",
+        "keywords": null,
+        "keywords_zh": [
+          "小学科学",
+          "生命科学领域",
+          "项目化",
+          "\"三单\"设计"
+        ],
+        "title_zh": "\"三单\"设计,提升项目化学习的实效性\r——以教科版《科学》三年级下册\"动物的一生\"单元为例",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "生命科学通识教育旨在普及生命科学的基本理论和方法,是培养高素质复合型人才必不可少的重要支柱.自2000年以来,国内各高等院校都陆续建立了生命科学通识教育课程.但是,在新的时代和社会背景下,生命科学通识教育水平必须不断改进和提高.以健康和疾病这一课程紧密相关、学生普遍关心的话题作为突破口,建设和运用疾病案例库为实现上述目标提供了一条有效途径.",
+        "doi": "10.16400/j.cnki.kjdk.2022.32.015",
+        "id": "63c1a0a490e50fcafd8800d6",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学通识教育",
+          "疾病",
+          "案例库建设"
+        ],
+        "title": "On the Construction of Disease Case Bases in Life Science General Education",
+        "title_zh": "生命科学通识教育疾病案例库建设刍议",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "进行了生命科学地理跨学科视域下的\"内环境与医药常识\"专题复习实践,在分析问题和解决问题中,提升了学生信息提取与处理、问题分析与质疑、结论阐释与创新的跨学科能力.",
+        "doi": "10.3969/j.issn.1003-7586.2022.08.026",
+        "id": "6357b7c890e50fcafdf8572f",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "地理",
+          "跨学科",
+          "专题复习",
+          "内环境",
+          "医药常识"
+        ],
+        "title_zh": "生命科学地理跨学科视域下\"内环境与医药常识\"专题复习",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "通识教育是\"双一流\"建设背景下高等教育的重要组成部分,是新时期全面育人的必要途径.南开大学生物国家级实验教学示范中心以此为契机,以\"生活中的生命科学实验\"课程为锚点,面对不同专业背景的学生开设通识教育课程.依托生动丰富的实验项目,采用灵活适用的教学模式,在提升学生知识素养的同时,提高学生的实践能力,引导学生以更加多元化的角度和更加开阔的视野感受生活,热爱生活,享受生活.该课程取得了良好的教学效果,收获了学生的广泛好评,可为实践教学通识课和生命科学专业课的建设、改革与创新提供借鉴的思路和经验,具有良好的示范辐射作用.",
+        "doi": "10.3868/j.issn.2095-1574.2022.05.010",
+        "id": "63bfa40b90e50fcafd1654f6",
+        "keywords": null,
+        "keywords_zh": [
+          "生命科学",
+          "通识教育",
+          "实验教学"
+        ],
+        "title": "Exploration and Practice of the Curriculum Construction of General Education Course \"life Science Experiment in Life\"",
+        "title_zh": "\"生活中的生命科学实验\"通识课程建设的探索与实践",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "科技伦理管理体系建设对于保障科学研究健康发展至关重要,也是高校科技创新和\"双一流\"建设的前提与基础.通过对高校生命科学和医学研究伦理委员会相关情况进行调研,并重点对培训体系建设情况进行对比分析,提出短板问题,进而结合北京大学的工作实例与当前生命科学与医学研究的发展态势提出加强前瞻性预防机制、发挥高校医教研协同优势、形成\"三位一体\"的伦理培训体系的工作建议,希望对高校科技伦理管理工作的优化提升有所借鉴.",
+        "doi": "10.12026/j.issn.1001-8565.2022.05.04",
+        "id": "62ab1f0d5aee126c0f40de42",
+        "keywords": null,
+        "keywords_zh": [
+          "科技伦理",
+          "高校",
+          "生命科学",
+          "医学",
+          "伦理培训"
+        ],
+        "title": "Research and Reflection on Strengthening the Construction of Life Science and Medical Research Ethics Training System in Colleges and Universities",
+        "title_zh": "关于加强高校生命科学和医学研究伦理培训体系建设的研究与思考",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "初中生命科学是自然学科中的基础学科,运用概念建构、模型建构、实验探究等教学策略可以培养学生的生命科学核心素养.生命科学学科含有大量的实验课程,通过创新教学模式、提升教学理念以及对实验课授课方式的改进,可以提高学生科学探究的能力,落实核心素养的培养.学生通过观察、推测、设计、实验、归纳分析和概括总结等过程,可以深度体验科学探究的过程;学生在感受科学探究带来的成就感的同时也锻炼了自己的动手能力,并且提高了形象思维和创造性思维能力.通过在实验过程中发现问题、分析问题、解决问题,可以培养学生严谨的科学态度,激发学生动手实验的兴趣,提高学生创新能力,引导学生在进行实验时多动手、多动脑.",
+        "doi": "10.3969/j.issn.1674-6023.2022.26.004",
+        "id": "6368e3b590e50fcafd21471c",
+        "keywords": null,
+        "keywords_zh": [
+          "初中教学",
+          "生命科学",
+          "核心素养",
+          "探究能力"
+        ],
+        "title_zh": "指向核心素养的生命科学探究能力提升的实验教学研究",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "2020年,教育部印发的《高等学校课程思政建设指导纲要》中提出,课程思政建设要在全国所有高校、所有学科专业全面推进.由此可见,我国对于高校课程思政教育建设的重视度.随着传统文化、国学的兴起,把传统文化融入高校思政课堂的声音也越来越多.基于此,本文简要介绍了茶文化在生命科学概论课程思政教学中的应用,并提出有效的结合方法.",
+        "doi": "10.3969/j.issn.1005-2291.2022.04.060",
+        "id": "62a861385aee126c0f33df26",
+        "keywords": null,
+        "keywords_zh": [
+          "茶文化",
+          "生命科学概论",
+          "高校思政"
+        ],
+        "title_zh": "浅析茶文化在生命科学概论课程思政教学中的应用和结合方法",
+        "year": 2022
+      }
+    ],
+    "total": 1431,
+    "log_id": "3KObjo8BiAh0fC8Ik0Q8vrn4fZ3"
+  }
+]

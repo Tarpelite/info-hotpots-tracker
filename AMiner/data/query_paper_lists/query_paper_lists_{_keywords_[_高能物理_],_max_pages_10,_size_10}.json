@@ -1,0 +1,1922 @@
+[
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "In high-energy physics experiments, data processing typically involves a compute-storage separated computing model. During the computation process, data must be transferred between the computing and storage nodes. The continuous growth in experimental data and data analysis demands has led to data transfer bottlenecks, reducing the overall processing efficiency of these systems. This paper proposes a computational storage system for high-energy physics. First, the storage software EOS is extended. Computational storage plugins are introduced by building on the original architecture. After parsing user commands, the storage server executes local computations based on the file I/O, thereby reducing data movement, alleviating network pressure, and enhancing data processing efficiency. Second, a computational storage server based on a Central Processing Unit-Field Programmable Gate Array (CPU-FPGA) heterogeneous computing architecture is constructed. Considering the lower computational complexity of I/O-intensive tasks, tasks suitable for parallel computing are offloaded to the FPGA via the PCIe bus, thereby extending the computational capabilities of the storage server. Experimental evaluations show that the computational storage system eliminates queuing time and network latency, thereby shortening the overall execution time of computational tasks. Moreover, leveraging FPGA-based hardware acceleration effectively compensates for the weak computing performance of CPUs in storage servers, thereby enhancing the algorithmic versatility of computational storage devices. In tests based on decoding by LHAASO, the computational storage system achieves a speedup of approximately sixfold.",
+        "abstract_zh": "高能物理实验数据处理普遍采用存算分离的计算模式,计算过程中需要在计算节点和存储节点间传输数据.实验数据和数据分析需求的不断增长造成了数据传输瓶颈,降低了系统整体的处理效率.针对上述问题提出面向高能物理的可计算存储系统.首先,对存储软件EOS进行扩展,在原架构的基础上增加可计算存储插件,存储服务器解析用户命令后,在文件I/O的基础上执行本地计算,减少数据移动,缓解网络压力,提升数据处理效率.然后,构建基于中央处理器-现场可编程门阵列(CPU-FPGA)异构计算架构的可计算存储服务器.针对I/O密集型任务计算复杂度较低的特点,将适合并行计算的任务通过PCIe总线卸载到FPGA中,扩展了存储服务器的计算能力.对系统的实验评估结果表明,可计算存储系统能有效消除排队时间和网络延迟,进而缩短计算任务的整体执行时间.基于FPGA的硬件加速,有效弥补了存储服务器中CPU计算性能较弱的缺陷,提升了可计算存储设备的算法通用性.在基于LHAASO的解码作业的测试中,可计算存储系统实现了约6倍的速度提升.",
+        "doi": "10.19678/j.issn.1000-3428.0070060",
+        "id": "69b159019be8eb7c4b631cb8",
+        "keywords": [
+          "computational storage",
+          "heterogeneous computing",
+          "Field Programmable Gate Array(FPGA)",
+          "big data",
+          "high-energy physics"
+        ],
+        "keywords_zh": [
+          "可计算存储",
+          "异构计算",
+          "现场可编程门阵列",
+          "大数据",
+          "高能物理"
+        ],
+        "title": "Research and Implementation of Computational Storage System for High-Energy Physics",
+        "title_zh": "面向高能物理的可计算存储系统研究与实现",
+        "year": 2026
+      },
+      {
+        "abstract": "High-energy physics (HEP) experiments have fully entered a data-intensive era in which event sizes, detector granularity, and analysis complexity are increasing rapidly. These trends impose growing pressure on conventional computing in multiple parts of the reconstruction-and-analysis chain. In particular, classical methods can exhibit practical bottlenecks when confronted with high-dimensional feature spaces, intrinsically combinatorial decision making, and the need to process massive datasets under stringent throughput constraints. Quantum computing, exploiting quantum superposition and entanglement, provides a complementary computational paradigm that may help address such challenges by enabling new algorithmic routes for optimization and learning, especially through hybrid quantum-classical workflows suitable for near-term devices. This article reviews two representative lines of recent progress on quantum algorithms for HEP data analysis. The first focuses on jet clustering, which is translated into a combinatorial optimization problem. Final-state particles are mapped to vertices of a weighted graph, where edge weights encode geometric relations (e.g., angular separation) and circuit resources are controlled via k-nearest-neighbor sparsification. The clustering objective is then reformulated as a Max-Cut instance and encoded into an Ising-type Hamiltonian. A quantum approximate optimization algorithm (QAOA) alternates cost and mixer evolutions within a shallow parameterized circuit, while a classical optimizer iteratively updates circuit parameters based on repeated measurements of the objective. Small-scale studies demonstrate that QAOA-based jet clustering, via a Max-Cut mapping, establishes the feasibility of hybrid quantum-classical optimization for event reconstruction on current hardware within statistical uncertainties in practice. The second application targets Higgs event classification in the context of a circular electron-positron collider (CEPC) using quantum kernel methods. A quantum support vector machine with a kernel (QSVM-kernel) embeds compact kinematic feature vectors into a quantum feature space through a designed feature-map circuit. Quantum circuits are used to estimate kernel matrix elements on hardware (or calibrated noisy simulators), after which a classical support vector machine (SVM) solves the associated convex optimization problem in kernel space. For benchmark CEPC Higgs analyses with low-dimensional inputs, the quantum-kernel classifier achieves signal-background discrimination comparable to classical kernel SVMs, and the workflow can be executed stably on current superconducting platforms at the relevant qubit scales. Despite the fact that present-day quantum hardware remains constrained by noise, limited qubit counts, and decoherence, a growing body of frontier studies has already validated the feasibility of quantum algorithms on small-scale tasks such as jet reconstruction and event classification, while also initiating preliminary investigations toward potential quantum advantage. With continued improvements in hardware fidelity, the maturation of quantum error mitigation techniques, and the development of scalable divide-and-conquer strategies, quantum computing is expected to play an increasingly important role in future data processing and analysis pipelines of high-energy physics experiments.",
+        "abstract_zh": "随着高能物理实验全面迈入\"大数据时代\",事件规模和分析复杂度迅速提升,经典计算方法在处理高维特征、组合优化和海量数据时逐渐显现出性能瓶颈.量子计算依托量子叠加与纠缠所带来的潜在并行性,为应对这些挑战提供了新的技术路径.本文介绍了量子计算在高能物理分析中的两项代表性工作:其一是基于量子近似优化算法实现喷注聚类,将该任务映射为最大割问题并展示了量子-经典混合优化在事件重建中的可行性;其二是基于量子核支持向量机用于环形正负电子对撞机的希格斯事例分类,通过量子特征映射实现与经典核支持向量机相当的信号-本底区分性能.尽管当前量子硬件仍受限于噪声、量子比特数和退相干等因素,但已有一系列前沿研究在小规模喷注重建和事例分类等任务中验证了量子算法的可行性并开展了量子优势的初步探索.随着硬件保真度提升、量子误差缓解与可扩展分治策略的发展,量子计算有望在未来高能物理实验的数据处理与分析中发挥越来越重要的作用.",
+        "doi": "10.1360/csb-2025-5947",
+        "id": "6a3e62a10a96f8c83c3ca5bc",
+        "keywords": [
+          "quantum computing",
+          "quantum optimization",
+          "quantum machine learning",
+          "high-energy physics",
+          "jet reconstruction",
+          "event classification"
+        ],
+        "keywords_zh": [
+          "量子计算",
+          "量子优化",
+          "量子机器学习",
+          "高能物理",
+          "喷注重建",
+          "事例分类"
+        ],
+        "title": "Quantum Feasibility Verification and Advantage Exploration in High-Energy Physics: Frontier Algorithms for Jet Reconstruction and Event Classification",
+        "title_zh": "高能物理中的量子可行性验证与优势探索:喷注重建与事例分类的前沿算法",
+        "year": 2026
+      },
+      {
+        "abstract": "Particle physics experiments have long research cycles and high barriers to entry.Limited human resources make it difficult to fully explore and analyze large volumes of colli-sion data.Agents based on large language models can write code,retrieve literature,and car-ry out multi-step analyses,offering an opportunity to address this challenge.This article fo-cuses on the Just Furnish Context(JFC)agent framework and examines results produced by the framework,including the CMS H→τ+τ-signal-strength measurement and the ALEPH Lund jet-plane density measurement,as well as their implications for particle physics re-search.It also summarizes the framework's current limitations and discusses prospects for benchmark-dataset construction,data processing at next-generation large-scale scientific facili-ties,and the training of future physicists.",
+        "abstract_zh": "高能物理实验研究周期长、知识门槛高,受限于人力,大量对撞数据难以得到充分的挖掘与分析.以大语言模型为基础的智能体能够编写代码、检索文献并执行多步分析,为突破困境提供契机.本文聚焦Just Furnish Context(JFC)智能体框架,分析其完成的CMS实验 H→τ+τ-信号强度测量、ALEPH 实验 Lund喷注平面密度测量等结果,及其对高能物理研究的意义;同时概括其当前局限性,并展望基准数据集构建、下一代大科学装置数据处理、人才培养的发展前景.",
+        "doi": "10.26599/phys.2026.9320506",
+        "id": "6a9a09f60a96f8c83cce5b65",
+        "keywords": [
+          "particle physics",
+          "high energy physics experiment",
+          "artificial intelligence",
+          "large lan-guage models",
+          "AI agents"
+        ],
+        "keywords_zh": [
+          "粒子物理",
+          "高能物理实验",
+          "人工智能",
+          "大语言模型",
+          "智能体"
+        ],
+        "title": "PROBING PARTICLE PHYSICS WITH ARTIFICIAL INTELLIGENCE",
+        "title_zh": "以人工智能窥探粒子的奥秘",
+        "year": 2026
+      },
+      {
+        "abstract_zh": "发展原子能事业高效带动了我国一批关键学科的布局和发展。文章通过回顾史实，探讨我国如何集中科研力量优先发展核科技，突破尖端武器研制并带动高能物理与理论物理实现学科的建制化过程。研究表明，理论物理在中国科技发展各时期扮演不同角色，高能物理发展则与经济、技术和社会环境密切相关。契合并满足国家发展需求与追求世界科技前沿新知是中国核物理、高能物理和理论物理发展的重要推动力。",
+        "doi": "10.3724/j.issn.1000-3045.20240629004",
+        "id": "68a6999e163c01c850b97711",
+        "keywords": [
+          "nuclear physics",
+          "high energy physics",
+          "theoretical physics",
+          "accelerator"
+        ],
+        "keywords_zh": [
+          "核物理",
+          "高能物理",
+          "理论物理",
+          "加速器"
+        ],
+        "title": "Disciplines Transmutation Prompted by Atomic Energy Development: from Nuclear Physics to High Energy Physics and Theoretical Physics",
+        "title_zh": "发展原子能事业催生的学科嬗变：从核物理到高能物理与理论物理",
+        "year": 2025
+      },
+      {
+        "abstract": "The research and development of neodymium iron boron(NdFeB)permanent magnets saw breakthroughs in China in 1984.The success of the technology of using low-purity Nd not only helped Chinese-made NdFeB permanent magnets reach a high cost-performance ratio,but also shaped China's rare-earth industry for decades.This article emphatically investigates the important role played by a number of transnational factors since the 1970s in the development of the NdFeB technology in China,including the exploitation of rare earth mines in China,the introduction of the physics of amorphous solids into the country,Sino-French scientific and technological exchanges and cooperation,the plans to build BEPC and the subsequent BSRF in the field of high energy physics in Beijing,and the development of Alpha Magnetic Spectrometers in the United States.As China has participated more actively in the globalization of contemporary sciences since the 1970s,the quick development of physics of amorphous solids and NdFeB magnets serves as a representative case study for how the development of new industries has been boosted by advancements in contemporary physics in China.",
+        "abstract_zh": "1984年中国钕铁硼（NdFeB）永磁材料的研发取得突破。低纯钕技术的成功，促使中国制造的钕铁硼永磁体具备高性价比的优势，也影响了此后数十年中国稀土与相关产业的发展。论文着重考察了自20世纪70年代以来，中国稀土矿开发、非晶态物理学引入、中法科技交流与合作、北京的高能物理计划、美国阿尔法磁谱仪的研制等跨国因素，在中国钕铁硼技术发展中扮演的重要角色。20世纪70年代之后，中国比以往更主动地参与到现代科学全球化的进程之中。非晶态物理学与钕铁硼材料的兴起是理解中国现代物理学促进新产业发展的一个典型案例。",
+        "doi": "10.3724/sp.j.1461.2025.01081",
+        "id": "68ad6923163c01c85020a4bc",
+        "keywords": [
+          "neodymium iron boron(NdFeB)",
+          "rare earth",
+          "high energy physics",
+          "physics of amorphous solids",
+          "Chinese Academy of Sciences",
+          "globalization"
+        ],
+        "keywords_zh": [
+          "钕铁硼",
+          "稀土",
+          "高能物理",
+          "非晶态物理学",
+          "中国科学院",
+          "全球化"
+        ],
+        "title": "The Rise of Neodymium Iron Boron Permanent Magnets in China in the 1980s and 1990s and Its Influence on the World",
+        "title_zh": "20世纪80—90年代中国钕铁硼永磁材料的兴起及其世界影响（英文）",
+        "year": 2025
+      },
+      {
+        "abstract_zh": "目的/意义 以Data Citation Index（DCI）数据库高能物理领域科学数据为研究对象，探究高能物理领域科学数据的复用特征及影响因素，为推动我国数据共享和引用规范性、提升数据价值和影响力提供参考与借鉴。 方法/过程 利用DCI数据库的数据基本信息和引用信息，采用统计回归方法，通过科学数据属性特征、科学数据复用特征、科学数据属性特征与复用特征相关性3个维度开展高能物理领域科学数据复用特征及影响因素的分析。 结果/结论 研究结果表明，高能物理领域科学数据共享数量逐年递增，但数据字段缺失比例较高，数据复用受数据等级、出版模式和学科类别的影响较大，导致被引频次分布极不均匀，高等级科学数据更易获得高频复用次数，科学数据共享和引用规范有待进一步加强。最后，本文据此提出高能物理科学数据复用的优化提升路径。",
+        "id": "6613d3bf13fb2c6cf63fa66b",
+        "keywords": null,
+        "keywords_zh": [
+          "科学数据",
+          "高能物理",
+          "数据复用",
+          "影响因素",
+          "统计回归"
+        ],
+        "title_zh": "高频复用高能物理科学数据的特征及影响因素分析",
+        "year": 2024
+      },
+      {
+        "abstract_zh": "高能物理是研究物质微观结构最前沿的学科,能够影响物理学的各个分支.将高能物理的前沿进展融入当前粒子物理相关课程的教学中,对教学知识体系进行补充与整合,有益于深化学生对量子力学、电动力学和理论力学知识的理解,拓展关于前沿科技的知识面,提高参与科研活动的积极性和粒子物理专业毕业论文的质量.入选相关课程的前沿热点需要被广泛认可、难度适宜并与现有体系相关联.在粒子物理导论课程中,可以引入希格斯波色子、缪子反常磁矩、波色子质量和引力波方面的最新实验和理论进展.",
+        "doi": "10.16400/j.cnki.kjdk.2022.30.022",
+        "id": "64b0a4ae3fda6d7f06594906",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "希格斯粒子",
+          "缪子反常磁矩",
+          "引力波",
+          "教学改革"
+        ],
+        "title": "Explore Ways to Involve Recent Progresses in High Energy Physics into Undergraduate Courses",
+        "title_zh": "将高能物理前沿进展融入本科教学的创新探索",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "杨振宁对高能物理有其独特的观点.他认为,高能物理是物理学的尖端,其发展就像在沙堆顶上撒沙子,从基底到顶端都有所提高,对整个物理学的发展有巨大推动作用.他同时对高能物理的未来发展持悲观态度,认为高能物理蓬勃发展的\"盛宴\"已经结束,他反对建造巨型高能加速器.究其原因,杨振宁认为,高能物理进一步发展需要的是物理思想、物理观念的革命性突破,而不是寄希望于无法继续下去的能量越来越高的巨型加速器.还原论理念遭遇严重挑战与质疑也是重要的时代背景之一.杨振宁对高能物理的独特观点在中国广泛传播并对中国科技发展有着深远的影响.",
+        "doi": "10.3969/j.issn.1672-6804.2022.01.002",
+        "id": "62cd51415aee126c0f199836",
+        "keywords": null,
+        "keywords_zh": [
+          "杨振宁",
+          "高能物理",
+          "高能加速器"
+        ],
+        "title": "The Party is Over Chen-Ning Yang's unique insight on high energy physics and its influences in China",
+        "title_zh": "盛宴已经结束杨振宁对高能物理的独特观点及其在中国的影响",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "粒子物理是现代物理学的重要分支,也是人类文明的标志性成就之一.1955-1995年,约1/3的诺贝尔物理学奖授予了粒子物理相关理论或实验研究.为分析其发展历程,按照时间顺序,将粒子物理的发展分为初步探索期、理论成熟期、实验验证期和继续完善期4个阶段.其中,初步探索期(1930-1951年)是粒子物理的起步与独立阶段;理论成熟期(1952-1967年)是粒子物理的理论体系构建阶段;实验验证期(1968-1985年)是粒子物理理论体系得到实验验证阶段;继续完善期(1986年至今)是粒子物理的接续发展阶段.现在人类比以往任何时期都更加接近于超越标准模型的新物理.",
+        "id": "6491e7e2d68f896efae5c69a",
+        "keywords": null,
+        "keywords_zh": [
+          "粒子物理学",
+          "粒子加速器",
+          "高能物理"
+        ],
+        "title": "A historical investigation of the particle physics development",
+        "title_zh": "粒子物理学发展的历史考察",
+        "year": 2022
+      },
+      {
+        "abstract_zh": "高能物理科学数据是用于研究物质的基本构成以及宇宙起源基础研究的重要资源。利用网络、计算、存储等基础设施可以提供包括数据汇交、数据共享、数据处理等高能物理科学数据服务,研究探讨高能物理科学数据的服务与应用具有重要意义。本文阐述国家高能物理科学数据中心支持的包括宇宙线观测、空间科学、粒子物理和材料科学领域的数据应用模式以及所采用的技术手段和方法,并通过典型服务案例介绍国内高能物理科学数据服务与应用。",
+        "doi": "10.3772/j.issn.1674-1544.2022.01.004",
+        "id": "62a8611b5aee126c0f3392e6",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "科学数据",
+          "数据汇交",
+          "数据处理",
+          "数据共享",
+          "数据应用"
+        ],
+        "title": "Services and Applications of High Energy Physics Data",
+        "title_zh": "高能物理科学数据服务与应用",
+        "year": 2022
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkQOwqPtQENdA4hHh2xdsZ05"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "希格斯玻色子发现于2012年,是粒子物理学研究中的一件划时代的大事.它在粒子物理的\"标准模型\"中起关键性作用,通过神秘的对称性破缺机制给基本粒子带来质量,和高深莫测的量子真空息息相关,也被认为在宇宙演化的极早期起重要作用.在希格斯玻色子发现十周年之际,文章将从科普视角出发,描绘希格斯玻色子的理论背景、粒子特性、实验探测、研究现状和展望,揭开希格斯玻色子的神秘面纱,理解它的过去、现在和未来.",
+        "doi": "10.7693/wl20221102",
+        "id": "63c20f7590e50fcafd460b52",
+        "keywords": null,
+        "keywords_zh": [
+          "希格斯玻色子",
+          "标准模型",
+          "高能物理实验"
+        ],
+        "title": "A sketch of the Higgs boson",
+        "title_zh": "漫谈希格斯粒子",
+        "year": 2022
+      },
+      {
+        "abstract": "High energy physics (HEP), which is also known as particle physics, is the study of the fundamental building blocks of nature, the interactions of elementary particles, and the origin of the Universe. Large-scale HEP experiments can produce hundreds of petabytes of real and simulated data yearly. This capability has made HEP a major explorer of scientific computing in the last few decades. In this work, three computing tasks, i.e., event reconstruction, physics simulation, and data analysis, are introduced. Subsequently, data and computing challenges are demonstrated with different examples of HEP experiments. To address the challenges, the HEP community has been focusing on developing computing models in the last thirty years. The HEP-computing model has evolved from local centers with mainframes and workstations to distributed clusters and worldwide computing grids. Some technologies generated through HEP computing, such as WWW, have made a considerable impact on the world. In the concluding part of this work, the perspective of computing technologies in HEP is discussed.",
+        "abstract_zh": "高能物理也称作粒子物理,是研究物质微观结构与相互作用、宇宙起源的重要基础科学前沿分支.高能物理实验装置非常复杂,产生的实验数据规模巨大,从20世纪后期的实验每年产生TB级发展到现在最新的实验每年产生近百PB.过去数十年来高能物理一直对数据与计算技术提出挑战,同时也充当数据与计算技术发展的推动者.高能物理实验一方面在利用最新计算机技术实现对数据及计算的支撑,同时也在推动计算机技术发展与突破.本文首先介绍高能物理实验数据与计算的基本模式,列举典型的高能物理实验说明数据规模及数据处理的挑战.在此基础上介绍高能物理计算技术的发展过程,特别就当前主流的网格计算、云计算技术及数据共享进行了讨论.",
+        "doi": "10.1360/sspma-2021-0108",
+        "id": "619bbbaa1c45e57ce97c694b",
+        "keywords": [
+          "data analytics",
+          "big data",
+          "grid computing",
+          "high energy physics experiment",
+          "offline data"
+        ],
+        "keywords_zh": [
+          "数据分析",
+          "大数据",
+          "网格计算",
+          "高能物理实验",
+          "离线数据"
+        ],
+        "title": "Data and Computing for High Energy Physics Experiments",
+        "title_zh": "高能物理实验中的数据与计算技术",
+        "year": 2021
+      },
+      {
+        "abstract": "More and more scientific data are produced by fast-developing high energy physics (HEP) experiments, which urgently require advanced data processing system to support scientific research.At present, HEP data processing system is facing new opportunities and challenges with the rapid development of domestic CPU such as ARM architecture.Firstly, a brief introduction to the requirements and architecture of HEP data processing system was given.Then the relevant work such as porting software to domestic CPU architecture was described.Additionally, a cutting-edge computational storage technology for HEP data processing was proposed.Finally, the evaluation results of typical HEP applications on domestic CPU architecture were given as well.",
+        "abstract_zh": "随着规模的不断扩大,高能物理实验产生了越来越多的科学数据,迫切需要先进的数据处理系统来支撑科学研究.目前,以ARM架构等为代表的国产处理器发展迅速,高能物理数据处理系统面临着新的机遇与挑战.首先总结了高能物理数据处理系统的需求及体系架构;然后描述了在国产处理器上开展的高能物理数据处理软件移植等相关工作,并提出了一种新的面向高能物理数据处理的可计算存储技术方案;最后给出了在国产处理器架构上的典型应用评测结果.",
+        "doi": "10.11959/j.issn.2096-0271.2021046",
+        "id": "61cacf7f5244ab9dcb1bab9e",
+        "keywords": [
+          "domestic CPU",
+          "high energy physics",
+          "data processing",
+          "computational storage"
+        ],
+        "keywords_zh": [
+          "国产处理器",
+          "高能物理",
+          "数据处理",
+          "可计算存储"
+        ],
+        "title": "Data Processing System for HEP Based on Domestic Processor Architecture",
+        "title_zh": "基于国产处理器架构的高能物理数据处理系统",
+        "year": 2021
+      },
+      {
+        "abstract": "BackgroundHigh energy physics (HEP) experiments aimed at studying elementary particles and their interactions need to acquire and analyze large amount of experimental data to discover new particles or measure the properties of known particles. With the development of HEP experiments, the energy and luminosity of accelerators are increasing, the scale of experiments is expanding, and consequently the acquisition, processing and analysis of large amount of data will be more challenging.PurposeThis study aims to design and implement a more advanced or effective distributed data acquisition framework to acquire and process the huge amount of data generated by tracking detectors for future HEP experiments where the number of channels and data volume of tracking detectors is extremely large.MethodsThe distributed data acquisition framework in HEP experiment divided into data flow software and online software was redesigned by using Hadoop big data framework, mainstream open source big data processing components was adopted to develope a new data acquisition framework—BigDataDAQ. Finally, this framework was applied to the prototype of the time projection chamber for verification.Results & ConclusionsResults of performance test show that the framework has high performance in data throughput and data processing, and can be easily deployed and managed. It provides a feasible solution for the future data acquisition system of high energy physics experiment.",
+        "abstract_zh": "高能物理实验研究基本粒子及其相互作用,需要获取和分析大量的实验数据以发现新粒子或测量已知粒子的特性.随着高能物理实验规模的不断扩大以及加速器能量和亮度的不断提升,海量数据的获取、处理及分析将更具挑战性.在高能物理实验中,径迹系统探测器的通道数和数据量尤为巨大,为了读出和在线处理径迹系统探测器产生的海量数据,本文结合Hadoop大数据框架,引入主流开源的大数据处理组件,研究实现了一种流式数据获取框架——BigDataDAQ,并应用于时间投影室探测器模型实验中.实验室性能测试结果表明:这一数据获取框架具有良好的数据吞吐和数据处理能力,且易于部署和管理,为未来高能物理径迹系统结合大数据框架研制处理海量数据的流式数据获取系统进行了有益的尝试,并提供了一种可行的解决方案.",
+        "doi": "10.11889/j.0253-3219.2021.hjs.44.060502",
+        "id": "61caceaf5244ab9dcb0d39f6",
+        "keywords": [
+          "high energy physics experiment",
+          "tracking detectors",
+          "data acquisition system",
+          "hadoop big data framework",
+          "streaming data processing"
+        ],
+        "keywords_zh": [
+          "高能物理实验",
+          "径迹系统探测器",
+          "数据获取系统",
+          "Hadoop大数据框架",
+          "流式数据处理"
+        ],
+        "title": "Research on streaming data acquisition framework for high energy physics tracking system",
+        "title_zh": "高能物理实验径迹系统流式数据获取框架的研究",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "中华人民共和国成立70多年来,随着时代和国情的变化,党和国家的科技政策不断进步、完善.作为基础科学重要组成部分的高能物理也顺应时代大潮而获得不断发展.按照时间顺序,将中国高能物理的发展分为创业期、建设期、收获期和跨越期4个阶段,并结合时代背景讨论了科技政策在不同阶段对高能物理发展的作用和影响.",
+        "id": "61cacf3f5244ab9dcb16a795",
+        "keywords": null,
+        "keywords_zh": [
+          "科技政策",
+          "高能物理",
+          "高能加速器"
+        ],
+        "title": "The development process of high energy physics in China and the enlightenment",
+        "title_zh": "中国高能物理学的发展历程与启示",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "PYTHIA程序是高能碰撞中事件产生的标准工具,包括一组连贯的物理模型,用于从少体硬过程演化到复杂的多粒子末态,是对撞机物理的核心软件,已成为研究现代对撞机物理不可或缺的有力工具.利用PYTHIA模拟了量子色动力学中的高能粒子碰撞,计算了喷注中末态粒子的多重数分布和横动量分布以及末态带电粒子的快度和赝快度.",
+        "doi": "10.3969/j.issn.1673-2219.2021.05.008",
+        "id": "62a860c95aee126c0f31b5d7",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "蒙特卡罗",
+          "事件产生器",
+          "强子化",
+          "弦碎裂",
+          "粒子衰变"
+        ],
+        "title_zh": "PYTHIA在高能粒子物理计算中的应用",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "研究了诺贝尔奖得主小柴昌俊的科学贡献,并从中总结了若干成功经验.还介绍了鲜为人知的与中日历史问题有关的内容.",
+        "doi": "10.3969/j.issn.1672-6804.2021.01.007",
+        "id": "61cacf7b5244ab9dcb1b5271",
+        "keywords": null,
+        "keywords_zh": [
+          "诺贝尔奖",
+          "小柴昌俊",
+          "实验高能物理",
+          "中微子",
+          "中日历史"
+        ],
+        "title": "Multidimensional World of Masatoshi Koshiba",
+        "title_zh": "诺奖得主小柴昌俊的多维世界",
+        "year": 2021
+      },
+      {
+        "abstract_zh": "铍是一种具有优异核性能和物理性能的稀有轻金属,密度低、比刚度高、比强度大、热性能优异,常作为功能和结构材料应用于许多重要领域,其合金具有独特的机械性能、物理性能和良好的加工性能,是高科技领域的重要材料.本文综述了铍及其合金在核能、高能物理、国防及航空航天和商业等众多关键领域的最新应用进展.在核能领域,铍及氧化铍常用作核反应堆的反射体材料或减速剂;在高能物理领域,世界各国均将铍作为粒子加速器中束流管/窗口的最佳制作材料;在国防及航空航天领域,铍是惯性导航系统最理想的结构材料,由铍作为主材的惯性器件具有最高的导航精度,铍及其合金应用于飞行器结构件上,可有效减小构件重量、降低发射成本,铍及铍铝合金良好的光学性能和机械性能,使其成为光学系统中镜体和支撑结构的首选材料;在商业领域中,铍振膜的应用使音响品质显著提升.本文通过铍及其合金在促进其应用领域技术进步和改进产品性能中所发挥的重要作用,说明其作为“战略性、关键性”工程材料所起到的关键支撑,进而分析了我国在铍及其合金的研究生产现状,展望了其发展前景.本文将有助于科技人员对铍及其合金应用的全面认识,使其进入更多领域发挥独特作用.",
+        "doi": "10.13373/j.cnki.cjrm.XY19050007",
+        "id": "61cacec15244ab9dcb0e69cc",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "国防及航空航天",
+          "铍合金",
+          "铍",
+          "核能"
+        ],
+        "title": "Progress in Application of Rare Light Metal Beryllium and Its Alloys",
+        "title_zh": "稀有轻金属铍及其合金的应用进展",
+        "year": 2021
+      },
+      {
+        "abstract": "HTCondor and SLURM computing clusters in high-energy physics computing platforms provide data processing services for many high-energy physics experiments.However,HTCondor is not efficient in parallel job scheduling,and SLURM could not manage massive serial jobs.Also,the overall resource management and scheduling strategies of computing platforms are too simple.To meet the demands of high-energy physics computing clusters running with heavy duties,this paper designs a dual layer job scheduling system,which adds a job management layer on the existing job scheduler.The system is designed to efficiently schedule serial and parallel jobs,ensure fair use of resources between experiment groups,and enable users to implement fine-grained management of jobs.Test results show that the dual layer job scheduling system supports rapid submission of massive high-energy physics jobs,makes full use of resources of a computing platform,and has a high performance in job scheduling.",
+        "abstract_zh": "高能物理计算平台中的 HTCondor 和 SLURM计算集群为多个高能物理实验提供数据处理服务,然而HTCondor并行作业调度效率较低、SLURM难以应对大量串行作业,且计算平台整体资源管理及调度策略过于简单.为满足高能物理计算集群高负荷运行的需求,在传统作业调度器上增加作业管理层,设计双层作业调度系统,通过高效调度串并行作业并兼顾实验组间资源的使用公平性,实现用户对作业的细粒度管理.测试结果表明,双层作业调度系统支持大批量高能物理作业的快速提交,并充分利用计算平台的总体资源,具有较好的作业调度性能.",
+        "doi": "10.19678/j.issn.1000-3428.0053582",
+        "id": "604b7d4c6f90b7f6caeec0e1",
+        "keywords": [
+          "computing cluster management|job scheduler|high throughput computing(htc)|high performance computing(hpc)|high energy physics computing"
+        ],
+        "keywords_zh": [
+          "计算集群管理",
+          "作业调度器",
+          "高通量计算",
+          "高性能计算",
+          "高能物理计算"
+        ],
+        "title": "Dual Layer Job Scheduling System for Large Scale Heterogeneous Computing Clusters",
+        "title_zh": "大规模异构计算集群的双层作业调度系统",
+        "year": 2020
+      },
+      {
+        "abstract_zh": "因高能加速器建设滞后,中国粒子物理学科在发展早期只能开展理论研究、宇宙线观测或通过国际合作开展高能实验研究.多国合作的杜布纳联合原子核研究所的成立为中国高能物理发展创造了良机,反西格马负超子的发现更是中国物理学史上浓墨重彩的一笔.中国学者在杜布纳的系列科学成就,为此后中国亚原子物理发展奠定了重要的知识基础与人才基础.",
+        "id": "62abf1ef5aee126c0f4d90a1",
+        "keywords": null,
+        "keywords_zh": [
+          "王淦昌",
+          "反西格马负超子",
+          "杜布纳",
+          "加速器",
+          "高能物理",
+          "探测器"
+        ],
+        "title": "Before and after the discovery of anti-sigma negative hyperon",
+        "title_zh": "反西格马负超子((Σ)-)的发现前后",
+        "year": 2020
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkw0ZL2oa2N6PxTi6iv5zhDd"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "Lots of data are produced by large scale scientific facilities in High Energy Physics(HEP)studies. Scientific computing is based on these distributed data. Grid computing technology is used to share data between different sites in traditional way. However, low resource utilization, long response time and difficult operations limit data sharing between small sites. While a cross-domain file system based on streaming&cache is designed for data sharing between small sites in HEP computing. Native access for remote data, quick response, data transmission and management on demand based on HTTP, data block hash and store, uniform file view are implemented. Compared with commonly distributed file sys-tems EOS, GlusterFS and Lustre, availability in WAN, insensitivity to network delay and high-performance data access are performed.",
+        "abstract_zh": "高能物理科学研究大多依托固定站点大科学装置,拥有海量实验数据。因此数据计算往往基于异地站点的海量实验数据。针对这些海量的分布式实验数据,传统的高能物理计算模式中采用了网格的方式进行跨域数据共享,但资源利用率低、响应时间长以及部署维护困难等问题,限制了网格技术在中小型站点间的数据共享。针对高能物理计算环境中,中小型站点间的数据共享问题,以Streaming&Cache为核心思想,设计一种远程文件系统,提出远程数据访问本地化,提供高实时性数据访问模式,实现基于HTTP协议的按需数据传输与管理,拥有数据块散列存储和文件统一化视图管理。与高能物理计算中常用分布式文件系统EOS、Lustre、GlusterFS相比,具有广域网可用性、网络时延不敏感性和高性能数据访问模式。",
+        "doi": "10.3778/j.issn.1002-8331.1812-0009",
+        "id": "5d9e04ee9e795e957709a58e",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理实验数据",
+          "跨域访问",
+          "远程文件系统",
+          "缓存",
+          "高性能"
+        ],
+        "title": "Cross-Domain File System for Distributed Sites",
+        "title_zh": "分布式站点间的跨域文件系统",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "高能物理探测设备往往是一种大型的空间结构,采用了大量的新材料,如:不锈钢、无氧铜、有机玻璃、尼龙等。介绍了几种类型的高能物理探测设备,并对以上几种新材料的研究现状作了总结。归纳了清华大学关于高能物理探测设备中新材料的研究,对于不锈钢主要进行了材性和本构、构件承载性能、连接节点、整体设计分析、残余应力等研究;对于无氧铜,进行了材性和本构以及构件承载性能的研究;对于有机玻璃,对其节点性能进行了试验研究,并且将通过单轴拉伸、蠕变、冲击韧性和断裂韧性的试验来研究其材性和本构关系。",
+        "doi": "10.13969/j.cnki.cn31-1893.2019.01.001",
+        "id": "5ef205f69e795e72cd71b1d7",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理探测设备",
+          "不锈钢",
+          "无氧铜",
+          "有机玻璃",
+          "尼龙"
+        ],
+        "title": "Application and Research of New Structural Materials in High-Energy Physical Detectors",
+        "title_zh": "高能物理探测设备中结构新材料的应用技术研究",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "硅酸铋(Bi4 Si3 O12,BSO)晶体是一种新型的闪烁晶体,具有高辐射硬度、短衰减时间、低成本等优点,作为闪烁材料近年来引起了人们的极大关注.BSO晶体短的紫外吸收边能更好地分离Cherenkov光和闪烁光,并有效收集Cherenkov光信号,使其成为未来双读出量能器和均匀强子量能器的最佳候选材料.稀土离子掺杂BSO晶体在LED和激光等方面表现出优良的性能,被认为是一种不错的发光二极管和激光晶体材料.尽管BSO晶体是一种综合性能指标非常优异的多功能晶体,但该晶体迄今为止还没有被真正应用于实际生产中.随着大尺寸BSO晶体生长技术的突破以及稀土离子掺杂BSO晶体闪烁性能的提升,该晶体独特的双读出性能和极具优势的价格使其在高能物理、核医学成像等粒子探测和LED、激光等方面展现出巨大的应用潜力.",
+        "doi": "10.11896/cldb.18050221",
+        "id": "604b417d6f90b7f6cae2affd",
+        "keywords": null,
+        "keywords_zh": [
+          "硅酸铋晶体",
+          "闪烁晶体",
+          "双读出性能",
+          "高能物理",
+          "激光应用",
+          "发光二极管(",
+          "LED)应用"
+        ],
+        "title": "Bi4Si3O12:an Important Heavy Scintillation with Fast Decay Time and New Multi-functional Crystal Materials",
+        "title_zh": "硅酸铋——一种快计时重闪烁新型多功能晶体材料",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "CompHEP是一个在树图阶用来进行费曼图计算和对多重态相空间进行积分的程序包.介绍了它的工作环境和操作方法,并用它对γγ→W+W-过程进行了截面计算,其数值结果和相关文献相一致.",
+        "doi": "10.3969/j.issn.1007-0834.2019.01.012",
+        "id": "604b5faf6f90b7f6cad3ccd4",
+        "keywords": null,
+        "keywords_zh": [
+          "CompHEP",
+          "Vegas积分",
+          "蒙特卡罗",
+          "对撞机",
+          "高能物理",
+          "截面"
+        ],
+        "title": "Application of CompHEP in High-energy Physics Calculation",
+        "title_zh": "CompHEP在高能物理计算中的应用",
+        "year": 2019
+      },
+      {
+        "abstract": "In order to simplify the off-line data processing flow of Jiangmen Underground Neutrino Observation(JUNO) and reduce resource consumption,a general software system is proposed to process data in distributed computing environment.Based on Message Passing Interface(MPI),communication and data exchange between nodes are realized.Master/Worker architecture is used to manage the life cycle of computing jobs,including computing job splitting,computing resource allocation,computing task execution and monitoring.Test results show that the proposed system has good scalability,and the data generated by the system is consistent with the data generated by manual step-by-step execution of job scripts to run simulation software.",
+        "abstract_zh": "为简化江门中微子实验的离线数据处理流程,减少资源消耗,提出一种在分布式计算环境中进行数据处理的通用软件系统。基于信息传递接口实现节点间的通信与数据交换,使用Master/Worker架构对计算作业生命周期进行管理,包括计算作业拆分、计算资源分配以及计算任务执行与监控。测试结果表明,该系统具有良好的可扩展性,其产生的数据与人工逐步执行作业脚本运行模拟软件产生的数据一致。",
+        "doi": "10.19678/j.issn.1000-3428.0051077",
+        "id": "5d9deda49e795e9577086d14",
+        "keywords": [
+          "high energy physics|jiangmen underground neutrino observation(juno)|off-line data processing|distributed computing|message passing interface(mpi)"
+        ],
+        "keywords_zh": [
+          "高能物理",
+          "江门中微子实验",
+          "离线数据处理",
+          "分布式计算",
+          "信息传递接口"
+        ],
+        "title": "Distributed Data Processing System Based on MPI",
+        "title_zh": "基于MPI的分布式数据处理系统",
+        "year": 2019
+      },
+      {
+        "abstract": "High energy physics mainly studies elementary particles and the interactions among them through various types of experiments, which yield a tremendous amount of data every day. Also the high energy physics experiments are regional-crossing. How to transfer experimental data reliably and efficiently in real time from the on-site detector to a data center for processing and analysis is one of the most important research topics for each experiment. After considering the requirements from different experiments, this paper introduces a general purpose data transfer system, which meets the needs of various high energy physics experiments through the way of interface definition and configuration files. The sys-tem provides the following functions:multipath source data scanning, data transferring, system information sharing, sys-tem configuration, log management and performance monitoring. At present, the system has been used by the experiment of Jiangmen Underground Neutrino Observatory to transfer the data of photomultiplier tube measurements. The good per-formance of real operation shows the that system satisfies the experiment’s requirements.",
+        "abstract_zh": "高能物理主要通过各种实验来研究基本粒子及其相互作用,每个高能物理实验每天都会产生大量的实验数据。由于高能物理实验异地建设的特点,如何把实验数据实时、可靠的从实验现场传输到远程的数据中心进行处理和分析,是各个实验需要研究的重要课题。介绍了一种通用的高能物理数据传输系统,通过接口定义与配置文件相结合的方法,满足各个高能物理实验的需求。该系统的模块包括:多路径源数据扫描模块、数据传输模块、数据共享模块、系统配置模块、日志和监视模块等。目前,该系统已经应用于江门中微子实验光电倍增管测试的数据传输。实际运行结果表明,该系统性能良好,能够满足实验的需求。",
+        "doi": "10.3778/j.issn.1002-8331.1712-0325",
+        "id": "5d9e05019e795e957709a5cf",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "数据传输",
+          "通用系统"
+        ],
+        "title": "Studies and Implementation of Data Transfer System for High Energy Physics Experiment",
+        "title_zh": "高能物理实验数据传输系统的研究和实现",
+        "year": 2019
+      },
+      {
+        "abstract": "With more and more data generated by High Energy Physics(HEP)experiments, Hadoop has been a solution for HEP data analysis while facing with the demand of data migration. However, existing data migration tools do not sup-port data transmission between HDFS and other file systems, and have obvious performance deficiency. Based on the requirements of high-energy physical data synchronization and archiving, this paper designs and implements a universal mass data migration system, which uses MapReduce to directly move data between HDFS and other storage systems or media by extending the HDFS data access methods. In addition, dynamic priority scheduling model is proposed to do multi-tasks dynamic priority assignment and selection. The system has been applied to the data migration in LHAASO experiment, and the actual operation results indicate that the system achieves good performance and meets the data migra-tion requirements of various experiments.",
+        "abstract_zh": "当前高能物理实验产生的数据量越来越大,利用大数据处理平台Hadoop进行高能物理数据处理时,面临数据迁移的实际需求,而现有迁移工具不支持HDFS与其他文件系统间的数据传输,性能存在明显缺陷。从高能物理数据同步、归档等需求出发,设计和实现了一个通用的海量数据迁移系统,通过扩展HDFS数据访问方式,使用MapReduce直接在HDFS数据节点和其他存储系统/介质之间迁移数据。此外,系统设计实现了动态优先级调度模型,进行多任务的动态优先级评定和选取。该系统已经应用于大型高海拔空气簇射观测站(LHAASO)宇宙线等物理实验中的数据迁移,实际运行结果表明系统性能良好,能够满足各个实验的数据迁移需求。",
+        "doi": "10.3778/j.issn.1002-8331.1803-0095",
+        "id": "5d9e053c9e795e957709a6a7",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "数据迁移",
+          "GridFTP协议",
+          "动态优先级调度",
+          "多属性决策",
+          "Hadoop系统"
+        ],
+        "title": "Development and Application of Hadoop Massive Data Migration System",
+        "title_zh": "Hadoop海量数据迁移系统开发及应用",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "中国高能加速器建设计划在20世纪70年代末重新提上日程.高能加速器技术路线的确立,经历了从轰击固定靶质子加速器到正负电子对撞机的转变,即从\"八七工程\"的下马到北京正负电子对撞机方案的出台.\"八七工程\"是基于中国已有的技术基础和在最大范围内听取的海外专家的意见而做出的决定.因此,将\"八七工程\"称作\"洋跃进\"并不妥当.选择正负电子对撞机方案反而是一次\"冒险\"的决定,因为对撞机刚刚兴起不久,中国在改革开放之初还没有人才和技术基础.对撞机方案的选择离不开李政道等海外物理学家的强烈建议与积极支持.回顾这段历史,对中国大科学装置的建设具有启发意义.",
+        "doi": "10.3969/j.issn.1672-6804.2019.04.004",
+        "id": "604b6e016f90b7f6ca585128",
+        "keywords": null,
+        "keywords_zh": [
+          "八七工程",
+          "北京正负电子对撞机",
+          "李政道",
+          "中美高能物理合作"
+        ],
+        "title": "China's Technical Route for Building High-energy Accelerators at the Beginning of Reform and Opening up",
+        "title_zh": "改革开放之初中国建造高能加速器的 技术路线之争",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "随着大数据时代的到来,科学研究也进入了第四范式,科学数据成为科研过程中除科技文献外的另一项重要成果产出,受到越来越多研究者的关注.将科学数据与科技文献相关联,对于科学数据的保存管理和知识发现都具有十分重要的意义,尤其对于高能物理这类由海量科学数据支撑的学科更为重要.通过研究高能物理领域科学数据与科技文献关联的现状和已有平台,并以高能物理科学数据及科技文献为基础,结合当前科学数据与科技文献三种关联方法,分析其适用性及可行性,从而为高能物理科学数据与科技文献的关联提供研究基础和思路.",
+        "doi": "10.15941/j.cnki.issn1001-0424.2019.01.008",
+        "id": "604b6ce26f90b7f6ca4d947a",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "科学数据",
+          "科技文献",
+          "关联"
+        ],
+        "title_zh": "高能物理科学数据与科技文献关联研究",
+        "year": 2019
+      },
+      {
+        "abstract_zh": "高能物理实验不断的进步与发展产生了PB乃至EB级的数据,这些数据的采集、存储、传输与共享、分析与管理都面临着极大的问题与挑战。为了应对这些挑战,设计和实现了面向事例的数据管理系统,有效解决事例数据处理效率低以及分站点资源利用率低的问题。设计了一个基于Nosql数据库的事例索引系统,通过事例数据特征抽取,选取物理学家最感兴趣的属性作为索引,存储在数据库中,并采用倒排索引技术,提高事例数据检索的效率。针对事例数据进行缓存优化,减少数据转化和存储开销。提出数据跨域传输方案,充分利用网络带宽,降低分站点处理数据的延迟。系统进行了相关验证,实验结果表明,事例级的索引技术能够显著提高事例数据的检索效率,数据传输系统的网络带宽也可以利用到百分之九十以上。",
+        "doi": "10.3778/j.issn.1002-8331.1708-0220",
+        "id": "5d9e04e19e795e957709a55f",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "数据管理",
+          "数据传输",
+          "性能优化",
+          "多流传输"
+        ],
+        "title": "Research of event data management and data transfer system in high energy physics",
+        "title_zh": "高能物理事例级数据管理与传输系统的研究",
+        "year": 2018
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkt05PciRpaHYiDX8RtqVtq6"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "杨振宁在第二次回国期间的1972年6月27日至7月5日,与中国科技教育界进行了共计10次的较大范围交流.在此过程中,杨振宁力排众议,反对中国建造高能加速器.杨振宁认为,美国、日本建造高能加速器的经验都不适合中国,中国还不具备条件建造高能加速器,急着上马高能加速器对中国没有好处.杨振宁反对中国建造高能加速器有理有据,并提出了有针对性的建议,这对处于封闭状态中的中国科学家而言是有益的,而且对于后来中国高能加速器的建设也具有启发意义.",
+        "doi": "10.13806/j.cnki.issn1008-7095.2018.03.008",
+        "id": "604b32446f90b7f6ca587292",
+        "keywords": null,
+        "keywords_zh": [
+          "杨振宁",
+          "高能物理",
+          "高能加速器"
+        ],
+        "title": "Historical Traceability of Chen Ning Yang's Opposition to the Construction of the High-Energy Accelerator in China",
+        "title_zh": "杨振宁反对中国建造高能加速器之历史溯源",
+        "year": 2018
+      },
+      {
+        "abstract_zh": "本文回顾了何泽慧先生的成长经历及科研生涯,介绍了她在核物理方面的主要成就和对我国高能物理发展的贡献,总结了她给我们的启示.",
+        "doi": "10.3969/j.issn.1002-042X.2018.08.021",
+        "id": "604b5e916f90b7f6cacb315d",
+        "keywords": null,
+        "keywords_zh": [
+          "何泽慧",
+          "三分裂",
+          "四分裂",
+          "核乳胶",
+          "高能物理"
+        ],
+        "title_zh": "中国杰出的女核物理学家——何泽慧",
+        "year": 2018
+      },
+      {
+        "abstract": "High energy physics data consist of multiple events,among which there is no relativity.A high energy physics computing mission is parallelized by running multiple jobs processing multiple different data files simultaneously.Therefore,high energy physics computing is a typical high throughput computing scenario.The computer cluster running at the institute of high energy physics (IHEP) uses the open-source TORQUE/Maui for resource management and job scheduling.IHEP keeps a fair-use policy by dividing the computing resources of this cluster into multiple queues,and limiting the maximum number of running jobs of each user.However,this leads up to a low overall resource usage of the cluster.SLURM and HTCondor are both popular open-source resource management system.SLURM has plenty of job scheduling policy,while HTCondor well suits high throughput computing.Both of them are the possible solutions of resource management for computer clusters,replacing old,lack-of-service TORQUE/Maui.In this paper,job submission behavior of users from Daya Bay experiment was simulated at SLURM and HTCondor testing cluster,testing the resource allocation behaviors and efficiencies of SLURM and HTCondor.Their scheduling results were then compared with the actual scheduling result of the same jobs on IHEP TORQUE/Maui cluster.Finally the strengths and weaknesses of SLURM and HTCondor were analyzed,and the practicability of using SLURM or HTCondor to manage the IHEP computer cluster was discussed.",
+        "abstract_zh": "高能物理数据由物理事例组成,事例之间没有相关性。可以通过大量作业同时处理大量不同的数据文件,从而实现高能物理计算任务的并行化,因此高能物理计算是典型的高吞吐量计算场景。高能所计算集群使用开源的TORQUE/Maui进行资源管理及作业调度,并通过将集群资源划分成不同队列以及限制用户最大运行作业数来保证公平性,然而这也导致了集群整体资源利用率非常低下。SLURM和HTCondor都是近年来流行的开源资源管理系统,前者拥有丰富的作业调度策略,后者非常适合高吞吐量计算,二者都能够替代老旧、缺乏维护的TORQUE/Maui,都是管理计算集群资源的可行方案。在SLURM和HTCondor测试集群上模拟大亚湾实验用户的作业提交行为,对SLURM和HTCondor的资源分配行为和效率进行了测试,并与相同作业在高能物理研究所TORQUE/Maui集群上的实际调度结果进行了对比,分析了SLURM及HTCondor的优势和不足,探讨了使用SLURM或HTCondor管理高能物理研究所计算集群的可行性。",
+        "doi": "10.11896/j.issn.1002-137X.2017.010.016",
+        "id": "5d9dedc69e795e9577086fa9",
+        "keywords": null,
+        "keywords_zh": [
+          "资源管理系统",
+          "作业调度器",
+          "计算集群",
+          "高吞吐量计算",
+          "高能物理计算"
+        ],
+        "title": "Evaluation of Resource Management Methods for Large High Energy Physics Computer Cluster",
+        "title_zh": "大型高能物理计算集群资源管理方法的评测",
+        "year": 2017
+      },
+      {
+        "abstract": "As a new resource management technology, virtualization technology is more and more widely used in the field of high-energy physics. Static virtual machine cluster mode has been unable to meet dynamic demand for computing resource of multi-job queues. To solve this problem, an elastic computing resource management system under cloud com-puting environment has been designed and implemented. The high throughput computing system-HTCondor is used to run high-energy physics jobs and the cloud computing platform-Openstack is used to manage virtual computing nodes. An elastic resource management algorithm based on dual thresholds is proposed, combined with resource quota service. A two-stage pool is designed to improve the efficiency of resource pool expansion. At present, the system has been deployed in IHEPCloud. The practical run results show that with the changes of resource demand, the system adjusts the number of virtual computing nodes dynamically. CPU utilization of the cluster is significantly increased as well.",
+        "abstract_zh": "虚拟化技术作为一种新的资源管理技术,正在高能物理领域得到越来越广泛的应用.静态虚拟机集群方式已经逐渐不能满足多作业队列对于计算资源动态的需求.为此,实现了一种云计算环境下面向多作业队列的弹性计算资源管理系统.系统通过高吞吐量计算系统HTCondor运行计算作业,使用开源的云计算平台Openstack管理虚拟计算节点,给出了一种结合虚拟资源配额服务,基于双阈值的弹性资源管理算法,实现资源池整体伸缩,同时设计了二级缓冲池以提高伸缩效率.目前系统已部署在高能所公共服务云IHEPCloud上,实际运行结果表明,当计算资源需求变化时系统能够动态调整各队列虚拟计算节点数量,同时计算资源的CPU利用率相比传统的资源管理方式有显著的提高.",
+        "doi": "10.3778/j.issn.1002-8331.1610-0368",
+        "id": "5d9e03a89e795e957709a111",
+        "keywords": [
+          "elastic computing resource management",
+          "virtual computing cluster",
+          "high-energy physics computing",
+          "dynamic schedule",
+          "HTCondor",
+          "Openstack",
+          "resource utilization"
+        ],
+        "keywords_zh": [
+          "弹性计算资源管理",
+          "虚拟计算集群",
+          "高能物理计算",
+          "动态调度",
+          "HTCondor",
+          "Openstack",
+          "资源利用率"
+        ],
+        "title": "Elastic Computing Resource Management Mechanism for High-Energy Physics Cloud Platform",
+        "title_zh": "高能物理云平台中的弹性计算资源管理机制",
+        "year": 2017
+      },
+      {
+        "abstract": "Nowadays ,more and more scientific data has been produced by new generation high energy physics facilities .The scale of the data can be achieved to PB or EB level even by one experiment , which brings big challenges to data management technologies such as data acquisition , storage , transmission ,sharing ,analyzing and processing .Event is the basic data unit of high energy physics , and one large high energy physics experiment can produce trillions of events .The traditional high energy physical data processing technology adopts file as a basic data management unit ,and each file contains thousands of events .The benefit of file-based method is to simplify the complexity of data management system .However ,one physical analysis task is only interested in very few events ,which leads to some problems including transferring too much redundant data , I∕O bottleneck and low efficiency of data processing .To solve these problems ,this paper proposes an event-oriented high energy physical data management method ,which focuses on high efficiency indexing technology of massive events .In this method ,event data is still stored in ROOT file while a large amount of events are indexed by some specified properties and stored in NoSQL database .Finally ,experimental test results show the feasibility of the method ,and optimized HBase system can meet the requirements of event index .",
+        "abstract_zh": "新一代高能物理实验装置的建成与运行,产生了PB乃至EB量级的数据,这对数据采集、存储、传输与共享、分析与处理等数据管理技术提出了巨大挑战.事例是高能物理实验的基本数据单元,一次大型实验即可产生万亿级的事例.传统高能物理数据处理以ROOT文件为基本存储和处理单位,每个ROOT文件可以包含数千至数亿个事例.这种基于文件的处理方式虽然降低了高能物理数据管理系统的开发难度,但物理分析仅对极少量的稀有事例感兴趣,这导致了数据传输量大、I∕O瓶颈以及数据处理效率低等问题.提出一种面向事例的高能物理数据管理方法,重点研究海量事例特征高效索引技术.在这种方法中,将物理学家感兴趣的事例的特征量抽取出来建立专门的索引,存储在NoSQL数据库中.为便于物理分析处理,事例的原始数据仍然存放在ROOT文件中.最后,通过系统验证和分析表明,基于事例特征索引进行事例筛选是可行的,优化后的HBase系统可以满足事例索引的需求.",
+        "doi": "10.7544/issn1000-1239.2017.20160939",
+        "id": "5d9de13d9e795e95770798c5",
+        "keywords": [
+          "high energy physics",
+          "data management",
+          "event index",
+          "HBase",
+          "query optimization"
+        ],
+        "keywords_zh": [
+          "高能物理",
+          "数据管理",
+          "事例索引",
+          "HBase",
+          "查询优化"
+        ],
+        "title": "Data Management Challenges and Event Index Technologies in High Energy Physics",
+        "title_zh": "高能物理大数据挑战与海量事例特征索引技术研究",
+        "year": 2017
+      },
+      {
+        "abstract_zh": "非阿基米德动力系统是中国科技部重点项目命题,学科代码为A0105,该研究涉及拓扑学与(复)动力系统.新兴高能物理动力研究是针对粒子物理之外的高能物理现象原因和规律的揭示,侧重于非阿基米德动力系统的研究.从拓扑相变方法中发现了一种新兴高能物理的科学成果,有望使人类进入对能量利用的自由王国.描述了其基本原理与产品技术特性,给出新兴高能物理的定义,并做出了展望.",
+        "doi": "10.3969/j.issn.1006-8945.2017.05.009",
+        "id": "604b5a9e6f90b7f6caae9e9b",
+        "keywords": null,
+        "keywords_zh": [
+          "非阿基米德动力系统",
+          "拓扑相变",
+          "二力不等平衡力矩",
+          "新兴高能物理"
+        ],
+        "title": "Emerging High-energy Physical Dynamics Based on Non-Archimedean Power System",
+        "title_zh": "非阿基米德的新兴高能物理动力研究",
+        "year": 2017
+      },
+      {
+        "abstract": "There is full of contention research project interests, the size of the scientific dispute, cognition and dispute in SSC and LHC projects, which eventually led to the application of the different fates. As the increasingly close ties between science and techno-loge and society, the depth and breadth of public participation in science continue to expand, and even have a significant impact on the scientific process. From SSC and LHC projects, the paper analyzes dispute in \"Big Science\" projects of the basic physics, and puts some suggestions.",
+        "abstract_zh": "对比SSC、LHC两大对撞机项目,其中充斥的科研立项利益之争、 大小科学之争、 认知与应用之争最终导致了二者的不同命运.随着科学技术与社会联系的日益紧密,公众参与科学的深度和广度不断拓展,甚至对科学研究过程产生重大影响.文章从SSC、LHC项目出发,分析基础物理\"大科学\"工程中的争议,并对其创新环境问题提出一些建议.",
+        "doi": "10.13580/j.cnki.fstc.2017.09.002",
+        "id": "604b5bc86f90b7f6cab85349",
+        "keywords": [
+          "SSC",
+          "LHC",
+          "High energy physics",
+          "Big Science project"
+        ],
+        "keywords_zh": [
+          "SSC",
+          "LHC",
+          "高能物理",
+          "\"大科学\"工程"
+        ],
+        "title": "Collider: Physical Progress or Criticism? ——The Dispute of \"Big Science\" Projects in Basic Physics from the SSC and LHC Projects",
+        "title_zh": "对撞机:物理学的进步或诘难? ——从SSC、LHC看基础物理 \"大科学\"工程的争议",
+        "year": 2017
+      },
+      {
+        "abstract": "Computing in high energy physics (HEP) is a typical data-intensive application including simulation,reconstruction and physical analysis.Generally,the HEP experiment file is very big and the way of accessing to the files is usually skipping through large data blocks.Therefore,the performance of accessing to big files is one of decisive factors for the HEP computing system.Firstly,this paper analyzed the typical structure of the computing environment in high energy physics and the characters of accessing to files,introduced the advantages of hybrid storage system in high energy physics,summarized the characteristics of data access mode,evaluated the performance of different read/write mode,then proposed a new deployment model of hybrid storage system in high energy physics,which is proved to have higher I/O performance,at the same time the cost was considered to implement a high-performance system with low cost.The test result shows that the hybrid storage system has good performance in some fields such as HEP.Based on the analysis,it can help to get better I/O performance with lower price in High Energy Physics.At the last,the future of the hybrid storage system was analyzed.",
+        "abstract_zh": "高能物理是典型的数据密集型计算环境,数据处理包括模拟计算、重建计算以及物理分析。其中大文件计算占据较大比重,并且高能物理文件访问模式以跳读为主,因此大文件的高速访问成为整个系统性能的重要影响因素。首先剖析传统高能物理计算环境的典型架构及其文件访问模式的特点,介绍混合存储模式在高能物理计算环境中的优势,总结其数据访问方式的特点,对其各种读写方式进行数据测试;然后提出针对该环境的混合存储系统的部署设计和优化,使该环境下的数据读写性能得到明显提高;同时将成本因素考虑到系统设计中,实现了一个低成本高性能的存储系统。测试表明,混合存储系统在高能物理等大数据存储系统中具有高效的I/O性能。文中全面分析了影响其性能的各种因素,实现了最优化配置的低成本高性能混合存储系统,并对该系统的未来发展趋势进行了分析和展望。",
+        "doi": "10.11896/j.issn.1002-137X.2017.010.014",
+        "id": "5d9dedc89e795e9577086fc5",
+        "keywords": null,
+        "keywords_zh": [
+          "海量存储系统",
+          "高能物理",
+          "混合存储系统",
+          "缓存",
+          "块设备",
+          "高性能计算",
+          "性价比"
+        ],
+        "title": "Design and Optimization of Hybrid Storage System in HEP Environment",
+        "title_zh": "高能物理环境中混合存储系统的设计与优化",
+        "year": 2017
+      },
+      {
+        "abstract": "Deep learning is a machine learning algorithm which learns intrinsic repre-sentations of complex data by multi-layer abstractions of information. It has dramatically improved the state-of-the-art in visual object recognition and detection, speech recognition, and many other artificial intelligence computing tasks. This paper will first introduce the basics of the algorithm and the motivations of its application in high energy physics computing. The applications of deep neural, convolutional neural and recursive neural networks as well as other models of deep learning in high energy physics will be summarized, together with several case studies. Finally, problems and potential solutions in the integration of deep learning with current high energy computing environments will be briefly mentioned.",
+        "abstract_zh": "深度学习是一类通过多层信息抽象来学习复杂数据内在表示关系的机器学习算法.近年来,深度学习算法在物体识别和定位、语音识别等人工智能领域,取得了飞跃性进展.文章将首先介绍深度学习算法的基本原理及其在高能物理计算中应用的主要动机.然后结合实例综述卷积神经网络、递归神经网络和对抗生成网络等深度学习算法模型的应用.最后,文章将介绍深度学习与现有高能物理计算环境结合的现状、问题及一些思考.",
+        "doi": "10.7693/wl20170904",
+        "id": "604b5e6f6f90b7f6caca2462",
+        "keywords": [
+          "deep learning",
+          "artificial intelligence",
+          "computing in high energy physics",
+          "convolu-tional neural networks",
+          "recursive neural networks"
+        ],
+        "keywords_zh": [
+          "深度学习",
+          "人工智能",
+          "高能物理计算",
+          "深度神经网络",
+          "卷积神经网络",
+          "递归神经网络"
+        ],
+        "title": "The application of deep learning in high energy physics",
+        "title_zh": "深度学习在高能物理领域中的应用",
+        "year": 2017
+      },
+      {
+        "abstract_zh": "提出一种基于软件定义网络架构的大批量高能物理科学数据交换虚拟专用网思想,构建跨地域的高能物理实验合作单位之间SDN架构网络,设计数据传输智能路径选择算法,利用充足的IPv6链路资源服务于高能物理科学数据传输,解决大批量高能物理科学数据传输需求对现有网络带宽不足的压力,保障高能物理科学数据在合作单位之间高速、稳定、安全地传输.",
+        "doi": "10.3778/j.issn.1002-8331.1405-0391",
+        "id": "604b3aaa6f90b7f6caa73d1f",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理数据",
+          "软件定义网络",
+          "虚拟专用网",
+          "智能路径"
+        ],
+        "title": "Research on virtual private network based on software-defined network architecture for high energy physics scientific data exchange",
+        "title_zh": "基于SDN的高能物理数据交换虚拟专用网研究",
+        "year": 2016
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObksEzEODnnyWFgj0E7jSOSEz"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "The authors introduce models, funded journals and operational mechanism of SCOAP3, which aims to transfer academic articles in high energy physics（HEP） to open access publishing by organizing funding consortium. The open access publishing funding method SCOAP3 represents is more suitable for digit＇,d and network age. Furthermore, it is more cost-effective to guarantee knowledge accessibility. The authors strengthen that the new model has the same aim with the nature of libraries＇ role of information accessibility. Besides, SCOAP3 provides an alternative way of information services for libraries which contributes to libraries＇ position and performance.",
+        "abstract_zh": "介绍SCOAP3资助联盟将高能物理学术论文转为开放出版的基本模式、内容范围和运行机制，指出它所代表的开放出版资助方式更适合数字网络时代，能更有效、更经济地保障知识获取，强调这种模式同样服务于图书馆保障信息获取的本质目标，并为图书馆扩展信息服务、提高自身地位和作用提供新的空间。",
+        "id": "53e9b7e1b7602d9704391a18",
+        "keywords": [
+          "SCOAP3 high energy physics open access publishing resource subscription collection development open access"
+        ],
+        "keywords_zh": [
+          "SCOAP3",
+          "高能物理",
+          "开放出版",
+          "文献订购",
+          "资源建设",
+          "开放获取"
+        ],
+        "title": "Transformation of Libraries＇ Collection Development Models in the Context of SCOAP3",
+        "title_zh": "从SCOAP3模式看图书馆资源建设的范式转变",
+        "year": 2016
+      },
+      {
+        "abstract_zh": "高能物理实验具有大数据量和高计算量的特点,需要分布式计算系统对多个合作单位的计算和存储资源进行整合。中国科学院高能物理研究所已经创建了分布式计算环境,并实现对多个高能物理实验的稳定支持。近年来由于云计算技术不断发展成熟,其扩展性和易定制的特性非常适合应用于高能物理实验计算,是一种新的分布式计算资源类型。我们对云计算与分布式计算的结合应用进行了研究,成功将云计算整合到中国科学院高能物理研究所的分布式计算系统中,实现云站点的稳定运行,并进入生产状态提供给物理用户使用。",
+        "doi": "10.11871/j.issn.1674-9480.2016.03.006",
+        "id": "604b39936f90b7f6ca9cfe40",
+        "keywords": null,
+        "keywords_zh": [
+          "云计算",
+          "高能物理实验",
+          "分布式计算",
+          "DIRAC",
+          "VMDIRAC"
+        ],
+        "title": "Integrating Cloud Computing into Distributed Computing for Experiment of High Energy Physics",
+        "title_zh": "云计算与高能物理实验分布式计算的结合应用",
+        "year": 2016
+      },
+      {
+        "abstract": "Traditional cluster computing resources can only partly meet the demand for massive data processing in high-energy physics.A high-energy physics computing system is proposed based on desktop grid technology.The system uses virtualization technology to deploy high-energy physics data processing on it,and designs image metadata service,and manages remote image database.The computing system is built on the technologies of DIRAC,BOINC,and 3G-bridge.Among them,BOINC is used to provide a new platform of computing resource,3G-bridge is used to handle job requests,and DIRAC is used for job submission.Test and analysis results show that the new system is stable,reliable and efficient for data processing with good computing performance and scalability.",
+        "abstract_zh": "针对传统的集群计算资源无法满足高能物理计算中对于海量数据处理的需求,基于桌面网格技术提出一种新型高能物理计算系统.该系统通过虚拟化技术,实现高能物理计算在桌面网格上的应用部署,并且设计镜像元数据服务进行远程镜像库管理.根据高能物理计算的特点,实现以DIRAC,BOINC,3G-bridge为基础的新型桌面高能物理计算系统.系统以BOINC计算服务为基本框架,3G-bridge处理作业请求,DIRAC提交计算作业.测试与分析结果表明,该系统能对高能物理作业提供稳定高效的计算服务,计算结果可靠,具有高可扩展性.",
+        "doi": "10.3969/j.issn.1000-3428.2016.06.009",
+        "id": "604b7d4a6f90b7f6caeeb6ed",
+        "keywords": [
+          "high energy physics computing",
+          "desktop grid",
+          "virtualization",
+          "image metadata",
+          "DIRAC platform",
+          "3G-bridge service",
+          "BOINC system"
+        ],
+        "keywords_zh": [
+          "高能物理计算",
+          "桌面网格",
+          "虚拟化",
+          "镜像元数据",
+          "DIRAC平台",
+          "3G-bridge服务",
+          "BOINC系统"
+        ],
+        "title": "High Energy Physics Computing System Based on Desktop Grid Technology",
+        "title_zh": "基于桌面网格技术的高能物理计算系统",
+        "year": 2016
+      },
+      {
+        "abstract": "The experiments of highenergy physics are of big science, high demands, big data, massive calculations, big discovery, and these characteristics make the highenergy physics research require a variety of computing technology, including data cluster, high energy physics grid, super computing, cloud computing, volunteer computing, and distributed resource integration. In this paper, a brief description is made on the development of a variety of information support means for high energy physics experiments, including cloud computing, distributed storage, network transmission and collaborative environment.",
+        "abstract_zh": "高能物理实验具有大科学、大需求、大数据、大计算、大发现的特征，这些特征决定了进行高能物理研究需要多种计算技术，包括集群、网格、超算、云计算、志愿计算等方式，同时需要分布式的资源整合。本文针对高能物理实验的多种信息化支撑手段，包括云计算、分布式存储、网络传输以及协同环境等方面的发展进行了简要描述。",
+        "doi": "10.11871/j.issn.1674-9480.2016.01.001",
+        "id": "604b39936f90b7f6ca9cfe63",
+        "keywords": null,
+        "keywords_zh": [
+          "大数据",
+          "高能物理",
+          "粒子实验",
+          "云计算"
+        ],
+        "title": "Big Data of Particle Experiment in High Energy Physics",
+        "title_zh": "高能物理粒子实验中的大数据技术",
+        "year": 2016
+      },
+      {
+        "abstract": "With the development of techniques in the ultrafast physics experiment,there is an urgent need to fabricate a diagnostic equipment with a sufficiently high temporal and spatial resolution to study the characteristics of high energy products.As the resolution of the currently used ultra-high speed rotating mirror photography cannot meet the needs of the experiment,the ultra-high speed photo-electric camera has attracted increasingly greater attention due to its much higher resolution achieved. In our experiment the photo-electric and rotating mirror camera was used to investigate expanding fractures of the cylinder shell.The results show that the photo quality obtained by the photo-electric camera is greatly improved because this camera has a greater ability to eliminate motion blur during the experiment,and is capable of taking more photos.Thus we propose to use two cameras jointly so as to gain a better understanding of the physical process under investigation.",
+        "abstract_zh": "随着超快物理实验研究的开展，急需建立高时空分辨的测量设备以研究高能产物的运动特性。目前，转镜高速分幅摄影相机的时间分辨力已经不能完全满足需求。因此，研究具有更高时间分辨能力的超高速光电分幅相机具有重要的意义。借助自研的超高速光电分幅相机，进行了爆轰加载下的柱壳膨胀断裂实验，同时使用转镜相机进行测量。实验结果表明，光电相机的消动态模糊能力更强，拍摄效果更好，而转镜相机拍摄的幅数更高。根据该结果，建议将两种相机配合使用，以更好地对物理过程进行测量。",
+        "doi": "10.11858/gywlxb.2016.02.001",
+        "id": "604b5eca6f90b7f6cacca9bc",
+        "keywords": [
+          "testing technology",
+          "high energy physics",
+          "detonation experiment",
+          "photo-electric framing camera"
+        ],
+        "keywords_zh": [
+          "测试技术",
+          "高能物理",
+          "爆轰实验",
+          "光电分幅相机"
+        ],
+        "title": "Experimental Research of Expanding Fracture of Cylinder Shell by High Speed Optical Photography",
+        "title_zh": "爆轰加载下柱壳膨胀断裂的超高速光电摄影实验研究",
+        "year": 2016
+      },
+      {
+        "abstract": "High energy collider produces several billions of events in the whole life time. Physical analysis is to select thousands of meaningful events from them and it is a typical big data processing and data mining application. Therefore, it is significantly important to design an efficient data structure, storage and access mechanism, so that the meaningful events can be selected quickly. This paper introduces event data structure,storage and processing technology in popular. This paper analyses the features of high energy physics analysis and proposes a new technology of data storing and processing for high energy physics. This paper fertilizes HBase to store data, uses MapReduce to implement parallel processing and selects ROOT and BEAN as high energy physics analysis frame. This paper also describes the specific design and implementation of the new platform. Test result shows that compared with traditional data storage system of high energy physics, the system has quick data processing speed, it can use effectively I/O and CPU resources when reselection goes into effect.",
+        "abstract_zh": "高能物理对撞机产生数百亿计的物理事例,而物理分析则是从中选取几千个有意义的事例,该分析过程是一个典型的大数据处理及数据挖掘应用。由此,设计高效的数据结构、存储及访问机制,快速挑选出有意义的物理事例十分重要。介绍事例的数据结构、存储和处理技术,分析高能物理数据的特点,提出一种以HBase,ROOT,BEAN及MapReduce为基础的新型高能物理数据存储及处理技术系统。利用HBase存储数据、MapReduce实现并行处理,选择ROOT和BEAN作为高能物理分析框架,并给出具体设计与实现方案。测试结果表明,与传统高能物理数据存储系统相比,该系统具有更快的数据处理速度,当预筛选服务生效时能够更加有效地利用I/O和CPU资源。",
+        "doi": "10.3969/j.issn.1000-3428.2015.06.010",
+        "id": "5d9df1149e795e957708ac63",
+        "keywords": [
+          "high energy physics data",
+          "big data",
+          "HBase database",
+          "ROOT frame",
+          "BEAN framework",
+          "MapReduce frame-work"
+        ],
+        "keywords_zh": [
+          "高能物理数据",
+          "大数据",
+          "HBase数据库",
+          "ROOT框架",
+          "BEAN框架",
+          "MapReduce框架"
+        ],
+        "title": "HBase-based Storage and Analysis Platform for High Energy Physics Data",
+        "title_zh": "基于HBase的高能物理数据存储及分析平台",
+        "year": 2015
+      },
+      {
+        "abstract_zh": "本文概述了张文裕先生一生的主要经历与成就，突出了他对于我国高能物理、宇宙线物理等领域以及近代物理研究所、高能物理研究所与中国科技大学等单位科研、教学诸方面的贡献，从中可以体会到张文裕先生对科学、对祖国、对人民的一片赤子之心。",
+        "doi": "10.3969/j.issn.0509-4038.2015.03.037",
+        "id": "604b5e796f90b7f6caca8395",
+        "keywords": null,
+        "keywords_zh": [
+          "张文裕",
+          "宇宙线物理",
+          "高能物理",
+          "加速器"
+        ],
+        "title_zh": "中国宇宙线物理与高能物理的奠基人--张文裕",
+        "year": 2015
+      },
+      {
+        "abstract_zh": "传统集群计算系统无法充分利用本地磁盘的存储资源和I/O,大量网络I/O成为系统瓶颈,导致资源利用率降低,并造成高昂的存储和网络成本.使用Hadoop处理分析作业可有效利用本地磁盘存储和I/O资源,而集群资源统一管理工具Mesos则使用轻量化的设计和高效的通信机制,能在不同计算集群之间动态共享集群资源.为此,分析高能物理数据处理的特点,利用Mesos构建异构集群间资源共享的高能物理实验数据处理系统,实现Torque/Maui和Hadoop集群的集成.测试结果表明,该系统能够在集群间动态分配集群资源,并利用本地存储和磁盘I/O显著降低网络I/O,提高集群资源利用率.",
+        "doi": "10.3969/j.issn.1000-3428.2015.01.001",
+        "id": "5d9df0589e795e9577089f21",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "集群资源管理",
+          "资源共享",
+          "Mesos工具",
+          "Hadoop平台",
+          "Torque/Maui系统"
+        ],
+        "title": "High Energy Physics Data Processing System with Parallel Heterogeneous Clusters",
+        "title_zh": "支持异构集群并行的高能物理数据处理系统",
+        "year": 2015
+      },
+      {
+        "abstract": "New scientific studies are moving into the era of big science with large facilities and global collaborations. Large amounts of data are being produced from large research facilities, generating challenges regarding data collection, processing, storing, and distributing. This study discusses some of the data challenges facing large scientific research projects and the practices to meet such challenges. High-energy physics is one such research area generating tens of petabytes of data per year. The data of high-energy physics experiments should be properly collected, securely stored, and distributed to and processed in laboratories around the world. The high-energy physics community has developed the Worldwide LHC Computing Grid (WLCG)system, which successfully supports data processing and analysis for Large Hadron Collider experiments. The WLCG also successfully supports many other scientific disciplines. New technologies based on software-defined networks and cloud storage have been developed to provide new services in data management. The final section of the paper discusses the application of cloud computing in science computing.",
+        "abstract_zh": "现代科学研究的一个重要模式就是大科学项目,其特点是大科学装置和合作,并产生海量的科研数据.数据密集型的大科学项目对数据的采集、存储、分发和处理有着巨大的需求.本文以大科学项目为案例讨论了科研大数据在数据采集、处理、存储以及网络等方面的挑战,以及相应的应对方法.其中,国际上的高能物理实验每年产生数十拍字节(PB)的数据,这些数据需要妥善地记录和保存下来,并高效地分发到世界各地进行分析处理.高能物理学家基于网格技术合作建立了大数据处理的WLCG网格平台,该平台成功地支持了大型强子对撞机实验数据的处理和分析,同时也支持了其他大科学项目,取得很好的效果.另外,为了解决对数据的高效存储和访问,新的存储技术和网络技术,如软件定义网络和云存储等,被开发应用到科学大数据中.最后还介绍了云计算技术在科研大数据中的应用.",
+        "doi": "10.1360/n972014-00855",
+        "id": "56d88af4dabfae2eeeb63c89",
+        "keywords": [
+          "large facility",
+          "big data",
+          "high energy physics",
+          "e-infrastructure",
+          "data storage",
+          "grid computing",
+          "cloud computing"
+        ],
+        "keywords_zh": [
+          "大科学装置",
+          "大数据",
+          "高能物理",
+          "信息化",
+          "数据存储",
+          "网格计算",
+          "云计算"
+        ],
+        "title": "Challenges of Big Data in Science Researches",
+        "title_zh": "科学研究大数据挑战",
+        "year": 2015
+      },
+      {
+        "abstract": "The high energy physics experiments carried out by Beijing Spectrometer III (BESIII)need to process and analysing massive data.In order to tackle the challenges raised by the massive data on computing resources,BESIII experiments constructed the uniform distributed computing platform based on the distributed architecture software DIRAC.In light of specific requirements of experiments,we studied the accounting system of BESIII distributed computation,used MongoDB as the underlying storage database of the system,and employed compound shard key and replica sets strategy to improve the scalability and availability of the system.Furthermore,we presented the dynamic time window-based data compression method and realised real-time responses on the statistic query results;based on Matplotlib and Map/Reduce we improved analysis speed and implemented the diversified display of analysis results.Currently,the system has been applied to the data collection and analysis on the computing platform.Test showed that the accounting system based on MongoDB was in good performance and could meet the requirements of the experiment.",
+        "abstract_zh": "北京谱仪III（BESIII）高能物理实验要对海量的数据进行处理与分析。为了应对海量数据对计算资源提出的挑战,BESIII实验基于分布式架构软件DIRAC构建了统一的分布式计算平台。针对实验具体需求,对BESIII分布式计算的记账系统进行研究,以MongoDB作为系统底层存储数据库,采用复合片键以及副本集策略,提高系统可扩展性与可用性;提出基于动态时间窗口的数据压缩算法,实现了统计查询结果的实时响应;基于Map/Reduce、Matplotlib提高分析速度以及实现分析结果的多样化展示。目前该系统已被用于计算平台信息的收集和分析。测试表明基于MongoDB的记账系统表现出了良好的性能,能够满足实验的需要。",
+        "doi": "10.3969/j.issn.1000-386x.2015.09.015",
+        "id": "604b3a2b6f90b7f6caa32968",
+        "keywords": [
+          "Accounting system",
+          "MongoDB",
+          "Distributed computing",
+          "Data compaction",
+          "High energy physics"
+        ],
+        "keywords_zh": [
+          "记账系统",
+          "MongoDB",
+          "分布式计算",
+          "数据压缩",
+          "高能物理"
+        ],
+        "title": "RESEARCH AND APPLICATION OF MONGODB-BASED BESIII DISTRIBUTED COMPUTING ACCOUNTING SYSTEM",
+        "title_zh": "基于MongoDB的BESIII分布式计算记账系统的研究与实现",
+        "year": 2015
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkub9VaOnUCRnshHiaXbVDnd"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "简要综述了快速闪烁晶体在未来高能物理实验中的应用和目前研究进展.在未来高亮度强子对撞机(HL-LHC)上通过采用高亮度、快速和高抗辐照强度的LYSO晶体为CMS的量能器升级,可以建成具有良好E/γ能量分辨率的稳定的精密电磁量能器.通过读取PbF2,PbFCl和BSO晶体中的切伦科夫光和闪烁光,可以为未来的轻子对撞机建立具有良好的喷注能量分辨率的均匀强子量能器.有亚纳秒衰变时间的BaF2晶体将为未来的高能物理强度前沿实验建立在速率及时间分辨率提高超过10倍的晶体量热器.对新型快闪烁晶体如PbFCl,YAP∶Yb,ZnO∶ Ga和CuI的研究可能为今后高能物理实验发挥重要作用.",
+        "doi": "10.3969/j.issn.1004-1540.2014.02.001",
+        "id": "604b41f16f90b7f6cae6730c",
+        "keywords": null,
+        "keywords_zh": [
+          "闪烁晶体",
+          "高能物理",
+          "量能器",
+          "抗辐射"
+        ],
+        "title": "Fast crystal scintillators for future HEP experiments",
+        "title_zh": "快速闪烁晶体在未来高能物理实验中的应用",
+        "year": 2014
+      },
+      {
+        "abstract": "This paper describes the requirements of high energy physics computing, introduces a typical computing model, discusses the architecture and popular technologies in high energy physics computing environment, including front-end login cluster, massive storage system, job management system, virtual cluster computing system, backup and hierarchical storage, user management, automatic software deployment, system monitoring and grid systems. The status and prospects of high energy physics computing environment are summarized.",
+        "abstract_zh": "本文介绍了高能物理的计算需求，探讨了典型的高能物理计算模型，详细介绍了常用的计算技术和系统，包括前端登录集群、海量存储系统、作业管理系统、虚拟计算系统、备份与分级存储、用户管理、软件自动部署、系统监视、网格系统等。对高能物理计算环境现状进行总结，并提出展望。",
+        "doi": "10.11871/j.issn.1674-9480.2014.03.001",
+        "id": "604b39936f90b7f6ca9cfcaf",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "高性能计算",
+          "海量存储",
+          "网格"
+        ],
+        "title": "A survey of High Energy Physics Computing System",
+        "title_zh": "高能物理计算环境概述",
+        "year": 2014
+      },
+      {
+        "abstract": "The high energy physics experiment of Beijing Electron Spectrum III(BESIII) produces experimental data of the magnitude of PB, which becomes an immense challenge for the existing computing resources. In order to solve the bottleneck problem, the distributed computing is considered as one of the most realistic solutions. According to the need, the metadata management is studied as an important component of BESIII distributed computing. The metadata model is designed and then metadata management system is implemented by using the catalog service of the DIRAC middleware. It adopts new techniques such as tree-like directory structure, dynamic construction of data file names and virtual datasets etc to effectively organize and store all kinds of metadata, and provides the mapping among inquiry requests, logical files and physical files. It uses the digital certificate and OpenSSL protocol to guarantee the system security. The system is set up and applied to the data processing and analysis. Test results show that its query time is just 0.3 s when it is accessed by 300 clients at the same time, so its performance meets the requirements of the BESIII experiment.",
+        "abstract_zh": "北京谱仪III（BESIII）高能物理实验产生PB量级的实验数据,海量数据的处理和分析对计算资源提出较大挑战。分布式计算是整合异构计算资源和解决计算资源短缺的可行方案。根据BESIII实验需求对分布式计算所需的元数据管理进行研究,提出数据文件的元数据模型,利用中间件软件DIRAC的目录服务设计并实现元数据管理系统。该系统利用树型目录结构、物理文件名动态构建和虚拟数据集等技术,组织和存储各种类型的元数据,实现查询请求、逻辑文件以及物理文件之间的映射,使用数字证书和开放安全套接层协议保证系统安全。将该系统应用于实验数据分析和处理中,测试结果表明,当并发用户访问量为300时,查询时间仅为0.3 s,证明该系统性能较好,可以满足BESIII实验的应用需要。",
+        "doi": "10.3969/j.issn.1000-3428.2014.02.009",
+        "id": "5d9def809e795e9577088eee",
+        "keywords": [
+          "metadata",
+          "metadata model",
+          "distributed computing",
+          "metadata management",
+          "catalog service",
+          "high energy physics"
+        ],
+        "keywords_zh": [
+          "元数据",
+          "元数据模型",
+          "分布式计算",
+          "元数据管理",
+          "目录服务",
+          "高能物理"
+        ],
+        "title": "Metadata Management for BESIII Distributed Computing",
+        "title_zh": "BESⅢ分布式计算的元数据管理",
+        "year": 2014
+      },
+      {
+        "abstract_zh": "简要阐述了什么是Higgs机制并回顾了其诞生的过程,并探讨了当代粒子物理学所面临的核心问题.",
+        "doi": "10.16854/j.cnki.1000-0712.2014.02.004",
+        "id": "604b5ea86f90b7f6cacbd059",
+        "keywords": null,
+        "keywords_zh": [
+          "诺贝尔物理学奖",
+          "高能物理",
+          "Higgs粒子",
+          "对称性自发破缺",
+          "大型强子对撞机",
+          "超出标准模型新物理"
+        ],
+        "title": "2013 Nobel prize in physics and modern particle physics",
+        "title_zh": "2013年诺贝尔物理学奖和当代粒子物理学",
+        "year": 2014
+      },
+      {
+        "abstract": "This paper brings the idea of MapReduce parallel processing to high energy physics data analysis, proposes a high energy physics data analysis system based on Hadoop framework. It significantly reduces the number of events that need to do further analysis by 2~3 classes by establishing an event TAG information database, which reduces the I/O volume and improves the efficiency of data analysis jobs. It designs proper MapReduce libs that fit for the ROOT framework to do things such as data splitting, event fetching and result merging by using event pre-selection model based on TAG information and MapReduce model of event analysis. A real system is implemented on BESIII experiment, an 8-nodes cluster is used for data analysis system test, the test result shows that the system shortens the data analyzing time by 23% of 4×106 event, and event number of concurrence analysis per second is higher than cluster nodes when adding more worker nodes, which explains that the case analysis cluster has a good scalability.",
+        "abstract_zh": "将MapReduce思想引入到高能物理数据分析中,提出一个基于Hadoop框架的高能物理数据分析系统。通过建立事例的TAG信息数据库,将需要进一步分析的事例数减少2~3个数量级,从而减轻I/O压力,提高分析作业的效率。利用基于TAG信息的事例预筛选模型以及事例分析的MapReduce模型,设计适用于ROOT框架的数据拆分、事例读取、结果合并等MapReduce类库。在北京正负电子对撞机实验上进行系统实现后,将其应用于一个8节点实验集群上进行测试,结果表明,该系统可使4×106个事例的分析时间缩短23%,当增加节点个数时,每秒钟能够并发分析的事例数与集群的节点数基本呈正比,说明事例分析集群具有良好的扩展性。",
+        "doi": "10.3969/j.issn.1000-3428.2014.02.001",
+        "id": "5d9def8d9e795e9577088ff2",
+        "keywords": [
+          "high energy physics",
+          "big data",
+          "data analysis",
+          "MapReduce model",
+          "cluster",
+          "distributed computing"
+        ],
+        "keywords_zh": [
+          "高能物理",
+          "大数据",
+          "数据分析",
+          "MapReduce模型",
+          "集群",
+          "分布式计算"
+        ],
+        "title": "High Energy Physics Data Analysis System Based on MapReduce",
+        "title_zh": "基于MapReduce的高能物理数据分析系统",
+        "year": 2014
+      },
+      {
+        "abstract": "This article reviews the development of the SCOAP3 initiative,describes its open access publishing specifications,funding mechanisms with subscription fee deduction models,and member management layers.Finally it analyzes SCOAP3's impact on research,publishing and libraries.",
+        "abstract_zh": "回顾SCOAP3的发展历程,介绍其开放出版规范、经费保障机制、订购经费扣减模式及联盟管理机制,分析其对学术界、出版界和图书馆界可能带来的影响。",
+        "id": "53e9a123b7602d9702a13324",
+        "keywords": [
+          "high energy physic open access publishing SCOAP3 article processing charge subscription fee reduction scholarly communications library"
+        ],
+        "keywords_zh": [
+          "图书馆",
+          "订购经费扣减",
+          "SCOAP3",
+          "学术交流",
+          "论文处理费",
+          "高能物理",
+          "开放出版"
+        ],
+        "title": "SCOAP3:A New Model for Open Access Publishing",
+        "title_zh": "SCOAP3:开放出版新模式及其影响",
+        "year": 2013
+      },
+      {
+        "abstract": "In the high energy physics experiments , there are always requirements to sort the large scale of exper-iment data .To meet the demand , this paper introduces one radix sorting algorithms , whose sub-sort is count-ing sorting and time complex is O ( n) , based on the characteristic of high energy physics experiment data that is marked by time stamp.The paper gives the description , analysis, implementation and experimental result of the sorting algorithms .",
+        "abstract_zh": "在高能物理实验中，所产生的实验数据通常是海量的，在数据获取系统中如何按照特定的要求高效地对这些数据进行排序以满足后续工作中的需要是一个非常重要的问题。为了满足高能物理实验中对海量数据进行排序的需求，论文结合高能物理实验数据通常以时间进行标记的特点，提出并实现了一种基于基数排序的排序算法，给出了算法的描述、算法的分析、算法的实现以及实验结果。该算法能很好地适应高能物理实验数据，时间复杂度为O（ n）。",
+        "doi": "10.3969/j.issn.0258-0934.2013.12.003",
+        "id": "604b3cd76f90b7f6cabaac61",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "时间标记",
+          "基数排序",
+          "计数排序"
+        ],
+        "title": "Application of Radix Sorting in High Energy Physics Experiment",
+        "title_zh": "应用于高能物理实验数据的基数排序算法",
+        "year": 2013
+      },
+      {
+        "abstract": "High energy physics(HEP) has always been a pioneer to develop information technologies.Modern HEP creates gigantic data sets which lead the huge challenges to the computer sciences.Scientists of HEP community developed the state-of-art computing platform to distribute,store and process data in PB scale.This report describes the evolution of high energy physics experiments and its computing technologies.The computing models and grid computing as the examples of data intensive computing platform are discussed in details.This report also introduces the application of grid computing in the LHC and BESIII experiments.The Chinese data intensive grid systems are are reported.The prospect of next genertion technologies such as cloud computing is discussed.",
+        "abstract_zh": "高能物理一直是信息技术发展的主要推动者之一。现代高能物理产生的海量数据对计算机技术提出巨大的挑战。为了应对这些挑战,国内外高能物理领域的科学家根据数据处理的特点建立新的计算平台用于传输、储存及分析处理PB量级的数据。文章介绍了现代高能物理实验及数据处理的发展,并描述了高能物理的计算模型以及以网格技术为代表的数据密集型计算平台;详细介绍了数据密集型网格平台在LHC实验、BESIII实验中的应用以及中国的数据密集型网格平台。并对云计算等新技术在高能物理领域的应用进行了展望。",
+        "doi": "10.3969/j.issn.1000-3045.2013.04.010",
+        "id": "53e99a57b7602d97022bff9c",
+        "keywords": [
+          "grid computing",
+          "data intensive computing",
+          "cloud computing",
+          "high energy physics",
+          "big data"
+        ],
+        "keywords_zh": [
+          "数据密集型计算",
+          "高能物理",
+          "大数据",
+          "云计算",
+          "网格"
+        ],
+        "title": "Data Intensive Computing in High Energy Physics",
+        "title_zh": "高能物理实验的数据密集型计算",
+        "year": 2013
+      },
+      {
+        "abstract": "Beams of energetic charged particles are a common product from a variety of astrophys-ical activities. These beams may be naturally accompanied by return currents to maintain charge neutrality and zero-current. Their propagation in cosmic plasmas in general, and the dynamics of the beam–return current system in particular, have been under intensive investigation as a fundamen-tal problem in astrophysics. On the other hand, the multi-wavelength, high-resolution observations of solar activities, observations of the solar wind and of Earth’s ionosphere that have been routinely made recently offer a rich set of data on which theoretical studies can be built. After briefly reviewing the historical development of the investigations into the dynamics of the beam-return current system in a solar atmosphere, we present an overview of the recent developments in the theories on how the return current is generated, in examining the instabilities such a system may be subjected to, and in the numerical simulations as well as data analyses of such a system. We conclude by pointing out some possible directions that are worth pursuing in this field.",
+        "abstract_zh": "高能带电粒子束是各类天体活动现象中最常见的产物之一,它们在宇宙等离子体中传播的动力学,特别是基于电荷中性与电流中性(净余电流为零,即 Inet =0)的要求而伴随的回流以及束流–回流系统的动力学,一直是天体物理研究中受到广泛关注的基本问题之一.近年来,太阳活动现象的多波段高分辨率观测及太阳风和地球电离层的高分辨率观测为人们深入研究这一问题提供了丰富的观测资料和细致的理论依据,并已经取得了一系列重要进展.在简要回顾太阳大气中束流–回流系统动力学的研究历史后,再对这一研究领域近年来的最新进展进行综合评述,内容包括回流及其成因的理论模型,束流–回流系统中的不稳定性,以及近来在数值模拟研究和观测分析研究方面的最新成果.同时,也对该领域的未来发展趋势和前景进行了简要讨论.",
+        "doi": "10.3969/j.issn.1000-8349.2013.02.03",
+        "id": "53e9b88bb7602d970445b216",
+        "keywords": null,
+        "keywords_zh": [
+          "高能带电粒子束",
+          "束流–回流系统",
+          "等离子体不稳定性",
+          "太阳活动现象",
+          "太阳高能物理"
+        ],
+        "title": "The Dynamics of Beam–return Current Systems in the Solar Atmosphere",
+        "title_zh": "太阳大气中束流–回流系统的动力学",
+        "year": 2013
+      },
+      {
+        "abstract": "HEP (High Energy physics) computing is a typical data intensive high performance computing. With the growth of computing scale, traditional distributed ifle system has showed its limits in complexity, scalability and availability. Cloud storage has been substantially developing in the commercial venue for its scale-out, high availability, durability, elasticity and low TCO (Total Cost of Ownership) in recent years. This paper has ifrstly implemented an S3 plugin for HEP analysis software ROOT, and then researched both virtual S3 ifle system and graphical S3 client interface, the two technologies which provide compatibility with ifle system access patterns. The test result shows that in a local area network, HEP analysis over cloud storage is feasible, while parallel performance with traditional distributed ifle systems can be achieved.",
+        "abstract_zh": "高能物理计算是一种典型的数据密集型高性能计算。随着计算规模的扩大，传统的分布式文件系统日益表现出管理复杂、扩展困难和低可用性等问题。近年来，云存储技术在商业计算领域取得了长足的发展。本文设计和实现了高能物理计算软件ROOT的S3 I/O插件，调研并测试了兼容文件系统用户使用习惯的两个方案：虚拟文件系统和图形化客户端。测试结果说明，在云存储系统上进行高能物理计算是可行的。在局域网环境下，这种配置能够获得与传统分布式文件系统可比较的性能。",
+        "id": "604b39936f90b7f6ca9cfbec",
+        "keywords": null,
+        "keywords_zh": [
+          "云存储",
+          "S3协议",
+          "高能物理计算",
+          "S3FS",
+          "Cyberduck"
+        ],
+        "title": "Application of Cloud Storage in High Energy Physics Computing",
+        "title_zh": "云存储技术在高能物理计算中的应用研究",
+        "year": 2013
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkvACgMM4VO7UIDNypQYoOYz"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "The application of high-energy physical field,as well as medium-and-low energy physical fields,in coal-fired flue gas desulphurization and denitrification has been summarized up.The high-energy physical fields,such as the high-energy radiation chemical method,the micro-wave induced plasma method,the micro-wave discharging method,and micro-wave heating method etc.,are commonly used for directly changing the reaction mechanism in desulphurization and denitrification,however,the medium-and-low energy physical fields,including the electrostatic sprayer method,the charge drying sprayer method,the magnetic fixed bed method,the magnetically fluidized bed method,the low-temperature iron-base SCR denitrification technology,and the micro-wave induced catalystic reduction desulphurization and denitrification technology etc.,are commonly used for changing the physical process of desulphurization and denitrification.Along with the modification of physical process,the efficiency of flue gas desulphurization and denitrification can be further enchanced.",
+        "abstract_zh": "综述了高、中、低能量物理场在燃煤烟气脱硫脱硝工艺中的应用.高能量物理场(如高能辐射化学法、微波诱导等离子体法、微波放电法、微波加热法等)通常直接改变脱硫脱硝反应机理;中、低能量物理场包括静电喷射器法、荷电干式喷射器法、磁固定床法、磁流化床法、低温磁性铁基SCR脱硝技术、微波诱导催化还原脱硫脱硝技术等通常改变脱硫脱硝反应的物理过程.烟气脱硫、脱硝效率随物理过程的改进而提高.",
+        "doi": "10.3969/j.issn.1002-3364.2012.04.006",
+        "id": "5c7f5d644895d9cbc600125d",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理场",
+          "中、低能物理场",
+          "强化机理",
+          "烟气脱硫",
+          "烟气脱硝",
+          "磁场",
+          "电场",
+          "微波场"
+        ],
+        "title": "APPLICATION OF PHYSICAL FIELDS IN FLUE GAS DESULPHURIZATION AND DENITRIFICATION PROCESS",
+        "title_zh": "物理场在燃煤烟气脱硫脱硝工艺中的应用",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "<正>认识谢家麟的人都知道,每周一他都会到位于北京玉泉路的中国科学院高能物理所\"上班\"。虽然已远离重大科研项目,所带的博士弟子也陆续毕业,91岁高龄的他还是闲不住,愿意去工作了大半生的所里转转,跟年轻人聊聊天,听大家讲讲科研进展。1月18日,我们如约来到谢老家采访。坐在沙发上的谢老慈眉善目、笑容可掬,宛如邻家老爷爷一样和蔼可敬,他思路清晰、耳聪目明、身体硬朗,只有花白的头发告诉我们眼前是位耄耋之年的老人。一件深灰色绞花前开扣毛衣配上白色打底衬衣是谢老一贯的装束,简洁利落,大大的眼镜框后一双慈爱的眼睛会照顾到每个角落的人。",
+        "doi": "10.3969/j.issn.1672-903X.2012.01.003",
+        "id": "53e9cecfb7602d97055214d6",
+        "keywords": null,
+        "keywords_zh": [
+          "科研项目",
+          "坐标",
+          "中国科学院",
+          "高能物理",
+          "年轻人"
+        ],
+        "title_zh": "科研的坐标",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "陈国明，研究员，博士生导师。曾多次赴欧洲核子中心进行合作研究，2000年被聘为中国科学院高能物理所研究员。主要研究方向为粒子物理实验，目前参与国际空间站阿尔法磁谱仪（AMS）的反物质和暗物质研究、欧核中心大型强子对撞机的紧凑缪子线圈（CMS）项目，CMS中国组负责人。",
+        "id": "56d88e76dabfae2eeed359e3",
+        "keywords": null,
+        "keywords_zh": [
+          "中国科学院",
+          "高能物理",
+          "研究员",
+          "粒子",
+          "陈国",
+          "上帝",
+          "博士生导师",
+          "国际空间站"
+        ],
+        "title_zh": "神秘“上帝粒子”或被发现——访中国科学院高能物理所研究员 陈国明",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "数字保存的认知是对数字保存基本问题的看法,对高能物理学科研究人员的认知调查包括保存的重要性、保存原因、保存用途和保存威胁。数字保存的实践是对数字保存领域中相关问题的目前解决方法,对高能物理研究人员的实践调查包括:保存数据类型、保存时间、保存位置、保存投资和数据使用。基于认知调查,提出了加强数字保存经济可持续性研究的思想。基于实践调查,提出了建立数字保存质量标准与构建质量认证模型的思路。",
+        "doi": "10.3969/j.issn.1005-8214.2012.04.008",
+        "id": "53e9cf23b7602d970558990e",
+        "keywords": null,
+        "keywords_zh": [
+          "数字保存",
+          "高能物理",
+          "实践调查",
+          "认知调查"
+        ],
+        "title_zh": "数字保存的认知与实践——基于对高能物理学科研究人员的调查",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "\"一个人没有成为伟大的人物是可以原谅的,因为它需要特殊的能力与机遇,但若没有当好一块平凡的砖瓦,却是不可原谅的。\"——谢家麟自传《没有终点的旅程》他身上自带了一股子儒雅淡然的气质。遇见老友,谈论一些有趣的话题时,便开怀大笑,感染着周围的人。",
+        "doi": "10.19345/j.cnki.1671-0037.2012.02.040",
+        "id": "53e9cf12b7602d970557445e",
+        "keywords": null,
+        "keywords_zh": [
+          "谢家麟",
+          "高能物理",
+          "科学研究工作",
+          "高能加速器"
+        ],
+        "title_zh": "谢家麟“加速”在高能物理的路上",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "回旋加速器是高能物理中加速带电粒子的常见装置，其结构原理如图1所示，以两虚线为边界，中间存在平行纸面且与边界垂直的匀强电场，宽度为d，",
+        "doi": "10.3969/j.issn.1002-042X.2012.03.021",
+        "id": "604b5e8c6f90b7f6cacb274f",
+        "keywords": null,
+        "keywords_zh": [
+          "回旋加速器",
+          "相移",
+          "带电粒子",
+          "高能物理",
+          "结构原理",
+          "匀强电场",
+          "边界",
+          "宽度"
+        ],
+        "title_zh": "例说相移对回旋加速器的影响",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "2012年7月4日到11日的高能物理国际会议,是一场被物理学家认为＂即使不睡觉也没问题＂的物理大事件。究竟是什么事情让科学家们如此疯狂？毫无疑问,那就是捉弄世人几十年的＂上帝粒子＂——希格斯玻色子＂接近发现＂了!",
+        "id": "604b5a136f90b7f6caa92549",
+        "keywords": null,
+        "keywords_zh": [
+          "希格斯玻色子",
+          "粒子",
+          "高能物理",
+          "国际会议",
+          "物理学家",
+          "科学家"
+        ],
+        "title_zh": "“上帝粒子”：接近发现的希格斯玻色子",
+        "year": 2012
+      },
+      {
+        "abstract": "The name of physicist XIE Jialin （Hsieh Chia-lin） is related to many firsts in China and the world. He invented the world＇s first high energy medical accelerator for electron beam therapy. He developed the first linear accelerator in China. He was the chief designer of the Beijing Electron-Positron Collider （BEPC）, China＇s first collider and large-scale scientific facility and one of the high energy research hubs in the world. He built the Beijing Free Electron Laser facility, on which saturated oscillation was realized for the first time in Asia... For more than half a",
+        "doi": "10.3969/j.issn.1003-3572.2012.02.021",
+        "id": "604b5a286f90b7f6caa9f2be",
+        "keywords": null,
+        "keywords_zh": [
+          "中国",
+          "高能物理",
+          "北京正负电子对撞机",
+          "北京自由电子激光装置",
+          "直线加速器",
+          "高能电子束",
+          "首席设计师",
+          "物理学家"
+        ],
+        "title": "XIE Jialin： Fathcr of China＇s High Energy Acceicrators",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "本文针对高能物理(HEP)数据分析,简述描述了适合HEP数据分析的易并行计算模型,及MapReduce并行编程模型.说明了当前大型数据中心普遍采用的计算节点集群与存储系统模块化设计的系统结构,讨论了不足之处,提出了大型数据分析中心应具备的特性.在综合分析了数据感知要素和作业流程的基础上,提出一种新型的数据感知的作业处理系统框架.框架中的作业处理子系统通过分布式文件元数据管理器感知被处理文件的位置属性,将作业调度到数据所在的节点上,实现数据的本地化处理.文章给出了各模块的功能描述.文章最后初步部署了测试环境下,并简要给出了测试结果.",
+        "id": "604b32056f90b7f6ca55dfc1",
+        "keywords": null,
+        "keywords_zh": [
+          "PBS(作业批处理系统)",
+          "高能物理数据分析",
+          "文件元数据管理",
+          "数据感知"
+        ],
+        "title": "Data-aware Batch Job Processing System Framework",
+        "title_zh": "基于数据感知的作业处理系统设计",
+        "year": 2012
+      },
+      {
+        "abstract": "It developed a LVDS circuit applied for high-energy physics detector readout system.The circuit is fully compatible with low-voltage differential signaling(LVDS) standard.Due to the differential transmission technique and the low voltage swing,LVDS allows high transmission speeds and low power consumption at the same time,also,the circuit can achieve a point-to-point or multipoint connections and transmission.The circuit includes driver and receiver,both were designed with 0.35 μm/3.3 V CMOS process,and the testing results show that the circuit works properly.",
+        "abstract_zh": "研制了一种适用于高能物理中探测器读出系统的LVDS芯片,采用极低的电压摆幅实现高速差动传输数据,可以实现点对点或一点对多点的连接和传输.芯片包括驱动和接收两部分,均采用0.35um/3.3 V CMOS工艺设计,测试结果显示芯片基本达到预期研制目标.",
+        "doi": "10.3969/j.issn.0258-0934.2012.10.003",
+        "id": "53e9b8e8b7602d97044c8b5c",
+        "keywords": [
+          "Detector Performance",
+          "Low-Noise Sensors",
+          "Gaseous Detectors"
+        ],
+        "keywords_zh": [
+          "高能物理",
+          "探测器读出系统",
+          "低电压差分信号电路"
+        ],
+        "title": "A Research on the LVDS Circuit Applied for Detector Readout System",
+        "title_zh": "一种适用于探测器读出系统的LVDS芯片的研制",
+        "year": 2012
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkwYSXfnoEl3Ahnmxw31ujlQ"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "We review the development of a new type gaseous detector, MRPC (Multi-gap Resistive Plate Chamber, MRPC) in the last decade in China. With the successful operation in the STAR experiment at RHIC (Relativistic Heavy Ion Collider, RHIC) and the outstanding importance in charged particle identification, the MRPC technology has gained extensive interest and progress in the high-energy nuclear and particle physics.",
+        "abstract_zh": "介绍了新型探测器多气隙电阻板室(Multi-gap Resistive Plate Chamber,MRPC)在中国十多年的发展.伴随着在相对论重离子对撞机(Relativistic Heavy Ion Collider,RHIC)上STAR实验的成功运行和在带电粒子鉴别方面的突出作用,MRPC技术在高能核与粒子物理领域逐渐得到广泛应用,有力地促进了相关物理课题的研究.",
+        "doi": "10.1360/132012-606",
+        "id": "53e9ae62b7602d970387aea1",
+        "keywords": [
+          "Gaseous Detectors",
+          "Particle Detectors",
+          "Detector Performance"
+        ],
+        "keywords_zh": [
+          "多气隙电阻板室",
+          "高能物理",
+          "重离子物理"
+        ],
+        "title": "New Type Gaseous Detector-Mrpc",
+        "title_zh": "新型气体探测器MRPC",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "2011年6月20日中国科学院高能物理研究所消息：中国著名原子能物理学家、中国科学院资深院士,中国人民政治协商会议第五、六、七届全国委员,空间科学学会原常务理事。中科院高能所原副所长何泽慧女士,中国著名原子核物理学家钱三强的夫人,因病于当天7时39分在北京逝世,享年97岁.",
+        "doi": "10.3969/j.issn.1002-042X.2012.01.025",
+        "id": "604b5e8e6f90b7f6cacb27ab",
+        "keywords": null,
+        "keywords_zh": [
+          "中国科学院高能物理研究所",
+          "居里夫人",
+          "院士",
+          "中国人民政治协商会议",
+          "物理学家",
+          "常务理事",
+          "科学学会",
+          "原子能"
+        ],
+        "title_zh": "记中国的“居里夫人”何泽慧院士",
+        "year": 2012
+      },
+      {
+        "abstract": "The large data centers apply the modularized architecture that the computing cluster and storage systems are isolated and connected by the high speed network.A few of the popular implements are listed.On the basis of analyzing the independent structured data feature,a node localized data storage and processing system is proposed,which has better TCO(Total Cost of Ownership)and can save much more network bandwidth for huge data transfer than these existing systems.The distributed file metadata manager is important for the job schedule,and the feature of the manager is discussed.The PBS(Portable Batch System),as the cluster resource manager,is briefly introduced.How to query the file metadata manager is discussed in detail.The system of computing and storage merged to one node leads to the different ways how the user submits the jobs.The test results of three mechanisms on the prototype system are discussed in short,and show that the file metadata manager is stable and all of three solutions are acceptable.",
+        "abstract_zh": "简述了当前大型数据中心普遍采用的计算节点集群与存储系统模块化设计的系统结构,说明了部署在各模块上的主要集群系统.分析了具有独立性的结构化数据本地化存储于计算节点的可能性,给出了系统基本框架,从总体拥有成本(TCO)的角度分析了其价值.结合高能物理研究的原始数据特点,认为数据本地化存储在节点上,有利于提高整体利用率,指出了关键部件——文件元数据管理系统的设计要点,分析了PBS作业批处理系统集成文件元数据管理系统的三种方案,给出第一种方案的详细设计,相应的用户提交作业方式的改变.在测试环境下,初步部署了文件元数据管理系统,测试了三种集成方案,给出了简要的分析比较.",
+        "doi": "10.3778/j.issn.1002-8331.2012.05.003",
+        "id": "53e9bb08b7602d97047419a3",
+        "keywords": null,
+        "keywords_zh": [
+          "作业批处理系统(PBS)",
+          "高能物理数据分析",
+          "文件元数据管理",
+          "数据存储本地化"
+        ],
+        "title": "Node-localized Data Storage and Processing System",
+        "title_zh": "一种数据本地化存储与处理系统",
+        "year": 2012
+      },
+      {
+        "abstract": "Based on wide surveying and theoretical investigating, we outline and summarize the advantages to do experiments for high energy physics at a super Z-factory. It is pointed out here that there are four topics which are so important in physics and so properly in doing experiments at a super Z-factory and nowhere can compete it. The four topics are i) to study the properties of Z-boson very precisely and to search for rare processes relevant to Z-boson; ii) to study the properties of τ lepton, to search for rare processes relevant to τ lepton and the CP violations relevant Z-boson and/or τ lepton which are not directly relevant to CKM phase certainly; iii) to study the spectroscopy and properties of the heavy flavor and double heavy flavor hadrons, including ground and excited states as well as exotic states; iv) to measure the coupling constant of QCD αs(mZ2), the fragmentation functions from a heavy quark or a gluon to a heavy hadron or a double heavy hadron, experimental test of the non-perturbative models for fragmentation etc. In addition, since to build a super Z-factory can be an option for Chinese future basis of high energy experimental physics, so Chinese high energy theoretical physicists have completed 14 articles on the physics at a super Z-factory and as a special issue published in Science China Physics, Mechanics & Astronomy [Sci China-Phys Mech Astron, 2010, 53: 1947-2036], thus here we review them briefly with some supplements.",
+        "abstract_zh": "本文在调查研究和理论分析的基础上,对超级Z-工厂上可开展的特色高能物理实验做了归纳和小结.文章指出超级Z-工厂中可以开展许多科学意义重要、别处不可替代的高能物理实验,归纳下来在下列四个方面具有突出优势:i)Z-玻色子性质的精确测量,寻找与Z-玻色子有关的稀有过程的实验研究；ii)韬(r)轻子性质,寻找与韬轻子有关的稀有过程和发现关系到韬轻子和/或Z-玻色子的CP破坏(肯定与CKM矩阵相因子无直接联系)的实验研究；iii)重味和双重味强子的性质,其激发态质谱,奇异重味强子等的实验研究；iv)通过测量喷注形状直接测量QCD耦合常数αs(mZ2),测定重味夸克和胶子到重味强子和双重味强子的碎裂函数,检验非微扰碎裂模型理论等的实验研究.另外,由于建造超级Z-工厂可以作为我国加速器高能实验物理未来基地规划中的一个选项,国内同行已经完成了相关的学术研究论文14篇,并已汇集成题为“超级Z-玻色子工厂物理”的专辑,发表在Sci China-Phys Mech Astron上,2010年11月份的53卷11期中.本文对这14篇论文做扼要概述,同时也做了一些补充.",
+        "doi": "10.1360/132012-429",
+        "id": "53e9af99b7602d97039e3f56",
+        "keywords": [
+          "High-Energy Collider"
+        ],
+        "keywords_zh": [
+          "超级Z-工厂",
+          "高能物理精确前沿",
+          "τ(韬)-轻子物理",
+          "重强子物理"
+        ],
+        "title": "The Physics at a Super Z-factory",
+        "title_zh": "超级Z-工厂上的物理",
+        "year": 2012
+      },
+      {
+        "abstract": "(Abstract )This paper designs and implements a metadata server of GRASS mass storage system, analyzes and optimizes three performance factors of the metadata service: Metadata organization, communication performance and search efficiency, and introduces the implementation of Bloom Filter algorithm in name space search. Experimental results show that, performance of the target system is significantly improved, and it basically fulfills the requirement for large2scale computation of high energy physics.",
+        "abstract_zh": "设计适用于GRASS海量存储系统的元数据服务器,分析并优化3个影响元数据性能的因素:元数据组织方式,通信性能和搜索效率,利用Bloom Filter算法进行名字空间搜索,在此基础上实现目标系统的文件名查询优化.实验结果证明,目标系统的元数据处理性能得到明显提升,基本满足大规模高能物理计算的需求.",
+        "doi": "10.3969/j.issn.1000-3428.2012.02.001",
+        "id": "53e9bb02b7602d970473d4fc",
+        "keywords": [
+          "Named Data Networking",
+          "Storage Systems"
+        ],
+        "keywords_zh": [
+          "海量存储系统",
+          "高能物理计算",
+          "元数据服务",
+          "元数据搜索",
+          "Bloom Filter算法"
+        ],
+        "title": "Design and Performance Optimization of Metadata Server in Mass Storage System",
+        "title_zh": "海量存储系统元数据服务器的设计及性能优化",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "<正>国家最高科学技术奖评审组组长王越院士眼中的谢家麟,是人类研究物质结构和在此基础上用现代科技服务人类的一个不可缺少的杰出科学家。老伴儿范绪篯心中的谢家麟,是一个不折不扣的无线电痴迷者。谢家麟是中国科学院高能物理研究所教授裴国玺眼里的导师,可亲可敬,是他科研道路的引路人,更是受益一生的恩师。谢家麟很喜欢法国勒布蒂特教授说过的一句话,如果能像猫一样真有",
+        "doi": "10.3969/j.issn.1672-903X.2012.01.004",
+        "id": "53e9cf0bb7602d970556fb7b",
+        "keywords": null,
+        "keywords_zh": [
+          "中国科学院高能物理研究所",
+          "国家最高科学技术奖",
+          "科技服务",
+          "物质结构",
+          "炭",
+          "科学家",
+          "无线电",
+          "人类"
+        ],
+        "title_zh": "谢家麟:愿为祖国建设雪中送炭",
+        "year": 2012
+      },
+      {
+        "abstract_zh": "<正>这十年,是我国科学技术飞速发展的十年,特别是基础科学有了长足进步,一些领域已经跻身国际先进行列,一些领域与国际先进水平的差距正在缩小。回顾高能物理领域发展的历程,也能从一个侧面了解我国科学技术十年来走过的道路。2000年,国家科教领导小组审议并原则通过了中国科学院提交的《我国高能物理和先进加速器发展目标》,确定了中国高能物理和先进加速器的发展战略。这个发展战略全面规划了",
+        "doi": "10.3969/j.issn.1672-903X.2012.11.002",
+        "id": "53e9d029b7602d97056d8bdb",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "中国科技",
+          "理发",
+          "科学技术",
+          "基础科学",
+          "国际"
+        ],
+        "title_zh": "从高能物理发展看中国科技这十年",
+        "year": 2012
+      },
+      {
+        "abstract": "In the history of physics,the developments of physics were dependent on the alternate victory and defeat of three cross-century great debates.The main topic of the arguments of the first and the second cross-century great debates are the concept of light.The topic of the arguments of the third great debate in physics was related to the whole modern physics, but the third cross-century great debate depends on photon concept thoroughly.Combination of the wrong concept of light and the third cross-century great debate,a misguided century in physics appeared.In this research,the causations of the wrong theories are revealed;and to prove the actual nature of light,nine evidences are provided.After all people know the truth,science will get great progress and rapid development in optics,physics,even the whole fields of science and technology. In this report,it is emphasized that the actual nature and causations of the first and the second cross-century great debates. And the future rapid development of optics,physics,and some other relative disciplines are predicted.",
+        "abstract_zh": "物理学史上,有三大主宰着物理学发展的跨世纪大论战,其中前两次论战的主题是光的概念,第三次论战的主题关系整个现代物理,但整个第三次论战被光的概念所主宰.错误的光子概念与第三次论战占了上风的超距心灵作用结合形成物理学最严重的百年大错.研究发现了三大跨世纪论战中造成真理失败的根源.关于光的本性,论文提供了九项证据证明光只是波而不是光子.当人们一旦认识真相,光学、物理学乃至整个自然科学将出现一次突飞猛进的飞跃发展.论文只重点介绍前两次论战的根源和本质,并预测光学、物理学和各相关自然科学将出现的飞跃发展.",
+        "doi": "10.3969/j.issn.1672-3392.2011.03.001",
+        "id": "5c7d8b474895d9cbc6c075c7",
+        "keywords": null,
+        "keywords_zh": [
+          "光学",
+          "光波",
+          "微观带电粒子",
+          "振动偶极",
+          "光与物质相互作用",
+          "光电探测",
+          "光电效应",
+          "康普顿散射",
+          "黑体辐射",
+          "拉曼散射",
+          "正负电子对产生和湮灭",
+          "能量共振传递规律",
+          "物质自发转变定律",
+          "暗物质",
+          "光子",
+          "波粒二象性",
+          "量子纠缠",
+          "物理学",
+          "量子力学",
+          "量子电动力学",
+          "量子化学",
+          "天体物理",
+          "高能物理",
+          "核物理",
+          "粒子物理"
+        ],
+        "title": "Actual Nature of Light and the Prediction of the Rapid Development",
+        "title_zh": "光的真实本性与未来科技飞跃发展预测",
+        "year": 2011
+      },
+      {
+        "abstract_zh": "<正>2011年4月19日,由中国科学院古脊椎动物与古人类研究所(以下简称中科院古脊椎所)牵头,中国科学院高能物理研究所(以下简称中科院高能所)、中国科学院自动化研究所(以下简称中科院自动化所)承担的院重大科研装备研制项目",
+        "id": "53e9ce39b7602d970546ba99",
+        "keywords": null,
+        "keywords_zh": [
+          "中国科学院高能物理研究所",
+          "古脊椎动物",
+          "ICT",
+          "古人类",
+          "实验室",
+          "高精度",
+          "自动化研究所",
+          "中科院"
+        ],
+        "title_zh": "中国科学院古脊椎动物与古人类研究所高精度CT实验室建成",
+        "year": 2011
+      },
+      {
+        "abstract_zh": "<正>物理学是研究物质结构和运动基本规律的学科。物理学有很多分科,如力学、热学、电磁学、光学、原子和原子核物理学、凝聚态(固态和液态)物理学、粒子物理学(高能物理)等等,物理学的研究范围是非常广泛的。物理学是自然科学的重要组成部分物理学的研究成果和研究方法,在自然科学的各个领域都起着重要的作用。一、物理学术语在管理学中被广泛应用凝聚力、向心力、引力、支撑力、合力、阻",
+        "doi": "10.3969/j.issn.1673-1069.2011.29.026",
+        "id": "53e9ce7fb7602d97054c269e",
+        "keywords": null,
+        "keywords_zh": [
+          "原子核物理学",
+          "管理学",
+          "应用",
+          "粒子物理学",
+          "物质结构",
+          "高能物理",
+          "电磁学",
+          "凝聚态"
+        ],
+        "title_zh": "物理学在管理学中的应用浅析",
+        "year": 2011
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObksqNUEF49uzIWdjPHojQY5J"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract": "High energy physics(HEP) has always been the pioneer on the development and applications of computer science. As the new generation of HEP experiments, LHC and BEPCII as examples started to be operational, grid computing has become an integral part of the practice of high energy physics. A large scale grid computing infrastructure, namely WLCG or Worldwide LHC Computing Grid, has been being built and is providing high performance computing services of data process and physics analysis. Institute of High Energy Physics(IHEP) is one of important grid sites of WLCG. The WLCG is so successful that it is not just used by HEP project but also adopted by large number of different disciplines of science activities. This work will present an overview of WLCG and status of HEP grid computing in China. The IHEP site at the time consists of 1600 CPU cores as computing nodes and 600 TB disks as the storage resource. The high bandwidth dedicated links of 622 Mbps to the US and 1 Gbps to Europe were used for data transfer and job distribution. In the period of past one year, the IHEP site provided about seven million CPUhours of computing service to HEP as well as cosmic ray research, bioinformatics and geodynamics. A federation of HEP Grid was established between institutes and universities in the country.",
+        "abstract_zh": "高能物理一直是计算机技术发展与应用的先驱者。随着大型强子对撞机LHC和北京正负电子对撞机BEPCII等新一代高能物理实验开始运行,网格计算已经成为高能物理研究的重要工具。世界各地的大批科研单位参与了国际高能物理网格系统的建设。高能物理网格不仅成功地为国际高能物理提供分布式高性能计算服务,同时还成为大量非高能物理领域采用的科学计算平台。在中国科学院、国家自然科学基金委及科技部的支持下,高能物理研究所建立了一个数据密集型网格平台站点并加入了国际高能物理网格。数据密集型网格站点目前由1600个CPU内核的集群和600TB的磁盘存储组成,与欧洲和北美的高速网络带宽分别达到1Gbps和622Mbps,每年提供数百万CPU小时的计算服务,支持的应用包括高能物理、天体物理与宇宙线物理、生物信息以及地球动力学等等。高能物理研究所还帮助国内的若干大学和研究所建立了网格站点,形成国内跨地域的网格平台。",
+        "id": "53e9ab89b7602d9703534416",
+        "keywords": [
+          "Data intensive computing",
+          "Computing platform",
+          "Middleware",
+          "Grid",
+          "High energy physics"
+        ],
+        "keywords_zh": [
+          "计算平台",
+          "数据密集型计算",
+          "中间件",
+          "高能物理",
+          "网格"
+        ],
+        "title": "Data Intensive Grid and Applications",
+        "title_zh": "数据密集型网格平台示范站点与应用",
+        "year": 2011
+      },
+      {
+        "abstract": "the tape is one kind of sequence access equipments,and it presents bad performance in random file access environment.Therefore,it is very necessary to optimize tape access to get reasonable performance of overall HSM system.Hierarchical storage management composed of disks and tapes is one of most widely used technologies in mass storage system,firstly gives a brief introduction to the current status of the tape access,then analyzes various factors,and investigates the performance optimization methods,including drive scheduling,migration strategies,file size adjusting,file sequence reordering.Experimental results shows that the Massive HSM system combined network storage architecture with tape storage has good value and has widely used in high energy physics,digital media and other fields.",
+        "abstract_zh": "磁带是顺序访问设备,其访问性能因受到多方面因素的影响而变化很大,因此进行针对性的优化非常必要;采用基于磁盘-磁带的分级存储管理是海量存储系统中最常用的技术手段之一,首先对当前磁带访问的现状和影响因素进行分析,然后对性能优化方法进行探讨,包括驱动器调度、迁移策略、文件大小、磁带文件顺序等;实验结果表明,海量分级存储系统将网络存储架构与磁带存储结合起来,具有良好性价比,在高能物理、数字媒体等领域得到广泛应用。",
+        "doi": "10.16526/j.cnki.11-4762/tp.2011.10.045",
+        "id": "53e99e9ab7602d9702761d74",
+        "keywords": [
+          "mass storage system(MSS)",
+          "tape performance optimization",
+          "hierarchical storage management(HSM)",
+          "high energy physics"
+        ],
+        "keywords_zh": [
+          "磁带性能优化",
+          "分级存储",
+          "海量存储",
+          "高能物理"
+        ],
+        "title": "Performance Optimization of Tape Access in Massive HSM System",
+        "title_zh": "海量分级存储系统中磁带访问性能优化",
+        "year": 2011
+      },
+      {
+        "abstract_zh": "<正>20世纪70年代以来,气体粒子探测器得到很大发展。微结构气体探测器(Micro-Pattern Gas Detector,简称MPGD)目前已成为国际气体探测器研究的热点,在高能物理实验中获得新的应用,并广泛应用于高能物理、核探测和国民经济诸方面。",
+        "doi": "10.13405/j.cnki.xdwz.2011.05.012",
+        "id": "53e9ce7fb7602d97054c267f",
+        "keywords": null,
+        "keywords_zh": [
+          "气体探测器",
+          "微结构",
+          "应用",
+          "高能物理实验",
+          "粒子探测器",
+          "国民经济",
+          "Gas",
+          "核探测"
+        ],
+        "title_zh": "微结构气体探测器及其应用",
+        "year": 2011
+      },
+      {
+        "abstract_zh": "本文大致按照时间顺序,选取若干坐标事件,将20世纪分为四个阶段,阐明我国粒子物理及其各分支学科的发展脉络,并论述20世纪我国粒子物理发展各阶段、各分支学科的特点。",
+        "doi": "10.3969/j.issn.1672-6804.2010.04.005",
+        "id": "53e9cd5db7602d9705349c09",
+        "keywords": null,
+        "keywords_zh": [
+          "粒子物理",
+          "加速器",
+          "高能物理",
+          "宇宙线"
+        ],
+        "title_zh": "20世纪中国粒子物理学史的分期、脉络及特点述评",
+        "year": 2010
+      },
+      {
+        "abstract_zh": "本文介绍了中美高能物理合作的历史沿革和当前的主要合作项目,分析了合作成功的原因,并揭示了从合作经验中得到的启示.",
+        "doi": "10.3772/j.issn.1009-8623.2010.07.009",
+        "id": "604b758a6f90b7f6caa28287",
+        "keywords": null,
+        "keywords_zh": [
+          "国际经济合作",
+          "科技合作",
+          "高能物理",
+          "中美关系"
+        ],
+        "title": "Empirical Study on China——U.S.Cooperation in Science and Technology with a Case of the Collaboration in High Energy Physics",
+        "title_zh": "中美科技合作的经验研究——以高能物理合作为例",
+        "year": 2010
+      },
+      {
+        "abstract": "It describes the feasibility and realization of using embedded Linux in DAQ readout system of high energy physics experiment.The first part,the hardware and software framework is introduced.And then emphasis is placed on the key technologies during the system realization.The development is based on the VME bus and vme_universe driver.Finally,the test result is presented: the readout system can work well in Embedded Linux OS.",
+        "abstract_zh": "介绍了在高能物理实验的数据获取读出系统中应用嵌入式Linux的可行性分析与关键技术。首先介绍测试系统的硬件平台与软件框架。重点介绍在读出系统中实现嵌入式Linux应用的关键技术—寄存器读写、CBLT传输、中断处理、多线程技术、cache相关的处理等。系统开发基于VME总线,通过修改Linux内核与vme u niverse驱动,解决了开发过程中的相关问题。最后给出系统测试运行结果,基于Linux的读出系统已经可以配合在线软件较为稳定地运行,系统性能达到预期效果,验证了在高能物理实验中采用基于Linux的读出系统的可行性。",
+        "doi": "10.3969/j.issn.0258-0934.2010.01.019",
+        "id": "54890dc345ce471f90a96ff7",
+        "keywords": [
+          "high energy physics experiment",
+          "DAQ readout system",
+          "Embedded Linux",
+          "VME bus",
+          "vme_universe driver"
+        ],
+        "keywords_zh": [
+          "高能物理实验",
+          "数据获取读出系统",
+          "嵌入式Linux",
+          "正总线",
+          "vme_universe驱动"
+        ],
+        "title": "Research on Application of VME Based Embedded Linux",
+        "title_zh": "基于VME总线的嵌入式Linux应用的研究",
+        "year": 2010
+      },
+      {
+        "abstract_zh": "北京正负电子对撞机重大改造工程(简称BEPCII)是我国\"十一五\"重大科学工程,是目前重大科学工程中最具挑战性和创新性的项目之一,总投资6.4亿元,工期5年,由中国科学院高能物理研究所承担建设任务.工程于2004年初动工,2008年7月完成建设任务,2009年5月对撞机的主要性能参数亮度在束流能量1.89GeV能量下达3.21×1032cm-2s-1,达到设计指标,为改造前的30多倍,是此前该能区对撞机亮度世界纪录的4倍以上.BEPCII工程按进度、按指标、按预算、高质量地完成了各项建设任务,并于2009年7月17日顺利通过国家验收.BEPCII是一台粲物理能区国际领先的对撞机和高性能的兼用同步辐射装置,它的建成成为国际同类装置建设的一个范例,是中国高能物理发展的又一个里程碑.BEPCII试运行期间,北京谱仪III共采集到一亿多ψ(2S)和两亿多 J/ψ事例,是目前世界上最大的数据样本,并已取得了初步的物理结果.BEPCII建成并投入运行,有望在今后多年里,不断取得重大物理成果,进一步保持和加强我国在粲物理研究领域的国际领先地位.",
+        "doi": "10.3969/j.issn.1009-2412.2010.03.008",
+        "id": "604b5aa86f90b7f6caaf05d8",
+        "keywords": null,
+        "keywords_zh": [
+          "对撞机",
+          "大科学工程",
+          "高能物理",
+          "同步辐射",
+          "亮度",
+          "粲物理"
+        ],
+        "title": "Major Upgrade of the Beijing Electron-Positron Collider",
+        "title_zh": "北京正负电子对撞机重大改造工程通过国家竣工验收",
+        "year": 2010
+      },
+      {
+        "doi": "10.3969/j.issn.1008-6145.2010.03.021",
+        "id": "53e9cd37b7602d970530e7fb",
+        "keywords": null,
+        "keywords_zh": [
+          "中国科学院高能物理研究所",
+          "核磁共振成像",
+          "超导磁体",
+          "国产化"
+        ],
+        "title_zh": "高能所研制成功1.5T核磁共振成像超导磁体",
+        "year": 2010
+      },
+      {
+        "abstract_zh": "<正>常言道\"谋事在人,成事在天\",年近古稀的清华大学尚仁成教授早已视虚华如烟云。历30多年高校物理教学与研究风风雨雨,尚教授的物理教研之路横跨了核物理、高能物理、原子物理和天体物理等多个领域。无论成败,他始终不抛弃,不放弃。\"我不相信人定胜天,但也不是天命可主宰一切。\"成不骄:\"能动\"领航极化研究\"主观能动性,包括每个人对重要科学问题觉察的敏锐性,驾驭研究课题的能力,完成课题工作的技能以及对待困难的顽强性和百折不挠的毅力。\"30年科研工作,尚仁成教授",
+        "doi": "10.16209/j.cnki.cust.2010.04.009",
+        "id": "53e9c05cb7602d9704c594bc",
+        "keywords": null,
+        "keywords_zh": [
+          "物理教学",
+          "高校",
+          "研发",
+          "清华大学",
+          "高能物理",
+          "天体物理",
+          "原子物理",
+          "核物理"
+        ],
+        "title_zh": "矢志不渝  探寻高校物理教研发展",
+        "year": 2010
+      },
+      {
+        "abstract_zh": "<正>高能物理,也称粒子物理,是研究物质的最小组元构成及其相互作用规律的最前沿基础学科。同步辐射是速度接近光速的带电粒子在作曲线运动时沿切线方向发出的电磁辐射,也叫同步光,具有高强度、宽波谱、高准直性、脉冲性、偏振性等优点,为生命科学、凝聚态物理、材料科学、化学、资源环境及微",
+        "doi": "10.3969/j.issn.1000-8217.2009.05.012",
+        "id": "53e9aabdb7602d970343aced",
+        "keywords": [
+          "synchrotron radiation",
+          "nuclear technology",
+          "high energy physics",
+          "major program",
+          "science foundation"
+        ],
+        "keywords_zh": [
+          "同步辐射",
+          "核技术",
+          "科学基金",
+          "重大项目",
+          "高能物理"
+        ],
+        "title": "OVERVIEW ON MAJOR PROGRAMS OF HIGH ENERGY PHYSICS,SYNCHROTRON RADIATION AND NUCLEAR TECHNOLOGY",
+        "title_zh": "高能物理、同步辐射和核技术领域的重大项目综述",
+        "year": 2009
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkvD0IeK5CNS0vZ7wKzNmAZk"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "abstract_zh": "开放存取(Open Access,OA)出版模式这一概念被提出十几年以来,引起全球范围内科学出版领域的普遍关注和积极响应。高能物理(HEP)领域的科研工作者在20世纪中期就开创性地实践了其\"预印本\"文化,用来广泛地交流最新科研成果。近年,在各种各样的OA模式试行的同时,欧洲核子研究中心(CERN)提出了一项称为\"粒子物理开放存取出版联盟(SCOAP~3)\"的计划,由该联盟向各大学、科研机构的图书馆筹集目前用于订阅HEP文献的费用作为共同资金,提供给出版机构作为同行评议的费用,实现科研论文由\"付费阅读\"模式向\"资助发表\"模式的转变,从而使世界各地的读者都能在第一时间免费阅读发表在HEP期刊上论文的电子版本。本文在详细介绍SCOAP~3计划之后,初步探讨了该联盟对中国HEP出版领域带来的机遇和挑战。",
+        "id": "53e9ccc2b7602d97052657c6",
+        "keywords": null,
+        "keywords_zh": [
+          "开放存取",
+          "SCOAP~3计划",
+          "高能物理"
+        ],
+        "title": "Open Access Plan Sponsored by European Nuclear Science Research Center: Sponsoring Consortium for Open Access Publishing in Particle Physics",
+        "title_zh": "由欧洲核子研究中心发起的OA计划——粒子物理开放存取出版联盟",
+        "year": 2009
+      },
+      {
+        "abstract": "Currently,High Energy Physics (HEP) grid platform mainly use gLite middleware and Linux operating system. Actually,more and more heterogeneous resources are integrated to support HEP applications. How to share large volumes of data across different platforms is a big challenge. A dedicated tool for HEP data sharing is proposed and implemented in this paper,which makes user access WLCG files apparently on a verity of platforms. This paper describes the tool in detail,including the architecture,implementation,performance measurement and tuning and use scenario.",
+        "abstract_zh": "当前,高能物理网格计算平台主要依赖于单一的网格中间件与操作系统.而实际上,越来越多的异构资源需要被整合进来.因此,如何在多个平台上（包括不同的网格中间件与操作系统）共享高能物理网格数据是一个基本的研究课题.本文在不改动原有平台的基础上,提出并实现一个网格数据共享系统.基于该系统用户可以透明的在多个平台上管理和共享海量数据.本文主要描述这个系统的体系结构、实现方法、性能优化以及使用场景.",
+        "id": "53e9acfeb7602d97036dcd25",
+        "keywords": null,
+        "keywords_zh": [
+          "网格",
+          "互操作",
+          "数据共享",
+          "高能物理"
+        ],
+        "title": "Sharing High Energy Physics Files on Multiple Grid Infrastructures",
+        "title_zh": "多网格平台上的高能物理数据共享",
+        "year": 2009
+      },
+      {
+        "abstract": "Fabricated in a standard 0.35 μm CMOS process, a new type detector designed for high energy particle tracking was studied in this work. The detector is based on monolithic CMOS active pixel sensor (MAPS) technology. Using standard CMOS process, signal processing circuits are integrated on the same substrate as the sensors and correlated double sampling (CDS) operation is realized inside pixel. The prototype consists of a 128×32 pixel array and pixel pitch is 25×25 square of micrometer. Measured by a radioactive source 55Fe, the temporal noise is only about 12 electrons and the residual offset is only about 4 electrons. The charge-to-voltage conversion factor (CVF) is about 60 μV/e-. During the tests, readout speed reaches 12 μ/frame.",
+        "abstract_zh": "本文研究了一个采用标准0.35μm CMOS工艺制造的新型高能物理粒子轨迹追踪器.这个新型的追踪器运用CMOS有源像素传感器技术(CMOS Monolithic Active Pixel Sensors,MAPS)将信号的探测与处理电路集成在一起,在像素的内部实现了相关双次采样操作(Correlated Doubled Sampling,CDS).实验芯片包含一个128行×32列的像素矩阵,其中,像素的大小为25×25μm2.通过采用放射源55Fe的测定,得到像素的等效输入随机噪声(Temporal Noise)仅为12个电子而固定噪声(Fixed Pattern Noise,FPN)仅为4个电子.传感器的电荷-电压转换系数(Charge-to-Voltageconversion Factor,CVF)为60μV/e-.测试中,芯片的信号读取速度达到了12μs/帧.",
+        "doi": "10.3321/j.issn:0372-2112.2009.07.001",
+        "id": "5489072945ce471f90a3ddcf",
+        "keywords": [
+          "high-energy particle tracking detector",
+          "CMOS active pixel sensors",
+          "correlated double sampling",
+          "temporal noise",
+          "fixed pattern noise"
+        ],
+        "keywords_zh": [
+          "高能物理粒子轨迹追踪器",
+          "CMOS有源像素传感器",
+          "相关双次采样",
+          "随机噪声",
+          "固定噪声"
+        ],
+        "title": "CMOS active pixel sensors based detector for high-energy particle tracking",
+        "title_zh": "基于CMOS集成有源传感器的新型高能物理粒子轨迹追踪器",
+        "year": 2009
+      },
+      {
+        "abstract": "The major upgrade of Beijing Electron-Positron Collider (BEPCII) is one of the state key projects during the eleventh five-year plan period. The construction of the project started at the beginning of the year 2004.With the five-year efforts, the project has completed on its technical specification, planned schedule and specified budget, and passed the state assessment in July 2009. This paper reports the progress of BEPCII and summarizes the experiences in quality control of the project.",
+        "abstract_zh": "北京正负电子对撞机重大改造工程是我国\"十一五\"时期的一项重大科学工程.工程从2004年初开工建设,经过五年的努力,按指标、按计划、按预算、高质量地完成了各项建设任务,并于2009年7月通过了国家验收.本文报告了北京正负电子对撞机重大改造工程的建设进程,总结了在激烈的国际竞争中改造方案的选择和工程的质量、经费和进度控制等方面的经验.",
+        "doi": "10.3724/sp.j.1224.2009.03275",
+        "id": "604b41596f90b7f6cae1744a",
+        "keywords": [
+          "LHC Upgrade"
+        ],
+        "keywords_zh": [
+          "对撞机",
+          "大科学工程",
+          "高能物理",
+          "同步辐射",
+          "工程管理"
+        ],
+        "title": "Major Upgrade of the Beijing Electron-Positron Collider",
+        "title_zh": "北京正负电子对撞机重大改造工程",
+        "year": 2009
+      },
+      {
+        "abstract": "An overview is given of the development of high energy physics in the Department of Modern Physics, University of Science and Technology of China. We summarize the progress over recent years in both phenomenology theory and experimental research.",
+        "abstract_zh": "文章简要介绍了中国科学技术大学近代物理系的高能物理唯象理论和实验研究的发展现状,并总结了最近几年中取得的进展情况.",
+        "doi": "10.3321/j.issn:0379-4148.2008.08.008",
+        "id": "53e9b276b7602d9703d1bc8f",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "TeV能量对撞机",
+          "标准模型精确检验",
+          "粒子探测技术",
+          "标准模型外的新物理"
+        ],
+        "title": "High Energy Physics in the Department of Modern Physics, University of Science and Technology of China",
+        "title_zh": "近代物理系的高能物理研究现状",
+        "year": 2008
+      },
+      {
+        "abstract": "Muon lifetime is one of the physics quantities that can be either theoretically accurately calculated or experimentally observed in high energy physics.A full muon lifetime experiment covers almost all experimental methods and technologies applied in a modern high energy physic experiment,such as the fundamental theory,applied particle detectors,nuclear electronics,and data processing methods.A cosmic muon lifetime measurement equipment is presented.Based on this equipment,the feasibility and plan to open an experiment course for cultivation of creative talent for high energy physics experiment are also discussed.",
+        "abstract_zh": "μ子寿命是高能物理领域一个可以精确推算,并能通过实验观测的物理量.在一个完整的μ子寿命测量实验中,涵盖了高能物理理论基础、高能粒子探测器、相关电子学和数据处理方法等方面的知识和一整套高能物理实验方法与工程技术.该文介绍了一套宇宙线μ子寿命测量实验装置的组建,并对该实验装置设置了开放性实验课程,对进行高能物理实验创造性人才培养的可行性和具体实施方法进行了探讨.",
+        "doi": "10.3969/j.issn.1002-4956.2008.09.011",
+        "id": "53e9a2e5b7602d9702bf1d08",
+        "keywords": [
+          "Cosmic-Ray Muon Imaging"
+        ],
+        "keywords_zh": [
+          "μ子寿命测量",
+          "高能物理实验",
+          "设计性实验",
+          "创造性人才培养"
+        ],
+        "title": "Measurement of Cosmic Muon Lifetime and Cultivation of Creative Talent for High Energy Physics Experiment",
+        "title_zh": "μ子寿命测量与高能物理实验创造性人才的培养",
+        "year": 2008
+      },
+      {
+        "abstract": "The three-source model is used to analyze the experimental data of different collision systems and different energies.It is found that the longitudinal collective flow depends on energy and nucleus at high energy collisions.Through comparing the curve,we draw a conclusion by the graph of longitudinal collective flow and collision nucleus.",
+        "abstract_zh": "通过使用三源模型对不同系统、不同能量下的实验数据进行分析,发现在高能碰撞中纵向集体流与碰撞能量和碰撞核存在依赖关系.通过对比,给出不同能量下纵向集体流随碰撞核的变化曲线,并给出初步结论.",
+        "doi": "10.3969/j.issn.1672-948X.2008.04.030",
+        "id": "53e9b85cb7602d9704425257",
+        "keywords": [
+          "collective flow",
+          "high energy physics",
+          "nuclear stopping power"
+        ],
+        "keywords_zh": [
+          "核阻止本领",
+          "集体流",
+          "高能物理"
+        ],
+        "title": "Study of Characters of Collective Flow in A-A Collisions at High Energy Physics",
+        "title_zh": "高能物理核-核碰撞中的集体流特性研究",
+        "year": 2008
+      },
+      {
+        "abstract": "This paper proposes a client dynamic self-adaptive replica selection algorithm in high energy physics grid environment. The algorithm predicts the replica selection based on the transfer histories, and it can also be configured easily for different applications. Mathematic derivation and experimental results are given to show that the algorithm can meet the requirements of high energy physics grid.",
+        "abstract_zh": "提出一种在高能物理网格环境下适用的客户端动态自适应文件副本选择算法.该算法基于历史传输信息进行选择预测,并可根据实际情况进行合理配置.理论证明和真实环境下的运行结果表明,该算法能够很好地满足高能物理网格的需求.",
+        "doi": "10.3969/j.issn.1000-3428.2008.03.015",
+        "id": "53e99f42b7602d9702810f54",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "网格计算",
+          "副本选择"
+        ],
+        "title": "Dynamic Self-adaptive Replica Selection Algorithm in High Energy Physics Grid",
+        "title_zh": "高能物理网格中动态自适应副本选择算法",
+        "year": 2008
+      },
+      {
+        "abstract": "Based on the existing grid middle wares,a grid file system for computing in high energy physics was proposed and implemented.The goal was to integrate heterogeneous,dynamic,large-scale grid storage resources into a single and stable file system view and provide different QoS according to user's requirements.Its architecture and key technologies were described mainly including name service,storage resource management,data replication,user interface,and work flows.",
+        "abstract_zh": "针对网格环境下高能物理计算的需求,基于现有的网格中间件,提出并设计了一个网格文件系统HEP-GridFS,目的是将异构的、动态变化的、大规模的网格存储资源虚拟成单一的、稳定的文件系统视图,并根据用户实际需求提供不同的服务质量.描述了它的体系结构以及关键技术,主要包括名字服务、存储资源管理、数据复制、用户访问接口、工作流程等.",
+        "doi": "10.3969/j.issn.1002-137x.2008.11.008",
+        "id": "53e9b9fbb7602d97045f5eec",
+        "keywords": null,
+        "keywords_zh": [
+          "高能物理",
+          "网格",
+          "网格文件系统",
+          "数据存储"
+        ],
+        "title": "Grid File System for Computing in High Energy Physics",
+        "title_zh": "面向高能物理计算的网格文件系统",
+        "year": 2008
+      },
+      {
+        "abstract_zh": " 李政道先生是世界著名的物理学家,为20世纪物理学的发展做出了重大贡献.作为炎黄子孙,李政道先生致力于祖国的科学事业,为我国高能物理事业的发展和人才培养呕心沥血,也做出了重大的贡献.在李先生80华诞之际,我们想借此机会回顾李先生关心、支持和帮助中国高能物理及加速器事业发展的历史足迹.",
+        "doi": "10.3969/j.issn.1000-3045.2007.01.017",
+        "id": "604b32676f90b7f6ca59be25",
+        "keywords": null,
+        "keywords_zh": [
+          "李政道",
+          "中国",
+          "高能物理"
+        ],
+        "title": "Prof. Tsung-Dao Lee and the development of China's high energy physics",
+        "title_zh": "李政道和中国高能物理的发展",
+        "year": 2007
+      }
+    ],
+    "total": 117,
+    "log_id": "3KObkuS4j21SoqAkAvQWKpqTXOG"
+  }
+]

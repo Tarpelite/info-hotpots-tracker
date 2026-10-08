@@ -11,7 +11,7 @@ def search_persons(
     orgs: list[str] | None = None,
     client: AMinerClient | None = None,
 ) -> Any:
-    """学者搜索：POST /api/person/search。"""
+    """学者搜索：POST /person/search。"""
     payload = compact_dict(
         {
             "name": require_text(name, "name"),
@@ -20,24 +20,24 @@ def search_persons(
             "orgs": require_text_list(orgs, "orgs") if orgs is not None else None,
         }
     )
-    return client_or_default(client).post("/api/person/search", payload=payload)
+    return client_or_default(client).post("/person/search", payload=payload)
 
 
 def get_person_detail(*args: Any, **kwargs: Any) -> Any:
-    """学者详情：GET /api/person/detail。"""
+    """学者详情：GET /person/detail。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")
 
 
 def get_person_papers(*args: Any, **kwargs: Any) -> Any:
-    """学者论文：GET /api/person/paper/relation。"""
+    """学者论文：GET /person/paper/relation。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")
 
 
 def get_person_patents(*args: Any, **kwargs: Any) -> Any:
-    """学者专利：GET /api/person/patent/relation。"""
+    """学者专利：GET /person/patent/relation。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")
 
 
 def get_person_figure(*args: Any, **kwargs: Any) -> Any:
-    """学者画像：GET /api/person/figure。"""
+    """学者画像：GET /person/figure。"""
     raise NotImplementedError("README 未提供完整参数规范，暂只保留函数名。")
