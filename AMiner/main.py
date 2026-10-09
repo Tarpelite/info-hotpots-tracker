@@ -17,6 +17,7 @@ FUNCTIONS: dict[str, Callable[..., Any]] = {
     "query_paper_lists": paper_api.query_paper_lists,
     "query_paper_detail": paper_api.query_paper_detail,
     "query_organization_detail": org_api.query_organization_detail,
+    "query_organizations": org_api.query_organizations,
 }
 
 

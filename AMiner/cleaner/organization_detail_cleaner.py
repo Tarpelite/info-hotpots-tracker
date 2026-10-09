@@ -16,13 +16,6 @@ DEFAULT_DATA_DIR = AMINER_DIR / "data" / "query_organization_detail"
 DEFAULT_OUTPUT_PATH = AMINER_DIR / "data_cleaned" / "organization_detail_cleaned.csv"
 INPUT_PATTERN = "*.json"
 
-PROVENANCE_FIELDS = (
-    "source_file",
-    "response_index",
-    "data_index",
-    "response_log_id",
-    "response_total",
-)
 COLLECTION_FIELDS = frozenset(("acronyms", "aliases", "details"))
 PREFERRED_DETAIL_FIELDS = (
     "id",
@@ -119,30 +112,16 @@ def collect_organization_details(
             records = _normalize_data_records(
                 response.get("data"), input_path, response_index
             )
-            for data_index, raw_record in enumerate(records):
+            for raw_record in records:
                 record = _normalize_collection_fields(raw_record)
-                collisions = set(record).intersection(PROVENANCE_FIELDS)
-                if collisions:
-                    names = ", ".join(sorted(collisions))
-                    raise ValueError(f"机构详情包含保留字段: {names}")
-
                 detail_fields.update(record)
-                rows.append(
-                    {
-                        "source_file": input_path.name,
-                        "response_index": response_index,
-                        "data_index": data_index,
-                        "response_log_id": response.get("log_id"),
-                        "response_total": response.get("total"),
-                        **record,
-                    }
-                )
+                rows.append(record)
 
     preferred = [
         field for field in PREFERRED_DETAIL_FIELDS if field in detail_fields
     ]
     extra = sorted(detail_fields.difference(preferred))
-    return rows, [*PROVENANCE_FIELDS, *preferred, *extra], response_count
+    return rows, [*preferred, *extra], response_count
 
 
 def deduplicate_details_by_id(

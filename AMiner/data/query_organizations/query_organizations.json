@@ -1,0 +1,5821 @@
+[
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "日照港集装箱发展有限公司动力分公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "1.School of Management"
+      },
+      {
+        "aliases": [
+          "pékin chine mines université de des",
+          "pékin chine de des mines université",
+          "北京 中国矿业大学"
+        ],
+        "org_id": "5f71b8c41c455f439fe60b8c",
+        "org_name": "China University of Mining and Technology (Beijing)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "2.School of Management"
+      },
+      {
+        "aliases": [
+          "university xiamen",
+          "dàxué xiàmén",
+          "厦门大学"
+        ],
+        "org_id": "5f71b2bd1c455f439fe3deb7",
+        "org_name": "Xiamen University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "3.State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "煤炭精细勘探与智能开发全国重点实验室"
+      },
+      {
+        "aliases": [
+          "hunan university",
+          "dàxué húnán",
+          "湖南大学"
+        ],
+        "org_id": "5f71b2ae1c455f439fe3d7a3",
+        "org_name": "Hunan University"
+      },
+      {
+        "aliases": [
+          "国网重庆市电力公司南岸供电分公司",
+          "国网重庆市电力公司市南供电分公司",
+          "重庆市电力公司南岸供电局"
+        ],
+        "org_id": "623317550a6eb145604773bb",
+        "org_name": "国网重庆市电力公司市南供电分公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Energy Research Institute Co."
+      },
+      {
+        "aliases": [
+          "国网能源研究院有限公司",
+          "国网能源研究院"
+        ],
+        "org_id": "623317420a6eb1456047422e",
+        "org_name": "国网能源研究院有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Economic and Technical Research Institute of State Grid Fujian Electric Power Co."
+      },
+      {
+        "aliases": [
+          "国网福建省电力有限公司经济技术研究院",
+          "福建省电力有限公司电力经济技术研究院"
+        ],
+        "org_id": "6233178e0a6eb14560480cfb",
+        "org_name": "国网福建省电力有限公司经济技术研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "National Climate Center"
+      },
+      {
+        "aliases": [
+          "国家气候中心"
+        ],
+        "org_id": "5f71b8461c455f439fe5ee85",
+        "org_name": "国家气候中心"
+      },
+      {
+        "aliases": [
+          "南京中瑞通电网保护有限公司",
+          "南京南瑞继保电气有限公司"
+        ],
+        "org_id": "623317400a6eb14560473966",
+        "org_name": "南京南瑞继保电气有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Shanxi Electric Power Research Institute"
+      },
+      {
+        "aliases": [
+          "国网山西省电力公司电力科学研究院"
+        ],
+        "org_id": "6233173e0a6eb14560473597",
+        "org_name": "国网山西省电力公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Electrical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国矿业大学 电气工程学院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpSdGppESvXg0zvtBDeqqBaq7"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Zhongshan Power Supply Bureau"
+      },
+      {
+        "aliases": [
+          "广东电网有限责任公司",
+          "广东电网公司"
+        ],
+        "org_id": "623317700a6eb1456047bf72",
+        "org_name": "广东电网有限责任公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Electric Power Research Institute of State Grid Shandong Electric Power Company"
+      },
+      {
+        "aliases": [
+          "国网山东省电力公司电力科学研究院",
+          "山东电力集团公司电力科学研究院"
+        ],
+        "org_id": "623317140a6eb1456046c0c3",
+        "org_name": "国网山东省电力公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory of Power Transmission Equipment Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "重庆大学 电气工程学院 输变电装备技术全国重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Economic and Technological Research Institute Co."
+      },
+      {
+        "aliases": [
+          "国网经济技术研究院有限公司",
+          "国网北京经济技术研究院",
+          "国电动力经济研究中心"
+        ],
+        "org_id": "623317420a6eb14560474143",
+        "org_name": "国网经济技术研究院有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Department of Economic Management"
+      },
+      {
+        "aliases": [
+          "china electric north power university",
+          "diànlì dàxué huáběi",
+          "huáběi diànlì dàxué"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e33a",
+        "org_name": "North China Electric Power University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "新能源电力与低碳发展研究北京市重点实验室(华北电力大学)"
+      },
+      {
+        "aliases": [
+          "国网上海市电力公司",
+          "上海市电力公司"
+        ],
+        "org_id": "623316e90a6eb14560464945",
+        "org_name": "国网上海市电力公司"
+      },
+      {
+        "aliases": [
+          "dut",
+          "dalian technology university",
+          "dàlián dàxué lǐgōng"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e34f",
+        "org_name": "Dalian University of Technology"
+      },
+      {
+        "aliases": [
+          "上海电力大学"
+        ],
+        "org_id": "64818b9d6fdfd943311c7392",
+        "org_name": "上海电力大学"
+      },
+      {
+        "aliases": [
+          "communications shanghai university",
+          "jiao shanghai tong university",
+          "jiaotong shanghai university"
+        ],
+        "org_id": "5f71b54b1c455f439fe502b0",
+        "org_name": "Shanghai Jiao Tong University"
+      },
+      {
+        "aliases": [
+          "国网上海市电力公司电力科学研究院"
+        ],
+        "org_id": "6481897c6fdfd943311658c8",
+        "org_name": "国网上海市电力公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Shanxi Electric Power Co."
+      },
+      {
+        "aliases": [
+          "国网山西省电力公司",
+          "山西省电力公司"
+        ],
+        "org_id": "623316e90a6eb14560464944",
+        "org_name": "国网山西省电力公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Shanxi Economic and Technical Research Institute"
+      },
+      {
+        "aliases": [
+          "国网山西省电力公司经济技术研究院"
+        ],
+        "org_id": "6233170e0a6eb1456046b35d",
+        "org_name": "国网山西省电力公司经济技术研究院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpTrRQG9Z04L6FrEUgOEDDMjh"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Electrical Engineering and Automation"
+      },
+      {
+        "aliases": [
+          "university wuhan",
+          "武汉大学"
+        ],
+        "org_id": "5f71b2cf1c455f439fe3e6ee",
+        "org_name": "Wuhan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Quzhou Power Supply Company"
+      },
+      {
+        "aliases": [
+          "国网浙江省电力有限公司",
+          "浙江省电力公司"
+        ],
+        "org_id": "623317420a6eb14560474096",
+        "org_name": "国网浙江省电力有限公司"
+      },
+      {
+        "aliases": [
+          "国网江苏省电力有限公司",
+          "国网江苏省电力公司",
+          "江苏省电力公司"
+        ],
+        "org_id": "623317420a6eb1456047428a",
+        "org_name": "国网江苏省电力有限公司"
+      },
+      {
+        "aliases": [
+          "seu",
+          "southeast university",
+          "dàxué dōngnán"
+        ],
+        "org_id": "61e6984d6896273465735d4c",
+        "org_name": "Southeast University"
+      },
+      {
+        "aliases": [
+          "kunming science technology university",
+          "昆明理工大学",
+          "kmust"
+        ],
+        "org_id": "5f71b4461c455f439fe48dbf",
+        "org_name": "Kunming University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Electric Power Research Institute of State Grid Shanxi Electric Power Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Zhejiang Electric Power Co."
+      },
+      {
+        "aliases": [
+          "国网浙江省电力有限公司电力科学研究院",
+          "国网浙江省电力公司电力科学研究院",
+          "浙江省电力公司电力科学研究院"
+        ],
+        "org_id": "623317440a6eb14560474602",
+        "org_name": "国网浙江省电力有限公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Automation"
+      },
+      {
+        "aliases": [
+          "technology university wuhan",
+          "武汉理工大学",
+          "whut"
+        ],
+        "org_id": "5f71b2d51c455f439fe3e951",
+        "org_name": "Wuhan University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Electrical and Electronic Engineering"
+      },
+      {
+        "aliases": [
+          "huazhong science technology university",
+          "dàxué huázhōng kējì",
+          "华中科技大学"
+        ],
+        "org_id": "5f71b2d41c455f439fe3e910",
+        "org_name": "Huazhong University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Zhejiang Meteorological Service Center"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江省气象服务中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网上海金山供电公司"
+      },
+      {
+        "aliases": [
+          "国家电网公司",
+          "sgcc",
+          "china corporación eléctrica estatal red de de la"
+        ],
+        "org_id": "5f71b2e11c455f439fe3ee5b",
+        "org_name": "State Grid Corporation of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "电网安全全国重点实验室(中国电力科学研究院有限公司)"
+      },
+      {
+        "aliases": [
+          "jiao tong university xian",
+          "jiaotong university xian",
+          "西安交通大学"
+        ],
+        "org_id": "5f71b2b81c455f439fe3dc31",
+        "org_name": "Xi''an Jiaotong University"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpV20OSYti4cfpghYfGPagMQA"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "国网信息通信产业集团有限公司",
+          "国网信息通信产业有限公司"
+        ],
+        "org_id": "623316e80a6eb14560464374",
+        "org_name": "国网信息通信产业集团有限公司"
+      },
+      {
+        "aliases": [
+          "福建亿榕信息技术有限公司"
+        ],
+        "org_id": "623317800a6eb1456047eb32",
+        "org_name": "福建亿榕信息技术有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网陕西省电力有限公司信息通信公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Mechanical and Electrical Engineering"
+      },
+      {
+        "aliases": [
+          "guangzhou university",
+          "dàxué guǎngzhōu",
+          "guǎngzhōu dàxué"
+        ],
+        "org_id": "5f71b2fd1c455f439fe3fab3",
+        "org_name": "Guangzhou University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Electric Power Engineering"
+      },
+      {
+        "aliases": [
+          "china south technology university",
+          "dàxué huánán lǐgōng",
+          "华南理工大学"
+        ],
+        "org_id": "5f71b2a11c455f439fe3d33e",
+        "org_name": "South China University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Foshan Graduate School of Innovation"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东北大学佛山研究生创新学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Mechatronics and Control Engineering"
+      },
+      {
+        "aliases": [
+          "szu",
+          "shenzhen university",
+          "深圳大学"
+        ],
+        "org_id": "5f71b3491c455f439fe41cf6",
+        "org_name": "Shenzhen University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "East China Branch"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Dongfang Electronics Co."
+      },
+      {
+        "aliases": [
+          "烟台东方电子信息产业股份有限公司",
+          "东方电子股份有限公司"
+        ],
+        "org_id": "6233176f0a6eb1456047b9bc",
+        "org_name": "东方电子股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Guangzhou Power Supply Bureau"
+      },
+      {
+        "aliases": [
+          "广东电网有限责任公司广州供电局",
+          "广东电网公司广州供电局"
+        ],
+        "org_id": "623317530a6eb1456047700a",
+        "org_name": "广东电网有限责任公司广州供电局"
+      },
+      {
+        "aliases": [
+          "shaanxi technology university",
+          "陕西理工大学"
+        ],
+        "org_id": "5f71b5ec1c455f439fe54531",
+        "org_name": "Shaanxi University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "陕西理工大学电气工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网江苏电力设计咨询有限公司徐州勘测设计分公司"
+      },
+      {
+        "aliases": [
+          "国网江苏省电力有限公司电力科学研究院",
+          "国网江苏省电力公司电力科学研究院",
+          "江苏省电力公司电力科学研究院"
+        ],
+        "org_id": "623317440a6eb14560474425",
+        "org_name": "国网江苏省电力有限公司电力科学研究院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpWEIwK25aVPT5IWrn23lxkCL"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "国网江苏省电力有限公司",
+          "国网江苏省电力公司",
+          "江苏省电力公司"
+        ],
+        "org_id": "623317420a6eb1456047428a",
+        "org_name": "国网江苏省电力有限公司"
+      },
+      {
+        "aliases": [
+          "宁波送变电建设有限公司"
+        ],
+        "org_id": "648188ce6fdfd94331145078",
+        "org_name": "宁波送变电建设有限公司"
+      },
+      {
+        "aliases": [
+          "中国电力科学研究院有限公司",
+          "中国电力科学研究院",
+          "china co electric institute ltd power research"
+        ],
+        "org_id": "623317420a6eb14560474210",
+        "org_name": "China Electric Power Research Institute Co., Ltd."
+      },
+      {
+        "aliases": [
+          "harbin institute technology",
+          "哈尔滨工业大学"
+        ],
+        "org_id": "5f71b29b1c455f439fe3d046",
+        "org_name": "Harbin Institute of Technology"
+      },
+      {
+        "aliases": [
+          "chekiang university",
+          "university zhejiang",
+          "zheda"
+        ],
+        "org_id": "5f71b29c1c455f439fe3d0e1",
+        "org_name": "Zhejiang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华中科技大学强电磁技术全国重点实验室"
+      },
+      {
+        "aliases": [
+          "guangdong technology university",
+          "dàxué guǎngdōng gōngyè",
+          "广东工业大学"
+        ],
+        "org_id": "5f71b4231c455f439fe47e78",
+        "org_name": "Guangdong University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "伊利诺伊理工学院电气与计算机工程系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Marketing Service Center"
+      },
+      {
+        "aliases": [
+          "国网重庆市电力公司",
+          "重庆市电力公司"
+        ],
+        "org_id": "623316e90a6eb1456046494b",
+        "org_name": "国网重庆市电力公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Chongqing Guanghui Power Supply Service Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "重庆广汇供电服务有限责任公司"
+      },
+      {
+        "aliases": [
+          "guangxi university",
+          "dàxué guǎngxī",
+          "广西大学"
+        ],
+        "org_id": "5f71b33c1c455f439fe41750",
+        "org_name": "Guangxi University"
+      },
+      {
+        "aliases": [
+          "electrical engineering institute",
+          "academy electrical engineeringchinese institute sciences of",
+          "中国科学院电工研究所"
+        ],
+        "org_id": "61e69d416896273465741143",
+        "org_name": "Institute of Electrical Engineering,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "academy academy chinese chinese graduate sciences sciences university of of",
+          "akademie chinesischen universität wissenschaften der der",
+          "akademie chinesischen der der universität wissenschaften"
+        ],
+        "org_id": "5f71b3941c455f439fe43dc6",
+        "org_name": "University of the Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "中国科学院科技政策与管理科学研究所",
+          "academy chinese development institutes science sciences of",
+          "academy chinese development institutes of science sciences"
+        ],
+        "org_id": "62331e330a6eb147dca8a469",
+        "org_name": "institutes of science and development, chinese academy of sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Nanjing Nari-relays Electric Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Nanjing Nari-relays Engineering Co."
+      },
+      {
+        "aliases": [
+          "南京南瑞继保工程技术有限公司",
+          "南京南瑞继保程技术有限公司",
+          "南京南瑞继保营销有限公司"
+        ],
+        "org_id": "623317840a6eb1456047f631",
+        "org_name": "南京南瑞继保工程技术有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Marketing Service Center(Metering Center)"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpXQJSBk4cT6FmkKkAHaHhvPu"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "国网山东省电力公司",
+          "山东电力集团公司",
+          "山东省电力公司"
+        ],
+        "org_id": "623316e90a6eb1456046469d",
+        "org_name": "国网山东省电力公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Automation"
+      },
+      {
+        "aliases": [
+          "nanjing posts telecommunications university",
+          "institute nanjing posts telecommunications",
+          "南京邮电大学"
+        ],
+        "org_id": "5f71b4481c455f439fe48e8a",
+        "org_name": "Nanjing University of Posts and Telecommunications"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Modern Posts"
+      },
+      {
+        "aliases": [
+          "modern nanjing posts posts school telecommunications university of",
+          "南京邮电大学现代邮政学院"
+        ],
+        "org_id": "6513a3975ef0694ef9c7f5ec",
+        "org_name": "Nanjing University of Posts and Telecommunications School of Modern Posts"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "昆明理工大学电力工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河海大学电气与动力工程学院"
+      },
+      {
+        "aliases": [
+          "electric northeast power university",
+          "dianli northeast university",
+          "东北电力大学"
+        ],
+        "org_id": "5f71b48e1c455f439fe4ad78",
+        "org_name": "Northeast Electric Power University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"1.supFormer Ministry of Mechanical Industry"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "原机械工业部"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"2.supDepartment of Energy and Power Engineering"
+      },
+      {
+        "aliases": [
+          "seda association debating english students tsinghua university",
+          "department mathematical sciences tsinghua",
+          "beijing china tsinghua university"
+        ],
+        "org_id": "5f71b2881c455f439fe3c860",
+        "org_name": "Tsinghua University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"3.supChina Machinery Technical Development Foundation"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "机械工业技术发展基金会"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"4.supChina Electrical Equipment Industry Association"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电器工业协会"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"5.supMachinery Industry Beijng Electrotechnical Institute of Economic Research"
+      },
+      {
+        "aliases": [
+          "机械工业北京电工技术经济研究所"
+        ],
+        "org_id": "64818aa26fdfd9433119a73a",
+        "org_name": "机械工业北京电工技术经济研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"6.supContemporary Amperex Technology Co."
+      },
+      {
+        "aliases": [
+          "catl amperex co draftcontemporary limited technology",
+          "catl amperex co contemporary limited technology",
+          "amperex contemporary technology"
+        ],
+        "org_id": "5f71b6901c455f439fe58db5",
+        "org_name": "Contemporary Amperex Technology"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpYdHUwrVPyEEmfvsT4R4nu4D"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "china computer control electric engineering north power school university",
+          "华北电力大学控制与计算机工程学院"
+        ],
+        "org_id": "6513a38b5ef0694ef9c7f468",
+        "org_name": "North China Electric Power University School of Control and Computer Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "NARI Technology Co."
+      },
+      {
+        "aliases": [
+          "国电南瑞科技股份有限公司"
+        ],
+        "org_id": "623317480a6eb14560474fbe",
+        "org_name": "国电南瑞科技股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Jiangsu Electric Power Co."
+      },
+      {
+        "aliases": [
+          "busniess chengdu school technology university",
+          "成都理工大学商学院"
+        ],
+        "org_id": "6513a3a25ef0694ef9c7f792",
+        "org_name": "Chengdu University of Technology Busniess School"
+      },
+      {
+        "aliases": [
+          "chengdu technology university",
+          "成都理工大学",
+          "cdut"
+        ],
+        "org_id": "5f71b31f1c455f439fe409b2",
+        "org_name": "Chengdu University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院成都文献情报中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学技术大学能源与科学技术学院"
+      },
+      {
+        "aliases": [
+          "academy chinese conversion energy guangzhou institute of sciences",
+          "academy chinese conversion energy guangzhou institute sciences of",
+          "中国科学院广州能源研究所"
+        ],
+        "org_id": "623315d10a6eb14495638fae",
+        "org_name": "Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国矿业大学电气工程学院"
+      },
+      {
+        "aliases": [
+          "electrical engineering school southeast university",
+          "electrical engineering school seu",
+          "electrical engineering seu school"
+        ],
+        "org_id": "62331e350a6eb147dca8a925",
+        "org_name": "school of electrical engineering, southeast university"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Southeast University - Harvest Road Joint R & D Center for Smart Equipment Technology of New-Type Power Systems"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东大-丰道新型电力系统智能装备技术联合研发中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Akesu Electric Power Supply Company"
+      },
+      {
+        "aliases": [
+          "国网新疆电力有限公司",
+          "国网新疆电力公司",
+          "新疆电力公司"
+        ],
+        "org_id": "623317420a6eb1456047414d",
+        "org_name": "国网新疆电力有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory of Power Transmission Equipment & System Security and New Technology"
+      },
+      {
+        "aliases": [
+          "cqu",
+          "chongqing university",
+          "chóngqìng dàxué"
+        ],
+        "org_id": "5f71b2ad1c455f439fe3d768",
+        "org_name": "Chongqing University"
+      },
+      {
+        "aliases": [
+          "云南电力集团有限公司",
+          "云南电网有限责任公司",
+          "云南电网公司"
+        ],
+        "org_id": "6233175a0a6eb14560478272",
+        "org_name": "云南电网有限责任公司"
+      },
+      {
+        "aliases": [
+          "国网河南省电力公司信阳供电公司",
+          "河南省电力公司信阳供电公司"
+        ],
+        "org_id": "6233178e0a6eb14560480c9b",
+        "org_name": "国网河南省电力公司信阳供电公司"
+      },
+      {
+        "aliases": [
+          "国网江苏省电力有限公司镇江供电分公司",
+          "国网江苏省电力公司镇江供电公司",
+          "江苏省电力公司镇江供电分公司"
+        ],
+        "org_id": "623317420a6eb145604742d4",
+        "org_name": "国网江苏省电力有限公司镇江供电分公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpZqqnjpY870zkqof12T8NM1f"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "南方电网科学研究院有限责任公司"
+        ],
+        "org_id": "623316e10a6eb14560463164",
+        "org_name": "南方电网科学研究院有限责任公司"
+      },
+      {
+        "aliases": [
+          "china gorges three university",
+          "三峡大学",
+          "长江三峡大学"
+        ],
+        "org_id": "5f71b38a1c455f439fe4396a",
+        "org_name": "China Three Gorges University"
+      },
+      {
+        "aliases": [
+          "jiaotong management school university xian",
+          "西安交通大学管理学院"
+        ],
+        "org_id": "5f71b8a81c455f439fe60625",
+        "org_name": "Xian Jiaotong University School of Management"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "全球能源互联网"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "湘江实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网北京市电力公司客户服务中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网北京市电力公司密云供电公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Nanjing SAC Power Grid Automation Co."
+      },
+      {
+        "aliases": [
+          "南京国电南自电网自动化有限公司",
+          "南京新宁电力技术有限公司"
+        ],
+        "org_id": "623316d00a6eb14560460714",
+        "org_name": "南京国电南自电网自动化有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北电力大学(保定)(新能源电力系统全国重点实验室)"
+      },
+      {
+        "aliases": [
+          "国家电网公司",
+          "sgcc",
+          "china corporación eléctrica estatal red de de la"
+        ],
+        "org_id": "5f71b2e11c455f439fe3ee5b",
+        "org_name": "State Grid Corporation of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Applied Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京联合大学应用科技学院学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网山东省电力公司山东电力调度控制中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网山东省电力公司山东电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南瑞集团(国网电力科学研究院)有限公司"
+      },
+      {
+        "aliases": [
+          "中国电力科学研究院有限公司",
+          "中国电力科学研究院",
+          "china co electric institute ltd power research"
+        ],
+        "org_id": "623317420a6eb14560474210",
+        "org_name": "China Electric Power Research Institute Co., Ltd."
+      },
+      {
+        "aliases": [
+          "electrical engineering school shandong university",
+          "electrical engineering sdu school",
+          "electrical engineering school sdu"
+        ],
+        "org_id": "62331e370a6eb147dca8adc8",
+        "org_name": "school of electrical engineering, shandong university"
+      },
+      {
+        "aliases": [
+          "清华大学电机工程与应用电子技术系",
+          "清华大学电机工程系",
+          "清华大学电机系"
+        ],
+        "org_id": "5f71b8a71c455f439fe605ab",
+        "org_name": "清华大学电机工程与应用电子技术系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Electric Power Research Institute of Guizhou Power Grid Co."
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpb4RVSvRfVmnQcu9cxwNYGlV"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "贵州电网有限责任公司电力科学研究院",
+          "贵州电力试验研究院"
+        ],
+        "org_id": "623317740a6eb1456047c9b3",
+        "org_name": "贵州电网有限责任公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "EPTC (Beijing) Electric Power Research Institute"
+      },
+      {
+        "aliases": [
+          "中能国研北京电力科学研究院"
+        ],
+        "org_id": "648189b06fdfd9433116fcb8",
+        "org_name": "中能国研（北京）电力科学研究院"
+      },
+      {
+        "aliases": [
+          "college electrical engineering power taiyuan technology university of",
+          "太原理工大学电气与动力工程学院"
+        ],
+        "org_id": "6513a3ad5ef0694ef9c7f8f1",
+        "org_name": "Taiyuan University of Technology College of Electrical and Power Engineering"
+      },
+      {
+        "aliases": [
+          "taiyuan technology university",
+          "太原理工大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e35d",
+        "org_name": "Taiyuan University of Technology"
+      },
+      {
+        "aliases": [
+          "college electrical engineering university zhejiang",
+          "浙江大学电气工程学院"
+        ],
+        "org_id": "6513a3b25ef0694ef9c7f98c",
+        "org_name": "Zhejiang University College of Electrical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江大学 人才工作办公室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江自然博物院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Jiangmen Power Supply Bureau"
+      },
+      {
+        "aliases": [
+          "广东电网有限责任公司江门供电局",
+          "东莞市常平真实副食店",
+          "东莞市常平广实副食店"
+        ],
+        "org_id": "623317710a6eb1456047c2cc",
+        "org_name": "广东电网有限责任公司江门供电局"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国网浙江省电力有限公司杭州市富阳区供电公司"
+      },
+      {
+        "aliases": [
+          "国网吉林省电力有限公司四平供电公司"
+        ],
+        "org_id": "623317550a6eb1456047749f",
+        "org_name": "国网吉林省电力有限公司四平供电公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国信息通信研究院技术与标准研究所"
+      },
+      {
+        "aliases": [
+          "国网电力信息通信有限公司",
+          "国网信息通信有限公司",
+          "国电通信中心"
+        ],
+        "org_id": "623316cb0a6eb1456045fee7",
+        "org_name": "国网电力信息通信有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "新能源电力系统国家重点实验室(华北电力大学(保定))"
+      },
+      {
+        "aliases": [
+          "南京理工大学"
+        ],
+        "org_id": "648189ee6fdfd9433117a6fd",
+        "org_name": "南京理工大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Wuxi Power Supply Company"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "无锡供电公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Jiangsu Frontier Electric Power Technology Co."
+      },
+      {
+        "aliases": [
+          "江苏方天电力技术有限公司"
+        ],
+        "org_id": "623317140a6eb1456046c2d8",
+        "org_name": "江苏方天电力技术有限公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpc7ZVELKboLnrD15LFpUQnrR"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Electrical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Jinhua Power Supply Company"
+      },
+      {
+        "aliases": [
+          "scu",
+          "sichuan university",
+          "dàxué sìchuān"
+        ],
+        "org_id": "5f71b2b41c455f439fe3dac5",
+        "org_name": "Sichuan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中南大学 商学院 长沙 410083"
+      },
+      {
+        "aliases": [
+          "国家电网有限公司信息通信分公司",
+          "国家电网公司信息通信分公司"
+        ],
+        "org_id": "6233174b0a6eb14560475a85",
+        "org_name": "国家电网有限公司信息通信分公司"
+      },
+      {
+        "aliases": [
+          "国网河南省电力公司电力科学研究院",
+          "河南省电力公司电力科学研究院",
+          "河南电力试验研究院"
+        ],
+        "org_id": "623316f80a6eb14560466f63",
+        "org_name": "国网河南省电力公司电力科学研究院"
+      },
+      {
+        "aliases": [
+          "国网安徽省电力有限公司电力科学研究院",
+          "国网安徽省电力公司电力科学研究院",
+          "安徽省电力科学研究院"
+        ],
+        "org_id": "623317440a6eb145604744fa",
+        "org_name": "国网安徽省电力有限公司电力科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北电力大学新能源电力系统国家重点实验室"
+      },
+      {
+        "aliases": [
+          "business central school south university",
+          "中南大学商学院"
+        ],
+        "org_id": "62331e370a6eb147dca8ac46",
+        "org_name": "Business School, Central South University"
+      },
+      {
+        "aliases": [
+          "central south university",
+          "中南大学"
+        ],
+        "org_id": "5f71b32e1c455f439fe410d4",
+        "org_name": "Central South University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "湖南省能源投资集团有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Qinghai Electric Power Company"
+      },
+      {
+        "aliases": [
+          "国网青海省电力公司",
+          "青海省电力公司"
+        ],
+        "org_id": "623316e90a6eb1456046494a",
+        "org_name": "国网青海省电力公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Electrical Engineering and Automation"
+      },
+      {
+        "aliases": [
+          "fuzhou university",
+          "dàxué fúzhōu",
+          "福州大学"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e330",
+        "org_name": "Fuzhou University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Zhejiang Huayun Clean Energy Co."
+      },
+      {
+        "aliases": [
+          "浙江华云清洁能源有限公司"
+        ],
+        "org_id": "648188cd6fdfd94331144da8",
+        "org_name": "浙江华云清洁能源有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Grid Fujian Electric Power Co."
+      },
+      {
+        "aliases": [
+          "国网福建省电力有限公司",
+          "福建省电力有限公司"
+        ],
+        "org_id": "623316e90a6eb14560464941",
+        "org_name": "国网福建省电力有限公司"
+      },
+      {
+        "aliases": [
+          "automation college electrical engineering fuzhou university",
+          "automation electrical engineering fuzhou school university",
+          "福州大学电气工程与自动化学院"
+        ],
+        "org_id": "6513a3b15ef0694ef9c7f960",
+        "org_name": "Fuzhou University College of Electrical Engineering and Automation"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpdSGW5adtaJyW3DJgQ7UbU5p"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "国网北京市电力公司",
+          "北京市电力公司"
+        ],
+        "org_id": "623316ef0a6eb145604657b8",
+        "org_name": "国网北京市电力公司"
+      },
+      {
+        "aliases": [
+          "china electric electrical electronic engineering north power school university",
+          "china electric electric electronic engineering north power school university",
+          "华北电力大学电气与电子工程学院"
+        ],
+        "org_id": "6513a38b5ef0694ef9c7f469",
+        "org_name": "North China Electric Power University School of Electrical and Electronic Engineering"
+      },
+      {
+        "aliases": [
+          "college electrical engineering university zhejiang",
+          "浙江大学电气工程学院"
+        ],
+        "org_id": "6513a3b25ef0694ef9c7f98c",
+        "org_name": "Zhejiang University College of Electrical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家电投集团数字科技有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Shaoxing Power Supply Company"
+      },
+      {
+        "aliases": [
+          "china corporation huadian",
+          "корпорация хуадянь",
+          "china group huadian"
+        ],
+        "org_id": "5f71b4311c455f439fe483b9",
+        "org_name": "China Huadian Corporation"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江苏华电望亭天然气发电有限公司"
+      },
+      {
+        "aliases": [
+          "国电南京自动化股份有限公司"
+        ],
+        "org_id": "623316ce0a6eb14560460298",
+        "org_name": "国电南京自动化股份有限公司"
+      },
+      {
+        "aliases": [
+          "华电电力科学研究院有限公司",
+          "华电电力科学研究院",
+          "国电机械设计研究所"
+        ],
+        "org_id": "623317450a6eb14560474a0a",
+        "org_name": "华电电力科学研究院有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国华电集团公司上海分公司"
+      },
+      {
+        "aliases": [
+          "中国华电集团物资有限公司"
+        ],
+        "org_id": "64818ab56fdfd9433119de53",
+        "org_name": "中国华电集团物资有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国华电集团发电运营有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南京南自华盾数字技术有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北电力设计院"
+      },
+      {
+        "aliases": [
+          "jiaotong northern university",
+          "beijing jiaotong university",
+          "北京交通大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e369",
+        "org_name": "Beijing Jiaotong University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北电力大学经济管理系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "China Electric Power Research Institute"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电力科学研究院有限公司(南京)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江苏省大数据分析技术重点实验室(南京信息工程大学)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家节能中心"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpearecpJBraaFUPlk1CWnjBm"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "电站能量传递转化与系统教育部重点实验室(华北电力大学)"
+      },
+      {
+        "aliases": [
+          "浙江大学能源工程学院"
+        ],
+        "org_id": "64eda7f83596a5edbfcd0331",
+        "org_name": "浙江大学能源工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "现代电力系统仿真控制与绿色电能新技术教育部重点实验室(东北电力大学)"
+      },
+      {
+        "aliases": [
+          "国网吉林省电力有限公司长春供电公司",
+          "长春供电公司长春电业局",
+          "长春电业局长春供电公司"
+        ],
+        "org_id": "623317290a6eb1456046fbf2",
+        "org_name": "国网吉林省电力有限公司长春供电公司"
+      },
+      {
+        "aliases": [
+          "国网吉林省电力有限公司经济技术研究院",
+          "吉林省电力有限公司电力经济技术研究院"
+        ],
+        "org_id": "623316d30a6eb14560460c19",
+        "org_name": "国网吉林省电力有限公司经济技术研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Power Dispatching Control Center"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国南方电网电力调度控制中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Digital Grid Research Institute"
+      },
+      {
+        "aliases": [
+          "南方电网数字电网研究院有限公司",
+          "鼎信信息科技有限责任公司"
+        ],
+        "org_id": "623317500a6eb14560476932",
+        "org_name": "南方电网数字电网研究院有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "青岛大学电气工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南方电网有限责任公司"
+      },
+      {
+        "aliases": [
+          "economics hebei management school technology university of",
+          "economics hebei managemrnt school technology university of",
+          "河北工业大学经济管理学院"
+        ],
+        "org_id": "6513a3ce5ef0694ef9c7fce3",
+        "org_name": "Hebei University of Technology School of Economics and Management"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北电力大学经济与管理学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "可再生能源并网全国重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海交通大学分子医学研究院"
+      },
+      {
+        "aliases": [
+          "安徽工程大学",
+          "anhui polytechnic university",
+          "anhui mechanical university"
+        ],
+        "org_id": "5f71b4821c455f439fe4a7eb",
+        "org_name": "Anhui Polytechnic University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东北师范大学 多酸与网格材料化学教育部重点实验室"
+      },
+      {
+        "aliases": [
+          "huainan normal university",
+          "college huainan teachers",
+          "淮南师范学院"
+        ],
+        "org_id": "61e69dc268962734657427c4",
+        "org_name": "Huainan Normal University"
+      },
+      {
+        "aliases": [
+          "institute technology yancheng",
+          "盐城工学院",
+          "yit"
+        ],
+        "org_id": "61e6986868962734657361f6",
+        "org_name": "Yancheng Institute of Technology"
+      },
+      {
+        "aliases": [
+          "engineering sciences shanghai university",
+          "上海工程技术大学",
+          "engineering science shanghai university"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e38c",
+        "org_name": "Shanghai University of Engineering Science"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpfow5OHmxwzgQEORyNKADyXX"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "just",
+          "jiangsu science technology university",
+          "江苏科技大学"
+        ],
+        "org_id": "61e6a22a689627346574d814",
+        "org_name": "Jiangsu University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "qinghai university",
+          "青海大学"
+        ],
+        "org_id": "5f71b2f71c455f439fe3f87f",
+        "org_name": "Qinghai University"
+      },
+      {
+        "aliases": [
+          "aviation nanchang university",
+          "hangkong nanchang university",
+          "南昌航空大学"
+        ],
+        "org_id": "5f71b4c41c455f439fe4c60b",
+        "org_name": "Nanchang Hangkong University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "齐鲁工业大学(山东省科学院) 新材料研究所 山东省特种含硅新材料重点实验室"
+      },
+      {
+        "aliases": [
+          "huadong china petroleum university",
+          "华东 中国石油大学",
+          "中国石油大学华东"
+        ],
+        "org_id": "5f71b8ca1c455f439fe60d5d",
+        "org_name": "China University of Petroleum (East China)"
+      },
+      {
+        "aliases": [
+          "内蒙古民族师范学院",
+          "内蒙古民族大学"
+        ],
+        "org_id": "5f71b8aa1c455f439fe606b8",
+        "org_name": "inner mongolia university for nationalities"
+      },
+      {
+        "aliases": [
+          "science taiyuan technology university",
+          "太原科技大学",
+          "tyust"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e361",
+        "org_name": "Taiyuan University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "university yangtze",
+          "长江大学"
+        ],
+        "org_id": "5f71b5ba1c455f439fe52e29",
+        "org_name": "Yangtze University"
+      },
+      {
+        "aliases": [
+          "construction henan university urban",
+          "institute pingdingshan technology",
+          "college construction urban"
+        ],
+        "org_id": "61e69b77689627346573ce9c",
+        "org_name": "Henan University of Urban Construction"
+      },
+      {
+        "aliases": [
+          "chemistry college energy hebi vocational",
+          "鹤壁能源化工职业学院"
+        ],
+        "org_id": "623315d10a6eb14495638d95",
+        "org_name": "Hebi Vocational College of Energy and Chemistry"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "安徽工业大学材料科学与工程学院"
+      },
+      {
+        "aliases": [
+          "engineering space university",
+          "中国人民解放军战略支援部队航天工程大学"
+        ],
+        "org_id": "61e6a22a689627346574d772",
+        "org_name": "Space Engineering University"
+      },
+      {
+        "aliases": [
+          "defense national technology university",
+          "academy engineering harbin military",
+          "changsha institute technology"
+        ],
+        "org_id": "62331e330a6eb147dca8a7a2",
+        "org_name": "National University of Defense Technology"
+      },
+      {
+        "aliases": [
+          "liaoning shihua university",
+          "辽宁石油化工大学",
+          "chemical liaoning petroleum technology university"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e359",
+        "org_name": "Liaoning University of Petroleum and Chemical Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "抚顺市生态环境事务服务中心"
+      },
+      {
+        "aliases": [
+          "chengdu college construction environmental protection science technology university urban and of of",
+          "and chengdu college construction environmental of of protection science technology university urban",
+          "architecture college environment sichuan university"
+        ],
+        "org_id": "62331e350a6eb147dca8aaf8",
+        "org_name": "college of urban construction and environmental protection of chengdu university of science and technology"
+      },
+      {
+        "aliases": [
+          "江苏方洋水务有限公司"
+        ],
+        "org_id": "648188b86fdfd94331140b4f",
+        "org_name": "江苏方洋水务有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "景德镇陶瓷大学材料科学与工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市浦东模范中学"
+      },
+      {
+        "aliases": [
+          "nationalities southwest university for",
+          "for nationalities southwest university",
+          "minzu southwest university"
+        ],
+        "org_id": "5f71b3061c455f439fe3fefe",
+        "org_name": "Southwest Minzu University"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpguijnnM2yJ5zSE44wSyAko5"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "成都大学"
+        ],
+        "org_id": "623317410a6eb14560473f9b",
+        "org_name": "成都大学"
+      },
+      {
+        "aliases": [
+          "苏州科技大学"
+        ],
+        "org_id": "623317380a6eb145604726c2",
+        "org_name": "苏州科技大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "苏州科技大学化学与生命科学学院 江苏 215009"
+      },
+      {
+        "aliases": [
+          "engineering science sichuan university",
+          "lǐgōng sìchuān xuéyuàn",
+          "四川理工学院"
+        ],
+        "org_id": "5f71b58a1c455f439fe51a40",
+        "org_name": "Sichuan University of Science and Engineering"
+      },
+      {
+        "aliases": [
+          "جامعة ييلي",
+          "伊犁师范大学"
+        ],
+        "org_id": "5f71b8691c455f439fe5fd19",
+        "org_name": "yili normal university"
+      },
+      {
+        "aliases": [
+          "liaoning science technology university",
+          "辽宁科技大学",
+          "liaoning université des du et sciences technologies"
+        ],
+        "org_id": "5f71b8821c455f439fe602d4",
+        "org_name": "Université des sciences et technologies du Liaoning"
+      },
+      {
+        "aliases": [
+          "chongqing science technology university",
+          "重庆科技学院"
+        ],
+        "org_id": "5f71b47f1c455f439fe4a65d",
+        "org_name": "Chongqing University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "安庆师范大学"
+        ],
+        "org_id": "623317530a6eb1456047709c",
+        "org_name": "安庆师范大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "郑州轻工业大学 材料与化学工程学院 河南 450002"
+      },
+      {
+        "aliases": [
+          "kunming university",
+          "昆明学院"
+        ],
+        "org_id": "5f71b8831c455f439fe602df",
+        "org_name": "Kunming University"
+      },
+      {
+        "aliases": [
+          "hunan science technology university",
+          "dàxué húnán kējì",
+          "湖南科技大学"
+        ],
+        "org_id": "5f71b4601c455f439fe498c0",
+        "org_name": "Hunan University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京交通大学物理科学与工程学院"
+      },
+      {
+        "aliases": [
+          "hubei university",
+          "dàxué húběi",
+          "湖北大学"
+        ],
+        "org_id": "5f71b4661c455f439fe49b15",
+        "org_name": "Hubei University"
+      },
+      {
+        "aliases": [
+          "polytechnic second shanghai university",
+          "上海第二工业大学"
+        ],
+        "org_id": "61e69883689627346573684d",
+        "org_name": "Shanghai Second Polytechnic University"
+      },
+      {
+        "aliases": [
+          "inner mongolia normal university",
+          "内蒙古师范大学",
+          "inmu"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e368",
+        "org_name": "Inner Mongolia Normal University"
+      },
+      {
+        "aliases": [
+          "changzhou university",
+          "常州大学"
+        ],
+        "org_id": "61e69b5d689627346573ce60",
+        "org_name": "Changzhou University"
+      },
+      {
+        "aliases": [
+          "jiangxi normal science technology university",
+          "daxue jiāngxī kējì shīfàn",
+          "江西科技师范大学"
+        ],
+        "org_id": "61e6988368962734657365fd",
+        "org_name": "Jiangxi Science and Technology Normal University"
+      },
+      {
+        "aliases": [
+          "aeronautics astronautics beijing university",
+          "beihang university",
+          "北京航空航天大学"
+        ],
+        "org_id": "5f71b2b41c455f439fe3da46",
+        "org_name": "Beihang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京理工大学宇航学院 北京 100181"
+      },
+      {
+        "aliases": [
+          "polytechnic university wuhan",
+          "daxue qinggong wuhan",
+          "武汉轻工大学"
+        ],
+        "org_id": "5f71b8c91c455f439fe60d3a",
+        "org_name": "Wuhan Polytechnic University"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpiD4dIayrTSwewR8BME6RCDi"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "anhui normal university",
+          "coal college huaibei industry teachers",
+          "huaibei normal university"
+        ],
+        "org_id": "5f71b88a1c455f439fe6032e",
+        "org_name": "Huaibei Normal University"
+      },
+      {
+        "aliases": [
+          "nanyang normal university",
+          "南阳师范学院"
+        ],
+        "org_id": "5f71b6e71c455f439fe5b3bf",
+        "org_name": "Nanyang Normal University"
+      },
+      {
+        "aliases": [
+          "nanjing technology university",
+          "nanjing tech university",
+          "njtech"
+        ],
+        "org_id": "5f71b3501c455f439fe42054",
+        "org_name": "Nanjing Tech University"
+      },
+      {
+        "aliases": [
+          "huaiyin normal university",
+          "淮阴师范学院"
+        ],
+        "org_id": "61e698686896273465736257",
+        "org_name": "Huaiyin Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Xinjiang Agr Univ"
+      },
+      {
+        "aliases": [
+          "宿州师范专科学校",
+          "宿州学院"
+        ],
+        "org_id": "5f71b8851c455f439fe602f8",
+        "org_name": "宿州学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京智芯微电子科技有限公司安全传感事业部"
+      },
+      {
+        "aliases": [
+          "南京邮电大学材料科学与工程学院"
+        ],
+        "org_id": "6513a3975ef0694ef9c7f5ef",
+        "org_name": "南京邮电大学材料科学与工程学院"
+      },
+      {
+        "aliases": [
+          "阜阳师范大学"
+        ],
+        "org_id": "5f71b88f1c455f439fe603c9",
+        "org_name": "fuyang normal university"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南昌航空大学江西省持久性污染物控制与资源化重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北华大学材料科学与工程学院"
+      },
+      {
+        "aliases": [
+          "humanities hunan science technology university",
+          "湖南人文科技学院",
+          "huhst"
+        ],
+        "org_id": "5f71b4671c455f439fe49ba5",
+        "org_name": "Hunan University of Humanities, Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "甘肃农业大学 理学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "阜阳师范大学 化学与材料工程学院"
+      },
+      {
+        "aliases": [
+          "jinggangshan university",
+          "井冈山大学",
+          "jgsu"
+        ],
+        "org_id": "5f71b4361c455f439fe4863e",
+        "org_name": "Jinggangshan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "广东第二师范学院化学与材料科学学院 广东广州 510303"
+      },
+      {
+        "aliases": [
+          "湖北大学知行学院"
+        ],
+        "org_id": "623317410a6eb14560473ef5",
+        "org_name": "湖北大学知行学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南阳师范学院化学与制药工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南昌航空大学 江西省持久性污染物控制与资源化重点实验室"
+      },
+      {
+        "aliases": [
+          "science technology university wuhan",
+          "武汉科技大学",
+          "wust"
+        ],
+        "org_id": "5f71b4011c455f439fe46ebb",
+        "org_name": "Wuhan University of Science and Technology"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpjLezGWwzZrynWykmLtonZfU"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "鲁东大学化学与材料科学学院"
+      },
+      {
+        "aliases": [
+          "南京邮电大学材料科学与工程学院"
+        ],
+        "org_id": "6513a3975ef0694ef9c7f5ef",
+        "org_name": "南京邮电大学材料科学与工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "内蒙古科技大学材料与冶金学院(稀土学院)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "辽宁工程招标公司"
+      },
+      {
+        "aliases": [
+          "wit",
+          "hubei institute petrochemical",
+          "institute technology wuhan"
+        ],
+        "org_id": "5f71b4c91c455f439fe4c861",
+        "org_name": "Wuhan Institute of Technology"
+      },
+      {
+        "aliases": [
+          "chemical jilin technology university",
+          "吉林化工学院",
+          "jict"
+        ],
+        "org_id": "61e69bad689627346573d8c4",
+        "org_name": "Jilin University of Chemical Technology"
+      },
+      {
+        "aliases": [
+          "institute jinling technology",
+          "金陵科技学院"
+        ],
+        "org_id": "61e69e3f6896273465743b9a",
+        "org_name": "Jinling Institute of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江西省生态化工工程技术研究中心"
+      },
+      {
+        "aliases": [
+          "jiujiang university",
+          "九江学院"
+        ],
+        "org_id": "5f71b2931c455f439fe3cced",
+        "org_name": "Jiujiang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "五邑大学应用与材料学院 广东·江门 529020"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "九江学院化学与环境工程学院"
+      },
+      {
+        "aliases": [
+          "inner mongolia science technology university",
+          "baotou institute iron steel",
+          "内蒙古科技大学"
+        ],
+        "org_id": "5f71b8aa1c455f439fe606aa",
+        "org_name": "Inner Mongolia University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "china east science technology university",
+          "dàxué huádōng lǐgōng",
+          "华东理工大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e37c",
+        "org_name": "East China University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "county fuling normal rural school",
+          "changjiang normal university",
+          "normal university yangtze"
+        ],
+        "org_id": "5f71b3f21c455f439fe467c3",
+        "org_name": "Yangtze Normal University"
+      },
+      {
+        "aliases": [
+          "liaoning university",
+          "dàxué liáoníng",
+          "辽宁大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e352",
+        "org_name": "Liaoning University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "池州学院材料与环境工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Natl Nat Sci Fdn China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家自然科学基金委员会化学科学部"
+      },
+      {
+        "aliases": [
+          "university yanshan",
+          "dàxué yānshān",
+          "yānshān dàxué"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e33e",
+        "org_name": "Yanshan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "苏州大学 江苏·苏州 215325"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpkRzYhy6NXTUGgycDdZGvXEh"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "百色学院 化学与环境工程学院"
+      },
+      {
+        "aliases": [
+          "hdu",
+          "electrical engineering hangzhou institute",
+          "dianzi hangzhou university"
+        ],
+        "org_id": "5f71b3b61c455f439fe44c7e",
+        "org_name": "Hangzhou Dianzi University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "湖南人文科技学院 材料与环境工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "大连天亿技术服务有限公司 辽宁大连 116000"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "广东第二师范学院化学系 广东广州 510800"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Student Affairs Office"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江西中医药大学学生工作处"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Institute of Advanced Studies"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江西中医药大学高等研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Research Center for the Differentiation and Development of TCM Basic Theories"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江西中医药大学中医基础理论分化发展研究中心"
+      },
+      {
+        "aliases": [
+          "agricultural biomedicine college health huazhong university",
+          "华中农业大学生物医学与健康学院"
+        ],
+        "org_id": "6513a3b35ef0694ef9c7f999",
+        "org_name": "Huazhong Agricultural University College of Biomedicine and Health"
+      },
+      {
+        "aliases": [
+          "华中科技大学同济医学院附属协和医院"
+        ],
+        "org_id": "623316d20a6eb14560460976",
+        "org_name": "华中科技大学同济医学院附属协和医院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华中农业大学医院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Life Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Philosophy"
+      },
+      {
+        "aliases": [
+          "bnu",
+          "beijing normal university",
+          "běijīng dàxué shīfàn"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e300",
+        "org_name": "Beijing Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院动物研究所 北京 100101"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院前沿科学与教育局"
+      },
+      {
+        "aliases": [
+          "seda association debating english students tsinghua university",
+          "department mathematical sciences tsinghua",
+          "beijing china tsinghua university"
+        ],
+        "org_id": "5f71b2881c455f439fe3c860",
+        "org_name": "Tsinghua University"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRplldLkNj8gx17z2b54Z1TOSm"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "life school sciences tsinghua university",
+          "清华大学生命科学学院"
+        ],
+        "org_id": "5f71b8a71c455f439fe605a6",
+        "org_name": "清华大学生命科学学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家生物信息中心 北京 100101"
+      },
+      {
+        "aliases": [
+          "center china economic exchanges international for",
+          "center china economic exchanges for international",
+          "中国国际经济交流中心"
+        ],
+        "org_id": "5f71b6321c455f439fe5633a",
+        "org_name": "China Center for International Economic Exchanges"
+      },
+      {
+        "aliases": [
+          "college normal suide",
+          "university yulin",
+          "榆林学院"
+        ],
+        "org_id": "61e69d5b68962734657417c2",
+        "org_name": "Yulin University"
+      },
+      {
+        "aliases": [
+          "academy institute physicschinese sciences shanghai technical of",
+          "institute physics shanghai technical",
+          "中国科学院上海技术物理研究所"
+        ],
+        "org_id": "61e69d416896273465741149",
+        "org_name": "Shanghai Institute of Technical Physics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "beijing institute technology",
+          "北京理工大学"
+        ],
+        "org_id": "5f71b29c1c455f439fe3d0fc",
+        "org_name": "Beijing Institute of Technology"
+      },
+      {
+        "aliases": [
+          "西南医科大学附属医院"
+        ],
+        "org_id": "6233171f0a6eb1456046decf",
+        "org_name": "西南医科大学附属医院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西南医科大学附属医院I期临床研究病房"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "陆军军医大学新桥医院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市蒙山中学"
+      },
+      {
+        "aliases": [
+          "jiaotong southwest university",
+          "dàxué jiāotōng xīnán",
+          "西南交通大学"
+        ],
+        "org_id": "5f71b3761c455f439fe430dd",
+        "org_name": "Southwest Jiaotong University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国计量科学研究院 前沿计量科学中心 国家市场监管技术创新中心 (质谱)"
+      },
+      {
+        "aliases": [
+          "ningxia university",
+          "dàxué níngxià",
+          "宁夏大学"
+        ],
+        "org_id": "5f71b44b1c455f439fe48fc3",
+        "org_name": "Ningxia University"
+      },
+      {
+        "aliases": [
+          "national polytechnics university xikang",
+          "university xichang",
+          "西昌学院"
+        ],
+        "org_id": "61e6a1dd689627346574cb0a",
+        "org_name": "Xichang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国医学科学院血液病医院(中国医学科学院血液学研究所)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "天津市科学技术发展战略研究院"
+      },
+      {
+        "aliases": [
+          "首都医科大学附属北京友谊医院"
+        ],
+        "org_id": "623316f60a6eb14560466c32",
+        "org_name": "首都医科大学附属北京友谊医院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "首都医科大学附属北京友谊医院伦理委员会"
+      },
+      {
+        "aliases": [
+          "academy military pla science",
+          "中国人民解放军军事科学院"
+        ],
+        "org_id": "5f71b5141c455f439fe4ea69",
+        "org_name": "PLA Academy of Military Science"
+      },
+      {
+        "aliases": [
+          "college college hospital medical medical peking peking union union",
+          "college hospital medical peking union",
+          "beijing hospital xiehe"
+        ],
+        "org_id": "5f71b4521c455f439fe49296",
+        "org_name": "Peking Union Medical College Hospital"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpmoLwd9J5fkWjOXVAr63oNVe"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京积水潭医院 I期临床试验研究室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江省湖州市爱山小学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "重庆市急救医疗中心党委办公室 重庆 400014"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "陆军军医大学第一附属医院药剂科 重庆 400000"
+      },
+      {
+        "aliases": [
+          "administration food national reserves strategic",
+          "国家粮食和物资储备局"
+        ],
+        "org_id": "5f71b8531c455f439fe5f398",
+        "org_name": "National Food and Strategic Reserves Administration"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市胸科医院/上海交通大学医学院附属胸科医院伦理办公室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "复旦大学附属中山医院医学伦理委员会"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "卫生健康管理政策学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国医学科学院北京协和医学院卫生健康管理政策学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家卫生健康委卫生发展研究中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国医学科学院基础医学研究所/北京协和医学院基础学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国医学科学院基础医学研究所北京协和医学院基础学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "细胞生态海河实验室"
+      },
+      {
+        "aliases": [
+          "chinese medicine tianjin traditional university",
+          "天津中医药大学",
+          "tutcm"
+        ],
+        "org_id": "5f71b88d1c455f439fe60392",
+        "org_name": "Tianjin University of Traditional Chinese Medicine"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "铜川学校"
+      },
+      {
+        "aliases": [
+          "international shanghai studies university",
+          "上海外国语大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e37e",
+        "org_name": "Shanghai International Studies University"
+      },
+      {
+        "aliases": [
+          "college medical xuzhou",
+          "medical university xuzhou",
+          "徐州医科大学"
+        ],
+        "org_id": "5f71b4821c455f439fe4a7b2",
+        "org_name": "Xuzhou Medical University"
+      },
+      {
+        "aliases": [
+          "中国中医科学院中医临床基础医学研究所"
+        ],
+        "org_id": "6233173e0a6eb145604735e3",
+        "org_name": "中国中医科学院中医临床基础医学研究所"
+      },
+      {
+        "aliases": [
+          "首都医科大学附属北京佑安医院"
+        ],
+        "org_id": "623317150a6eb1456046c3b5",
+        "org_name": "首都医科大学附属北京佑安医院"
+      },
+      {
+        "aliases": [
+          "北京积水潭医院"
+        ],
+        "org_id": "623316da0a6eb14560461c3b",
+        "org_name": "北京积水潭医院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpo8HjLilQokxkq46kL6ZWCHB"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "世界中医药学会联合会"
+      },
+      {
+        "aliases": [
+          "chinajapan friendship hospital",
+          "中日友好医院",
+          "cjfh"
+        ],
+        "org_id": "5f71b4fd1c455f439fe4dfa0",
+        "org_name": "China-Japan Friendship Hospital"
+      },
+      {
+        "aliases": [
+          "沧州市中心医院"
+        ],
+        "org_id": "623317130a6eb1456046bed4",
+        "org_name": "沧州市中心医院"
+      },
+      {
+        "aliases": [
+          "fujian hospital municipal province zhangzhou",
+          "福建省漳州市医院"
+        ],
+        "org_id": "61e6a04b6896273465748c42",
+        "org_name": "Zhangzhou Municipal Hospital of Fujian Province"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "军医大学第二附属医院"
+      },
+      {
+        "aliases": [
+          "hospital xiyuan",
+          "中国中医科学院西苑医院"
+        ],
+        "org_id": "61e69dc2689627346574285f",
+        "org_name": "Xiyuan Hospital"
+      },
+      {
+        "aliases": [
+          "上海交通大学附属第一人民医院",
+          "上海市红十字医院",
+          "第一人民医院"
+        ],
+        "org_id": "62331e310a6eb147dca8a0e3",
+        "org_name": "Shanghai General Hospital"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "大连医科大学附属第一医院伦理办公室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳市第二人民医院伦理委员会"
+      },
+      {
+        "aliases": [
+          "aeronautics astronautics nanjing university",
+          "aviation college industry nanjing",
+          "aeronautical institute nanjing"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e349",
+        "org_name": "Nanjing University of Aeronautics and Astronautics"
+      },
+      {
+        "aliases": [
+          "university yanan",
+          "延安大学"
+        ],
+        "org_id": "61e69b77689627346573cea3",
+        "org_name": "Yan''an University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河南中医药大学药学院"
+      },
+      {
+        "aliases": [
+          "河南中医学院",
+          "chinese henan medicine university",
+          "河南中医药大学"
+        ],
+        "org_id": "5f71b8861c455f439fe60307",
+        "org_name": "Henan University of Chinese Medicine"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京大学第三医院科研处　100191"
+      },
+      {
+        "aliases": [
+          "hospital peking third university",
+          "3rd hospital peoples pku",
+          "3rd hospital pku peoples"
+        ],
+        "org_id": "5f71b5021c455f439fe4e1b0",
+        "org_name": "Peking University Third Hospital"
+      },
+      {
+        "aliases": [
+          "shantou university",
+          "dàxué shàntóu",
+          "汕头大学"
+        ],
+        "org_id": "5f71b2b41c455f439fe3da99",
+        "org_name": "Shantou University"
+      },
+      {
+        "aliases": [
+          "nim",
+          "institute metrology national",
+          "中国计量科学研究院"
+        ],
+        "org_id": "61e6994e68962734657380d0",
+        "org_name": "National Institute of Metrology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国生物技术发展中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Key Laboratory of Molecular Medicine and Biotherapy"
+      },
+      {
+        "aliases": [
+          "agricultural bayi heilongjiang university",
+          "heilongjiang agricultural bayi university",
+          "黑龙江八一农垦大学"
+        ],
+        "org_id": "623315cf0a6eb14495638c08",
+        "org_name": "Heilongjiang bayi agricultural university"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRppFBUIzK6fjYQPcQtvFDLbyC"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "大庆市建设中等职业技术学校"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "江苏省南通市通州区育才中学"
+      },
+      {
+        "aliases": [
+          "china law political science university",
+          "college law peking political science",
+          "中国政法大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e370",
+        "org_name": "China University of Political Science and Law"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市长江第二中学"
+      },
+      {
+        "aliases": [
+          "high school shanghai xingzhi",
+          "上海市行知中学",
+          "上海市行知中學"
+        ],
+        "org_id": "5f71b85c1c455f439fe5f7fb",
+        "org_name": "shanghai xingzhi high school"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "山东省寿光市第二中学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Zhejiang Province Society for Microbiology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生物物理研究所 生物大分子国家重点实验室 北京100101"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生物物理研究所生物大分子国家重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "滨州医学院医药研究中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院北京生命科学研究院"
+      },
+      {
+        "aliases": [
+          "academy biophysicschinese institute sciences of",
+          "beijing biology experimental institute",
+          "中国科学院生物物理研究所"
+        ],
+        "org_id": "61e699306896273465737e37",
+        "org_name": "Institute of Biophysics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "normal shanghai university",
+          "上海师范大学",
+          "shnu"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e385",
+        "org_name": "Shanghai Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江省德清县乾元镇中心小学"
+      },
+      {
+        "aliases": [
+          "huaiyin normal university",
+          "淮阴师范学院"
+        ],
+        "org_id": "61e698686896273465736257",
+        "org_name": "Huaiyin Normal University"
+      },
+      {
+        "aliases": [
+          "anyang institute technology",
+          "安阳工学院",
+          "ayit"
+        ],
+        "org_id": "61e69e3f6896273465743b9b",
+        "org_name": "Anyang Institute of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳市南山区南方科技大学附属幼儿园"
+      },
+      {
+        "aliases": [
+          "中国中医科学院中医基础理论研究所"
+        ],
+        "org_id": "623317410a6eb14560473ec2",
+        "org_name": "中国中医科学院中医基础理论研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国中医药科技发展中心(国家中医药管理局人才交流中心)"
+      },
+      {
+        "aliases": [
+          "academy china chinese medical sciences",
+          "中国中医科学院",
+          "cacms"
+        ],
+        "org_id": "61e6984d689627346573611e",
+        "org_name": "China Academy of Chinese Medical Sciences"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpqVFHLtImXnVF1TZ8Xirx22Y"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市教育学会青浦清河湾中学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市南洋初级中学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江工商大学统计与数学学院 杭州 310018"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江工商大学食品与生物工程学院 杭州 310018"
+      },
+      {
+        "aliases": [
+          "上海市松江区第一中学",
+          "上海市松江一中",
+          "松江一中"
+        ],
+        "org_id": "5f71b86b1c455f439fe5fe1b",
+        "org_name": "上海市松江一中"
+      },
+      {
+        "aliases": [
+          "donghua university",
+          "dàxué dōnghuá",
+          "东华大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e37d",
+        "org_name": "Donghua University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "云南中烟工业有限责任公司技术中心 云南省烟草化学重点实验室"
+      },
+      {
+        "aliases": [
+          "云南中烟工业有限责任公司",
+          "云南中烟工业公司"
+        ],
+        "org_id": "623316ed0a6eb14560465207",
+        "org_name": "云南中烟工业有限责任公司"
+      },
+      {
+        "aliases": [
+          "beijing education institute",
+          "北京教育学院"
+        ],
+        "org_id": "61e69ea268962734657449c2",
+        "org_name": "Beijing Institute of Education"
+      },
+      {
+        "aliases": [
+          "central nationalities south university for",
+          "central for nationalities south university",
+          "dàxué zhōngnán mínzú"
+        ],
+        "org_id": "5f71b5211c455f439fe4efe3",
+        "org_name": "South Central University for Nationalities"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "株洲市天元区白鹤小学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生物物理研究所Protein & Cell编辑部"
+      },
+      {
+        "aliases": [
+          "nslc",
+          "academy librarychinese national science sciences",
+          "academy chinese library of sciences"
+        ],
+        "org_id": "61e69d41689627346574112a",
+        "org_name": "National Science Library,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生物物理研究所科学传播处"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "高等教育出版社"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "安徽医学高等专科学校药学院 安徽 合肥 230601"
+      },
+      {
+        "aliases": [
+          "fujian normal university",
+          "福建师范大学"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e32f",
+        "org_name": "Fujian Normal University"
+      },
+      {
+        "aliases": [
+          "engineering fashion shaanxi university",
+          "陕西服装工程学院"
+        ],
+        "org_id": "623315d10a6eb14495638f3f",
+        "org_name": "shaanxi fashion engineering university"
+      },
+      {
+        "aliases": [
+          "hunan normal university",
+          "dàxué húnán shīfàn",
+          "湖南师范大学"
+        ],
+        "org_id": "5f71b3a61c455f439fe44569",
+        "org_name": "Hunan Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市澄源中学 上海 200065"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRprgZbS8xD76fIdCsiYdGTxEo"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国医学科学院 &北京协和医学院 北京协和医院国家人口健康科学数据中心<临床医学>"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海对外经贸大学会展与传播学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "辽宁省大连市甘井子区实验小学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "山东管理学院发展规划处 山东·济南 250357"
+      },
+      {
+        "aliases": [
+          "china foundation national natural science",
+          "国家自然科学基金委员会",
+          "nsfc"
+        ],
+        "org_id": "5f71b8451c455f439fe5ee58",
+        "org_name": "National Natural Science Foundation of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "浙江省杭州市丁兰第二小学 310021"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市宝山区教育学院"
+      },
+      {
+        "aliases": [
+          "nankai university",
+          "dàxué nánkāi",
+          "南开大学"
+        ],
+        "org_id": "5f71b2971c455f439fe3ceed",
+        "org_name": "Nankai University"
+      },
+      {
+        "aliases": [
+          "imperial peking university",
+          "peking university",
+          "北京大学"
+        ],
+        "org_id": "5f71b2881c455f439fe3c85d",
+        "org_name": "Peking University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京大学医学部科学研究处"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京大学医学部医学技术研究院/国家药品监督管理局医学成像设备质量评价与检测重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市奉贤中学附属三官堂学校"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "3D Printing Research & Engineering Technology Center"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国航发北京航空材料研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory for Advanced Metals and Materials"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京科技大学 新金属材料全国重点实验室"
+      },
+      {
+        "aliases": [
+          "energy high institute physics",
+          "academy energy high institute physicsaustrian sciences of",
+          "für hochenergiephysik institut"
+        ],
+        "org_id": "61e69c6c689627346573f20c",
+        "org_name": "Institute of High Energy Physics,Austrian Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "ihep",
+          "中国科学院高能物理研究所",
+          "academy energy high institute physicschinese sciences of"
+        ],
+        "org_id": "61e699306896273465737dcd",
+        "org_name": "Institute of High Energy Physics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Institute of Fluid Physics"
+      },
+      {
+        "aliases": [
+          "industry institute mechanical ministry ninth second of",
+          "industry institute mechanical ministry ninth of second",
+          "industry institute ministry ninth nuclear of"
+        ],
+        "org_id": "5f71b82d1c455f439fe5eb5b",
+        "org_name": "China Academy of Engineering Physics"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpsr9m49jrN1xrSWnBNyVO7Cb"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"1.supSchool of Aeronautic Science and Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"2.supChina Aerospace Science and Technology Corporation"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国航天科技集团公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"3.supChina Academy of Aerospace System and Innovation"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国航天科技体系与创新研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Materials and Chemical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "徐州工程学院 材料与化学工程学院"
+      },
+      {
+        "aliases": [
+          "technology university xuzhou",
+          "institute technology xuzhou",
+          "徐州工程学院"
+        ],
+        "org_id": "5f71b5411c455f439fe4febb",
+        "org_name": "Xuzhou University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Foshan (South China) New Materials Research Institute"
+      },
+      {
+        "aliases": [
+          "佛山华南新材料研究院"
+        ],
+        "org_id": "648189716fdfd94331163937",
+        "org_name": "佛山(华南)新材料研究院"
+      },
+      {
+        "aliases": [
+          "chekiang university",
+          "university zhejiang",
+          "zheda"
+        ],
+        "org_id": "5f71b29c1c455f439fe3d0e1",
+        "org_name": "Zhejiang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Materials Science and Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Harbin Welding Institute Limited Company"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国机械总院集团哈尔滨焊接研究所有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of New Energy and Materials"
+      },
+      {
+        "aliases": [
+          "中国石油大学",
+          "beijing china petroleum university",
+          "kinas petroleumsuniversitet"
+        ],
+        "org_id": "5f71b5f91c455f439fe54a70",
+        "org_name": "China University of Petroleum (Beijing)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "兰州理工大学省部共建有色先进加工与再利用国家重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安交通大学 人机混合增强智能全国重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Physics and Information Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Instrumentation and Optoelectronic Engineering"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRptxxxbkh1xeEiaY47Ghw2xj5"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "beihang engineering instrumentation optoelectronic school university",
+          "beihang engineering optoelectronic school university instrumentation",
+          "北京航空航天大学仪器科学与光电工程学院"
+        ],
+        "org_id": "62331e350a6eb147dca8a972",
+        "org_name": "school of instrumentation science and optoelectronic engineering, beihang university"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory of Robotics and System"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Shandong Non-metallic Materials Research Institute"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "山东非金属材料研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Beijing Satellite Manufacturing Co."
+      },
+      {
+        "aliases": [
+          "北京卫星制造厂有限公司",
+          "北京卫星制造厂"
+        ],
+        "org_id": "623317420a6eb145604743cf",
+        "org_name": "北京卫星制造厂有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Beijing Xinghang Electromechanical Equipment Co."
+      },
+      {
+        "aliases": [
+          "北京星航机电装备有限公司",
+          "北京星航机电设备厂"
+        ],
+        "org_id": "623316d50a6eb1456046131a",
+        "org_name": "北京星航机电装备有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "National Key Laboratory of Electromagnetic Space Security"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "电磁空间安全全国重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Hubei Longzhong Lab"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "湖北隆中实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中北大学 极端环境光电动态测量技术与仪器国家重点实验室"
+      },
+      {
+        "aliases": [
+          "donghua university",
+          "dàxué dōnghuá",
+          "东华大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e37d",
+        "org_name": "Donghua University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东华大学材料科学与工程学院纤维材料改性国家重点实验室"
+      },
+      {
+        "aliases": [
+          " automation beihang engineering mechanical school university",
+          "北京航空航天大学机械工程及自动化学院",
+          "automation beihang engineering mechanical school university"
+        ],
+        "org_id": "62331e310a6eb147dca8a1fb",
+        "org_name": "school of mechanical engineering and automation, beihang university"
+      },
+      {
+        "aliases": [
+          "beihang chemistry school university",
+          "北京航空航天大学化学与环境学院",
+          "北京航空航天大学化学学院"
+        ],
+        "org_id": "62331e350a6eb147dca8a9b7",
+        "org_name": "School of Chemistry, Beihang University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京理工大学机械与车辆学院激光微纳制造实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "China Acad Space Technol"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家自然科学基金委员会数学物理科学部"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpvBvlozDXVUMNzijmMuwvEVj"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "aeronautics astronautics astronautics college nanjing university of",
+          "南京航空航天大学航天学院",
+          "南京航空航天大学航空学院"
+        ],
+        "org_id": "6513a3925ef0694ef9c7f54e",
+        "org_name": "Nanjing University of Aeronautics and Astronautics College of Astronautics"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防科技大学空天科学学院"
+      },
+      {
+        "aliases": [
+          "aeronautics northwestern polytechnical school university",
+          "华东航空学院飞机工程系",
+          "西北工业大学航空学院"
+        ],
+        "org_id": "62331e370a6eb147dca8ad56",
+        "org_name": "School of Aeronautics, Northwestern Polytechnical University"
+      },
+      {
+        "aliases": [
+          "aeronautic beihang engineering school science university",
+          "北京航空航天大学航空科学与工程学院",
+          "北京航空航天大学飞机系"
+        ],
+        "org_id": "62331e350a6eb147dca8a96b",
+        "org_name": "school of aeronautic science and engineering, beihang university"
+      },
+      {
+        "aliases": [
+          "北京理工大学宇航学院北京理工大学中华人民共和国工业和信息化部",
+          "北京理工大学宇航学院"
+        ],
+        "org_id": "62331e370a6eb147dca8ac86",
+        "org_name": "北京理工大学宇航学院,北京理工大学,中华人民共和国工业和信息化部"
+      },
+      {
+        "aliases": [
+          "ju",
+          "southern university yangtze",
+          "jiangnan university"
+        ],
+        "org_id": "5f71b4761c455f439fe4a27b",
+        "org_name": "Jiangnan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "空军军医大学航空航天医学系空航天人机工效学教研室"
+      },
+      {
+        "aliases": [
+          "中国航发哈尔滨东安发动机有限公司",
+          "哈尔滨东安发动机集团有限公司",
+          "哈尔滨东安发动机有限公司"
+        ],
+        "org_id": "6233173a0a6eb14560472940",
+        "org_name": "中国航发哈尔滨东安发动机有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国航空发动机研究院"
+      },
+      {
+        "aliases": [
+          "beijing institute technology",
+          "北京理工大学"
+        ],
+        "org_id": "5f71b29c1c455f439fe3d0fc",
+        "org_name": "Beijing Institute of Technology"
+      },
+      {
+        "aliases": [
+          "seda association debating english students tsinghua university",
+          "department mathematical sciences tsinghua",
+          "beijing china tsinghua university"
+        ],
+        "org_id": "5f71b2881c455f439fe3c860",
+        "org_name": "Tsinghua University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家石油天然气管材工程技术研究中心"
+      },
+      {
+        "aliases": [
+          "hohai university",
+          "河海大学"
+        ],
+        "org_id": "5f71b3a31c455f439fe443cf",
+        "org_name": "Hohai University"
+      },
+      {
+        "aliases": [
+          "aviation china civil university",
+          "dàxué mínháng zhōngguó",
+          "中国民航大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e391",
+        "org_name": "Civil Aviation University of China"
+      },
+      {
+        "aliases": [
+          "aeronautics astronautics college electrical engineering mechanical nanjing university and of",
+          " aeronautics astronautics college electrical engineering mechanical nanjing university of",
+          "南京航空航天大学机电学院"
+        ],
+        "org_id": "6513a3925ef0694ef9c7f558",
+        "org_name": "Nanjing University of Aeronautics and Astronautics College of Mechanical & Electrical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "大连理工大学工程力学系工业装备结构分析优化与CAE软件全国重点实验室"
+      },
+      {
+        "aliases": [
+          "江苏自动化研究所"
+        ],
+        "org_id": "648188ba6fdfd94331141282",
+        "org_name": "江苏自动化研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "航空工业西安航空计算技术研究所"
+      },
+      {
+        "aliases": [
+          "science technology tianjin university",
+          "dàxué kējì tiānjīn",
+          "天津科技大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e395",
+        "org_name": "Tianjin University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "中机生产力促进中心有限公司",
+          "中机生产力促进中心"
+        ],
+        "org_id": "6233172c0a6eb145604703ee",
+        "org_name": "中机生产力促进中心有限公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpwP1zK64CoeYvh5uwE92IdlO"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "china science south technology university of",
+          "china of science south technology university",
+          "science southern technology university"
+        ],
+        "org_id": "5f71b52c1c455f439fe4f4e4",
+        "org_name": "Southern University of Science and Technology"
+      },
+      {
+        "aliases": [
+          "chemical chemistry engineering school shihezi university",
+          "石河子大学化学化工学院"
+        ],
+        "org_id": "6513a38e5ef0694ef9c7f4e1",
+        "org_name": "Shihezi University School of Chemistry and Chemical Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院兰州化学物理研究所固体润滑国家重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳信息职业技术研究院"
+      },
+      {
+        "aliases": [
+          "nationalities northwest university for",
+          "for nationalities northwest university",
+          "西北民族大学"
+        ],
+        "org_id": "61e698836896273465736763",
+        "org_name": "Northwest University for Nationalities"
+      },
+      {
+        "aliases": [
+          "academy chemical institute lanzhou physicschinese sciences of",
+          "chemical institute lanzhou physics",
+          "中国科学院兰州化学物理研究所"
+        ],
+        "org_id": "61e69cdb689627346574035f",
+        "org_name": "Lanzhou Institute of Chemical Physics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "飞亚达集团股份有限公司",
+          "深圳市飞亚达集团股份有限公司",
+          "飞亚达精密科技股份有限公司"
+        ],
+        "org_id": "623317530a6eb14560476f8c",
+        "org_name": "飞亚达精密科技股份有限公司"
+      },
+      {
+        "aliases": [
+          "aeronautical engineering institute shenyang",
+          "aerospace shenyang university",
+          "沈阳航空航天大学"
+        ],
+        "org_id": "5f71b4181c455f439fe478dc",
+        "org_name": "Shenyang Aerospace University"
+      },
+      {
+        "aliases": [
+          "jiangsu university",
+          "dàxué jiāngsū",
+          "江苏大学"
+        ],
+        "org_id": "5f71b4821c455f439fe4a7af",
+        "org_name": "Jiangsu University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京市八一学校"
+      },
+      {
+        "aliases": [
+          "astronaut center china research training",
+          "中国航天员科研训练中心"
+        ],
+        "org_id": "61e699306896273465737d06",
+        "org_name": "China Astronaut Research and Training Center"
+      },
+      {
+        "aliases": [
+          "technology university zhejiang",
+          "dàxúe gōngyè zhèjiāng",
+          "浙江工业大学"
+        ],
+        "org_id": "5f71b3661c455f439fe429a6",
+        "org_name": "Zhejiang University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "空军军医大学航空航天医学训练教研室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国人民解放军空军军医大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京卫星环境工程研究所 北京 100094"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "空军军医大学航空航天医学系 (陕西西安 710032)"
+      },
+      {
+        "aliases": [
+          "fourth hospital medical military university xijing",
+          "空军军医大学第四军医大学西京医院",
+          "hospital xijing"
+        ],
+        "org_id": "61e6991468962734657378fc",
+        "org_name": "Xijing Hospital"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "第四军医大学唐都医院"
+      },
+      {
+        "aliases": [
+          "nanjing technology university",
+          "nanjing tech university",
+          "njtech"
+        ],
+        "org_id": "5f71b3501c455f439fe42054",
+        "org_name": "Nanjing Tech University"
+      },
+      {
+        "aliases": [
+          "信阳农林学院",
+          "agriculture college forestry xinyang",
+          "xycaf"
+        ],
+        "org_id": "61e69ca2689627346573fc29",
+        "org_name": "Xinyang College of Agriculture and Forestry"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpxV4gFI2NxvaJq0sAD2utIsg"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中钢集团郑州金属制品研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家知识产权局专利审查协作河南中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "成都四威高科技产业园有限公司 四川成都 610097"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Aerosp Res Inst Mat & Proc Technol"
+      },
+      {
+        "aliases": [
+          "aerospace institute materials processing research technology",
+          "航天材料及工艺研究所",
+          "arimt"
+        ],
+        "org_id": "61e69d416896273465741491",
+        "org_name": "Aerospace Research Institute of Materials and Processing Technology"
+      },
+      {
+        "aliases": [
+          "jiaotong school university xian engineering mechanical",
+          "jiaotong mechanical school university xian",
+          "西安交通大学机械工程学院"
+        ],
+        "org_id": "5f71b8a81c455f439fe60623",
+        "org_name": "西安交通大学机械工程学院"
+      },
+      {
+        "aliases": [
+          "политехнический северозападный университет",
+          "северозападный политехнический университет",
+          "engineering institute northwest state"
+        ],
+        "org_id": "5f71b36a1c455f439fe42b67",
+        "org_name": "Northwestern Polytechnical University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西北工业大学凝固技术国家重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国国检测试控股集团山东有限公司"
+      },
+      {
+        "aliases": [
+          "arts baoji sciences university",
+          "baoji normal shaanxi university",
+          "baoji teachers university"
+        ],
+        "org_id": "5f71b63a1c455f439fe566b8",
+        "org_name": "Baoji University of Arts and Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "空军特色医学中心期刊编辑部"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "安徽吉电新能源有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京航空航天大学合肥创新研究院"
+      },
+      {
+        "aliases": [
+          "上海航天精密机械研究所"
+        ],
+        "org_id": "623317710a6eb1456047c439",
+        "org_name": "上海航天精密机械研究所"
+      },
+      {
+        "aliases": [
+          "中铝材料应用研究院有限公司"
+        ],
+        "org_id": "6233173a0a6eb14560472c79",
+        "org_name": "中铝材料应用研究院有限公司"
+      },
+      {
+        "aliases": [
+          "贵州振华群英电器有限公司国营第八九一厂",
+          "中国振华集团群英无线电器材厂",
+          "贵州振华群英电器有限公司"
+        ],
+        "org_id": "623316d20a6eb145604609e5",
+        "org_name": "贵州振华群英电器有限公司（国营第八九一厂）"
+      },
+      {
+        "aliases": [
+          "中国铝业公司",
+          "aluminum china corporation limited",
+          "aluminum china corporation ltd"
+        ],
+        "org_id": "5f71b3731c455f439fe42fc4",
+        "org_name": "Aluminum Corporation of China Limited"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "青岛科技大学高分子科学与工程学院"
+      },
+      {
+        "aliases": [
+          "shàoxīng wénlǐ xuéyuàn",
+          "shaoxing university",
+          "绍兴文理学院"
+        ],
+        "org_id": "5f71b4821c455f439fe4a786",
+        "org_name": "Shaoxing University"
+      },
+      {
+        "aliases": [
+          "凯泰特种纤维科技有限公司"
+        ],
+        "org_id": "623316db0a6eb14560462206",
+        "org_name": "凯泰特种纤维科技有限公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpyk1EpRLruWLnyud8wo9bdid"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "绍兴水乡纺织科技有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "绍兴文理学院纺织服装学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防科技大学 计算机学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国空气动力研究与发展中心计算空气动力学研究所"
+      },
+      {
+        "aliases": [
+          "南京玻璃纤维研究设计院有限公司"
+        ],
+        "org_id": "64818a1f6fdfd94331183e8f",
+        "org_name": "南京玻璃纤维研究设计院有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河北省第三测绘院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河北省制图院"
+      },
+      {
+        "aliases": [
+          "北京市测绘设计研究院"
+        ],
+        "org_id": "6233174f0a6eb14560476656",
+        "org_name": "北京市测绘设计研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安航天复合材料研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中电科能源有限公司"
+      },
+      {
+        "aliases": [
+          "artificial automation huazhong intelligence school science technology university and of",
+          "华中科技大学人工智能与自动化学院",
+          "华中科技大学控制科学与工程系"
+        ],
+        "org_id": "62331e330a6eb147dca8a517",
+        "org_name": "school of artificial intelligence and automation, huazhong university of science and technology"
+      },
+      {
+        "aliases": [
+          "mathematics school southeast university",
+          "南京工学院数学力学系",
+          "南京工学院基础科学系"
+        ],
+        "org_id": "62331e350a6eb147dca8a8e6",
+        "org_name": "school of mathematics, southeast university"
+      },
+      {
+        "aliases": [
+          "hust mse",
+          " engineering huazhong mechanical of school science science technology university",
+          " engineering huazhong mechanical school science science technology university of"
+        ],
+        "org_id": "62331e330a6eb147dca8a633",
+        "org_name": "school of mechanical science and engineering, huazhong university of science & technology"
+      },
+      {
+        "aliases": [
+          "dalian science technology university",
+          "大连科技学院"
+        ],
+        "org_id": "623315cf0a6eb14495638ba8",
+        "org_name": "dalian university of science and technology"
+      },
+      {
+        "aliases": [
+          "china east engineering information school science science technology university and of",
+          "华东理工大学信息科学与工程学院"
+        ],
+        "org_id": "6513a3c95ef0694ef9c7fc31",
+        "org_name": "East China University of Science and Technology School of Information Science and Engineering"
+      },
+      {
+        "aliases": [
+          "beihang energy engineering power school university",
+          "北京航空航天大学能源与动力工程学院",
+          "北京航空航天大学航空发动机系"
+        ],
+        "org_id": "62331e350a6eb147dca8a924",
+        "org_name": "school of energy and power engineering, beihang university"
+      },
+      {
+        "aliases": [
+          "hust",
+          "harbin science technology university",
+          "harbin science university"
+        ],
+        "org_id": "5f71b3d61c455f439fe45ac8",
+        "org_name": "Harbin University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Life Science"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "School of Astronautics"
+      },
+      {
+        "aliases": [
+          "christian chung university yuan",
+          "tionggôantāiha̍k",
+          "cycu"
+        ],
+        "org_id": "5f71b3381c455f439fe415af",
+        "org_name": "Chung Yuan Christian University"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRpzvxd308EH8XWrvZjCVe96nm"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "christian chung university yuan",
+          "tionggôantāiha̍k",
+          "cycu"
+        ],
+        "org_id": "5f71b3381c455f439fe415af",
+        "org_name": "Chung Yuan Christian University"
+      },
+      {
+        "aliases": [
+          "affiliated china high renmin school to university",
+          "affiliated china high renmin school university to",
+          "中國人民大學附屬中學"
+        ],
+        "org_id": "5f71b8571c455f439fe5f5b3",
+        "org_name": "High School Affiliated to Renmin University of China"
+      },
+      {
+        "aliases": [
+          "人大附中深圳学校"
+        ],
+        "org_id": "5f71b8741c455f439fe601f1",
+        "org_name": "人大附中深圳学校"
+      },
+      {
+        "aliases": [
+          "for new school teachers training york",
+          "new school teachers training york for",
+          "college columbia teachers university"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e2e8",
+        "org_name": "Teachers College, Columbia University"
+      },
+      {
+        "aliases": [
+          "college jimei normal university",
+          "集美大学师范学院"
+        ],
+        "org_id": "6513a3b15ef0694ef9c7f953",
+        "org_name": "Jimei University Normal College"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家发展和改革委员会经济与国防协调发展研究中心"
+      },
+      {
+        "aliases": [
+          "china science technology university of",
+          "china of science technology university",
+          "中国科学技术大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e380",
+        "org_name": "University of Science and Technology of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学技术大学科技传播系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "安徽省经济信息中心"
+      },
+      {
+        "aliases": [
+          "academy center chinese communication research science sciences of",
+          "academy center chinese communication of research science sciences",
+          "中国科学院科学传播研究中心"
+        ],
+        "org_id": "62331e370a6eb147dca8ac80",
+        "org_name": "Research Center of Science Communication, Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "福建省创新研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "福建省经济信息中心"
+      },
+      {
+        "aliases": [
+          "bigc",
+          "beijing communication graphic institute",
+          "北京印刷学院"
+        ],
+        "org_id": "61e69bad689627346573d822",
+        "org_name": "Beijing Institute of Graphic Communication"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华南理工大学自动化科学与工程学院 广州 510640"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "工业和信息化部电子第五研究所 广州 511300"
+      },
+      {
+        "aliases": [
+          "institute science science shanghai for",
+          "for institute science science shanghai",
+          "institute science shanghai"
+        ],
+        "org_id": "61e6a1dd689627346574caf4",
+        "org_name": "Shanghai Institute for Science of Science"
+      },
+      {
+        "aliases": [
+          "china chinaministry chinastate council information institute peoples peoples republic republic science scientific technical technology and of of of of of of the",
+          "china information institute of scientific technical",
+          "china information institute scientific technical of"
+        ],
+        "org_id": "61e69dc268962734657427ef",
+        "org_name": "Institute of Scientific and Technical Information of China,Ministry of Science and Technology of the People''s Republic of China,State Council of the People''s Republic of China"
+      },
+      {
+        "aliases": [
+          "china department physics renmin university of",
+          "china department of physics renmin university",
+          "中国人民大学物理学系"
+        ],
+        "org_id": "62331e330a6eb147dca8a524",
+        "org_name": "Department of Physics, Renmin University of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "科技部高技术研究发展中心"
+      },
+      {
+        "aliases": [
+          "深圳大学计算机与软件学院"
+        ],
+        "org_id": "5f71b8a91c455f439fe60662",
+        "org_name": "深圳大学计算机与软件学院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq18jwk5J2fNe0OYALVTPIuWi"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "china normal south university",
+          "华南师范大学",
+          "scnu"
+        ],
+        "org_id": "5f71b3f81c455f439fe46a61",
+        "org_name": "South China Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南京佳的建筑设计事务所有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "安徽广播电视台新闻中心"
+      },
+      {
+        "aliases": [
+          "institutes international shanghai studies for",
+          "for institutes international shanghai studies",
+          "上海国际问题研究院"
+        ],
+        "org_id": "61e69ed46896273465745237",
+        "org_name": "Shanghai Institutes for International Studies"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"1.supChinese Academy of Engineering"
+      },
+      {
+        "aliases": [
+          "academy chinese engineering",
+          "中国工程院"
+        ],
+        "org_id": "5f71b3561c455f439fe42278",
+        "org_name": "Chinese Academy of Engineering"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "sup class=\"mag-xml-aff-label-sup added-by-sys\"2.supChina Academy of Information and Communications Technology"
+      },
+      {
+        "aliases": [
+          "工业和信息化部电信研究院",
+          "中国信息通信研究院"
+        ],
+        "org_id": "623317450a6eb14560474b48",
+        "org_name": "中国信息通信研究院"
+      },
+      {
+        "aliases": [
+          "tianjin university",
+          "peiyang university",
+          "天津大学"
+        ],
+        "org_id": "5f71b2b81c455f439fe3dc14",
+        "org_name": "Tianjin University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "航天科工防御技术研究试验中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "湖南工商大学 微电子与物理学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中原关键金属实验室"
+      },
+      {
+        "aliases": [
+          "有研亿金新材料有限公司"
+        ],
+        "org_id": "648187d26fdfd94331117c1b",
+        "org_name": "有研亿金新材料有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生态环境研究中心 区域环境安全全国重点实验室环境水质学重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院生态环境研究中心 工业废水无害化与资源化国家工程研究中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "China Electronics System Engineering No. 2 Construction Co."
+      },
+      {
+        "aliases": [
+          "中国电子系统工程第二建设有限公司",
+          "中国电子系统工程公司第二安装公司",
+          "中国电子系统工程第二建设公司"
+        ],
+        "org_id": "623316eb0a6eb14560464bd5",
+        "org_name": "中国电子系统工程第二建设有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "海南大学数学与统计学院"
+      },
+      {
+        "aliases": [
+          "academy academy chinese chinese sciences sciences of",
+          "cas academy chinese sciences",
+          "academic chinese sciences"
+        ],
+        "org_id": "5f71b29f1c455f439fe3d25c",
+        "org_name": "Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安电子科技大学光电工程学院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq2J0UIMfH0NoqDMoRiKJKHA7"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "academy institute microelectronicschinese sciences of",
+          "中国科学院微电子研究所",
+          "imeacas"
+        ],
+        "org_id": "61e69d416896273465741400",
+        "org_name": "Institute of Microelectronics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "china electronics industry information instituteministry standardization technology",
+          "china electronics institute standardization",
+          "中国电子技术标准化研究院"
+        ],
+        "org_id": "61e69dc2689627346574278e",
+        "org_name": "China Electronics Standardization Institute,Ministry of Industry and Information Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子科技集团公司智能院信息科学研究院"
+      },
+      {
+        "aliases": [
+          "baotou earths institute rare research",
+          "包头稀土研究院",
+          "brire"
+        ],
+        "org_id": "61e69dc2689627346574276c",
+        "org_name": "Baotou Research Institute of Rare Earths"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防科技大学前沿交叉学科学院新型纳米光电信息材料与器件湖南省重点实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Department of Modern Physics"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Anhui Univ Sci & Technol"
+      },
+      {
+        "aliases": [
+          "aust",
+          "anhui science technology university",
+          "dàxué lǐgōng ānhuī"
+        ],
+        "org_id": "5f71b4001c455f439fe46dfc",
+        "org_name": "Anhui University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Hefei Univ Technol"
+      },
+      {
+        "aliases": [
+          "hefei technology university",
+          "合肥工业大学",
+          "hfut"
+        ],
+        "org_id": "5f71b3d21c455f439fe45902",
+        "org_name": "Hefei University of Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东南大学电子科学与工程学院光传感通信综合网络国家地方联合工程研究中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Rocket Force Univ Engn"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "火箭军工程大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海市化工职业病防治院"
+      },
+      {
+        "aliases": [
+          "上海市卫生和计划生育委员会",
+          "上海市卫生健康委员会",
+          "上海市卫健委"
+        ],
+        "org_id": "5f71b84b1c455f439fe5f0a8",
+        "org_name": "上海市卫生健康委员会"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "厦门大学物理学院"
+      },
+      {
+        "aliases": [
+          "chips frontier fudan systems technology university",
+          "复旦大学芯片与系统前沿技术研究院"
+        ],
+        "org_id": "62331e350a6eb147dca8aa4e",
+        "org_name": "Frontier Technology of Chips and Systems, Fudan University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南开大学智能光子研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国家自然科学基金委员会信息科学部"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "集成电路装备创新联盟 天津 300350"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq3Z55blZ7aI2kueKEjewyX2Z"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "集成电路设计创新联盟 北京 100015"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "集成电路零部件创新联盟 沈阳 110179"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防科技大学计算机学院先进微处理器芯片与系统重点实验室"
+      },
+      {
+        "aliases": [
+          "circuit huazhong integrated of school science technology university",
+          "circuit huazhong integrated school science technology university of",
+          "circuit hust integrated school"
+        ],
+        "org_id": "62331e330a6eb147dca8a609",
+        "org_name": "school of integrated circuit, huazhong university of science and technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南京工业大学经济与管理学院"
+      },
+      {
+        "aliases": [
+          "academy academy chinese chinese graduate sciences sciences university of of",
+          "akademie chinesischen universität wissenschaften der der",
+          "akademie chinesischen der der universität wissenschaften"
+        ],
+        "org_id": "5f71b3941c455f439fe43dc6",
+        "org_name": "University of the Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中北大学半导体与物理学院"
+      },
+      {
+        "aliases": [
+          "nuc",
+          "china industrial north ordnance school school taihang vocational",
+          "institute machinery taiyuan"
+        ],
+        "org_id": "5f71b4821c455f439fe4a783",
+        "org_name": "North University of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中北大学前沿交叉科学研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中北大学电气与控制工程学院"
+      },
+      {
+        "aliases": [
+          "shanghai university",
+          "dàxué shànghǎi",
+          "上海大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e389",
+        "org_name": "Shanghai University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Photon View Technol Co Ltd"
+      },
+      {
+        "aliases": [
+          "academy economicschinese industrial institute sciences social of",
+          "中国社会科学院工业经济研究所"
+        ],
+        "org_id": "61e69dc26896273465742843",
+        "org_name": "Institute of Industrial Economics,Chinese Academy of Social Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "广东工业大学 集成电路学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "牛芯半导体(深圳)有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "光通信技术和网络全国重点实验室"
+      },
+      {
+        "aliases": [
+          "engineering information school technology university wuhan of",
+          "武汉理工大学信息工程学院"
+        ],
+        "org_id": "6513a3ca5ef0694ef9c7fc52",
+        "org_name": "Wuhan University of Technology School of Information Engineering"
+      },
+      {
+        "aliases": [
+          "北京华大九天科技股份有限公司",
+          "北京华大九天软件有限公司"
+        ],
+        "org_id": "623317330a6eb145604717c5",
+        "org_name": "北京华大九天科技股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "United Microelect Ctr CUMEC"
+      },
+      {
+        "aliases": [
+          "联合微电子中心有限责任公司"
+        ],
+        "org_id": "648188726fdfd9433113427e",
+        "org_name": "联合微电子中心有限责任公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq4fBDhvL5vymitDoaoNlblEr"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Univ Sci & Technol Beijing"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京科技大学前沿交叉科学技术研究院"
+      },
+      {
+        "aliases": [
+          "杭州格林达电子材料股份有限公司",
+          "杭州格林达化学有限公司"
+        ],
+        "org_id": "623317400a6eb14560473be2",
+        "org_name": "杭州格林达电子材料股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子材料行业协会"
+      },
+      {
+        "aliases": [
+          "北京科技大学材料科学与工程学院"
+        ],
+        "org_id": "64e86206989ae9b290672c81",
+        "org_name": "北京科技大学材料科学与工程学院"
+      },
+      {
+        "aliases": [
+          "china electronic exemplary microelectronics national school science technology university of of",
+          "china electronic electronic engineering school science science technology university and of of",
+          "电子科技大学微电子与固体电子学院"
+        ],
+        "org_id": "62331e350a6eb147dca8aacd",
+        "org_name": "School of Electronic Science and Engineering, University of Electronic Science and Technology of China"
+      },
+      {
+        "aliases": [
+          "china electronic of science technology university",
+          "china electronic science technology university of",
+          "电子科技大学"
+        ],
+        "org_id": "5f71b4361c455f439fe4864b",
+        "org_name": "University of Electronic Science and Technology of China"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Xian Univ Technol"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安理工大学自动化与信息工程学院"
+      },
+      {
+        "aliases": [
+          "technology university xian",
+          "西安理工大学",
+          "xut"
+        ],
+        "org_id": "5f71b7061c455f439fe5c0e9",
+        "org_name": "Xian University of Technology"
+      },
+      {
+        "aliases": [
+          "science shaanxi technology university",
+          "industry institute light northwest",
+          "beijing industry institute light"
+        ],
+        "org_id": "5f71b88a1c455f439fe60333",
+        "org_name": "Shaanxi University of Science and Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Xian Technol Univ"
+      },
+      {
+        "aliases": [
+          "technological university xian",
+          "西安工业大学"
+        ],
+        "org_id": "61e69d5b68962734657417e5",
+        "org_name": "Xi'an Technological University"
+      },
+      {
+        "aliases": [
+          "seu",
+          "southeast university",
+          "dàxué dōngnán"
+        ],
+        "org_id": "61e6984d6896273465735d4c",
+        "org_name": "Southeast University"
+      },
+      {
+        "aliases": [
+          "hong kong university",
+          "香港大学",
+          "港大"
+        ],
+        "org_id": "5f71b2961c455f439fe3ce46",
+        "org_name": "University of Hong Kong"
+      },
+      {
+        "aliases": [
+          "hong kong university",
+          "香港大学",
+          "港大"
+        ],
+        "org_id": "5f71b2961c455f439fe3ce46",
+        "org_name": "University of Hong Kong"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "广州兰泰胜科技有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京邮电大学集成电路学院学院"
+      },
+      {
+        "aliases": [
+          "北京南瑞智芯微电子科技有限公司",
+          "北京智芯微电子科技有限公司"
+        ],
+        "org_id": "623317730a6eb1456047c88a",
+        "org_name": "北京智芯微电子科技有限公司"
+      },
+      {
+        "aliases": [
+          "西北工业大学深圳研究院"
+        ],
+        "org_id": "6233176f0a6eb1456047b983",
+        "org_name": "西北工业大学深圳研究院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq5y3QdfYuQayJSpRAB4VuudV"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "清华大学环境科学与工程系",
+          "清华大学环境学院"
+        ],
+        "org_id": "5f71b8a71c455f439fe605b4",
+        "org_name": "清华大学环境学院"
+      },
+      {
+        "aliases": [
+          "beijing technology university",
+          "beijing polytechnic university",
+          "běijīng dàxué gōngyè"
+        ],
+        "org_id": "5f71b3271c455f439fe40dd5",
+        "org_name": "Beijing University of Technology"
+      },
+      {
+        "aliases": [
+          "graduate international school shenzhen tsinghua",
+          "清华大学深圳国际研究生院",
+          "清华大学深圳研究生院"
+        ],
+        "org_id": "5f71b8a71c455f439fe605b3",
+        "org_name": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "China Electronics System Engineering No.2 Construction Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "清华大学机械工程系高端装备界面科学与技术全国重点实验室"
+      },
+      {
+        "aliases": [
+          "tianjin university",
+          "peiyang university",
+          "天津大学"
+        ],
+        "org_id": "5f71b2b81c455f439fe3dc14",
+        "org_name": "Tianjin University"
+      },
+      {
+        "aliases": [
+          "engineering instruments optoelectronics precision school tianjin university",
+          "engineering instrument optoelectronics precision school tianjin university",
+          "engineering instruments optoelectronic precision school tianjin university"
+        ],
+        "org_id": "62331e370a6eb147dca8adaf",
+        "org_name": "School of Precision Instrument and Opto-Electronics Engineering, Tianjin University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "大连理工大学集成电路学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Chongqing Univ Posts & Telecommun"
+      },
+      {
+        "aliases": [
+          "chongqing posts telecommunications university",
+          "重庆邮电大学",
+          "cqupt"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e37a",
+        "org_name": "Chongqing University of Posts and Telecommunications"
+      },
+      {
+        "aliases": [
+          "microelectronics school tianjin university",
+          "天津大学微电子学院"
+        ],
+        "org_id": "62331e330a6eb147dca8a45c",
+        "org_name": "School of Microelectronics, Tianjin University"
+      },
+      {
+        "aliases": [
+          "浙江方圆检测集团股份有限公司",
+          "浙江方圆检测股份有限公司"
+        ],
+        "org_id": "623316db0a6eb1456046201b",
+        "org_name": "浙江方圆检测集团股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "重庆邮电大学通信与信息工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子科技集团公司第五十八研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "东南大学 信息科学与工程学院 毫米波全国重点实验室"
+      },
+      {
+        "aliases": [
+          "陕西群力电工有限责任公司",
+          "陕西群力无线电器材厂",
+          "群力无线电器材厂"
+        ],
+        "org_id": "6233176f0a6eb1456047ba67",
+        "org_name": "陕西群力电工有限责任公司"
+      },
+      {
+        "aliases": [
+          "厦门通富微电子有限公司"
+        ],
+        "org_id": "64818b596fdfd943311bad47",
+        "org_name": "厦门通富微电子有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安财经大学法学院 陕西·西安"
+      },
+      {
+        "aliases": [
+          "china oilfield services",
+          "الصين النفط حقول لخدمات",
+          "سرویسی پترولیوم چین"
+        ],
+        "org_id": "5f71b3201c455f439fe40a70",
+        "org_name": "China Oilfield Services"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中海油田服务股份有限公司油田技术研究院"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq73clM5VptEuHMjv6kOpOO3I"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京微电子技术研究所 北京 100076"
+      },
+      {
+        "aliases": [
+          "guilin technology university",
+          "桂林理工大学",
+          "gut"
+        ],
+        "org_id": "5f71b46e1c455f439fe49f07",
+        "org_name": "Guilin University of Technology"
+      },
+      {
+        "aliases": [
+          "university xiangtan",
+          "dàxué xiāngtán",
+          "湘潭大学"
+        ],
+        "org_id": "5f71b3741c455f439fe43056",
+        "org_name": "Xiangtan University"
+      },
+      {
+        "aliases": [
+          "中国电子科技集团公司",
+          "china corporation electronics group technology",
+          "china electronics group technology"
+        ],
+        "org_id": "5f71b65b1c455f439fe57613",
+        "org_name": "China Electronics Technology Group"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "南通大学信息科学技术学院"
+      },
+      {
+        "aliases": [
+          "china east normal university",
+          "华东师范大学",
+          "ecnu"
+        ],
+        "org_id": "5f71b2931c455f439fe3cd25",
+        "org_name": "East China Normal University"
+      },
+      {
+        "aliases": [
+          "agricultural anhui university",
+          "安徽农业大学"
+        ],
+        "org_id": "5f71b45e1c455f439fe497c1",
+        "org_name": "Anhui Agricultural University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子科技集团公司第二研究所"
+      },
+      {
+        "aliases": [
+          "college industry shandong vocational",
+          "institut shandong de du technologie",
+          "de du institut shandong technologie"
+        ],
+        "org_id": "5f71b6ca1c455f439fe5a6f4",
+        "org_name": "Shandong Vocational College of Industry"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子科技集团公司第二十四研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子产品可靠性与环境试验研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院科技战略咨询研究院 北京 100190"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "GRIKIN Advanced Materials Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "China GRINM Group Co."
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国有研科技集团有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国工商银行博士后科研工作站"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院大学公共政策与管理学院"
+      },
+      {
+        "aliases": [
+          "浙江大学微纳电子学院"
+        ],
+        "org_id": "64eda7f43596a5edbfcd02d2",
+        "org_name": "浙江大学微纳电子学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "西安交通大学 电子与信息学部微电子学院 西安市微纳电子与系统集成重点实验室"
+      },
+      {
+        "aliases": [
+          "academy aerospace china corporation science space technology technologychina",
+          "academy china space technology",
+          "中国空间技术研究院"
+        ],
+        "org_id": "61e69dc2689627346574275c",
+        "org_name": "China Academy of Space Technology,China Aerospace Science and Technology Corporation"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq8MPRQSBwGY61IfypkAQTBHr"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "hebei technology university",
+          "dàxué gōngyè héběi",
+          "河北工业大学"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e33c",
+        "org_name": "Hebei University of Technology"
+      },
+      {
+        "aliases": [
+          "中国计量大学"
+        ],
+        "org_id": "623317360a6eb14560471eb6",
+        "org_name": "中国计量大学"
+      },
+      {
+        "aliases": [
+          "electrical engineering gansu institute mechanical",
+          "甘肃机电职业技术学院"
+        ],
+        "org_id": "623315d10a6eb14495638f71",
+        "org_name": "gansu institute of mechanical and electrical engineering"
+      },
+      {
+        "aliases": [
+          "天水华天集成电路包装材料有限公司"
+        ],
+        "org_id": "623317470a6eb14560474c39",
+        "org_name": "天水华天集成电路包装材料有限公司"
+      },
+      {
+        "aliases": [
+          "安图实验仪器郑州有限公司"
+        ],
+        "org_id": "623317140a6eb1456046c150",
+        "org_name": "安图实验仪器（郑州）有限公司"
+      },
+      {
+        "aliases": [
+          "上海华虹宏力半导体制造有限公司"
+        ],
+        "org_id": "623317630a6eb14560479ce1",
+        "org_name": "上海华虹宏力半导体制造有限公司"
+      },
+      {
+        "aliases": [
+          "上海沃时电子有限公司"
+        ],
+        "org_id": "64818aa76fdfd9433119b4f3",
+        "org_name": "上海沃时电子有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "广东工业大学集成电路学院 广州 510006"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳信息职业技术学院微电子学院 深圳 518000"
+      },
+      {
+        "aliases": [
+          "中国航天科工集团公司",
+          "casic",
+          "china aerospace china corporation industry science"
+        ],
+        "org_id": "61e6a0c76896273465749e28",
+        "org_name": "China Aerospace Science and Industry Corporation (China)"
+      },
+      {
+        "aliases": [
+          "北京计算机技术及应用研究所"
+        ],
+        "org_id": "6233172d0a6eb145604705c1",
+        "org_name": "北京计算机技术及应用研究所"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国进出口银行河南省分行"
+      },
+      {
+        "aliases": [
+          "forestry gansu technological  college",
+          "甘肃林业职业技术学院"
+        ],
+        "org_id": "623315d10a6eb14495638f6b",
+        "org_name": "Gansu Forestry Technological  College"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "源卓微纳科技(苏州)股份有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "金华广播电视大学"
+      },
+      {
+        "aliases": [
+          "posts telecommunications university xian",
+          "西安邮电大学",
+          "xupt"
+        ],
+        "org_id": "61e69dda689627346574286a",
+        "org_name": "Xi’an University of Posts and Telecommunications"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海黄浦科创集团有限公司战略发展部"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "厦门市海沧区企业服务中心"
+      },
+      {
+        "aliases": [
+          "上海中电华大集成电路有限公司",
+          "华大半导体有限公司"
+        ],
+        "org_id": "623316e90a6eb145604648ab",
+        "org_name": "华大半导体有限公司"
+      },
+      {
+        "aliases": [
+          "上海华力集成电路制造有限公司"
+        ],
+        "org_id": "623317280a6eb1456046f6ad",
+        "org_name": "上海华力集成电路制造有限公司"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRq9SHWNt0u1jqQc4oZnJ1WEBz"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "天水天光半导体有限责任公司"
+        ],
+        "org_id": "6233172f0a6eb14560470c0d",
+        "org_name": "天水天光半导体有限责任公司"
+      },
+      {
+        "aliases": [
+          "北京航天测控技术开发公司",
+          "北京航天测控技术有限公司"
+        ],
+        "org_id": "623316ef0a6eb145604655c4",
+        "org_name": "北京航天测控技术有限公司"
+      },
+      {
+        "aliases": [
+          "jilin university",
+          "dàxué jílín",
+          "吉林大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e34d",
+        "org_name": "Jilin University"
+      },
+      {
+        "aliases": [
+          "jilin university",
+          "dàxué jílín",
+          "吉林大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e34d",
+        "org_name": "Jilin University"
+      },
+      {
+        "aliases": [
+          "imperial peking university",
+          "peking university",
+          "北京大学"
+        ],
+        "org_id": "5f71b2881c455f439fe3c85d",
+        "org_name": "Peking University"
+      },
+      {
+        "aliases": [
+          "北京大学物理学院"
+        ],
+        "org_id": "64e862e1989ae9b290672f9c",
+        "org_name": "北京大学物理学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Department of Physics"
+      },
+      {
+        "aliases": [
+          "academy history institute natural sciences scienceschinese for of",
+          "for history institute natural sciences",
+          "history institute natural sciences for"
+        ],
+        "org_id": "61e69d41689627346574113a",
+        "org_name": "Institute for History of Natural Sciences,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "academy history institute natural sciences scienceschinese for of",
+          "for history institute natural sciences",
+          "history institute natural sciences for"
+        ],
+        "org_id": "61e69d41689627346574113a",
+        "org_name": "Institute for History of Natural Sciences,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "university zhengzhou",
+          "郑州大学"
+        ],
+        "org_id": "5f71b2c71c455f439fe3e346",
+        "org_name": "Zhengzhou University"
+      },
+      {
+        "aliases": [
+          "sxu",
+          "shanxi university",
+          "dàxué shānxī"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e35c",
+        "org_name": "Shanxi University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学技术大学 粒子科学技术研究中心 合肥230026"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学技术大学 交叉学科理论研究中心 合肥230026"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory of Particle Detection and Electronics"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院高能物理研究所核探测与核电子学国家重点实验室 北京 100049"
+      },
+      {
+        "aliases": [
+          "中国科学技术大学科技史与科技考古系"
+        ],
+        "org_id": "64e862d0989ae9b290672f5c",
+        "org_name": "中国科学技术大学科技史与科技考古系"
+      },
+      {
+        "aliases": [
+          "engineering hunan science university",
+          "húnán kējì xuéyuàn",
+          "湖南科技学院"
+        ],
+        "org_id": "5f71b5e61c455f439fe54248",
+        "org_name": "Hunan University of Science and Engineering"
+      },
+      {
+        "aliases": [
+          "fudan university",
+          "复旦大学"
+        ],
+        "org_id": "5f71b2881c455f439fe3c861",
+        "org_name": "Fudan University"
+      },
+      {
+        "aliases": [
+          "beijing science technology university",
+          "beijing institute iron steel",
+          "北京科技大学"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e36a",
+        "org_name": "University of Science and Technology Beijing"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "华北科技学院化学与环境工程学院河北省危险化学品安全与控制技术重点实验室"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRqAlp3IRfZ7FsyCOacXRQcoOI"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "西北稀有金属材料研究院宁夏有限公司",
+          "西北稀有金属材料研究院"
+        ],
+        "org_id": "623317420a6eb1456047423f",
+        "org_name": "西北稀有金属材料研究院宁夏有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北方民族大学物理与光电信息功能材料重点实验室"
+      },
+      {
+        "aliases": [
+          "上海应用技术大学"
+        ],
+        "org_id": "623317480a6eb14560475374",
+        "org_name": "上海应用技术大学"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河南财政金融学院(龙子湖校区) 物理与电子工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "新乡学院 物理与电子工程学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院大学计算机与控制学院"
+      },
+      {
+        "aliases": [
+          "anhui university",
+          "dàxué ānhuī",
+          "安徽大学"
+        ],
+        "org_id": "5f71b2af1c455f439fe3d848",
+        "org_name": "Anhui University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "上海交通大学科学史与科学文化研究院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "河南师范大学物理与材料科学学院"
+      },
+      {
+        "aliases": [
+          "academy computing institute sciences technologychinese of",
+          "academy chinese computing institute sciences technology of",
+          "computing institute technology"
+        ],
+        "org_id": "61e699e06896273465739423",
+        "org_name": "Institute of Computing Technology,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "iie",
+          "academy engineeringchinese information institute sciences of",
+          "engineering information institute"
+        ],
+        "org_id": "61e69d416896273465741155",
+        "org_name": "Institute of Information Engineering,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "天津宏能科技有限公司 天津301700"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防科学技术大学人文与社会科学学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "国防大学政治学院"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院高能物理研究所 计算中心 北京 100049"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院 高能物理研究所计算中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "北京星网锐捷有限公司"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院国家科学图书馆"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "法国科学院马赛粒子物理研究中心"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学技术大学 安徽合肥 230026"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRqBumVJQE2GNGCid0U0UW0vMa"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          " computer school science soochow technology university",
+          "苏州大学计算机科学与技术学院"
+        ],
+        "org_id": "6513a3ab5ef0694ef9c7f8a8",
+        "org_name": "Soochow University School of Computer Science & Technology"
+      },
+      {
+        "aliases": [
+          "california institute technology",
+          "caltech",
+          "institute manual polytechnic school throop training"
+        ],
+        "org_id": "62331e350a6eb147dca8ab3c",
+        "org_name": "throop polytechnic institute and manual training school"
+      },
+      {
+        "aliases": [
+          "北京大学理论物理研究所"
+        ],
+        "org_id": "64e86229989ae9b290672d09",
+        "org_name": "北京大学理论物理研究所"
+      },
+      {
+        "aliases": [
+          "nslc",
+          "academy librarychinese national science sciences",
+          "academy chinese library of sciences"
+        ],
+        "org_id": "61e69d41689627346574112a",
+        "org_name": "National Science Library,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "academy mountain observatorychinese purple sciences",
+          "astronomical observatory zijinshan",
+          "mountain observatory purple"
+        ],
+        "org_id": "5f71b2b51c455f439fe3daf5",
+        "org_name": "Purple Mountain Observatory,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "academy mountain observatorychinese purple sciences",
+          "astronomical observatory zijinshan",
+          "mountain observatory purple"
+        ],
+        "org_id": "5f71b2b51c455f439fe3daf5",
+        "org_name": "Purple Mountain Observatory,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          " co huawei ltd technologies 华为技术有限公司",
+          "co huawei ltd technologies",
+          "gōngsī huáwei jìshù yǒuxiàn"
+        ],
+        "org_id": "5f71b2971c455f439fe3cefc",
+        "org_name": "Huawei"
+      },
+      {
+        "aliases": [
+          "nnu",
+          "college nanjing teachers university",
+          "nanjing normal university"
+        ],
+        "org_id": "5f71b2c81c455f439fe3e34a",
+        "org_name": "Nanjing Normal University"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "《中国科技奖励》记者"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "《科学大众.中学生》记者"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "郑州大学信息管理系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "不详"
+      },
+      {
+        "aliases": [
+          "changzhou high school senior",
+          "江苏省常州高级中学",
+          "江苏省立常州中学"
+        ],
+        "org_id": "5f71b8571c455f439fe5f5ae",
+        "org_name": "Changzhou Senior High School"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "核探测与核电子学国家重点实验室(中国科学院高能物理研究所、中国科学技术大学)"
+      },
+      {
+        "aliases": [
+          "中国科学技术大学物理系"
+        ],
+        "org_id": "64e862ee989ae9b290672fce",
+        "org_name": "中国科学技术大学物理系"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "扬州市宝应县中学"
+      },
+      {
+        "aliases": [
+          "中国科学院理论物理研究所",
+          "academy institute physicschinese sciences theoretical of",
+          "institute physics theoretical"
+        ],
+        "org_id": "61e69fe86896273465747c86",
+        "org_name": "Institute of Theoretical Physics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "中国科学院理论物理研究所",
+          "academy institute physicschinese sciences theoretical of",
+          "institute physics theoretical"
+        ],
+        "org_id": "61e69fe86896273465747c86",
+        "org_name": "Institute of Theoretical Physics,Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [
+          "academy branch centerfar computing eastern russian sciences of",
+          "center computing feb ras",
+          "вычислительный центр"
+        ],
+        "org_id": "61e6a0c76896273465749dbf",
+        "org_name": "Computing Center,Far Eastern Branch of the Russian Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科学院高能物理研究所计算中心"
+      }
+    ],
+    "total": 20,
+    "log_id": "3KRqD1U7Kc9EkqyO2eMhogXNzI7"
+  },
+  {
+    "code": 200,
+    "success": true,
+    "msg": "",
+    "data": [
+      {
+        "aliases": [
+          "academy academy chinese chinese sciences sciences of",
+          "cas academy chinese sciences",
+          "academic chinese sciences"
+        ],
+        "org_id": "5f71b29f1c455f439fe3d25c",
+        "org_name": "Chinese Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "State Key Laboratory of Optoelectronic Materials and Technologies"
+      },
+      {
+        "aliases": [
+          "key laboratory materials optoelectronic state sun technologies university yatsen",
+          "中山大学光电材料与技术国家重点实验室"
+        ],
+        "org_id": "6513a38d5ef0694ef9c7f4b3",
+        "org_name": "Sun Yat-sen University State Key Laboratory of Optoelectronic Materials and Technologies"
+      },
+      {
+        "aliases": [
+          "衡水中铁建工程橡胶有限责任公司",
+          "中裕铁信交通科技股份有限公司"
+        ],
+        "org_id": "623317630a6eb14560479cde",
+        "org_name": "中裕铁信交通科技股份有限公司"
+      },
+      {
+        "aliases": [
+          "anyang institute technology",
+          "安阳工学院",
+          "ayit"
+        ],
+        "org_id": "61e69e3f6896273465743b9b",
+        "org_name": "Anyang Institute of Technology"
+      },
+      {
+        "aliases": [
+          "academy branch centerfar computing eastern russian sciences of",
+          "center computing feb ras",
+          "вычислительный центр"
+        ],
+        "org_id": "61e6a0c76896273465749dbf",
+        "org_name": "Computing Center,Far Eastern Branch of the Russian Academy of Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国科技大学校史馆"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "Department of Mathematical and Physical Sciences"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "TI DSPs Laboratory"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳大学计算机与软件学院德州仪器DSPs实验室;深圳大市传感器技术重点实验室(深圳大学)"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "深圳大学计算机与软件学院德州仪器DSPs实验室"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "College of Science"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "三峡大学理学院"
+      },
+      {
+        "aliases": [
+          "china electronics industry information instituteministry standardization technology",
+          "china electronics institute standardization",
+          "中国电子技术标准化研究院"
+        ],
+        "org_id": "61e69dc2689627346574278e",
+        "org_name": "China Electronics Standardization Institute,Ministry of Industry and Information Technology"
+      },
+      {
+        "aliases": [],
+        "org_id": "",
+        "org_name": "中国电子技术标准化研究所"
+      }
+    ],
+    "total": 15,
+    "log_id": "3KRqEJrZ6Tuu6jQFwENo0hqahOU"
+  }
+]
