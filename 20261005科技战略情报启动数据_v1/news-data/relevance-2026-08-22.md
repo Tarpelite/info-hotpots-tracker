@@ -1,3 +1,0 @@
-# 与当前工作的相关性（8.22）
-
-今日生命科学与科学计算底座方向有几条进展与当前攻关方案直接相关。在重大科学任务层面，[Arc Institute 启动 2026 虚拟细胞挑战](https://arcinstitute.org/news/virtual-cell-challenge-2026)并发布单细胞模型 Stack，其设定的“零样本细胞上下文扰动预测”评测体系，可直接作为方案中虚拟细胞与疾病机制攻关任务的对标基准与验证参考。在共性底座建设上，微软将 [Skala 深度学习泛函集成至 CP2K](https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft)，这种将高精度 AI 泛函无缝嵌入主流第一性原理软件的做法，为我们打通科学基础模型与科学计算工具链提供了清晰的工程化借鉴。此外，Anthropic 展示了 [Claude 驱动蛋白质设计与分析化学的端到端闭环](https://www.anthropic.com/research/Claude-accelerates-protein-design)，表明通用大模型正加速向全流程科学智能体渗透，需警惕海外通用底座生态抢占科研闭环先机的竞争态势。其余方向今日无显著相关进展。

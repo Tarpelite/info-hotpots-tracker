@@ -94,7 +94,7 @@ class BuildSiteDataTest(unittest.TestCase):
             out = os.path.join(tmp, "site", "data.json")
             with open(src, "w", encoding="utf-8") as handle:
                 json.dump(load_fixture(), handle, ensure_ascii=False)
-            self.assertEqual(bsd.main(["--data", src, "--output", out]), 0)
+            self.assertEqual(bsd.main(["--input", src, "--output", out]), 0)
             with open(out, encoding="utf-8") as handle:
                 self.assertEqual(set(json.load(handle)), {"metadata", "teams", "tables"})
 
@@ -107,7 +107,7 @@ class BuildSiteDataTest(unittest.TestCase):
                 out = os.path.join(tmp, "data_out.json")
                 with open(src, "w", encoding="utf-8") as handle:
                     json.dump(load_fixture(), handle, ensure_ascii=False)
-                self.assertEqual(bsd.main(["--data", src, "--output", out]), 1)
+                self.assertEqual(bsd.main(["--input", src, "--output", out]), 1)
         finally:
             bsd.SIZE_LIMIT = original
 

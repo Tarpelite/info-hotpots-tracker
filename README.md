@@ -16,3 +16,11 @@
 
 1. 在工作区根目录按顺序执行 `scripts/README.md` 中的三个命令，生成并校验 `result/data.json` 与图谱产物。
 2. 执行 `npm --prefix frontend install` 与 `npm --prefix frontend run dev`，打开 `http://127.0.0.1:5173/` 预览站点。
+
+## 数据在哪
+
+原始数据不进 git。仓库只放代码、测试和小样本（`pipeline/tests/fixtures/`）。
+
+- 服务器：原始数据放在 `/srv/radar/raw/`。站点数据由服务器上的流水线生成，nginx 提供 `/result/data.json`。
+- 开发机：原始数据放在 g513 项目目录下的 `raw/`。
+- 已取消跟踪的路径：`20261005科技战略情报启动数据_v1/`、`db/inte-sys/sql/insert_data.sql` 和四个 AMiner 大数据文件，已写入 `.gitignore`。本地文件保留。

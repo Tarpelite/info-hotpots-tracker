@@ -144,11 +144,11 @@ def self_check(doc, max_bytes=SIZE_LIMIT):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--data", required=True, help="full result/data.json")
+    parser.add_argument("--input", required=True, help="full result/data.json")
     parser.add_argument("--output", required=True, help="slim data.json to write")
     args = parser.parse_args(argv)
 
-    with open(args.data, encoding="utf-8") as handle:
+    with open(args.input, encoding="utf-8") as handle:
         data = json.load(handle)
     doc = clip_strings(build_site_doc(data))
 
@@ -164,7 +164,7 @@ def main(argv=None):
     with open(args.output, "w", encoding="utf-8") as handle:
         handle.write(text)
 
-    raw_size = os.path.getsize(args.data)
+    raw_size = os.path.getsize(args.input)
     out_size = os.path.getsize(args.output)
     gz_size = len(gzip.compress(text.encode("utf-8"), compresslevel=9))
     print(f"输入 {raw_size} 字节，输出 {out_size} 字节，gzip {gz_size} 字节")

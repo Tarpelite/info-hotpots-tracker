@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   data:
-    name: data (validate snapshot)
+    name: data (offline tests on fixture)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,34 +22,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Import snapshot
-        run: >-
-          python scripts/import_snapshot.py
-          --snapshot "20261005科技战略情报启动数据_v1/团队快照/team_snapshot_20261005.json"
-          --news-data "20261005科技战略情报启动数据_v1/news-data"
-          --output result
-          --location-query off
+      - name: Install test tools
+        run: python -m pip install pytest==8.3.4
 
-      - name: Validate snapshot
-        run: python scripts/validate_snapshot.py --data result/data.json --output result/validation
+      - name: Run offline tests
+        run: python -m pytest pipeline/tests -q
 
-      - name: Build map
-        run: python scripts/build_map.py --data result/data.json --output result/map
-
-      - name: Unit tests for site data builder
-        run: python -m unittest discover -s pipeline/tests -p "test_*.py" -v
-
-      - name: Build slim site data
-        run: python pipeline/site/build_site_data.py --data result/data.json --output result/site/data.json
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: result
-          path: |
-            result/site/data.json
-            result/validation/
-            result/map/
-          if-no-files-found: error
+      - name: Run student scripts and slim builder on fixture
+        env:
+          RAW: pipeline/tests/fixtures/raw_mini
+          OUT: ${{ runner.temp }}/fixture-out
+        run: |
+          python scripts/import_snapshot.py \
+            --snapshot "$RAW/团队快照/team_snapshot_20261005.json" \
+            --news-data "$RAW/news-data" \
+            --output "$OUT" \
+            --location-query off
+          python scripts/validate_snapshot.py --data "$OUT/data.json" --output "$OUT/validation"
+          python scripts/build_map.py --data "$OUT/data.json" --output "$OUT/map"
+          python pipeline/site/build_site_data.py --input "$OUT/data.json" --output "$OUT/site/data.json"
 
   web:
     name: web (build frontend)
@@ -57,11 +48,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: result
-          path: result/
 
       - uses: actions/setup-node@v4
         with:
@@ -76,11 +62,6 @@ jobs:
       - name: Build frontend
         working-directory: frontend
         run: npm run build
-
-      - name: Place data.json where the fallback fetches it
-        run: |
-          mkdir -p frontend/dist/result
-          cp result/site/data.json frontend/dist/result/data.json
 
       - uses: actions/upload-artifact@v4
         with:

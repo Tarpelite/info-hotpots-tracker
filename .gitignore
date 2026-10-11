@@ -232,3 +232,12 @@ __marimo__/
 .dev.vars*
 !.dev.vars.example
 !.env.example
+
+# Raw data stays out of git (server: /srv/radar/raw/, dev: g513 project raw/)
+20261005科技战略情报启动数据_v1/
+raw/
+db/inte-sys/sql/insert_data.sql
+AMiner/data/query_paper_detail/query_paper_detail.json
+AMiner/data/query_persons/query_persons.json
+AMiner/data_cleaned/paper_detail_cleaned.csv
+AMiner/data_cleaned/paper_lists_cleaned.csv
