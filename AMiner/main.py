@@ -6,9 +6,11 @@ from pathlib import Path
 from typing import Any
 
 if __package__:
-    from .batch.api_integrated import paper as paper_api, organization as org_api
+    from .batch.api_integrated import paper as paper_api, organization as org_api, person as person_api
 else:  # 支持直接执行 `python AMiner/main.py`
-    import batch.api_integrated.paper as paper_api, batch.api_integrated.organization as org_api
+    import batch.api_integrated.paper as paper_api
+    import batch.api_integrated.organization as org_api
+    import batch.api_integrated.person as person_api
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
@@ -18,6 +20,7 @@ FUNCTIONS: dict[str, Callable[..., Any]] = {
     "query_paper_detail": paper_api.query_paper_detail,
     "query_organization_detail": org_api.query_organization_detail,
     "query_organizations": org_api.query_organizations,
+    "query_persons": person_api.query_persons,
 }
 
 

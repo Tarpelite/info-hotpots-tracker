@@ -2,6 +2,8 @@ import csv
 from itertools import islice
 from pathlib import Path
 
+from .progress_bar import ProgressBar
+
 if __package__ and __package__.startswith("AMiner."):
     from ... import api
 else:  # 支持由 `AMiner/main.py` 直接导入
@@ -35,14 +37,16 @@ def query_paper_lists(
         raise ValueError("keywords 不能为空")
 
     results: list[object] = []
-    for page in range(DEFAULT_PAGE, DEFAULT_PAGE + max_pages):
-        results.append(
-            api.paper.get_papers_by_keywords(
-                keywords=keywords,
-                page=page,
-                size=size,
+    with ProgressBar(max_pages, label="论文列表查询进度") as progress:
+        for page in range(DEFAULT_PAGE, DEFAULT_PAGE + max_pages):
+            results.append(
+                api.paper.get_papers_by_keywords(
+                    keywords=keywords,
+                    page=page,
+                    size=size,
+                )
             )
-        )
+            progress.update(page - DEFAULT_PAGE + 1)
     return results
 
 def query_paper_detail(count: int | None = None) -> list[object]:
@@ -72,5 +76,11 @@ def query_paper_detail(count: int | None = None) -> list[object]:
         )
         if count is not None:
             paper_ids = islice(paper_ids, count)
+        paper_ids = list(paper_ids)
 
-        return [api.get_paper_detail(paper_id) for paper_id in paper_ids]
+    results: list[object] = []
+    with ProgressBar(len(paper_ids), label="论文详情查询进度") as progress:
+        for completed, paper_id in enumerate(paper_ids, start=1):
+            results.append(api.get_paper_detail(paper_id))
+            progress.update(completed)
+    return results

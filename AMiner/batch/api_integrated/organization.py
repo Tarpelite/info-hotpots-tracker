@@ -3,6 +3,8 @@ from itertools import islice
 from pathlib import Path
 from typing import Any, Iterable, Iterator
 
+from .progress_bar import ProgressBar
+
 if __package__ and __package__.startswith("AMiner."):
     from ... import api
 else:  # 支持由 `AMiner/main.py` 直接导入
@@ -45,9 +47,14 @@ def query_organizations() -> Any:
 
     results: list[object] = []
     batch_size = 20
-    for i in range(0, len(organizations), batch_size):
-        batch = organizations[i : i + batch_size]
-        results.append(api.search_organizations(batch))
+    batch_count = (len(organizations) + batch_size - 1) // batch_size
+    with ProgressBar(batch_count, label="机构查询进度") as progress:
+        for batch_number, i in enumerate(
+            range(0, len(organizations), batch_size), start=1
+        ):
+            batch = organizations[i : i + batch_size]
+            results.append(api.search_organizations(batch))
+            progress.update(batch_number)
     return results
 
 
@@ -92,4 +99,7 @@ def query_organization_detail(count: int | None = None) -> Any:
 
     if not id_list:
         return []
-    return api.get_organization_detail(id_list)
+    with ProgressBar(1, label="机构详情查询进度") as progress:
+        result = api.get_organization_detail(id_list)
+        progress.update(1)
+    return result
