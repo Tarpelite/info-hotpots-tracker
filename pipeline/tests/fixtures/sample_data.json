@@ -1,0 +1,60 @@
+{
+  "schema_version": "fixture",
+  "metadata": {"snapshot_date": "2026-10-05", "snapshot_file": "team_snapshot_20261005.json", "imported_at": "2026-10-11T00:00:00+08:00", "news_data_dir": "/abs/unused"},
+  "taxonomy": [{"id": "d1"}],
+  "teams": [
+    {
+      "team_id": "T1",
+      "team_name": "团队一",
+      "institution_name": "某大学",
+      "organization": "某大学",
+      "location": "北京",
+      "location_country": "中国",
+      "location_city": "北京",
+      "description": "团队简介",
+      "leader_role": "负责人",
+      "official_source_urls": ["https://example.com/a"],
+      "score_evidence_urls": [],
+      "source_urls": ["https://example.com/a"],
+      "project_verification_status": "candidate",
+      "candidate_status": "candidate",
+      "attention_reason": "原因",
+      "mapping_status": "mapped",
+      "mapping_method": "rule",
+      "mapping_confidence": "high",
+      "mapping_reason": "规则命中",
+      "evidence_count": 1,
+      "pending_materials": ["材料"],
+      "leaders": [{"id": "p1", "name": "张三", "title": "教授", "role": "leader", "profile_url": "https://example.com/p1", "evidence": "不用的字段"}],
+      "members": [],
+      "source_data_updated_at": "2026-10-05",
+      "recentUpdate": "最近",
+      "raw_records": [{"id": "dup"}],
+      "scoreBreakdown": {"total": 1},
+      "raw_record": {
+        "sourceUrls": ["https://example.com/a"],
+        "evidenceUrls": [],
+        "location": "北京",
+        "description": "备用简介",
+        "updatedAt": "2026-10-05",
+        "leader": {"role": "负责人", "evidence": "x"},
+        "leaders": [],
+        "members": [{"id": "m1", "name": "李四", "evidence": "x"}],
+        "evidenceSummary": "不用的长文本",
+        "scoreTotal": 9
+      }
+    }
+  ],
+  "evidence": [{"evidence_id": "E1", "raw_text": "原始正文", "raw_record": {"score": 1}, "evidence_title": "顶层标题"}],
+  "relations": [{"team_id": "T1", "evidence_id": "E1", "relation_type": "提及", "claim": "声明", "source_role": "x", "relation_status": "待核实", "reviewer": "", "reviewed_at": ""}],
+  "coverage": [{"domain": "领域一", "candidate_count": 1, "verified_count": 0, "pending_count": 1, "rejected_count": 0, "missing_items": "待补"}],
+  "tables": {
+    "teams": [{"team_id": "T1", "team_name": "团队一", "institution": "某大学", "country": "中国", "city": "北京", "domain": "领域一", "subdomain": "子领域", "leader": "张三", "direction": "方向", "verification_status": "candidate", "attention": "pending", "attention_reason": "原因", "reviewer": "", "reviewed_at": ""}],
+    "evidence": [{"evidence_id": "E1", "source_type": "rss", "title": "标题一", "source_url": "https://example.com/news/1", "source_name": "来源", "published_at": "2026-10-05", "captured_at": "2026-10-05", "summary": "摘要", "raw_path": "fetch-1.json#0", "verification_status": "待核实"}],
+    "relations": [{"team_id": "T1", "evidence_id": "E1", "relation_type": "提及", "claim": "声明", "reviewer": "", "reviewed_at": ""}],
+    "coverage": [{"domain": "领域一", "candidate_count": 1, "verified_count": 0, "pending_count": 1, "rejected_count": 0, "missing_items": "待补"}]
+  },
+  "deduplication": [{"x": 1}],
+  "team_deduplication": [],
+  "missing_items": []
+}
