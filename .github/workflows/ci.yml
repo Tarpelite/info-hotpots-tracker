@@ -1,0 +1,108 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  data:
+    name: data (validate snapshot)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Import snapshot
+        run: >-
+          python scripts/import_snapshot.py
+          --snapshot "20261005科技战略情报启动数据_v1/团队快照/team_snapshot_20261005.json"
+          --news-data "20261005科技战略情报启动数据_v1/news-data"
+          --output result
+          --location-query off
+
+      - name: Validate snapshot
+        run: python scripts/validate_snapshot.py --data result/data.json --output result/validation
+
+      - name: Build map
+        run: python scripts/build_map.py --data result/data.json --output result/map
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: result
+          path: result/
+          if-no-files-found: error
+
+  web:
+    name: web (build frontend)
+    needs: data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: result
+          path: result/
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
+
+      - name: Place data.json where the fallback fetches it
+        run: |
+          mkdir -p frontend/dist/result
+          cp result/data.json frontend/dist/result/data.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: frontend/dist/
+          if-no-files-found: error
+
+  publish:
+    name: publish (site branch)
+    needs: web
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-site
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site-out
+
+      - name: Push orphan site branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd site-out
+          git init -q -b site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish site from ${GITHUB_SHA}"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/site
